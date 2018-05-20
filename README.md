@@ -2,4 +2,4 @@
 
 see 
 
-https://threefoldfoundation.github.io/info_farmers/
+https://threefoldfoundation.github.io/info_grid/
