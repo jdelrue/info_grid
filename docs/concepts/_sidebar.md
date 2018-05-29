@@ -1,2 +1,2 @@
 * [Main](/)
-  * [cloud units](/concepts/cloud_units)
+  * [cloud units](concepts/cloud_units)
