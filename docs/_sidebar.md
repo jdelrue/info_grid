@@ -4,7 +4,7 @@
   * [FAQ](faq/)
   * [Blogs](blog/)
   * [Howto](howto/)
-  * [Legal]()
+  * [Legal](legal)
   * [Technical]()
     * [zero-os]()
     * [z-robot]()  
