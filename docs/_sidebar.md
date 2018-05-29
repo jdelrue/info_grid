@@ -2,6 +2,7 @@
   * [Architecture](architecture/)
   * [Concepts](concepts/)
   * [FAQ](faq/)
+  * [Blogs](blog/)
   * [Howto]()
       * [Engage](investment)
       * [Select Gear](product)

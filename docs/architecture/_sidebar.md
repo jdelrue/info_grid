@@ -1,4 +1,4 @@
-* [Architecture](/)
+* [Farming](/)
   * [Overview](/architecture/overview)
   * [Operating system](/architecture/operating_system)
   * [Robots](/architecture/robots)
