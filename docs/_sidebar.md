@@ -3,7 +3,7 @@
   * [Concepts](concepts/)
   * [FAQ](faq/)
   * [Howto]()
-      * [Engage](investment)
+      * [Engage](investment.md)
       * [Select Gear](product)
       * [Operate](operations)
   * [Legal]()
