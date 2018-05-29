@@ -1,5 +1,9 @@
-# all info to do with farmers
+## Information on the ThreeFold Grid
 
-see 
+### General information
 
-https://threefoldfoundation.github.io/info_grid/
+The WIKI describing a generic overview and fundamentals can be found [here](https://threefoldfoundation.github.io/info_grid/).
+
+All the content stored in the WIKI can be found in this repository and is accessible by all interested.
+
+[test](https://threefoldfoundation.github.io/info_grid/docs/architecture/README.md)
