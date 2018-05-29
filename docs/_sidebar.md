@@ -1,4 +1,4 @@
-* [Farming](/)
+* [Main](/)
   * [Architecture](architecture/)
   * [Concepts](concepts/)
   * [FAQ](faq/)
@@ -12,4 +12,3 @@
     * [zero-os]()
     * [z-robot]()  
     * [tf-chain]()
-* [presentations](
