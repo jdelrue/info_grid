@@ -1,5 +1,3 @@
-# ThreeFold Farming Information
+# ThreeFold Grid Information
 
 ...
-
-

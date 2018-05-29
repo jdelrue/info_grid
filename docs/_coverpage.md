@@ -1,5 +1,5 @@
 ![](images/front.png)
 
-### Generic Farming info
+### Generic Grid Information
 
-Enter here generic descriptions for farming information.
+Enter here generic descriptions for Grid information.
