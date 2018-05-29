@@ -6,4 +6,4 @@ The WIKI describing a generic overview and fundamentals can be found [here](http
 
 All the content stored in the WIKI can be found in this repository and is accessible by all interested.
 
-[filename](https://raw.githubusercontent.com/threefoldfoundation/info_foundation/master/definitions/threefold.md ':include')
+[filename](https://threefoldfoundation.github.io/info_grid/architecture/robots.md ':include')
