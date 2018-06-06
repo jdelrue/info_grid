@@ -4,4 +4,4 @@
   * [Get started with the ThreeFold Wallet](/tf_farming/howto/wallet.md)
   * [Install the ThreeFold Chain Explorer](/tf_farming/howto/tfchain_explorer.md)
   * [Conduct Atomic Cross-chain Tradings](/tf_farming/howto/atomic_swaps.md)
-  * [Boot Zero-OS](/tf_farminmg/howto/zero_boot_hardware.md)
+  * [Boot Zero-OS](/tf_farming/howto/zero_boot_hardware.md)

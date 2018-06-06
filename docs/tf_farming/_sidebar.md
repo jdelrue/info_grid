@@ -1,5 +1,5 @@
 * [Back](/)
-  * [Introduction](README)
+  * [Introduction](README.md)
   * [What is farming?](tf_farming/howto/README.md)
   * [What is a farmer](tf_farming/howto/README.md)
   * [What is a cooperative](tf_farming/howto/README.md)
