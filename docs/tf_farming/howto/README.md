@@ -19,4 +19,9 @@ There is a public Chain explorer available [here](https://explorer.threefoldtoke
 ### [Conduct Atomic Cross-chain Tradings](/tf_farming/howto/atomic_swaps.md)
 For a true distributed crypto currency there needs to be a way to not go in and out through a (still centralised) existing exchange.  There is a new and upcoming technology called [atomic swaps](https://medium.com/@EthAdvisor/atomic-swaps-etomic-swaps-explained-in-plain-english-4c3936c7adb8) that caters for non exchange based crypto currency exchanges (swaps).  This technology is still in its early days and requires some technical knowledge to do - [here's how](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/atomic_swaps.md)
 
-### [Boot Zero-OS](zero_boot_hardware.md)
+### [Boot Zero-OS](/tf_farming/howto/zero_boot_hardware.md)
+To become a farmer you need to have two ingredients:
+  - First you need some hardware that has an intel processor, some RAM, SSD and HDD Capacity
+  - Secondly you need to boot that hardware with the ZERO-OS operating system
+
+[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md) section will explain how to get a version of the ZERO-OS software configured and truned for your ewxact needs.
