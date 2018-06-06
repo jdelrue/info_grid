@@ -1,4 +1,4 @@
-* [Back](/)
+* [Back](/tf_farming/)
   * [Get the ThreeFold Chain Binaries](/tf_farming/howto/investment)
   * [Create a ThreeFold Chain Node](/tf_farming/howto/product)
   * [Get started with the ThreeFold Wallet](/tf_faming/howto/operations)
