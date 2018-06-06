@@ -1,9 +1,9 @@
 * [ThreeFold Grid](/)
   * [Introduction](README)
-  * [What is farning?](howto/README.md)
-  * [What is a farmer](farming_info.md)
-  * [What is a cooperative](farming_info.md)
-  * [Concepts](tf_farming/concepts)
+  * [What is farning?](tf_farming/howto/README.md)
+  * [What is a farmer](tf_farming/howto/README.md)
+  * [What is a cooperative](tf_farming/howto/README.md)
+  * [Concepts](tf_farming/concepts/README.md)
 
 #  - TF Farming
 #    - Introduction
