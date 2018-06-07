@@ -1,4 +1,4 @@
-*  Grid Info - Farming - Howto - [Back](/tf_farming/)
+* [Back](/tf_farming/)
   * [Get the ThreeFold Chain Binaries](/tf_farming/howto/get_binaries.md)
   * [Create a ThreeFold Chain Node](/tf_farming/howto/create_node.md)
   * [Get started with the ThreeFold Wallet](/tf_farming/howto/wallet.md)

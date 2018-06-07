@@ -1,2 +1,2 @@
-*  Grid Info - Farming - Concepts - [Back](/tf_farming/concepts)
+* [Back](/tf_farming)
   * [cloud units](concepts/cloud_units)
