@@ -1,4 +1,4 @@
-* [Back](/tf_technology/)
+*  Grid Info - Tachnology - Architecture - [Back](/tf_technology/)
   * [Overview](architecture/overview)
   * [Operating system](architecture/operating_system)
   * [Robots](architecture/robots)

@@ -1,3 +1,3 @@
-### Architecture
+### Operating system
 
-Architecture update
+This is the placeholder for the operating system overview.
