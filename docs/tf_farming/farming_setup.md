@@ -1,3 +1,3 @@
 ## How to setup your farm
 
-[Setup Your Farm](https://github.com/zero-os/home/blob/master/docs/farmers/README.md ':include :type=markdown')
+[Setup Your Farm](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/README.md ':include :type=markdown')
