@@ -4,7 +4,7 @@
 
 The concept for creating a new internet by means of a new digital token.
 
-All the ideas and content created for this concept are opensource and stored in this repository. 
+All the ideas and content created for this concept are opensource and stored in this repository.
 A group of volunteers and the ThreeFold Foundation maintain these repositories.
 
 Also look at the ThreeFold [website](https://threefoldtoken.com/).
@@ -56,11 +56,11 @@ This blockchain technology is used to
 
 see the following [github repos](https://github.com/rivine)
 
-## TF Operating System 
+## TF Operating System
 
 The ThreeFold Operating system is the software which makes it possible to convert any pool of hardware to become an ultra efficient pool of resource for the ThreeFold Grid.
 
-Based on 
+Based on
 
 - [Zero-OS](https://github.com/zero-os) = Ultra Efficient Stateless Operating System
 - [Jumpscale](https://github.com/Jumpscale/) = Automation Framework (self healing, ...)
@@ -73,7 +73,7 @@ Based on
 - The TF Node runs the TF Operating System and TF Chain (TFC).
 
 
-## User 
+## User
 
 - is the person/organization/company who buys capacity from the TF Grid
 - capacity can only be bought by means of TFTs
@@ -90,14 +90,14 @@ More info see [here](https://docs.grid.tf/threefold/info/src/branch/master/conce
 
 A Pool of storage & compute hardware which allows to provision IT Capacity.
 
-Each Farming Pool consists out of TF Nodes which run the TF Operating System and TF Blockchain Software (TF Chain) which allows anyone in the world to use this IT capacity to host their IT workloads (storage apps, archive capacity, web applications, artificial intelligence, iOT, docker containers, etc). To use this IT Capacity, through the TF Grid, people need to own ThreeFold Tokens (“TFTs”) as they are the only possible mechanism to purchase this capacity on the TF Grid. As such, TFTs represent a true utility. 
+Each Farming Pool consists out of TF Nodes which run the TF Operating System and TF Blockchain Software (TF Chain) which allows anyone in the world to use this IT capacity to host their IT workloads (storage apps, archive capacity, web applications, artificial intelligence, iOT, docker containers, etc). To use this IT Capacity, through the TF Grid, people need to own ThreeFold Tokens (“TFTs”) as they are the only possible mechanism to purchase this capacity on the TF Grid. As such, TFTs represent a true utility.
 
 
 ## ThreeFold Farmer
 
 A ThreeFold Farmer is any organization or person who invests in a ThreeFold Farming Pool and connects this capacity to the ThreeFold Grid.
 
-As a result of Farming, i.e. creating additional capacity, ThreeFold Tokens are automatically created by the ThreeFold Chain. 
+As a result of Farming, i.e. creating additional capacity, ThreeFold Tokens are automatically created by the ThreeFold Chain.
 
 Farmers can cultivate both managed and/or unmanaged capacity.
 
@@ -133,7 +133,7 @@ A Cooperative can supply any or all of following services.
     - how to consult/register information on the TF Chain
 - Hosting Services
     - all services related to connectivity to the internet (routing, denial of service, firewalling, ...)
-    - rackspace & other datacenter services 
+    - rackspace & other datacenter services
     - monitoring of the infrastructure (hardware and software).
 - For Managed Capacity a Cooperative or TF Farmer will have to make an agreement with GIG.Tech to get the required software required to create a Managed Capacity Farming Pool (see below).
 
@@ -180,7 +180,7 @@ A TF Farmer or TF Cooperative needs to have an agreement with GIG Tech in place.
 
 ## The Company
 
-The Company has been defined on the contract who refers to this document but can be any of the following: 
+The Company has been defined on the contract who refers to this document but can be any of the following:
 
 - The company or organization who is selling a service on the ThreeFold Grid.
 - The company who is selling/buying ThreeFold Tokens (TFTs) as capacity on the ThreeFold Grid.
@@ -209,4 +209,41 @@ GIG Tech is selling additional services and software to allow any TF Farmer to c
 A software application which allows anyone to consult how many TFTs they own and to make transfers of TFTs to other parties.
 The TF Wallet works together with the TF Chain.
 
+# ThreeFold Farming
 
+# ThreeFold Resource Pools
+
+![https://docs.google.com/drawings/d/1K1LuYRkD12QwIoZ-AduV-X_RxT1J5nUVt3D5vmerUUk/edit](https://docs.google.com/drawings/d/e/2PACX-1vT-dPplNVaQ1-3oWxrjvVsOjoDrdDZrb2t05BQ0WpFU02PucD_TC4cX5-lcdfxzodDJwwcjPgjYGyyP/pub?w=1440&h=810)
+
+## Resource Pool (RP)
+
+Is available capacity in a ThreeFold Farming Pool.
+There are typically more than 1 Resource Pool in a Farming Pool and Resource Pools can span multiple Farming Pools.
+
+A Resource Pool is linked to a User, a User is paying tokens for using the IT Capacity.
+A Farming Pool is linked to a Farmer, the Farmer receives tokens for providing the IT Capacity.
+
+## Resource Units (RU)
+
+Units of IT capacity as used in a RP, starting from hardware level. More info see [here](https://github.com/threefoldtoken/info/blob/master/concepts/resource_units.md).
+
+
+
+## Resource Bundle (always per TF Node) (Bundle)
+
+- is x number of resource units bundled
+- a Resource Bundle is always per TF Node
+- e.g. resource bundel type A = 1 cpu unit + 2 mem unit + 3 hd unit + 1 ssd unit
+- the resource bundles are defined by the Farmers, its basically a unit of capacity sold. Users cannot buy individual Resource Units, Users buy Resource Bundles by transfering TFT.
+
+## Resource Reservation (Reservation)
+
+- a reservation for X nr of Resource Bundles
+- a reservation is the contract between the User and the Farmer
+- has a starting date / end date
+- has a price linked to it
+- a Resource Pool is made up out of X nr of Resource Bundles.
+
+## TF Robots
+
+- There are 3 types of ThreeFold Robots see []()
