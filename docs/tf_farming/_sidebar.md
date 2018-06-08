@@ -1,6 +1,0 @@
-* [Back](/)
-  * [Introduction](README.md)
-  * [What is farming?](tf_farming/Farming.md)
-  * [What is a farmer](tf_farming/Farmer.md)
-  * [What is a cooperative](tf_farming/Coop.md)
-  * [Concepts](tf_farming/concepts/README.md)

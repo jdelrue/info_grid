@@ -1,3 +1,5 @@
-# Headline
+# TheeFold Grid repository
 
-> An awesome project.
+see published site on
+
+https://threefoldfoundation.github.io/info_grid/

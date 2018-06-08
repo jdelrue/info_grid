@@ -1,7 +1,0 @@
-* [Back](/tf_farming/)
-  * [Get the ThreeFold Chain Binaries](/tf_farming/howto/get_binaries.md)
-  * [Create a ThreeFold Chain Node](/tf_farming/howto/create_node.md)
-  * [Get started with the ThreeFold Wallet](/tf_farming/howto/wallet.md)
-  * [Install the ThreeFold Chain Explorer](/tf_farming/howto/tfchain_explorer.md)
-  * [Conduct Atomic Cross-chain Tradings](/tf_farming/howto/atomic_swaps.md)
-  * [Boot Zero-OS](/tf_farming/howto/zero_boot_hardware.md)
