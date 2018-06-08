@@ -1,7 +1,7 @@
 Cloud units are the way to account for capacity farmed and used.  They are the compute and storage equivalent to kWh - kilo watt hour - the unit of energy.
 
-We utillise three categories of units:
-- Compute Unit.  A compute unit represents a certain amount of dataprocessoing power.  Data processing power is made up of cores (logical [CPU's](https://en.wikipedia.org/wiki/Central_processing_unit)) and RAM ([Random Access Memory](https://en.wikipedia.org/wiki/Random-access_memory))
+We utilise three categories of units:
+- Compute Unit.  A compute unit represents a certain amount of data processoing power.  Data processing power is made up of cores (logical [CPU's](https://en.wikipedia.org/wiki/Central_processing_unit)) and RAM ([Random Access Memory](https://en.wikipedia.org/wiki/Random-access_memory))
 - Storage Unit. A storage unit represents a certain size of data store at a certain access speed ([IOPS](https://en.wikipedia.org/wiki/IOPS))
 - Network Unit. A network unit is a representation of the amount of data that travels in and out of the acquired storage units
 
