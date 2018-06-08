@@ -1,6 +1,6 @@
   * [Cooperation](tf_farming/what_does_a_cooperative_do.md)
   * [Farming](tf_farming/Farming.md)
-      * [How to setup your farm](tf_farming/setup_your_farm.md)
+      * [How to setup your farm](tf_farming/farming_setup.md)
       * [More information on farming](tf_farming/farming_info.md)
   * [Concepts](tf_farming/concepts.md)
       * [Introduction](tf_farming/concepts/README.md)
