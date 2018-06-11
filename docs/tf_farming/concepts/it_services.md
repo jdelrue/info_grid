@@ -1,23 +1,31 @@
-# some core concepts
+## IT Services
 
-## principles
+@TODO NEEDS CLARIFICATION
 
-- all User/Group/Robots/Reservations/FarmingPools are registered in tf-chain
-- we dont use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from TF-Chain (not from server)
+Some principles:
 
-## User
+- All users, groups, robots, reservations, farms are registered in ThreeFold Chain (tf-vhain)
+- We don't use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from tf-chain (not from server)
+- Each user has priv/pub key, is represented by a Zero-Robot which can sign on user behalf, and is registered in tf-chain in category: user
 
-- has priv/pub key
-- represented by a zero-robot which can sign on user behalf
-- is registered in tf-chain in category: user
 
-# IT Services
 
-Following services will be registered in the directory on behalf of The Farmer 
+- [Zero-Robot](#zero-robot)
+- [IT-Robot](#it-robot)
+- [User Robot](#user-robot)
+- [Kubernetes](#kubernetes)
+- [Storage](#storage)
+- [S3 Server](#s3)
+- [Git server](#git)
+- [HTTPS / DNS Gateway](#gateway)
+- [Bandwidth](#bandwidth)
 
-## pricing
 
-| unit | description | price |
+
+Following services will be registered in the directory on behalf of the farmer 
+
+
+| Unit | Description | Price |
 | ---- | ----- | ----- |
 | CU | compute unit | ```@tft(12 USD)``` TFT |
 | SU | storage unit | ```@tft(12 USD)``` TFT |
@@ -25,31 +33,33 @@ Following services will be registered in the directory on behalf of The Farmer
 
 ## for each service the following properties are used
 
-| name | description | default |
+| Name | Description | Default |
 | ---- | ----- | ----- |
 | name | name of the ZOS Pod | . |
-| privkey_reservation 
+| privkey_reservation | . | 
 
 
-## base: ZOS Pod
+<a id='zos'></a>
+
+## Zero-OS Pod
 
 Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
 
-| name | description | default |
+| Name | Description | Default |
 | ---- | ----- | ----- |
 | nr_mem | memory in GByte (1-16) | 4 |
 | nr_vcpu | virtual CPU (1-16) | 4 |
 | nr_storage | nr GB of storage for data, is redundant in GB (4-400) | 10 |
 
 
+<a id='zero-robot'></a>
 
+## Zero-Robot
 
-## zero-robot
-
-- 1 zero-robot instance 
+- 1 Zero-Robot instance 
 - capacity: 4 GB Storage, 1 GB Memory, 1 vCPU
 
-| level | description | price |
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | silver | 1 GB mem, 4 GB storage, 1 vCPU| 40 TFT |
 | gold | 2 GB mem, 8 GB storage, 2 vCPU | 80 TFT |
@@ -57,18 +67,25 @@ Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
 
 
 
+<a id='it-robot'></a>
+
 ### IT-Robot
 
-- Everyone who wants to use resource on the TF Grid will need to use an IT Robot to provision the required workloads. 
+- Everyone who wants to use resources on the TF Grid will need to use an IT Robot to provision the required workloads. 
+
+
+<a id='user-robot'></a>
 
 ### User Robot
 
-- April 2018
 - A Zero-Robot which is a digital always running robot working only for you.
 
-## kubernetes
 
-(compute capacity) (as kubernetes/docker environment) = 
+<a id='kubernetes'></a>
+
+## Kubernetes
+
+(compute capacity) (as Kubernetes/Docker environment) = 
 
 recommended:
 
@@ -76,7 +93,7 @@ recommended:
 - 100 GB of storage (SSD performance)
 - 4 vCPU (virtual CPU)
 
-| level | description | price |
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | silver | 4 GB of mem, 2 vCPU, 50 GB | 300 TFT |
 | gold | 8 GB of mem, 4 vCPU, 100 GB | 550 TFT |
@@ -84,14 +101,17 @@ recommended:
 
 
 interface:
-- see kubernetes website, any tool which can work with Kubernetes should work.
+- see Kubernetes website, any tool which can work with Kubernetes should work.
 
-## storage 
+
+<a id='storage'></a>
+
+## Storage 
 
 - 1000 GB of storage 
 - can be used as backing for S3 service
 
-| level | description | price |
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | silver | 1 TB | 15 TFT |
 | gold | 10 TB | 140 TFT |
@@ -108,23 +128,28 @@ interface:
 - minio
 	- User can deploy mini and install our plugin to it which will use the Zero-Stor client 
 
-## s3 server
 
-- server based on (https://minio.io/)
+<a id='s3'></a>
 
-| level | description | price |
+## S3 server
+
+- server based on [Minio](https://minio.io/)
+
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | silver | 1 GB of mem, 1 vCPU | 100 TFT |
 | gold | 2 GB of mem, 2 vCPU | 200 TFT |
 | platinum | 4 GB of mem, 4 vCPU | 400 TFT|
 
-Interface see S3 specs of minio.
-Can deploy as many servers as required using same storage backend, this provides serious scalability.
+Interface see S3 specs of Minio.
+Can deploy as many servers as required using same storage back-end, this provides serious scalability.
 
 
-## git server
+<a id='git'></a>
 
-- based on Gitea (but modified to support ItsYou.Online and also has Kanban inside).
+## Git server
+
+Based on [Gitea](https://gitea.io/en-us/), but modified to support ItsYou.online and with Kanban integrated.
 
 Interface: Web, Rest & Git (ssh)
 
@@ -132,7 +157,7 @@ Interface: Web, Rest & Git (ssh)
 - gold:		2 GB of mem, 2 vCPU, 50 GB Storage
 - platiniu:	4 GB of mem, 4 vCPU, 100 GB Storage
 
-| level | description | price |
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | silver | 1 GB of mem, 1 vCPU, 5 GB Storage | 100 TFT |
 | gold | 4 GB of mem, 4 vCPU, 50 Gb Storage | 400 TFT |
@@ -141,18 +166,19 @@ Interface: Web, Rest & Git (ssh)
 
 Auto backup every hour to s3 server using duplicity.
 
+<a id='gateway'></a>
+
 ## HTTPS / DNS Gateway
 
 - free of charge
 - makes it very easy to publish any service at any location
 
+<a id='bandwidth'></a>
 
 ## Bandwidth
 
 1 GB of transferred capacity over network (to and from internet from the Farming Pools) 
  
-| level | description | price |
+| Level | Description | Price |
 | ---- | ----- | ----- |
 | std | 1 GB of transfer | 1 TFT |
-
-
