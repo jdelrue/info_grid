@@ -4,12 +4,30 @@
 
 Some principles:
 
-- All users, groups, robots, reservations, farms are registered in ThreeFold Chain (tf-vhain)
-- We don't use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from tf-chain (not from server)
+- All users, groups, robots, reservations, farms are registered in ThreeFold Chain (tf-chain)
 - Each user has priv/pub key, is represented by a Zero-Robot which can sign on user behalf, and is registered in tf-chain in category: user
+- Each reservation, done by a user, for service, is recorded in the tf-chain with following details:
+
+  | Name | Description | Default |
+  | ---- | ----- | ----- |
+  | name | name of the ZOS Pod | . |
+  | privkey_reservation | . | . |
 
 
+- Capacity available from farmers will be registered in the directory on behalf of the farmer 
 
+  | Unit | Description | Price |
+  | ---- | ----- | ----- |
+  | CU | compute unit | ```@tft(12 USD)``` TFT |
+  | SU | storage unit | ```@tft(12 USD)``` TFT |
+  | NU | network unit | ```@tft(0,1 USD)``` TFT |
+
+
+- We don't use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from tf-chain (not from server)
+
+
+Following IT services are discussed below:
+- [Zeros-OS Pod](#zos)
 - [Zero-Robot](#zero-robot)
 - [IT-Robot](#it-robot)
 - [User Robot](#user-robot)
@@ -20,23 +38,6 @@ Some principles:
 - [HTTPS / DNS Gateway](#gateway)
 - [Bandwidth](#bandwidth)
 
-
-
-Following services will be registered in the directory on behalf of the farmer 
-
-
-| Unit | Description | Price |
-| ---- | ----- | ----- |
-| CU | compute unit | ```@tft(12 USD)``` TFT |
-| SU | storage unit | ```@tft(12 USD)``` TFT |
-| NU | network unit | ```@tft(0,1 USD)``` TFT |
-
-## for each service the following properties are used
-
-| Name | Description | Default |
-| ---- | ----- | ----- |
-| name | name of the ZOS Pod | . |
-| privkey_reservation | . | 
 
 
 <a id='zos'></a>
