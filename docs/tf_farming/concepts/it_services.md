@@ -6,7 +6,7 @@ Some principles:
 
 - All users, groups, robots, reservations, farms are registered in ThreeFold Chain (tf-chain)
 - Each user has priv/pub key, is represented by a Zero-Robot which can sign on user behalf, and is registered in tf-chain in category: user
-- Each reservation for service, done by a user, is recorded in the tf-chain with following details:
+- Each reservation for a service, done by a user, is recorded in the tf-chain with following details:
 
 | Name | Description | Default |
 | ---- | ----- | ----- |
