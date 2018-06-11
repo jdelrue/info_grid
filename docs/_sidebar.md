@@ -2,7 +2,7 @@
   * [Farming](tf_farming/Farming.md)
       * [How to setup your farm](tf_farming/farming_setup.md)
       * [More information on farming](tf_farming/farming_info.md)
-  * [Concepts](tf_farming/concepts/README.md))
+  * [Concepts](tf_farming/concepts/README.md)
       * [Token generation rules](tf_farming/concepts/token_generation_rules.md)
       * [Cloud units](tf_farming/concepts/cloud_units.md)
       * [IT services](tf_farming/concepts/it_services.md)
