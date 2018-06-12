@@ -4,6 +4,3 @@
 * [How to work with the TF Chain](tf_farming/howto)
 * [Legal](tf_farming/legal)
 * [Online meeting store](tf_farming/online_meetings)
-    * [Introduction](tf_farming/online_meetings/README.md)
-    * [Wallet presentation](tf_farming/online_meetings/online_meeting_wallet.md)
-    * [Agile Collaboration](tf_farming/online_meetings/agile_collaboration.md)
