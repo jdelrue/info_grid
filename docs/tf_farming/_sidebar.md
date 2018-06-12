@@ -1,5 +1,5 @@
 * [Farming](tf_farming/Farming.md)
-    * [How to setup your farm](tf_farming/farming_setup.md)
+    * [How to setup your farm](tf_farming/farming_setup.md)![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/images/iyo-organizations.png)
     * [More information on farming](tf_farming/farming_info.md)
 * [Concepts](tf_farming/concepts/README.md)
     * [Token generation rules](tf_farming/concepts/token_generation_rules.md)
