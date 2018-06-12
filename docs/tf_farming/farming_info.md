@@ -1,13 +1,14 @@
 ## More information on farming
 
-- [Main calculator & hardware overview list](https://docs.google.com/spreadsheets/d/1ZhEoAm1wFZh3rXNM-vNJmfmKjF7VbczaDnmsE4q1nk0/edit?usp=sharing)
+### Token return calculator
+
+[Main calculator & hardware overview list](https://docs.google.com/spreadsheets/d/1ZhEoAm1wFZh3rXNM-vNJmfmKjF7VbczaDnmsE4q1nk0/edit?usp=sharing)
 
 ### Prelaunch presentation
 
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTYVr4WWMhW7M14iWg1mW26QuFmJZYiymP3F3nprzq2pb6tNfa2VjfU0ofMB5FkfHKye0Lt-fGlvL87/pub?start=true&loop=false&delayms=60000" frameborder="0" width="750" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Market pricing comparison
-
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTaiePf-auYLIfgJc0TcuNIe-BXoLrQf2UHW2mlSmHeW5vFAxA4kVSNSOjaXfADih5iVF5EQv7kGmdv/pub?start=false&loop=false&delayms=60000" frameborder="0" width="750" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ### Farming rules info
