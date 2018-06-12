@@ -1,5 +1,7 @@
 ## IT Services
 
+![](images/domore.png)
+
 @TODO NEEDS CLARIFICATION
 
 Some principles:
@@ -13,7 +15,7 @@ Some principles:
 | name of user | name of the ZOS Pod | . |
 | privkey_reservation | . | . |
 
-- Capacity available from farmers will be registered in the directory on behalf of the farmer 
+- Capacity available from farmers will be registered in the directory on behalf of the farmer
 
 | Unit | Description | Price |
 | ---- | ----- | ----- |
@@ -55,7 +57,7 @@ Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
 
 ## Zero-Robot
 
-- 1 Zero-Robot instance 
+- 1 Zero-Robot instance
 - capacity: 4 GB Storage, 1 GB Memory, 1 vCPU
 
 | Level | Description | Price |
@@ -70,7 +72,7 @@ Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
 
 ### IT-Robot
 
-- Everyone who wants to use resources on the TF Grid will need to use an IT Robot to provision the required workloads. 
+- Everyone who wants to use resources on the TF Grid will need to use an IT Robot to provision the required workloads.
 
 
 <a id='user-robot'></a>
@@ -84,7 +86,7 @@ Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
 
 ## Kubernetes
 
-(compute capacity) (as Kubernetes/Docker environment) = 
+(compute capacity) (as Kubernetes/Docker environment) =
 
 recommended:
 
@@ -105,9 +107,9 @@ interface:
 
 <a id='storage'></a>
 
-## Storage 
+## Storage
 
-- 1000 GB of storage 
+- 1000 GB of storage
 - can be used as backing for S3 service
 
 | Level | Description | Price |
@@ -125,7 +127,7 @@ interface:
 - for processed (encrypted, compressed & redundant)
 	- Zero-Stor client (commandline & grpc)
 - minio
-	- User can deploy mini and install our plugin to it which will use the Zero-Stor client 
+	- User can deploy mini and install our plugin to it which will use the Zero-Stor client
 
 
 <a id='s3'></a>
@@ -176,8 +178,8 @@ Auto backup every hour to s3 server using duplicity.
 
 ## Bandwidth
 
-1 GB of transferred capacity over network (to and from internet from the Farming Pools) 
- 
+1 GB of transferred capacity over network (to and from internet from the Farming Pools)
+
 | Level | Description | Price |
 | ---- | ----- | ----- |
 | std | 1 GB of transfer | 1 TFT |

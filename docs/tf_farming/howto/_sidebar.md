@@ -1,0 +1,7 @@
+* [Farming](tf_farming/Farming.md)
+    * [Atomic swaps - what, how and when?](tf_farming/howto/atmomic_swaps.md)
+    * [How to create a local TF Chain node](tf_farming/howto/create_node.md)
+    * [Where to get TF Chain binaries](tf_farming/howto/get_binaries.md)
+    * [HOw to install the TF Chain Explorer](tf_farming/howto/tfchain_explorer.md)
+    * [Getting started with the Wallet](tf_farming/howto/wallet.md)
+    * [HOw to boot ZERO-OS](tf_farming/howto/zero_boot_hardware.md)     

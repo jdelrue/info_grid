@@ -1,5 +1,7 @@
 ## Cloud units
 
+![](images/domore.png)
+
 Cloud units are the way to account for farmed and used capacity. Cloud units are the compute, storage and network equivalent to kWh - kilowatt hour - the unit of energy.
 
 We utilise three categories of units:
@@ -11,4 +13,3 @@ We utilise three categories of units:
 
 
 More details [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRrvdoj71JARdo2Ky7_UBoSOIJCZNr5ACc3x3ychXIhxDaQqpNF0KDXrDGAVd_O2Ocjq4lrtZYdSImT/pubhtml?gid=75337142&single=true).
-

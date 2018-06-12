@@ -1,4 +1,4 @@
-## More information on farming
+## Additional information on farming
 
 ### Token return calculator
 

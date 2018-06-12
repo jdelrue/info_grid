@@ -2,13 +2,9 @@
 
 ![](images/domore.png)
 
-## Why
-
-
-
 ## Farmers can use cooperatives in multiple ways.
 
-### 1. Investor Only Model For Managed Or Unmanaged Capacity (main usecase)
+### Option 1. Investor Only Model For Managed Or Unmanaged Capacity (main usecase)
 
 - Farmer goes to cooperative to understand model, benefits, potential ROI, ...
     - Cooperative will help to make right decisions
@@ -43,17 +39,17 @@
 - Each Month
     - The farmed/cultivated tokens will come to the cooperative which will forward to the digitalme wallet minus the monthly costs & commissions.
 - Monthly the cooperative will
-    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services. 
+    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services.
     - If managed capacity the cooperative will deduct 20% of the sold tokens and send to GIG.
     - The cooperative will make sure colo parties get their tokens for their service
-    - 
+    -
 - Every month the farmer gets a report about
     - uptime
     - tokes farmed / cultivated
     - free capacity
 - Farmed & Cultivated tokens are always send to the digitalme wallet
 
-### 2. Tech Farmer wants to buy nodes for unmanaged capacity
+### Option 2. Tech Farmer wants to buy nodes for unmanaged capacity
 
 Farmer wants to host himself (connectivity/bandwidth)
 
@@ -75,7 +71,7 @@ Farmer wants to host himself (connectivity/bandwidth)
 
 - Project done & closed from out of Cooperatives perspective
 
-### 3. Tech Farmer wants to buy nodes for managed capacity
+### Option 3. Tech Farmer wants to buy nodes for managed capacity
 
 - Only cooperatives who have an agreement with GIG can provide this service.
 - see Investor Only Model till shipment of node.
@@ -83,23 +79,23 @@ Farmer wants to host himself (connectivity/bandwidth)
 - Cooperative will deduct GIG Commission 20% (is all automatic)
 - Cooperative will deduct support fee if any
 
-### 4. 100% Community driven
+### Option 4. 100% Community driven
 
 - all cooperatives do best effort on community tools
 
-### 5. farmer has already the equipment unmanaged
+### Option 5. farmer has already the equipment unmanaged
 
 - see 4.
 
-### 6. farmer has already the equipment managed & big deal (???)
+### Option 6. farmer has already the equipment managed & big deal (???)
 
 - custom deal with cooperative for support/setup/gig license/...
 
-### 7. rent new managed farming nodes
+### Option 7. rent new managed farming nodes
 
 - see #1 but is pure monthly fee
 
-### 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
+### Option 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
 
 - see #1 but is pure monthly fee
 
@@ -129,4 +125,3 @@ Farmer wants to host himself (connectivity/bandwidth)
 - the famer allows his digitalme to make payments to cooperative or colo provider with certain maximum amounts.
 - he originally bought tokens by farmer are send to his digitalme wallet
 - the farmer can at any point in time transfer tokens in or out of this dm wallet.
-
