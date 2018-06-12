@@ -1,6 +1,7 @@
-* [Farming](tf_farming/Farming.md)
-* [Concepts](tf_farming/concepts/README.md)
-* [Cooperation](tf_farming/what_does_a_cooperative_do.md)
-* [How to work with the TF Chain](tf_farming/howto)
-* [Legal](tf_farming/legal)
-* [Online meeting store](tf_farming/online_meetings)
+* [Farming](/tf_farming/)
+* [Concepts](/concepts/)
+* [Cooperation](/cooperation/)
+* [How to work with the TF Chain](/howto)
+* [Legal](/legal/)
+* [Online meeting store](
+  /online_meetings/)
