@@ -1,0 +1,5 @@
+* [Cooperatives](/)
+	* [Introduction](cooperatives/what_does_a_cooperative_do.md)
+	* [Bettertoken](cooperatives/what_does_a_cooperative_do.md)
+	* [Mazraa](cooperatives/what_does_a_cooperative_do.md)
+	* [GIG Europe](cooperatives/what_does_a_cooperative_do.md)
