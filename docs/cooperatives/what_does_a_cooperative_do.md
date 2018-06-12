@@ -1,6 +1,6 @@
 # What does a cooperative do
 
-![](images/domore.png)
+![](../images/domore.png)
 
 ## Farmers can use cooperatives in multiple ways.
 

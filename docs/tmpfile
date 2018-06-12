@@ -1,0 +1,3067 @@
+##@ Frequent asked questions #3
+
+#### What type of telecommunications connectivity is required for a farmer?
+
+**Answer:** This question we get a lot, and it is also one of the hardest to answer because the devil is in the detail here.  For each node (or to that extend for each farmer) one can classify it as a compute oriented capacity pool or a storage oriented capacity pool. The different being that a computer oriented pool has a bias towards a larger of number of available processors being deployed compared to the quantity of storage.
+
+Example:  Say as a farmer you have 4 chassis with 2 processors )of 28 logical cores each) per chassis and 12 harddisks per chassis (of 12TB each).  The ratio of nr. of logical cores vs. TB's of storage is: (4*2*28)/(4*12*12) = 224/576 = 0.39.  We assume that there is a need of about 10GB of data per virtual core per month and 40GB of data per TB of storage in the systems.  This leads to a total requirement of data transport of (224*10 + 576*40) = 25280 GB per month.
+
+Connectivity is quantified in mbit/s throughput.  A single mbit/s through can transport 194GB of data per month.  So the minimal needed bandwidth to make this configuration work with the assumptions stated is 25280/194=130mbit/s
+
+So for this farm to work (based on the assumptions driven by the actual workloads that will appear on the system) the farmer needs to provide a minimum of 130mbit/s of connectivity.
+
+### How long does the farmer have to hold the subsidy TFT tokens?
+
+**Answer:** ThreeFold recognises two categories of Famers.  Farmers that purchase certified hardware from certified vendors and Farmer that have decided to go 100% DIY.  Both are absolutely fine but have a different Farming token vesting scheme.  
+
+For the Farmers that purchased certified hardware at known vendors they will not have a vesting period for their tokens at all.  their tokens are liquid form the moment they get them.
+
+DIY Farmers have a rule applied to their farmed tokens of becoming  liquid only when the TF Chain recognises the hardware to be used for 30% by actual real life Use cases.  The reasoning behind this rule is that we want to avoid abuse by farmers of creating capacity based on old, refurbished or new hardware which will never run any real life use case and will just be there to farm  farming tokens (which in essence would make the ThreeFold capacity similar to bitcoin mining rigs.
+
+### What is the current value of the TFT token?
+
+
+**Answer:** The current value of the TF Token is $0,10 (ten dollar cents).
+
+### Is the TFT a traded token on exchanges?  If so, which exchanges?
+
+
+**Answer:** The TFT token is traded on a small number of exchanges. These exchanges are small nyche exchanges like BTC-alpha.  We do not chase established exchanges as we do not believe that the future of the ThreeFold token lies in trading mechanisms that are centralized.  ThreeFold is working on a distributed exchange facility which will live on the TF Grid.  It will allow ThreeFold farmers, investors and users to go in and out of the token economy without passing by a central exchange (and without paying any transaction fees).
+
+### Do you have industry information regarding software developers creating platforms for the TF internet?
+
+**Answer:** ThreeFold sees the TF grid as a platform that presents primitives to developers that can and will create applications and services for ir.  ThreeFold will start  launching marketing and promotion campaign towards the end of 2018 to invite these developers.
+
+You have to have an different mind towards to this platform.  It has a very different approach towards building a community of developers, service providers and end users. Think of the launch of the iPhone with IOS and its Software Development Kit.  At launch there were less than 50 applications available of which the most important ones were, a call application, a web browser, a message application and a music player (with some basic utilities around that like calculators and notes applications).  Today there are literally millions of applications in existence, build by the community for the community.  We envision a similar uptake of ThreeFold as a new platform to run distributed applications and the demand for applications and functionality will draw in developers and service and service providers.
+
+### Is the farmer legally liable for information stored on their “nodes” which is illicit/illegal or in contribution to illegal actions?
+
+**Answer:** The Farmers own the hardware and rents uit capacity to others.  This is a similar model as to what web hosting and managed services have been doing nw for decades.  Per region and country there is specific legislation that a Farmer needs to comply with.  In general there is legislation which makes the consumer of capacity ronsike for the data on the rented capacity taking away the liability for that from the Farmer.
+## hardware secure execution environment
+
+### hardware requirements
+
+- phase 1 can be 100 raspberi pi's
+- phase 2 need to find platform < 40$ per node
+- phase 3 need to find platform < 20$ per node
+
+### pricing
+
+- hosting partner in ultra secure datacenters
+- cost
+	- 40$ + 10$ for network & power equipment
+- sales price: $40 (tft) + $2 per month (tft per month)
+
+## virtual secure execution environment
+
+- VM's of 1 GB & 10 GB HD capacity
+
+### pricing
+
+- 128 GB server = $1200 (refurb with network, pdu, ...)
+- 120 users active = $10 hw cost
+- power usage = 3 watt 	 (+- 0.2$ per month)
+- sales price: $20 (tft) + $1 per month (tft per month)
+
+
+## how
+
+- network boots zos
+- registers to ZeroTier network
+- registers in directory
+- any user can now claim this node 
+- user goes in over secure web tunnel & puts private key & secrets (2)
+- this info only stored in mem (encrypted): secret needed to put info from BCDB into the device memory encrypted
+- info which comes from BCDB
+	- wallets private key's which will get encrypted in mem of SSE
+	- IYO information (all private to user): encrypted in mem
+- 2 secrets need to be specified by user
+	- secret for decryption of wallet private keys: valid for specified period (timeout)
+	- secret for online info (IYO info) (no timeout)
+## Information on the ThreeFold Farming
+
+### General information
+
+The WIKI describing a generic overview and fundamentals can be found [here](https://threefoldfoundation.github.io/info_grid/).
+
+All the content stored in the WIKI can be found in this repository and is accessible by all interested.
+## Additional information on farming
+
+### Token return calculator
+
+[Main calculator & hardware overview list](https://docs.google.com/spreadsheets/d/1ZhEoAm1wFZh3rXNM-vNJmfmKjF7VbczaDnmsE4q1nk0/edit?usp=sharing)
+
+### Prelaunch presentation
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTYVr4WWMhW7M14iWg1mW26QuFmJZYiymP3F3nprzq2pb6tNfa2VjfU0ofMB5FkfHKye0Lt-fGlvL87/pub?start=true&loop=false&delayms=600000" frameborder="0" width="750" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+### Market pricing comparison
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTaiePf-auYLIfgJc0TcuNIe-BXoLrQf2UHW2mlSmHeW5vFAxA4kVSNSOjaXfADih5iVF5EQv7kGmdv/pub?start=false&loop=false&delayms=60000" frameborder="0" width="750" height="470" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Farming rules info
+
+There are a few rules setup around the principle of farming for ThreeFold, all of which are listed in [this](https://docs.grid.tf/threefold/info/src/branch/master/concepts/Token_Generation_Rules_For_Farming.md) document.
+
+Please contact us for help with any of above information
+
+Please contact any cooperative as well, they have also lots of information how to get to hardware, which configs, ...
+[Setup Your Farm](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/README.md ':include :type=markdown')
+# some core concepts
+
+## principles
+
+- all User/Group/Robots/Reservations/FarmingPools are registered in tf-chain
+- we dont use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from TF-Chain (not from server)
+
+## User
+
+- has priv/pub key
+- represented by a zero-robot which can sign on user behalf
+- is registered in tf-chain in category: user
+
+# IT Services
+
+Following services will be registered in the directory on behalf of The Farmer 
+
+## pricing
+
+| unit | description | price |
+| ---- | ----- | ----- |
+| CU | compute unit | ```@tft(12 USD)``` TFT |
+| SU | storage unit | ```@tft(12 USD)``` TFT |
+| NU | network unit | ```@tft(0,1 USD)``` TFT |
+
+## for each service the following properties are used
+
+| name | description | default |
+| ---- | ----- | ----- |
+| name | name of the ZOS Pod | . |
+| privkey_reservation 
+
+
+## base: ZOS Pod
+
+Zero-OS Pod = capacity for Zero-OS workloads (normally implemented as VM)
+
+| name | description | default |
+| ---- | ----- | ----- |
+| nr_mem | memory in GByte (1-16) | 4 |
+| nr_vcpu | virtual CPU (1-16) | 4 |
+| nr_storage | nr GB of storage for data, is redundant in GB (4-400) | 10 |
+
+
+
+
+## zero-robot
+
+- 1 zero-robot instance 
+- capacity: 4 GB Storage, 1 GB Memory, 1 vCPU
+
+| level | description | price |
+| ---- | ----- | ----- |
+| silver | 1 GB mem, 4 GB storage, 1 vCPU| 40 TFT |
+| gold | 2 GB mem, 8 GB storage, 2 vCPU | 80 TFT |
+| platinum | 4 GB mem, 16 GB storage, 4 vCPU | 160 TFT |
+
+
+
+### IT-Robot
+
+- Everyone who wants to use resource on the TF Grid will need to use an IT Robot to provision the required workloads. 
+
+### User Robot
+
+- April 2018
+- A Zero-Robot which is a digital always running robot working only for you.
+
+## kubernetes
+
+(compute capacity) (as kubernetes/docker environment) = 
+
+recommended:
+
+- 8 GB of memory
+- 100 GB of storage (SSD performance)
+- 4 vCPU (virtual CPU)
+
+| level | description | price |
+| ---- | ----- | ----- |
+| silver | 4 GB of mem, 2 vCPU, 50 GB | 300 TFT |
+| gold | 8 GB of mem, 4 vCPU, 100 GB | 550 TFT |
+| platinum | 16 GB of mem, 8 vCPU, 200 GB | 1000 TFT|
+
+
+interface:
+- see kubernetes website, any tool which can work with Kubernetes should work.
+
+## storage 
+
+- 1000 GB of storage 
+- can be used as backing for S3 service
+
+| level | description | price |
+| ---- | ----- | ----- |
+| silver | 1 TB | 15 TFT |
+| gold | 10 TB | 140 TFT |
+| platinium | 100 TB | 1300 TFT |
+
+
+interface:
+
+- for raw data non redundant
+	- Zero-DB protocol which is based on Redis Protocol
+	- Any redis client can be used to stor & get information
+- for processed (encrypted, compressed & redundant)
+	- Zero-Stor client (commandline & grpc)
+- minio
+	- User can deploy mini and install our plugin to it which will use the Zero-Stor client 
+
+## s3 server
+
+- server based on (https://minio.io/)
+
+| level | description | price |
+| ---- | ----- | ----- |
+| silver | 1 GB of mem, 1 vCPU | 100 TFT |
+| gold | 2 GB of mem, 2 vCPU | 200 TFT |
+| platinum | 4 GB of mem, 4 vCPU | 400 TFT|
+
+Interface see S3 specs of minio.
+Can deploy as many servers as required using same storage backend, this provides serious scalability.
+
+
+## git server
+
+- based on Gitea (but modified to support ItsYou.Online and also has Kanban inside).
+
+Interface: Web, Rest & Git (ssh)
+
+- silver: 	1 GB of mem, 1 vCPU, 10 GB Storage
+- gold:		2 GB of mem, 2 vCPU, 50 GB Storage
+- platiniu:	4 GB of mem, 4 vCPU, 100 GB Storage
+
+| level | description | price |
+| ---- | ----- | ----- |
+| silver | 1 GB of mem, 1 vCPU, 5 GB Storage | 100 TFT |
+| gold | 4 GB of mem, 4 vCPU, 50 Gb Storage | 400 TFT |
+| platinum | 8 GB of mem, 8 vCPU, 100 GB Storage | 800 TFT|
+
+
+Auto backup every hour to s3 server using duplicity.
+
+## HTTPS / DNS Gateway
+
+- free of charge
+- makes it very easy to publish any service at any location
+
+
+## Bandwidth
+
+1 GB of transferred capacity over network (to and from internet from the Farming Pools) 
+ 
+| level | description | price |
+| ---- | ----- | ----- |
+| std | 1 GB of transfer | 1 TFT |
+
+
+# Resource Pool Definitions
+
+for our main definitions see:
+
+- https://github.com/threefoldtoken/legal/blob/master/definitions.md
+
+
+## farming pool
+
+- a Farmer connects a Farming Pool to the TF Grid
+- a Farming Pool has capacity for x nr of resource units (specified per type)
+
+- farmer defines sales price in chosen currency per hardware unit
+- min amount of pre-paid tokens per customer
+
+
+## discount levels
+
+- depending nr pre-paid tokens e.g. 20% discount if more than 10000 TFT's pre-paid.
+
+## ThreeFold Grid Concepts
+
+![](../images/grid.png)
+
+ThreeFold Foundation is a nonprofit foundation which promotes a new global network of IT capacity. For more details see their website:  https://ThreeFoldtoken.com/. 
+
+ThreeFold Foundation has created a new digital token called ThreeFold Token (“TFT”). These TFTs are managed by the ThreeFold Blockchain (the “TF Chain”). The TF Chain can issue a maximum of 100 Billion TFTs. 
+
+ThreeFold Farmers (“[TF Farmers](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md)”) are independent third parties who invest in IT hardware consisting of storage and compute servers (the “Farming Pools”) which are connected to the ThreeFold Network (“TF Grid”) and are registered on the TF Chain. Each Farming Pool TF Nodes runs the TF Operating System and TF Blockchain Software which allows anyone in the world to use this IT capacity to host their IT workloads (storage apps, archive capacity, web applications, artificial intelligence, iOT, docker containers, etc). 
+
+TFTs are exclusively issued (created) by the TF Chain for each active Farming Pool which gets and remains connected to the TF Grid. Such issuance of TFTs is called “Farming”, i.e. just like certain cryptocurrencies get ”mined”. In that sense a ThreeFold Farmer is the equivalent of a miner on the Bitcoin network. In the case of ThreeFold, Farming means the connection of a server and storage hardware (IT Capacity) to the TF Grid and producing useful IT capacity which can be used on a global scale. All connected capacity gets registered on the TF Chain. End of March the TF Foundation estimates that less than 0.9% of the total amount of TFTs will have been Farmed. 
+
+To use this IT Capacity, through the TF Grid, people need to own TFTs as they are the only possible mechanism to purchase or sell this IT capacity as delivered by the Farming Pools through the TF Grid. As such, TFTs represent a true utility. 
+
+### Creation of TFT's
+
+The TF Chain issues new TFTs for each Farming Pool each 30 days using the following calculation:
+
+> Monthly (30 days) Issued Tokens (TFTs) per Farming Pool =  
+> average monthly sales price of connected Farming Pool capacity(*)
+> / difficulty level
+>
+> (*) at connection time expressed in tokens 
+
+Difficulty level for 2018 is 8 for Unmanaged Capacity and 6 for Managed Capacity. If required, the difficulty level can be adjusted with a 80% majority vote of the ThreeFold Ambassadors by means of the TF Chain. 
+
+Because of this mechanism, TFTs are initially undervalued by a factor of 6 to 8. If 100% of the underlying IT capacity is bought at connection time, then 6 to 8 times more TFTs would be required as have been issued. This mechanism allows the TFTs to grow in value while being backed by revenue potential of the TF Grid.
+
+see [Token Generation Rules For Farming](https://docs.grid.tf/threefold/info/src/branch/master/concepts/Token_Generation_Rules_For_Farming.md#token-generation-rules-for-farming)
+
+### Capacity
+
+For [Managed Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md) the TF Farmers needs to specify the uptime they want to achieve when they register their IT capacity in the TF Chain. The TF Foundation expects most Managed Farming Pools to achieve an uptime of more than 99.5%. The TF Chain will only issue TFTs if the Managed IT capacity was connected to the internet and was usable during the last month at least up to the specified uptime guarantee; this will automatically stop after 60 months. The TF Chain software will execute these checks on a random basis; these are peer checks done by independent Farming Pools. For Unmanaged Capacity a minimum uptime of 95% is required, this cannot be defined by the TF Farmer but is a standard uptime requirement.
+
+Thanks to the unique ThreeFold software the Farming Pools use a lot less power compared to traditional data centers. Internet capacity is produced and allocated locally - similar to the way electricity and other utilities are purchased today. This allows any digital service/application provider anywhere in the world to host their applications near to the users leading to greater performance and overall efficiency.
+
+For more info see [Token Generation Rules For Farming](Token_Generation_Rules_For_Farming.md)
+
+### Exchange
+
+In addition, the ThreeFold Foundation has created a fully neutral and distributed exchange, which runs on top of the TF Chain (the “TF Exchange”). The TF Exchange is neutral and not linked to any organization or company. TFTs can be exchanged for Bitcoin (“BTC”), Bitcoin Cash (“BCH”) and Litecoin (LTC) on the TF Distributed Exchange. BTC, BCH and LTC can be bought on any public exchange. In addition to using digital currencies a TF Farmer can sell or buy TFTs (for any accepted currency). As such any TFT owner can exchange their TFTs for existing fiat and digital currencies BTC, BCH or LTC at any point in time. There are no transaction fees on this exchange.
+
+More details regarding the above can be found on the ThreeFold website and on following link for the used [definitions](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md).
+
+
+### ThreeFold’s objectives are three-fold:
+
+**Utility** - The TFT is designed to have specific commercial utility as the designated currency for buying and selling IT capacity on the TF Grid. 
+
+**Green** - The ThreeFold Chain Operating System (OS) runs on a decentralized and distributed network of dedicated hyper-efficient Zero-Node (Node) infrastructure, which enables extreme scalability delivered at an extremely low carbon footprint.
+
+**Neutral** - ThreeFold Foundation aims to build a neutral and digitally responsible world by connecting humanity to a neutral and green internet. ThreeFolds Foundation does not have any shareholders and is not owned or controlled by any other corporation. ThreeFold Foundation is only a promotion organization. All technology used by ThreeFold is open source. All users and ThreeFold Nodes are registered on a blockchain-based identity management platform enhancing security and privacy.  ​Hi Eng. Ibrahim,     
+  
+As per our discussion, we have prepared an intro email with relevant information on how to join the ThreeFold Grid and start your own global farming (capacity hosting) cooperative in your requested regions.     
+  
+As an introduction, ThreeFold has released a technology roadmap that will enable the world to scale new type of distributed IT infrastructure rapidly and cost-effectively using a software-defined technology; essentially creating a decentralized and distributed compute and storage pool owned by many, for all to use.  This grid of capacity presents a neutral alternative to Amazon Web Services. Very important is that this grid is owned by many and not just one large centralised application.     
+  
+ThreeFold technology enables individuals, companies, and countries to trade IT capacity through ThreeFold's global blockchain directory and enjoy a return on investment that is between 10-15x over 5 years and enabling the reach of the internet capacity to economically stimulate growth within regions capacity is provisioned.    
+  
+**Information**    
+  
+Further information can be found in materials that have been prepared to share with interested parties.    
+- ThreeFold Presentation (Introduction)
+- ThreeFold Video (What we solve)
+- Become A Farmer - video - presentation (Model & ROI)
+- ThreeFold Technical White Paper (Technical)
+- ThreeFold Website & Team (Leadership)
+  
+  
+**ThreeFold ROI**    
+  
+There are three ways to engage with the Threefold Grid (TF Grid) and gain tokens.      
+  
+1. Buy Threefold Tokens
+2. Become a Farmer.  A Farmer is someone or an organisation that wants to invest capital to own equipment and mine Threefold Tokens.
+3. Become  a cooperative.  A cooperative is a company start performs commercial, financial and operational services for Farmers.  
+  
+The first method, buying tokens is by far the simplest method to  to become a farmer is the most simple way to engage with the Threefold technology.  It can be as easy as giving money to a cooperative to purchase and own mining equipment.    
+  
+  
+  
+  
+**Cooperative ROI simulation**    
+**Cooperative ROI simulation.**    
+<img class="mdexporter-image" src="assets/image_0.jpeg" alt="" height="440" width="601">
+  
+  
+* [Farming](tf_farming/Farming.md)
+    * [How to setup your farm](tf_farming/farming_setup.md)
+    * [More information on farming](tf_farming/farming_info.md)
+* [Concepts](tf_farming/concepts/README.md)
+    * [Token generation rules](tf_farming/concepts/token_generation_rules.md)
+    * [Cloud units](tf_farming/concepts/cloud_units.md)
+    * [IT services](tf_farming/concepts/it_services.md)
+    * [Provisioning](tf_farming/concepts/provisioning.md)
+    * [Resource units](tf_farming/concepts/resource_units.md)
+* [Cooperation](tf_farming/what_does_a_cooperative_do.md)
+* [How to work with the TF Chain]()
+    * [Introduction](tf_farming/howto/)
+    * [How to do atomic swaps](tf_farming/howto/atomic_swaps.md)
+    * [How to create a node](tf_farming/howto/create_node.md)
+    * [Where to get TF Chain binaries](tf_farming/howto/get_binaries.md)
+    * [Install the chain explorer](tf_farming/howto/tfchain_explorer.md.md)
+    * [Install the wallet](tf_farming/howto/wallet.md)
+    * [What hardware can run ZERO-OS](tf_farming/howto/zero_boot_hardware.md)
+    * [IT Services](tf_farming/it_services.md)
+* [Legal]()
+    * [Definitions](tf_farming/legal/definitions.md)
+      * [Example contract: Buy TFT's](tf_farming/legal/buy_tfts_from_farmer_example_contract.md)
+      * [Example contract: Farming Pool](tf_farming/legal/farmer_buys_farmingpool_example_contract.md)
+      * [Terms and Conditions](tf_farming/legal/termsconditions.md)
+* [Online meeting store]()
+    * [Introduction](tf_farming/online_meetings/README.md)
+    * [Wallet presentation](tf_farming/online_meetings/online_meeting_wallet.md)
+    * [Agile Collaboration](tf_farming/online_meetings/agile_collaboration.md)
+## Information on the ThreeFold Farming
+
+* [How to setup your farm](tf_farming/farming_setup.md)
+* [More information on farming](tf_farming/farming_info.md)
+* [Farming](tf_farming/Farming.md)
+    * [How to setup your farm](tf_farming/farming_setup.md)
+    * [More information on farming](tf_farming/farming_info.md)
+* [Concepts](tf_farming/concepts/README.md)
+    * [Token generation rules](tf_farming/concepts/token_generation_rules.md)
+    * [Cloud units](tf_farming/concepts/cloud_units.md)
+    * [IT services](tf_farming/concepts/it_services.md)
+    * [Provisioning](tf_farming/concepts/provisioning.md)
+    * [Resource units](tf_farming/concepts/resource_units.md)
+* [Cooperation](tf_farming/what_does_a_cooperative_do.md)
+* [How to work with the TF Chain]()
+    * [Introduction](tf_farming/howto/)
+    * [How to do atomic swaps](tf_farming/howto/atomic_swaps.md)
+    * [How to create a node](tf_farming/howto/create_node.md)
+    * [Where to get TF Chain binaries](tf_farming/howto/get_binaries.md)
+    * [Install the chain explorer](tf_farming/howto/tfchain_explorer.md.md)
+    * [Install the wallet](tf_farming/howto/wallet.md)
+    * [What hardware can run ZERO-OS](tf_farming/howto/zero_boot_hardware.md)
+    * [IT Services](tf_farming/it_services.md)
+* [Legal]()
+    * [Definitions](tf_farming/legal/definitions.md)
+      * [Example contract: Buy TFT's](tf_farming/legal/buy_tfts_from_farmer_example_contract.md)
+      * [Example contract: Farming Pool](tf_farming/legal/farmer_buys_farmingpool_example_contract.md)
+      * [Terms and Conditions](tf_farming/legal/termsconditions.md)
+* [Online meeting store]()
+    * [Introduction](tf_farming/online_meetings/README.md)
+    * [Wallet presentation](tf_farming/online_meetings/online_meeting_wallet.md)
+    * [Agile Collaboration](tf_farming/online_meetings/agile_collaboration.md)
+* [Farming](/)
+    * [How to setup your farm](tf_farming/farming_setup.md)![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/../images/iyo-organizations.png)
+    * [More information on farming](tf_farming/farming_info.md)
+### ThreeFold Technology
+
+Technology landing page.
+### Architecture
+
+Architecture update
+### Blockchain
+
+This is the placeholder for the operating system Overview
+### Overview
+
+This is the placeholder for the architecture overview.
+### Zero-Chain
+
+Zero-Chain landing page
+### Operating system
+
+This is the placeholder for the operating system overview.
+### Operating system
+
+This is the placeholder for the operating system overview.
+### Zero Robot
+
+Zero Robot Landing page 
+# ThreeFold Robots
+
+![https://docs.google.com/drawings/d/1BcHyvnXA-pXyZF_Wn79X5VgGzZV4QsvgOBOjCbsJwBU/edit](https://docs.google.com/drawings/d/e/2PACX-1vS9_oWaP_R5y0pnW6zH_mCTjvzWi0Xxmuv7ev50ZAMZMBS5mYASJOL0EGVADaEsx6NVxEka-MSdFxfS/pub?w=1008&h=864)
+
+[See this link for definitions](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md)
+
+## User Robot
+
+- Belongs to a User (person/company using TFTs to buy IT Capacity on TF Grid)
+- Does not need to be online all the time, but is possible and very useful.
+- Its from this Robot that the user gives all instructions.
+
+## Trading Robot
+
+- Belongs to a User, can be short living.
+- Does trading for a user e.g. buying/selling/exchanging Digital currencies.
+- Is online during the time that trading needs to happen.
+
+## IT Robot
+
+- is where all the IT workloads are being provisioned
+- is always online, belongs to the user
+- will ask Farming Robot for IT Capacity resource (by means of Reservations)
+- the Node rebot will confirm directly to the IT Robot about how to access that IT Capacity, so the Farming Pool Robot has no access to the IT resource.
+
+## Farming Pool Robot
+
+- one per Farming Pool
+- is used to coordinate reservations & capacity planning per Farming Pool
+# TheeFold Grid repository
+
+see published site on
+
+https://threefoldfoundation.github.io/info_grid/
+* [Farming](/tf_farming/)
+* [Concepts](/concepts/)
+* [Cooperatives](/cooperatives/)
+* [How to work with the TF Chain](/howto/)
+* [Legal](/legal/)
+* [Online meeting store](/online_meetings/)
+
+# Resource Pool Definitions
+
+for our main definitions see:
+
+- https://github.com/threefoldtoken/legal/blob/master/definitions.md
+
+
+## farming pool
+
+- a Farmer connects a Farming Pool to the TF Grid
+- a Farming Pool has capacity for x nr of resource units (specified per type)
+
+- farmer defines sales price in chosen currency per hardware unit
+- min amount of pre-paid tokens per customer
+
+
+## discount levels
+
+- depending nr pre-paid tokens e.g. 20% discount if more than 10000 TFT's pre-paid.
+
+## Resource Units
+
+| unit type | description | code |
+| --- | --- | --- |
+| core unit     | 1 logical core (hyperthreaded core) | CRU |
+| mem unit      | 1 GB mem	| MRU |
+| hd unit       | 1 GB | HRU |
+| ssd unit      | 1 GB	 | SRU |
+| network unit  | 1 GB of bandwidth transmitted in/out	| NRU |
+
+See [Definitions](https://github.com/threefoldtoken/legal/blob/master/definitions.md) for more explanation.
+
+These are raw capacities as measured by our TF Software.
+
+## Concepts
+
+![](../images/beach_collab.png)
+
+* [Token generation rules](token_generation_rules.md)
+* [Cloud units](cloud_units.md)
+* [IT services](it_services.md)
+* [Provisioning](provisioning.md)
+* [Resource units](resource_units.md)
+## Cloud units
+
+![](../images/domore.png)
+
+Cloud units are the way to account for farmed and used capacity. Cloud units are the compute, storage and network equivalent to kWh - kilowatt hour - the unit of energy.
+
+We utilise three categories of units:
+- Compute: amount of data processing power, specified as the number of virtual CPU cores (logical [CPU's](https://en.wikipedia.org/wiki/Central_processing_unit)) and RAM ([Random Access Memory](https://en.wikipedia.org/wiki/Random-access_memory))
+- Storage: size of data storage capacity with a certain access speed ([IOPS](https://en.wikipedia.org/wiki/IOPS))
+- Network: amount of data that travels in and out of the acquired storage units
+
+![](../images/CloudUnits.png)
+
+
+More details [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRrvdoj71JARdo2Ky7_UBoSOIJCZNr5ACc3x3ychXIhxDaQqpNF0KDXrDGAVd_O2Ocjq4lrtZYdSImT/pubhtml?gid=75337142&single=true).
+## IT Services
+
+![](../images/domore.png)
+
+@TODO NEEDS CLARIFICATION
+
+Some principles:
+
+- All users, groups, robots, reservations, farms are registered in ThreeFold Chain (tf-chain)
+- Each user has priv/pub key, is represented by a Zero-Robot which can sign on user behalf, and is registered in tf-chain in category: user
+- Each reservation for a service, done by a user, is recorded in the tf-chain with following details:
+
+| Name | Description | Default |
+| ---- | ----- | ----- |
+| name of user | name of the ZOS Pod | . |
+| privkey_reservation | . | . |
+
+- Capacity available from farmers will be registered in the directory on behalf of the farmer
+
+| Unit | Description | Price |
+| ---- | ----- | ----- |
+| CU | compute unit | ```@tft(12 USD)``` TFT |
+| SU | storage unit | ```@tft(12 USD)``` TFT |
+| NU | network unit | ```@tft(0,1 USD)``` TFT |
+
+- We don't use SSL with key exchange, every communication is encrypted using pub key of destination. Pub key comes from tf-chain (not from server)
+
+
+Following IT services are discussed below:
+- [Zeros-OS Pod](#zos)
+- [Zero-Robot](#zero-robot)
+- [IT-Robot](#it-robot)
+- [User Robot](#user-robot)
+- [Kubernetes](#kubernetes)
+- [Storage](#storage)
+- [S3 Server](#s3)
+- [Git server](#git)
+- [HTTPS / DNS Gateway](#gateway)
+- [Bandwidth](#bandwidth)
+
+
+
+<a id='zos'></a>
+
+## Zero-OS Pod
+
+Zero-OS Pod = capacity for Zero-OS workloads (implemented as VM)
+
+| Name | Description | Default |
+| ---- | ----- | ----- |
+| nr_mem | memory in GByte (1-16) | 4 |
+| nr_vcpu | virtual CPU (1-16) | 4 |
+| nr_storage | nr GB of storage for data, is redundant in GB (4-400) | 10 |
+
+
+<a id='zero-robot'></a>
+
+## Zero-Robot
+
+- 1 Zero-Robot instance
+- capacity: 4 GB Storage, 1 GB Memory, 1 vCPU
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| silver | 1 GB mem, 4 GB storage, 1 vCPU| 40 TFT |
+| gold | 2 GB mem, 8 GB storage, 2 vCPU | 80 TFT |
+| platinum | 4 GB mem, 16 GB storage, 4 vCPU | 160 TFT |
+
+
+
+<a id='it-robot'></a>
+
+### IT-Robot
+
+- Everyone who wants to use resources on the TF Grid will need to use an IT Robot to provision the required workloads.
+
+
+<a id='user-robot'></a>
+
+### User Robot
+
+- A Zero-Robot which is a digital always running robot working only for you.
+
+
+<a id='kubernetes'></a>
+
+## Kubernetes
+
+(compute capacity) (as Kubernetes/Docker environment) =
+
+recommended:
+
+- 8 GB of memory
+- 100 GB of storage (SSD performance)
+- 4 vCPU (virtual CPU)
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| silver | 4 GB of mem, 2 vCPU, 50 GB | 300 TFT |
+| gold | 8 GB of mem, 4 vCPU, 100 GB | 550 TFT |
+| platinum | 16 GB of mem, 8 vCPU, 200 GB | 1000 TFT|
+
+
+interface:
+- see Kubernetes website, any tool which can work with Kubernetes should work.
+
+
+<a id='storage'></a>
+
+## Storage
+
+- 1000 GB of storage
+- can be used as backing for S3 service
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| silver | 1 TB | 15 TFT |
+| gold | 10 TB | 140 TFT |
+| platinium | 100 TB | 1300 TFT |
+
+
+interface:
+
+- for raw data non redundant
+	- Zero-DB protocol which is based on Redis Protocol
+	- Any redis client can be used to stor & get information
+- for processed (encrypted, compressed & redundant)
+	- Zero-Stor client (commandline & grpc)
+- minio
+	- User can deploy mini and install our plugin to it which will use the Zero-Stor client
+
+
+<a id='s3'></a>
+
+## S3 server
+
+- server based on [Minio](https://minio.io/)
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| silver | 1 GB of mem, 1 vCPU | 100 TFT |
+| gold | 2 GB of mem, 2 vCPU | 200 TFT |
+| platinum | 4 GB of mem, 4 vCPU | 400 TFT|
+
+Interface see S3 specs of Minio.
+Can deploy as many servers as required using same storage back-end, this provides serious scalability.
+
+
+<a id='git'></a>
+
+## Git server
+
+Based on [Gitea](https://gitea.io/en-us/), but modified to support ItsYou.online and with Kanban integrated.
+
+Interface: Web, Rest & Git (ssh)
+
+- silver: 	1 GB of mem, 1 vCPU, 10 GB Storage
+- gold:		2 GB of mem, 2 vCPU, 50 GB Storage
+- platiniu:	4 GB of mem, 4 vCPU, 100 GB Storage
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| silver | 1 GB of mem, 1 vCPU, 5 GB Storage | 100 TFT |
+| gold | 4 GB of mem, 4 vCPU, 50 Gb Storage | 400 TFT |
+| platinum | 8 GB of mem, 8 vCPU, 100 GB Storage | 800 TFT|
+
+
+Auto backup every hour to s3 server using duplicity.
+
+<a id='gateway'></a>
+
+## HTTPS / DNS Gateway
+
+- free of charge
+- makes it very easy to publish any service at any location
+
+<a id='bandwidth'></a>
+
+## Bandwidth
+
+1 GB of transferred capacity over network (to and from internet from the Farming Pools)
+
+| Level | Description | Price |
+| ---- | ----- | ----- |
+| std | 1 GB of transfer | 1 TFT |
+## Token Generation Rules
+
+![](../images/farmer.png)
+
+A farmer earns tokens in 2 ways:
+
+- Farming tokens: as a result of connecting IT hardware to the internet, ThreeFold tokens are farmed
+- Cultivation tokens: as a result of selling capacity from their farming pools to ThreeFold users
+
+This document describes how farming tokens are issued in more detail.
+
+- [Goals](#goals)
+- [Existing Cooperatives](#existing-coops)
+- [Goals](#goals)
+- [How to become a ThreeFold Farmer (without cooperative)](#become-farmer)
+- [Farmer registration rules during June-July 2018](#registration-rules)
+- [Capacity measurements](#capacity-measurements)
+- [Imposed Retrospectively](#imposed-retrospectively)
+
+
+<a id='goals'></a>
+
+## Goals
+
+- TFTs are backed by [internet capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#it-capacity)
+- Internet capacity needs to be good enough
+    - Reliable hardware (good enough hard disks and SSDs, because data is stored on them)
+    - Uptime needs to be good enough
+- Internet capacity needs to be everywhere (promote distribution)
+- Avoid abuse, people trying to cheat the system, e.g. dirty farming, or people who just add capacity to get tokens with no intent to sell capacity
+    
+    
+## Farming pool types
+
+Three types:
+- [Unmanaged New](#unmanaged-new)
+- [Unmanaged Refurb](#unmanaged-refurb)
+- [Managed](#managed)
+
+<a id='unmanaged-new'></a>
+
+### Unmanaged New
+
+- [Definition of Unmanaged Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#unmanaged-capacity)
+- Uptime requirements
+    - At least 99.5%, means max downtime of +-4h per month
+    - Statistical information per farmer will be made available on TF Chain
+- Hardware requirements
+    - Only new hardware can be used, the TF Chain has a broad registered list of motherboards, cpu's, hard disk and SSDs 
+    - Any farmer can ask the Foundation to register new components, a large list of components is already pre-registered. Typically any mainstream hardware which can be bought in 2018 is registered.
+- Farming of tokens
+    - Amount of Farming tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+    - Difficulty level = 8
+    - Farming Tokens above Initial IT Capacity of 200 CU and 300 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 30% (this specific rule is valid from June 1). They get accumulated from connection time though.
+    - Cultivation tokens are available immediately.
+
+<a id='unmanaged-refurb'></a>
+
+### Unmanaged Refurb
+
+- [Definition of Unmanaged Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#unmanaged-capacity)
+- Uptime requirements
+    - Best effort, statistical information per farmer will be made available on TF Chain.
+- Hardware requirements
+    - Any hardware can be used, does not matter how old or new
+- Farming of tokens
+    - Amount of tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+    - Difficulty level = 8
+    - Farming Tokens above Initial IT Capacity of 100 CU and 100 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 40% (this specific rule is valid from June 1). They get accumulated from connection time though.
+
+<a id='managed'></a>
+
+### Managed
+
+- [Definition of Managed Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#managed-capacity)
+- Managed capacity is mainly relevant for Hosters who want to go commercial and they need support and want to offer the highest possible uptime.
+- Uptime requirements
+    - At least 99.5%, means max downtime of +-4h per month, SLA (uptime) can be chosen by Farmer.
+    - Statistical information per farmer will be made available on TF Chain.
+- Hardware requirements
+    - Only selected new hardware can be used, the TF Chain has specifically for managed pools a registered list of motherboards, cpu's, hard disk and SSDs, this to guarantee best performance and uptime.
+- Farming of tokens
+    - Amount of tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+    - Difficulty level = 6
+    - Farming Tokens above Initial IT Capacity of 400 CU and 400 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 30% (this specific rule is valid from June 1). They get accumulated from connection time though.
+    - Cultivation tokens are available immediately.
+
+
+<a id='existing-coops'></a>
+
+## Existing Cooperatives active today !
+
+**You can become a TF Farmer today by using existing TF Cooperatives.**
+
+- See [inital cooperative directory](https://docs.grid.tf/threefold/info/src/branch/master/cooperatives.md)
+
+You can be part of these cooperatives, buy your hardware and be your own farmer. Please contact them for specific details. Each cooperative has their own commercial offerings to allow you to become a farmer starting today.
+
+Do you want to create your own cooperative, please contact the ThreeFold Foundation, we can help you how to get started.
+
+<a id='become-farmer'></a>
+
+## How to become a TF Farmer (without cooperative)
+
+Do you want to become your own TF Farmer, please become part of our early adopter program and we get you initiated in everything you need to know to be most successful as a TF Farmer. We will start mid April with online sessions. Before June 1 any TF Farmer hardware will be connected to our testnet (is our TF Grid made for testing purposes), this way your hardware capacity can be validated. 
+
+Your TF Hardware pool will be registered in the official TF Chain starting June 1.
+
+The ThreeFold Foundation will also be organizing technical sessions for people who want to learn how to use the capacity of the TF Grid in most optimal way. This will happen face to face as well as online.
+
+<a id='registration-rules'></a>
+
+## Farmer registration rules during June-July 2018
+
+During the startup period of the TF Grid we start with predefined register token pricing (till end July 2018).
+These rules are registered in the TF Chain.
+
+Important: TF token pricing in public market can be different.
+
+- Token generation rules see this [link](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+- TFT token price used for registration = US $0.1
+- Also see [Capacity measurement](#capacity-measurements) here below
+- During this startup period the sales prices of SU/CU are fixed:
+
+| Farming Pool Type | Compute Unit CU | Storage Unit SU |
+| ------ | ------ | ------ |
+| Unmanaged Refurb | USD 10 | USD 10 |
+| Unmanaged New | USD 12 | USD 12 |
+| Managed | USD 20 | USD 12 |
+
+
+<a id='capacity-measurements'></a>
+
+## Capacity Measurements
+
+Zero-OS measures [**Resource Units**](https://docs.grid.tf/threefold/info/src/branch/master/concepts/resource_units.md) and registers this in the TF Chain.
+
+| Unit type | Description | Code |
+| --- | --- | --- |
+| core unit     | 1 logical core (hyper-threaded core) | CRU |
+| mem unit      | 1 GB mem	| MRU |
+| hd unit       | 1 GB raw storage capacity | HRU |
+| ssd unit      | 1 GB	raw storage capacity | SRU |
+
+[Cloud Unit](https://docs.grid.tf/threefold/info/src/branch/master/concepts/cloud_units.md) capacity is calculated as follows:
+
+| Cloud unit type | Calculation | Description |
+| --- | --- | --- |
+| 1 SU | #HRU / 1090 | nr of HRU (GB HD capacity) / 1093 |
+| 1 SU | #SRU / 135 | nr of SRU (SSD HD capacity) / 135 |
+| 1 CU | min(#CRU,#MRU/4,#SRU/20) * 0.9 | minimum of nr of cores, mem /4 and min requirement of 20 GB SSD per CU, with 10% overhead |
+
+The 1.09 and 135 are calculated as follows (for details see following [sheet](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142))
+
+- 1090 = (70% Archive Capacity + 30% NAS Capacity) / 0.75 
+    -   0.75 is overhead for redundancy and some unused storage capacity
+-   135 = 50% temp ssd capacity + 40% std ssd capacity which is redundant + 10% high performance ssd capacity / 0.6
+    -   0.6 is estimate of unused SSD capacity, what will not be used in future
+
+    
+These conversion parameters can be redefined together with difficulty level by 60% majority vote of ThreeFold Ambassadors.
+
+These rules are running as smart apps inside our TF Chain.
+
+A sheet exists to help you simulate your capacity and token creation, please contact the TF Foundation for help. 
+Link of this spreadsheet is [here](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142)
+
+
+<a id='imposed-retrospectively'></a>
+    
+## Imposed retrospectively = time of registration counts
+
+At registration of the capacity the following parameters are registered:
+
+| Name | Description |
+| ---- | ---- |
+| tokens | tokens rewarded per 30 days is result of calculation and most important param |
+| token price | token price at the moment of registration |
+| sales price cloud units | sales price of CU & SU for chosen Farming Pool Type at registration |
+| resource conversion units | conversion units from resource to cloud units (1090, 135, ...) |
+| uptime = SLA |  only relevant for managed Resource Pool, min required uptime (for unmanaged new = 99.5%) |
+| date | registration date |
+| min percent utilization | minimum utilization degree before farming tokens are rewarded |
+| period duration | fixed on 30 days |
+| farming periods | nr of periods the farming tokens are rewarded | 
+| farming pool size | in CU/SU and CRU/MRU/HRU/SRU |
+
+Some of above parameters are fixed & pre-defined during startup period (until end of July 2018), see above.
+
+Once registered the amount of tokens given per month and accumulated if the minimum required utilization has not been achieved yet are fixed by this digital contract registered in the TF Chain. 
+Even if the TF Ambassadors decide to change some of the parameters this will not have an impact on already registered TF farming pools.
+
+If a TF farming pool get unregistered e.g. because of 3 months breach of uptime then this contract becomes void.* [Concepts](/)
+    * [Token generation rules](concepts/token_generation_rules.md)
+    * [Cloud units](concepts/cloud_units.md)
+    * [IT services](concepts/it_services.md)
+    * [Provisioning](concepts/provisioning.md)
+    * [Resource units](concepts/resource_units.md)
+## How To
+
+![](https://images.unsplash.com/photo-1505778276668-26b3ff7af103?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c31c1a0b3ef5bab89aa621ae99620451&auto=format&fit=crop&w=1343&q=80)
+
+This page collects a number of links to specific pages of information.
+
+### [Get the ThreeFold Chain Binaries](/tf_farming/howto/get_binaries.md)
+Here you can find information if you are not willing to compile your owmn applications from the opensource source code.  These binaries havbe been compiled by our engineers and are made available for you to use them.
+
+### [Create a ThreeFold Chain Node](/tf_farming/howto/create_node.md)
+This is the place where you will find information on how to start your own TF Chain node for the standard network.  This allows you to examine and discover the ThreeFold Chain.
+
+### [Get started with the ThreeFold Wallet](/tf_farming/howto/wallet.md)
+The ThreeFold Wallet is the standard wallet to to use for interacting with the ThreeFold Chain.
+
+### [Install the ThreeFold Chain Explorer](/tf_farming/howto/tfchain_explorer.md)
+There is a public Chain explorer available [here](https://explorer.threefoldtoken.com/).  But if you want to install your own explorer on your own infrastructure than this is where you can find how to do that.
+
+### [Conduct Atomic Cross-chain Tradings](/tf_farming/howto/atomic_swaps.md)
+For a true distributed crypto currency there needs to be a way to not go in and out through a (still centralised) existing exchange.  There is a new and upcoming technology called [atomic swaps](https://medium.com/@EthAdvisor/atomic-swaps-etomic-swaps-explained-in-plain-english-4c3936c7adb8) that caters for non exchange based crypto currency exchanges (swaps).  This technology is still in its early days and requires some technical knowledge to do - [here's how](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/atomic_swaps.md)
+
+### [Boot Zero-OS](/tf_farming/howto/zero_boot_hardware.md)
+To become a farmer you need to have two ingredients:
+  - First you need some hardware that has an intel processor, some RAM, SSD and HDD Capacity
+  - Secondly you need to boot that hardware with the ZERO-OS operating system
+
+[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md) section will explain how to get a version of the ZERO-OS software configured and truned for your ewxact needs.
+# Atomic Cross-chain Trading
+
+![](https://images.unsplash.com/photo-1472457897821-70d3819a0e24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=dc623e7131495d44392a2cf78c100df6&auto=format&fit=crop&w=1349&q=80)
+
+In what follows you see all steps involved in Bob (the "initiator") buying **42 TFT** (ThreeFold Token) from Alice (the "participant"), paying with **10 ROC** (Rivine One Coin). This transaction is done using the **cross-chain atomic swapping** algorithm, documented [here](https://github.com/rivine/rivine/blob/master/doc/atomicswap/atomicswap.md).
+
+The below requires:
+- The **ThreeFold Chain client** (`tfchainc`) and the **Rivine Chain client** (`rivinec`) command lines tools
+- Locally running ThreeFold and Rivine blockchain nodes, achieved by having the Chain daemons running in the background 
+- Access to the ThreeFold Chain and Rivine Chain Explorers, here through the chain client command line tools
+
+Soon, in an update to this documentation, we will show how to do the same using Bitcoin instead of ROC.
+
+We start by creating aliases for the chain client command line tools.
+
+First for the Rivine, respectively aliases for accessing the node of Rob, Alice and the Rivine Explorer:
+```bash
+alias roc1="rivinec --addr localhost:23110"
+alias roc2="rivinec --addr localhost:23120"
+alias roce="rivinec --addr localhost:23130"
+```
+
+And for ThreeFold, respectively aliases for accessing the node of Rob, Alice and the ThreeFold Explorer:
+```bash
+alias tft1="tftchainc --addr localhost:23210"
+alias tft2="tftchainc --addr localhost:23220"
+alias tfte="tftchainc --addr localhost:23230"
+```
+
+Then we go through following steps:
+- [Bob checks his ROC wallet](#1)
+- [Alice checks her ROC wallet](#2)
+- [Bob creates a new ROC address for sending 10 ROC](#3)
+- [Alice creates a new ROC address for receiving 10 ROC](#4)
+- [Bob initiates the transaction for sending 10 ROC](#5)
+- [Alice checks the transaction information](#6)
+- [Bob checks his TFT wallet](#7)
+- [Alice checks her TFT wallet](#8)
+- [Alice creates a new TFT address for sending the 42 TFT](#9)
+- [Bob creates a new TFT address for receiving the 42 TFT](#10)
+- [Alice initiates a transaction to send the 42 TFT](#11)
+- [Bob checks his TFT and ROC wallets](#12)
+- [Alice checks his TFT and ROC wallets](#13)
+- [Bob checks the block height of his ThreeFold blockchain node](#14)
+- [Alice checks the block height of her ThreeFold blockchain node](#15)
+- [Check the Explorer for the same information](#16)
+- [After a while Alice checks again her TFT wallet](#17)
+- [Bob also checks his TFT wallet](#18)
+- [Bob checks the info received information from Alice, through the explorer](#19)
+- [Bob checks his wallets](#20)
+- [Alice checks her wallets](#21)
+- [Bob claims the 42 TFT](#22)
+- [Alice checks her wallets](#23)
+- [Bob checks his wallets](#24)
+- [Alice checks the Explorer in order to get the secret](#25)
+- [Alice is now ready to receive the ROCs](#26)
+- [Check the wallets of Bob](#27)
+- [Check the wallets of Alice](#28)
+
+
+
+<a id="1"></a>
+## Bob checks his ROC wallet
+
+```bash
+roc1 wallet
+Wallet status:                                                                                                                                             
+Encrypted, Unlocked                                                                                    
+Confirmed Balance:   1000 ROC                                                                                                                             
+Unconfirmed Delta:   + 0 ROC                                                                                                                                
+BlockStakes:         0 BS
+```
+
+<a id="2"></a>
+## Alice checks her ROC wallet
+
+```bash
+roc2 wallet
+Wallet status:                                                                                                                                              
+Encrypted, Unlocked                                                                                                                                         
+Confirmed Balance:   0 ROC                                                                                                                                  
+Unconfirmed Delta:   + 0 ROC                                                                                                                                
+BlockStakes:         0 BS 
+```
+<a id="3"></a>
+## Bob creates a new ROC address for sending 10 ROC
+
+```bash
+roc1 wallet address                                                                                                                                         
+Created new address: 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4
+```
+
+<a id="4"></a>
+## Alice creates a new ROC address for receiving 10 ROC
+
+```bash
+roc2 wallet address                                                                                                                                         
+Created new address: 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975
+```
+
+<a id="5"></a>
+## Bob initiates the transaction for sending 10 ROC
+
+First check how to do it:
+```bash
+roc1 atomicswap initiate                                                                                                                                    
+Usage:                                                                                                                                                          
+    rivinec atomicswap initiate dest amount [flags]
+
+Flags                                                                            
+    -d, --duration duration   the duration of the atomic swap contract, the amount of time the receiver has to collect (default 48h0m0s)                        
+    --src value               optionally define a source address that is to be used for refunding purposes, one will be generated for you if none is given                                                                                                                                                                                                                                                                                                                         
+Global Flags:                                                                                                                                                   
+    -a, --addr string   which host/port to communicate with (i.e. the host/port Rivined is listening on) (default "localhost:23110")
+```
+
+Now let's do it:
+```bash
+$ roc1 atomicswap initiate 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975 10 --src 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4
+
+Contract address: 02ecc57d75b1ed1601e46b69c311b7713ceb113961029273d880c1260d9dc946ee98758b522bfd                                                            
+Contract value: 10 ROC                                                                                                                                      
+Recipient address: 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975                                                           
+Refund address: 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4                                                                                                                                                                                                                          
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe                                                                             
+Secret: 5ee89a7850d980d0467e084a4a61ec4a7edcf1f93117c85c867502d1255c06fc                                                                                                                                                                                                                                                
+Locktime: 1522622518 (2018-04-02 00:41:58 +0200 CEST)                                                                                                       
+Locktime reached in: 47h59m59.75505927s                                                                                                                                                                                                                                                                                
+Publish atomic swap (initiating) transaction? [Y/N] yes
+published contract transaction                                                                                                                              
+OutputID: d5f4c028bff032c331088c19a50c0c5d0dc9341af287031ce80648514eea7b9f
+```
+
+> Bob (roc1) shares now following information with Alice (roc2):                                                                                                                                                                                                                  
+    + outputID                                                                                                                                                                                                                                                                      
+    + sender and receiver address (== unlock hash)                                                                                                                                                                                                                                  
+    + timelock (== locktime)                                                                                                                                                                                                                                                        
+    + hashed secret                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+> Bob (roc1) should NOT share the secret with Alice(roc2) at this point!!!!!! 
+
+<a id="6"></a>
+## Alice checks the transaction information
+
+Check how to do it:
+```bash
+roce atomicswap audit                                                                                                                                                                                                                                         
+Usage:
+
+Rrivinec atomicswap audit outputid|unlockhash dest src timelock hashedsecret [amount] [flags]
+
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port Rivined is listening on) (default "localhost:23110")
+```
+
+Let's do it:
+```bash
+roce atomicswap audit d5f4c028bff032c331088c19a50c0c5d0dc9341af287031ce80648514eea7b9f 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4 1522622518 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe 10                                                                                                                                                                                                         
+An unspend atomic swap contract could be found for the given outputID,
+and the given contract information matches the found contract\'s information, all good!
+
+Contract address: 02ecc57d75b1ed1601e46b69c311b7713ceb113961029273d880c1260d9dc946ee98758b522bfd
+Recipient address: 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975
+Refund address: 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Locktime: 1522622518 (2018-04-02 00:41:58 +0200 CEST)
+Locktime reached in: 47h57m29.144658028s
+```
+
+Alice (roc2) agrees with the contract and can see it exists and is unspend!
+She can also see that she has plenty of time to claim it (47+h).
+Now we can move over to tfchain, where Alice will start as the participant.
+Both parties will also have to share their addresses on this chain.
+Alice (tft2) has for now 1000 TFT, while Bob (tft1) still has none.
+After all, Bob wants to buy TFT...  
+
+<a id="7"></a>
+## Bob checks his TFT wallet
+```bash
+tft2 wallet                                                                                                                                                                                                                                                   
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   1000 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS  
+```
+
+<a id="8"></a>
+## Alice checks her TFT wallet
+```bash
+tft1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT 
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS  
+```
+<a id="9"></a>
+## Alice creates a new TFT address for sending the 42 TFT
+
+```bash
+tft2 wallet address
+Created new address: 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76
+```
+<a id="10"></a>
+## Bob creates a new TFT address for receiving the 42 TFT
+
+```bash
+tft1 wallet address
+Created new address: 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343 
+```
+<a id="11"></a>
+## Alice initiates a transaction to send the 42 TFT
+
+Check how to do it:
+```bash
+tft2 atomicswap participate
+Usage:
+tfchainc atomicswap participate dest amount hashedsecret [flags]
+
+Flags:
+    -d, --duration duration     the duration of the atomic swap contract, the amount of time the receiver has to collect (default 24h0m0s)
+     -h, --help                 help for participate
+     --src UnlockHash           optionally define a source address that is to be used for refunding purposes, one will be generated for you if none is given
+     
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port tfchaind is listening on) (default "localhost:23110")
+```
+
+Let's do it:
+```bash
+tft2 atomicswap participate 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343 42 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe --src 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76
+
+Contract address: 02ec2e3be81d311d4e3b009a5a0d92bd417f4bfd8463c36ce50065329a56ceffe02c357f5e8a8e
+Contract value: 42 TFT
+Recipient address: 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343
+Refund address: 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Locktime: 1522536430 (2018-04-01 00:47:10 +0200 CEST)
+Locktime reached in: 23h59m59.334535932s
+
+Publish atomic swap (participation) transaction? [Y/N] Yes
+published contract transaction
+
+OutputID: 63bebff30ae1a270b019dbce7f56a1e270475b6ee8deb538d2e1a9a83174c102
+```
+
+Alice (tft2) now shows the following info to Bob (tft1) on the same side channel:
+    + output ID
+    + sender and receiver address
+    + time lock
+    + hashed secret
+    
+Yes, basically the same kind of info as Bob was sharing for the initial contract.
+Bob will audit the contract of Alice once he receives the info. 
+<a id="12"></a>
+## Bob checks his TFT and ROC wallets
+
+TFT wallet:
+```bash
+tft1 wallet
+
+Wallet status:
+
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS 
+```
+
+ROC wallet:
+```bash
+roc1 wallet                                                                                                                                                                                                                                              
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+<a id="13"></a>
+## Alice checks her TFT and ROC wallets
+
+TFT wallet:
+```bash
+tft2 wallet 
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   1000 TFT
+Unconfirmed Delta:   - 42.1 TFT
+BlockStakes:         0 BS
+```
+
+ROC wallet:
+```bash
+roc2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+<a id="14"></a>
+## Bob checks the block height of his ThreeFold blockchain node 
+
+```bash
+tft1
+Synced: No
+Height: 230
+Progress (estimated): 0% 
+```
+<a id="15"></a>
+## Alice checks the block height of her ThreeFold blockchain node
+
+```bash
+tft2
+Synced: No
+Height: 230
+Progress (estimated): 0%
+```
+<a id="16"></a>
+## Check the Explorer for the same information
+
+```bash
+tfte
+Synced: No
+Height: 230
+Progress (estimated): 0%       
+```
+<a id="17"></a>
+## After a while Alice checks again her TFT wallet
+
+```bash
+tft2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   957.9 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+<a id="18"></a>
+## Bob also checks his TFT wallet
+
+```bash
+tft1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS 
+```
+<a id="19"></a>
+## Bob checks the info received information from Alice, through the explorer
+
+Check how to:
+```bash
+tfte atomicswap audit
+Usage:
+tfchainc atomicswap audit outputid|unlockhash dest src timelock hashedsecret [amount] [flags]
+
+Flags:
+    -h, --help   help for audit
+    
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port tfchaind is listening on) (default "localhost:23110")
+```
+
+Let's do it, using the `outputid`, not the `unlockhash`:
+```bash
+tfte atomicswap audit 63bebff30ae1a270b019dbce7f56a1e270475b6ee8deb538d2e1a9a83174c102 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76 1522536430 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe 42
+An unspend atomic swap contract could be found for the given outputID,
+and the given contract information matches the found contract\'s information, all good! :)
+
+Contract address: 02ec2e3be81d311d4e3b009a5a0d92bd417f4bfd8463c36ce50065329a56ceffe02c357f5e8a8e
+Recipient address: 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343
+Refund address: 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Locktime: 1522536430 (2018-04-01 00:47:10 +0200 CEST)
+Locktime reached in: 23h53m35.503495388s
+```
+
+Contract on ThreeFold chain was created, and Bob agrees with it.
+
+- output id exist
+- output is not yet used as an input, so not yet spend
+- ...
+- check the amount
+
+Now we come to the final part of the story. Bob will now claim these sappy threefold tokens, but by doing so he'll have to publish his secret, allowing alice to also claim her well deserved rivine coin
+
+<a id="20"></a>
+## Bob checks his wallets
+
+```bash
+tft1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+
+```bash
+roc1 wallet
+
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+<a id="21"></a>
+## Alice checks her wallets
+
+```bash
+tft2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   957.9 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+
+```bash
+roc2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+<a id="22"></a>
+## Bob claims the 42 TFT
+
+Check how to:
+```hash
+tft1 atomicswap claim
+
+    tfchainc atomicswap claim outputid secret dest src timelock hashedsecret amount [flags]
+
+Flags:
+    --audit   optionally audit the given contract information against the known contract info on the used explorer node
+    -h, --help    help for claim
+
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port tfchaind is listening on) (default "localhost:23110")
+Invalid amount of positional arguments given!
+```
+
+Let's do it:
+```bash
+tft1 atomicswap claim 63bebff30ae1a270b019dbce7f56a1e270475b6ee8deb538d2e1a9a83174c102 5ee89a7850d980d0467e084a4a61ec4a7edcf1f93117c85c867502d1255c06fc 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76 1522536430 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe 42 --audit
+
+An unspend atomic swap contract could be found for the given outputID,
+and the given contract information matches the found contract\'s information, all good! :)
+Contract address: 02ec2e3be81d311d4e3b009a5a0d92bd417f4bfd8463c36ce50065329a56ceffe02c357f5e8a8e
+Recipient address: 01e93d37652041bda699f8f00b1cb8a9d91c872a4065c8ffaeb00df15d480c41f4621ef6431343
+Refund address: 014adb25caf17a75d55b2a21e607370ffa126e3c0ca66245d537f3352a797c44360a19ce8b1d76
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Locktime: 1522536430 (2018-04-01 00:47:10 +0200 CEST)
+Locktime reached in: 23h51m3.585697173s
+Publish atomic swap claim transaction? [Y/N] Yes
+Published atomic swap claim transaction!
+Transaction ID: bc4743bd4476acfa91252d4ad660a6ee5d9993d30c69fd3a44d9483ce9e6f967
+> NOTE that this does NOT mean for 100% you\'ll have the money!
+> Due to potential forks, double spending, and any other possible issues your
+> claim might be declined by the network. Please check the network
+> (e.g. using a public explorer node or your own full node) to ensure> your payment went through. If not, try to audit the contract (again).
+```
+
+Bob now claimed these tokens, he is a bit mean though, and doesn't share the secret on the side channel... Is that it? Nope! Alice will just wait and than get the secret directly from ThreeFold Chain itself! Using an explorer...
+
+Bob doesn't even need to give the outputID, Alice can do it all using her own outputID, take that Bob! Ha! What a mean guy, last time I do business with him!
+
+<a id="23"></a>
+## Alice checks her wallets
+
+```bash
+tft2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   957.9 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+
+```bash
+roc2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+<a id="24"></a>
+## Bob checks his wallets
+
+```bash
+tft1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 41.9 TFT
+```
+
+```bash
+roc1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+
+<a id="25"></a>
+## Alice checks the Explorer in order to get the secret
+
+Check how to:
+```bash
+tfte atomicswap extractsecret
+Usage:
+tfchainc atomicswap extractsecret outputid [hashedsecret] [flags]
+
+Flags:
+    -h, --help   help for extractsecret
+    
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port tfchaind is listening on) (default "localhost:23110")
+```
+
+
+Do it:
+```bash
+tfte atomicswap extractsecret 63bebff30ae1a270b019dbce7f56a1e270475b6ee8deb538d2e1a9a83174c102 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Cannot extract secret! Atomic swap contract has not yet been claimed!
+```
+
+Wait and try again:
+```bash
+tfte atomicswap extractsecret 63bebff30ae1a270b019dbce7f56a1e270475b6ee8deb538d2e1a9a83174c102 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Atomic swap contract was claimed by recipient! Success! :)
+Extracted secret: 5ee89a7850d980d0467e084a4a61ec4a7edcf1f93117c85c867502d1255c06fc
+```
+<a id="26"></a>
+## Alice is now ready to receive the 10 ROC
+
+First let's see the current status of the ROC wallets:
+
+Bob:
+```bash
+roc1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+
+Alice:
+```bash
+roc2 wallet
+allet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+
+Now claim them. checking how:
+```bash
+roc2 atomicswap claim
+Usage:
+rivinec atomicswap claim outputid secret dest src timelock hashedsecret amount [flags]
+
+Flags:
+    --audit   optionally audit the given contract information against the known contract info on the used explorer node
+
+Global Flags:
+    -a, --addr string   which host/port to communicate with (i.e. the host/port Rivined is listening on) (default "localhost:23110")
+```
+
+...
+
+```bash
+roce atomicswap audit d5f4c028bff032c331088c19a50c0c5d0dc9341af287031ce80648514eea7b9f 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4 1522622518 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe 10
+
+An unspend atomic swap contract could be found for the given outputID,
+and the given contract information matches the found contract\'s information, all good! :)
+
+Contract address: 02ecc57d75b1ed1601e46b69c311b7713ceb113961029273d880c1260d9dc946ee98758b522bfd
+Recipient address: 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975
+Refund address: 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Locktime: 1522622518 (2018-04-02 00:41:58 +0200 CEST)
+Locktime reached in: 47h41m10.359794024s  
+```
+
+Check theRivine wallet of Bob:
+```bash
+roc1 wallet
+
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+
+Check the Rivine wallet of Alice:
+```bash
+roc2 wallet
+
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS 
+```
+
+And now finally the claim:
+
+```bash
+roc2 atomicswap claim d5f4c028bff032c331088c19a50c0c5d0dc9341af287031ce80648514eea7b9f 5ee89a7850d980d0467e084a4a61ec4a7edcf1f93117c85c867502d1255c06fc 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4 1522622518 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe 10
+
+Contract address: 02ecc57d75b1ed1601e46b69c311b7713ceb113961029273d880c1260d9dc946ee98758b522bfd
+Contract value: 10 ROC
+Recipient address: 011681dcd76df0f59669f4aa20978fc94072c7e51d86b4ee28b0949f8553d8f02fc4ea1969f975
+Refund address: 0141bc15a4b95b00a80e49c83c65d5b282e220ae4eb2a75df3cc426db3dd9c5ace6f3d03443bb4
+Hashed Secret: 39586302ea041b13820e6712dd6fdefa93b217bf2db5b89bca5cff664c6b9cbe
+Secret: 5ee89a7850d980d0467e084a4a61ec4a7edcf1f93117c85c867502d1255c06fc
+Locktime: 1522622518 (2018-04-02 00:41:58 +0200 CEST)
+Locktime reached in: 47h40m10.301713728s
+Publish atomic swap claim transaction? [Y/N] Y
+
+Published atomic swap claim transaction!
+Transaction ID: a5e20acd39bea4e8a1a5a9012198fa425e8398dcd2e5985dd289973547241f9e
+    > NOTE that this does NOT mean for 100% you\'ll have the money!
+    > Due to potential forks, double spending, and any other possible issues your
+    > claim might be declined by the network. Please check the network
+    > (e.g. using a public explorer node or your own full node) to ensure
+    > your payment went through. If not, try to audit the contract (again).
+```
+
+This is the end of the story,
+Bob managed to buy 42 TFT from Alice, giving 10 ROC in exchange.
+
+Is that a fair exchange price? Why not!
+Let's check the wallets one last time...
+
+<a id="27"></a>
+## Check the wallets of Bob
+
+Rivine:
+```bash
+roc1 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   989 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS
+```
+
+ThreeFold:
+```bash
+tft1 wallet
+Wallet status:Encrypted, Unlocked
+Confirmed Balance:   41.9 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+<a id="28"></a>
+## Check the wallets of Alice
+
+Rivine:
+```bash
+roc2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   9 ROC
+Unconfirmed Delta:   + 0 ROC
+BlockStakes:         0 BS       
+```
+
+ThreeFold:
+```bash
+tft2 wallet
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   957.9 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS 
+```# Run a TF Chain (blockchain) Node
+
+![](https://images.unsplash.com/photo-1494565108644-2af890493b92?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d03c0ba324a6c5279787ab9884b7371c&auto=format&fit=crop&w=1350&q=80)
+
+In order to create a ThreeFold Chain node you need the ThreeFold Chain daemon (`tfchaind`).
+
+See [Getting the ThreeFold Chain Binaries](get_binaries.md) for instructions on how to get the ThreeFold Chain daemon.
+
+In order to start the ThreeFold Chain daemon in the background execute:
+```bash
+tfchain_dir="<location where you installed the binaries>"
+cd $tfchain_dir
+./tfchaind &
+<ENTER>
+```
+
+This creates a ThreeFold Chain node on the **standard** network, in order to create a node on the **test** network use the `--network` (`-n`) option:
+```bash
+./tfchaind --network testnet & 
+```
+
+The standard network uses the following bootstrap nodes:
+- bootstrap1.threefoldtoken.com:23112
+- bootstrap2.threefoldtoken.com:23112
+- bootstrap3.threefoldtoken.com:23112
+- bootstrap4.threefoldtoken.com:23112
+
+A ThreeFold Chain Explorer for the standard network is available at https://explorer.threefoldtoken.com/
+
+Check that the daemon is running:
+```bash
+ps aux | grep tfchaind
+```
+
+Or use the `jobs` command to list the running processes in your current session.
+
+At any point you can switch the daemon to the foreground and stop it:
+```bash
+fg
+CTRL + c
+```
+
+See the [tfchaind documentation](https://github.com/threefoldfoundation/tfchain/blob/master/doc/tfchaind.md) for more details.# Get the ThreeFold Chain Binaries
+
+There are two ThreeFold Chain binaries: 
+- the ThreeFold Chain **client** (`tfchainc`)
+- and the ThreeFold Chain **daemon** (`tfchaind`)
+
+The ThreeFold Chain binaries are available for Mac OS, Linux and Windows from the [releases](https://github.com/threefoldfoundation/tfchain/releases) directory:
+
+![](../images/releases.png)
+
+From the command line download the zip file and extract it to any location of choice:
+```bash
+tfchain_dir="/tfchain"
+mkdir -p $tfchain_dir
+cd $tfchain_dir
+wget https://github.com/threefoldfoundation/tfchain/releases/download/v0.6.1/tfchain-v0.6.1-linux-amd64.zip
+apt-get install unzip
+unzip tfchain-v0.6.1-linux-amd64.zip 
+```# How to install the ThreeFold Chain Explorer
+
+![](https://images.unsplash.com/photo-1464746133101-a2c3f88e0dd9?ixlib=rb-0.3.5&s=d5b622e2ea747f0eaa17e73a2040031a&auto=format&fit=crop&w=1327&q=80)
+
+The Explorer for the testnet is currently available on: https://explorer.testnet.threefoldtoken.com and for the production net on https://explorer.threefoldtoken.com
+
+You can install your own instance of the Explorer on Linux, Mac or Windows.
+
+Below we discuss the steps to install the Explorer on Linux:
+- [Get the ThreeFold Chain binaries](#get-binaries)
+- [Start the ThreeFold Chain daemon](#start-daemon)
+- [Install Caddy](#install-caddy)
+- [Start Caddy](#get-explorer)
+
+> We highly recommend against installing the Explorer on the same host as your wallet.
+
+
+<a id="get-binaries"></a>
+## Get the ThreeFold Chain binaries
+
+In order to run your own Explorer, you first need to have a ThreeFold Chain node running on the same host, which requires the ThreeFold Chain daemon (`tfchaind`).
+
+See [Getting the ThreeFold Chain Binaries](get_binaries.md) for instructions on how to get the ThreeFold daemon.
+
+
+<a id="start-daemon"></a>
+## Start the ThreeFold Chain daemon
+
+Start the ThreeFold Chain daemon in the background:
+```bash
+tfchain_dir="/tfchain"
+cd $tfchain_dir/release/tfchain-v0.6.1-linux-amd64/cmd
+./tfchaind -M cgte &
+<ENTER>
+```
+
+<a id="install-caddy"></a>
+## Install Caddy
+
+From the command line:
+```bash
+sudo apt-get update && apt-get -y upgrade
+sudo apt-get install curl
+curl https://getcaddy.com | bash -s personal
+```
+
+
+<a id="get-explorer"></a>
+## Get the Explorer
+
+The explorer is available from the [threefoldfoundation/tfchain](https://github.com/threefoldfoundation/tfchain) GitHub repository.
+
+Clone the repository:
+```bash
+apt-get install git
+mkdir -p /opt/code/github/threefoldfoundation
+
+cd /opt/code/github/threefoldfoundation
+git clone https://github.com/threefoldfoundation/tfchain.git
+```
+
+<a id="start-caddy"></a>
+## Start Caddy
+
+From the command line:
+```bash
+cd /opt/code/github/threefoldfoundation/tfchain/frontend/explorer
+caddy -conf Caddyfile.local &
+```
+
+As result the Caddy server will be available on port 2015:
+
+http://<localhost>:2015/
+
+![](../images/explorer.png)
+# Getting started with the ThreeFold Wallet
+
+Here we discuss how to create and use the ThreeFold wallet from the command line.
+
+For this we use the ThreeFold Chain client, `tfchainc`.
+
+- [Get the ThreeFold Chain binaries](#get-binaries)
+- [Connecting to a ThreeFold Chain node](#connect-node)
+- [Initialize your ThreeFold wallet](#init-wallet)
+- [Unlock your ThreeFold wallet](#unlock-wallet)
+- [Manage your ThreeFold wallet addresses](#manage-addresses)
+- [Receive your first ThreeFold tokens](#receive-tokens)
+- [Send your first ThreeFold tokens](#send-tokens)
+- [Check transaction in the Explorer](#explorer)
+
+> We highly recommend against installing a wallet on the same host running a ThreeFold Chain Explorer
+
+
+<a id="get-binaries"></a>
+## Get the ThreeFold Chain binaries
+
+Creating and using a ThreeFold wallet from the command line is done through the **ThreeFold Chain client**, `tfchainc`. 
+
+See [Getting the ThreeFold Chain Binaries](get_binaries.md) for instructions on how to get the ThreeFold Chain client.
+
+
+<a id="connect-node"></a>
+## Connecting to a ThreeFold Chain node
+
+In order to use the ThreeFold Chain client (`tfchainc`) you need access to an active ThreeFold Chain node.
+
+You can optionally create your own ThreeFold Chain node, as documented in [Creating a ThreeFold Chain Node](create_node.md).
+
+Test the connection as follows, specifying the address and port of the node you want to connect to with the `--addr` (`-a`) option:
+```bash
+./tfchainc --addr <ip>:<port>
+```
+
+So in case you have a ThreeFold Chain node on the same host as the client, using the default port:
+```bash
+./tfchainc --addr localhost:23110
+```
+
+In this case you can even omit the `-addr` option, since `tfchainc` by default will try connect to a local daemon on port 23110:
+```bash
+./tfchainc
+```
+
+In what follows we will assume you have a local node listening on the default port.
+
+
+<a id="init-wallet"></a>
+## Initialize your ThreeFold wallet
+
+Initializing a new ThreeFold wallet is done by using the ThreeFold Chain client (`tfchainc`) as follows:
+```bash
+./tfchainc wallet init
+```
+
+This will ask you to enter and confirm a **passphrase**, and as a result you will get a **seed**, that will allow you to recover your wallet at any point, from any other computer. 
+
+> Make sure to save your seed in a safe place.
+
+
+<a id="unlock-wallet"></a>
+## Unlock your ThreeFold wallet
+
+When you check the status of your initialized wallet for the first time you will see that it is `Locked`:
+```bash
+./tfchainc wallet
+
+Wallet status:
+Unencrypted, Locked
+Unlock the wallet to view balance
+```
+
+To unlock execute:
+```bash
+./tfchainc wallet unlock
+```
+
+Trying to unlock your waller before initialing will result in a error stating that your wallet has not been encrypted yet.
+
+Once you entered your passphrase your wallet is ready to use:
+```bash
+./tfchainc wallet
+
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+
+
+<a id="manage-addresses"></a>
+## Manage your ThreeFold wallet addresses
+
+A new wallet is initialized with 10 addresses, here's how to list them:
+```bash
+./tfchainc wallet addresses
+
+01034498a5b73b0aeb79e4fe4e932f83fd4bff522032af3237d7addd0ab5b360242a7af0c0b83c
+010d0231a347f06ab59952176900dd597b378b3f53838a35e3d38debed667361fa4e730edeab91
+0119350596eb74e486a04ce32c3176348c77d698e1cf47e776bee3786186fb3db0e6cc097ea7fa
+011a8c47e21dbc472f77eee04cc4338bb8961ee4e264f26f1bcf76188378a7884f0aa745400805
+0130f14db8c4ae0a33846a93f383045f2f3843c257b7dd487433ccacddccac2756a0a54a1d7aeb
+01336a1354815b19ca2044efbb26538e84c1339bb5c06c647fc49d4916588af21e247712d06189
+013dfe12ef547a6cacd4ae6698a60a45153115ade5971966be6fe803b8e33c2b82f2dc9543db90
+014611cd2757c2cf7c64f0222829d486311254b3d517edc9a30daab0774ba32cd7d49d67e3f674
+01581491c4df68686171c88bb3c6e357cb985126cedd32b6d14a24b03ccd438843a2ecc93d5d4c
+0162634a892c43e9e71ff618f69959c8215a37a8d70e88a3d72f8bcc73f611abb04ebb82e47810
+016546f6f6088805f12ddc4de43fe1c4fa8044982ac6ecee368fcf2101ded85f394e2948930cf6
+0168625858a10bdf991c34677961fcb3ca98e33dfe2bc6132ec142ba486a972f09fc127d3d447e
+0175d6ec9474274d54c34c9755319daab56e75e4ef4f4cd9d3a14b980126f8f8c15184aa3b6916
+01785e0b22448d42b37ddfdc8d87612a550d708dd544b518525cd53a3a74819ab28612ff0791e0
+01a34cdeda0f5baa1d6e7e67b462380328f5254f84ab1caeba988e9c26ee3875d1ab4a7018616f
+01a569018f144c2def2bd0a67aa0ad675fa1f51afb295be9480be26e909d628ffa204ead5733f5
+01af06f1f2b4809a5c36363278682109a3ba1c2cc0f7441e06bb1596d6f8d665b9b85384b59d62
+01bb8e9391e0294ef77762e0708571477e9eaa590c0daf4ef8f9e39ccc0c6955759b4005d13df7
+01bc208266b4c3a8b86bd873da87caf0114096897777c99b30c21c13c88a90de5ac3a6a0b5abde
+01c65fa7ca80f1edc3c88f39d9e4f4290625fef1c08f6645ee0035c27fa9043c4e75d5f49198d7
+01da85aae2443fc46fe15f3a22017a6a0865da788d7e53c7214fe6b2011fc10da0d2f051ee3945
+01de5c2682f52c514175e689148068b588decadba1d053a55721ed75f2e6a7d2f4cdae83b2e60d
+01e8bb9e93e40015a1ab79653ab2f66a50bc3308de5a2e4f04d2fc05f1d7e869ef1c113ced1367
+01f138bfe2bfb3485a0d7a689703e706606a5a7bc430ec7fae87268b7d5ced86c9ba8174a0914d
+01f8bd5a75eb5b2cc4d06aab1eb106625f4982ceddd5e379ff3b721a3a17065e2e1daf25f644bc
+```
+
+In order to create a new address:
+```bash
+./tfchainc wallet address
+
+Created new address: 0150f4c2eb561d844da74dc9c4a673be4092bb3e8975d47dead6fc7954067c62a128e8d047c606
+```
+
+
+<a id="receive-tokens"></a>
+## Receive your first ThreeFold tokens
+
+Send one of your addresses to a token holder and ask him/her to transfer tokens to your Wallet.
+
+Once done you can check your wallet as follows:
+```bash
+./tfchainc wallet
+```
+
+While the transaction is being processed you will see the number of tokens that are being transferred next to **Unconfirmed Delta**:
+```bash
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   0 TFT
+Unconfirmed Delta:   + 100000 TFT
+BlockStakes:         0 BS
+```
+
+By executing the ThreeFold Chain client without any additional option (`./tfchainc`) you can check the `height` of the ThreeFold chain:
+```bash 
+Synced: Yes
+Block:  1f57f7f95e3f5ed16fd1dd0b3b8068b33d8766f5e647bcf2fe251837fa246a48
+Height: 35
+Target: [0 0 46 154 118 247 78 176 79 95 18 157 50 4 71 45 235 179 185 47 73 58 53 110 23 100 136 183 34 255 127 215]
+```
+
+Note that in this case the `height` is still `35`. Once the transaction is confirmed the `height` will be higher, at least `36`:
+```bash 
+Synced: Yes
+Block:  72cc5ebbfa62126287e71c7516a0d5e3ead91eaa73314b89dbe24880b9bd26eb
+Height: 36
+Target: [0 0 46 154 118 247 78 176 79 95 18 157 50 4 71 45 235 179 185 47 73 58 53 110 23 100 136 183 34 255 127 215]
+```
+
+Checking your wallet once the transaction is confirmed by executing `./tfchainc wallet` will show your updated **Confirmed Balance**:
+```bash
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   100000 TFT
+Unconfirmed Delta:   + 0 TFT
+BlockStakes:         0 BS
+```
+
+<a id="send-tokens"></a>
+## Send your first ThreeFold tokens
+
+First get an address from a friend, for instance: `01b22509f331e6c4ef268b82405bf9f69b957a7160e580424b75329ee83a6833c160fc4ffabef2`.
+
+In order to transfer 5 token execute:
+```bash
+./tfchainc wallet send coins 5 01b22509f331e6c4ef268b82405bf9f69b957a7160e580424b75329ee83a6833c160fc4ffabef2
+```
+
+You will get a confirmation:
+```bash
+Sent 5 TFT to 01b22509f331e6c4ef268b82405bf9f69b957a7160e580424b75329ee83a6833c160fc4ffabef2
+```
+
+When checking your wallet (`./tfchainc wallet`) while the transaction is being processed you'll see again an updated value next to **Unconfirmed Delta**:
+```bash
+Wallet status:
+Encrypted, Unlocked
+Confirmed Balance:   100000 TFT
+Unconfirmed Delta:   - 5.1 TFT
+BlockStakes:         0 BS
+```
+
+> Note the transaction fee of 0.1 TFT.
+
+
+Checking the ThreeFold chain (`./tfchainc`) while the transaction is being processed shows:
+```bash
+Height: 39
+Target: [0 0 46 154 118 247 78 176 79 95 18 157 50 4 71 45 235 179 185 47 73 58 53 110 23 100 136 183 34 255 127 215]
+```
+
+Once the transaction is confirmed you will see that the `height` will be `40` or higher. 
+
+<a id="explorer"></a>
+## Check transaction in the Explorer
+
+The ThreeFold Chain Explorer for the test network is available on https://explorer.testnet.threefoldtoken.com and for the standard net on https://explorer.threefoldtoken.com
+
+See [Install the ThreeFold Chain Explorer](tfchain_explorer.md) for instructions on how to setup your own ThreeFold Chain Explorer.
+
+Specify your receiving address `015c1172cb8f9a970c9bb6bcbd7a51e31b0d54e997db1709f751f107afb51e7601282c1c87b200` in the **Search by hash** field, which will show the **coin output** of your first transaction:
+
+![](../images/explorer1.png)
+
+
+Clicking the **Parent transaction** link shows the full transaction:
+
+![](../images/explorer2.png)
+
+
+Clicking the second output, brings you back to your updated (`Has Been Spent` changed to `Yes`) **coin output** of the transaction:  
+
+![](../images/explorer3.png)
+
+
+Clicking ID of the output:
+
+![](../images/explorer4.png)
+
+
+Clicking the parent transaction:
+
+![](../images/explorer5.png)# How to boot Zero-OS
+
+## Setup
+
+A typical setup will include a router to which the hosts are connected. Each host/node is connected to a racktivity device for power operations.
+
+A zerotier network needs to be created to access this setup. The user should have access to the network and have the required machines from which to connect joined to this network.
+
+
+### Setup diagram
+![diagram picture](https://docs.google.com/drawings/d/e/2PACX-1vS19x58a_V6ulx1PzdmyrAHqIxnOOrVzNIYji6_CklosivjrZVOkW2534LWgFmTDVAxpq6vmzPeN7Cy/pub?w=960&h=720)
+[edit picture](https://docs.google.com/drawings/d/1t5qFq8DfJfLGW-IdeO2llEPwFQc-ckR3RUo2YjxFni4/edit)
+
+### Router
+
+The following router models are supported:
+
+- linksys-wrt1200ac
+- linksys-wrt1900acs
+- linksys-wrt3200acm
+
+The router should be joined to the zerotier network and all access to the router would be done over that network. The router is connected to the hosts/nodes using a lan network and hosts all the network configuration for these nodes and the DHCP server. It should have [OpenWRT(lede)](https://openwrt.org/) installed.
+
+To setup the router follow the docs [here](https://github.com/Jumpscale/prefab9/blob/development/docs/prefab.zeroboot.md).
+
+### Racktivity device
+
+The supported models are:
+
+- PM0816-01
+- ES1108-16
+
+The racktivity device will be used to turn off/on the power to the nodes, which is useful for example to apply network configuration on a specific node.
+The racktivity device is connected to the same lan network as the router and the nodes.
+All the nodes need to be connected to the racktivity device and the port informtaion of each node should be known. The racktivity device can only be reached from within the internal network that includes the router and the nodes.
+
+### Zerotier network
+
+A zerotier network needs to be setup to provide a secure connection to the router from a remote machine. The router needs to be joined to this network as well as any machine that is going to connect to that router for configuration/setup.
+
+The router is joined automatically to the zerotier network during the router setup as explained in the router section.
+
+All relevant users should have access to that network in order to reach the network. Check the zerotier [manual](https://www.zerotier.com/manual.shtml) for more information.
+
+### JS9 host zero-boot client
+
+This is a machine that has a [JumpScale9](https://github.com/Jumpscale/core9/blob/development/README.md) installation and uses the `zeroboot client` to configure the router and the nodes.
+It allows several operations:
+
+- Change the lan network subnet
+- Addes a route so it is possible to connect to the racktivity device from this machine
+- Give static IP leases to the nodes
+- Configure the lease expiration time
+- Configure the boot of each node
+- Power operations like power cycling a list of nodes to re-apply network configuration
+
+Follow the docs [here](https://github.com/Jumpscale/lib9/blob/development/docs/clients/zeroboot_client.md) for more details about how to use the client.
+
+
+## Getting Started
+
+You can have a working setup by following the following steps:
+
+- Installing the router(Check [here](https://github.com/Jumpscale/prefab9/blob/development/docs/prefab.zeroboot.md))
+  - Install lede os
+  - Configure router to connect using prefab
+  - [Use prefab zeroboot to setup the router](https://github.com/Jumpscale/prefab9/blob/development/docs/prefab.zeroboot.md#install)
+- Managing hosts
+  - Adding nodes using the [client](https://github.com/jumpscale/lib9/blob/development/docs/clients/zeroboot_client.md#adding-a-host)
+  - Controlling node power: powercycle the required nodes to apply the configuration see [here](https://github.com/jumpscale/lib9/blob/development/docs/clients/zeroboot_client.md#power-operations)
+  - [configuring boot for a specific host](https://github.com/jumpscale/lib9/blob/development/docs/clients/zeroboot_client.md#configuring-pxe-boot)
+  - [Using 0-robot templates to set up services to manage the nodes and set up a reservation system](https://github.com/zero-os/0-boot-templates/blob/master/README.md)* [Farming](/)
+    * [Atomic swaps - what, how and when?](howto/atomic_swaps.md)
+    * [How to create a local TF Chain node](howto/create_node.md)
+    * [Where to get TF Chain binaries](howto/get_binaries.md)
+    * [HOw to install the TF Chain Explorer](howto/tfchain_explorer.md)
+    * [Getting started with the Wallet](howto/wallet.md)
+    * [How to boot ZERO-OS](howto/zero_boot_hardware.md)     
+
+# TFT-purchase agreement
+
+
+            * Name of the Purchaser           [FIRST, LAST NAME]
+            * Address of the Purchaser        [ADDRESS]
+            * Purchase Amount                 [PURCHASE AMOUNT]
+            * Purchase Price                  [xxxx U.S. cents (US $x.xx) TFT]
+
+This Agreement (“Agreement”) is entered into on this ___day of MMMMM YYYY (the “Effective Date”), by and between:
+The purchaser mentioned above (the “Purchaser”);
+and
+[Farmer]  (the “Company”), address and company register number;
+
+Concepts of the ThreeFold Grid are described in: 
+https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md
+
+Definitions as used in this Agreement, which are incorporated in this Agreement by reference, can be found at: https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md
+
+
+## 1. TFT Purchase Agreement
+Subject to the terms set out hereinafter, including Purchaser’s payment of the entire Purchase Amount, The Company sells and transfers to the Purchaser, and the Purchaser accepts and acquires, the entire rights and title to such number of TFTs corresponding to the Purchased Amount (converted, as the case may be, into US Dollars) divided by the TFT Purchase Price. The Purchaser will furthermore execute and deliver any and all other transactional documents related to this Agreement as may be reasonably requested by The Company. The Purchaser agrees the Terms And Conditions as stated at the end of this contract. 
+
+### 1.1. Delivery Date
+ꗃ TFT’s will be delivered right away.
+
+or
+
+ꗃ TFT’s will be delivered 5% per month starting _________ (month), 2018, in other words after 20    months starting _________ (month), 2018 all tokens will have been delivered to Purchaser.
+
+### 1.2. ThreeFold Grid (TF-Grid)
+
+At any point in time, The Purchaser is entitled to: 
+(a)	use TFTs to purchase IT capacity on the ThreeFold Grid through the ThreeFold Directory
+(b)	exchange the TFTs on the distributed TF Exchange. 
+(c)	use TFTs to purchase IT capacity from The Company
+
+
+## 2. Usable Utility
+At any point in time the Purchaser can buy capacity from the ThreeFold Grid against TFTs, this capacity is available globally and availability can be looked up in the TF Directory (which is registered in the TF Chain, which is the ThreeFold Blockchain).
+
+Next to the capacity on the TF Grid, capacity can be bought from The Company against TFTs under the following conditions (independent of token price on the market):
+
+
+    - 1 kubernetes unit (compute capacity) (as kubernetes/docker environment) = 
+                  - 1 GB of memory
+                  - 20 GB of storage 
+                  - 1 vCPU (virtual CPU)
+    - 1 storage bucket = 
+                  - 1000 GB of S3 storage (interface as defined by https://minio.io/)
+    - 1 network unit = 
+                  - 1 GB of transferred network capacity
+
+Maximum cost price for the units per month 
+
+
+    - 1 kubernetes unit	:  200 TFT
+    - 1 storage bucket	:  300 TFT 
+    - 1 network unit	:  depending location of the capacity 
+			               but no more than 2 TFT in Europe & US.
+
+Reservations need to be for at least one month using the Company’s provisioning robot or email. This capacity is hosted globally but at least in the UAE, Belgium or Sweden.
+
+## 3. Payment
+
+The Company will accept payment for TFTs purchased under this Agreement in U.S. Dollars, Euro, Pound Sterling, United Arab Emirates Dirham and specific cryptocurrencies (Bitcoin or Ethereum). Purchaser shall make the required payment to the Company pursuant to the Agreement within three business days from the Effective Date, as follows:
+
+If transferring cryptocurrencies:
+Please use Farmer’s Crypto wallets hosted by BitOasis Technologies FZE, at the following digital addresses:
+            Cryptocurrency: BTC
+            Digital Address: xxxxxxxxxxxxxxxxxxxxxxxxxx  
+            
+            Cryptocurrency: ETH
+            Digital Address: yyyyyyyyyyyyyyyyyyyyyyyyy
+
+If transferring from a bankse the following accounts: 
+            Account Type: 
+            Account Name: 
+            Bank Name:
+            Swift Code:
+            IBAN No. 
+
+
+If transferring from a bank OUTSIDE the UAE:
+
+You can choose to transfer funds via our 3rd Party Payment Processor (GCEN). This will result in reduced bank fees if transferring outside of the UAE.
+
+If choosing this method GCEN requires Purchaser to complete a “Know our Customer” (KYC) verification process. Only after Purchaser has been verified will they receive the bank information to transfers funds. Alternatively, Purchaser can always transfer funds directly to any of the above Emirates NBD accounts.
+
+For the purpose of this Agreement, the value of the Purchase Amount shall be deemed in U.S. Dollar even when the Purchaser pays in any other currencies mentioned above. 
+
+Conversion of other currencies to U.S. Dollars will be made as follows:
+
+
+For purchases made in Bitcoin, on the day on which the Bitcoin payment has been received by the Company in its Wallet, the Purchase Amount will be converted into AED first at the conversion rate, quoted by BitOasis Technologies FZE, and then immediately thereafter from AED in U.S. Dollars at the conversion rate quoted by Oanda.com, both on the receipt date at 11.59 PM Gulf Standard Time.
+For purchases made in EUR, GBP or AED, the Purchase Amount will be converted into U.S. Dollars as of the day of receipt by ThreeFold.
+4. Supplemental Terms and Conditions
+Both parties have read and explicitly agree with the following supplemental terms and conditions, which are incorporated in this Agreement by reference: https://docs.grid.tf/threefold/info/src/branch/master/legal/termsconditions.md
+
+
+Signed on the Effective Date in two copies, each of the Parties acknowledging having received one original. 
+
+
+The Company	[farmer]						Signature	
+
+
+
+The Purchaser	    						Signature	
+
+# Concept
+
+## ThreeFold (TF)
+
+The concept for creating a new internet by means of a new digital token.
+
+All the ideas and content created for this concept are opensource and stored in this repository.
+A group of volunteers and the ThreeFold Foundation maintain these repositories.
+
+Also look at the ThreeFold [website](https://threefoldtoken.com/).
+
+
+## ThreeFold Foundation (TFF)
+
+A non for profit organization who contribute to the ThreeFold concept.
+Meet them at https://threefoldtoken.com/team/
+The Foundation is a promotion and coordination organization.
+
+## ThreeFold Grid (TFG)
+
+The ThreeFold Grid is a new, global neutral and sustainable network of IT infrastructure. On this Grid, IT capacity is indexed registered on the TF Chain for easy discovery by purchasers.
+
+This Internet capacity is produced and allocated locally - similar to the way electricity and other utilities are purchased today. This allows any digital service or application provider to host their services and applications in proximity to the end user leading to significantly greater performance, a lower price point and better margins. This is both more cost effective and green.
+
+## IT Capacity
+
+- IT = Information Technology.
+- IT Capacity is resource availability for running any IT Workloads
+- Examples of IT Workloads which can run on the TFG are
+	- web applications
+	- archiving of data
+	- generic storage (e.g. using the S3 storage interface)
+	- container workloads (e.g. using the Kubernetes interface)
+	- artificial intelligence workloads
+	- big data workloads (processing of data)
+	- gaming servers
+	- content delivery
+	- test workloads for developers
+
+## ThreeFold Token (TFT)
+
+The ThreeFold Token is a digital Token which allows anyone to buy and sell IT Capacity on the TF Grid. This token only gets issued by the TF Chain if a TF Pool gets connected to the TF Grid.
+
+The TF Chain can issue a maximum of 100 billion tokens.
+
+## TF Chain (TFC)
+
+The blockchain technology as used by the ThreeFold Grid.
+This blockchain technology is used to
+
+- let you store & trade your TFTs
+- buy/sell capacity on the TFG
+- register capacity of the TFG
+- provision IT workloads on the TFG
+- ...
+
+see the following [github repos](https://github.com/rivine)
+
+## TF Operating System
+
+The ThreeFold Operating system is the software which makes it possible to convert any pool of hardware to become an ultra efficient pool of resource for the ThreeFold Grid.
+
+Based on
+
+- [Zero-OS](https://github.com/zero-os) = Ultra Efficient Stateless Operating System
+- [Jumpscale](https://github.com/Jumpscale/) = Automation Framework (self healing, ...)
+
+## TF Node
+
+- is a compute/storage server which provides IT Capacity as source for the Cloud Units
+- a TF Node is part of a Farming Pool
+- TF Nodes are owned by TF Farmers.
+- The TF Node runs the TF Operating System and TF Chain (TFC).
+
+
+## User
+
+- is the person/organization/company who buys capacity from the TF Grid
+- capacity can only be bought by means of TFTs
+
+## Cloud Units
+
+Units of IT capacity as sold from the TF Grid to Users.
+More info see [here](https://docs.grid.tf/threefold/info/src/branch/master/concepts/cloud_units.md)
+
+
+# ThreeFold Farming
+
+## ThreeFold Farming Pool (FP)
+
+A Pool of storage & compute hardware which allows to provision IT Capacity.
+
+Each Farming Pool consists out of TF Nodes which run the TF Operating System and TF Blockchain Software (TF Chain) which allows anyone in the world to use this IT capacity to host their IT workloads (storage apps, archive capacity, web applications, artificial intelligence, iOT, docker containers, etc). To use this IT Capacity, through the TF Grid, people need to own ThreeFold Tokens (“TFTs”) as they are the only possible mechanism to purchase this capacity on the TF Grid. As such, TFTs represent a true utility.
+
+
+## ThreeFold Farmer
+
+A ThreeFold Farmer is any organization or person who invests in a ThreeFold Farming Pool and connects this capacity to the ThreeFold Grid.
+
+As a result of Farming, i.e. creating additional capacity, ThreeFold Tokens are automatically created by the ThreeFold Chain.
+
+Farmers can cultivate both managed and/or unmanaged capacity.
+
+Farmers receive TFTs
+
+- as part of owning the TF Farming Pool (farming)
+- as part of selling capacity from the TF Farming Pool (cultivating)
+
+Most TF Farmers use a ThreeFold Cooperative to become active because it hugely simplifies the process and gives them often better pricing to purchase the Farming Pool as well as connecting the Farming Pool to the internet.
+
+The ThreeFold Farmer is the only party who owns the TF Farming Pool.
+
+## ThreeFold Cooperative
+
+Any organization who helps a TF Farmer to become active on the TF Grid.
+
+A Cooperative can supply any or all of following services.
+
+- Selling required hardware kit for the Farming Pool (compute, storage, networking) to the TF Farmer (and logistics around it).
+- Installing & testing the TF Operating System on the chosen hardware.
+- Burn in testing of the chosen hardware: make sure the hardware is reliable and works following expectations.
+- Configuration & Installation of the ThreeFold Farming Pool.
+- Registration & Initialization of the ThreeFold Farming Pool.
+- Delivering & Executing of hardware Warranty as specified on contract.
+- Creation and Delivery of the ThreeFold Mobile App for the TF Farmer (allow people worldwide to order capacity using TFTs for the Farming Pool.
+- Software support for the Farming Pool
+- Training of the TF Farmer about TF Concepts
+    - how to use the TF Wallet
+    - how to safely store the TFT's
+    - how to go from TFT's to fiat currency like USD/EUR (and visa versa)
+    - how to register pricing info on the TF Grid
+    - how to integrate a fiat currency payment gateway into existing ecommerce website for the sales of TFT's or TF IT Capacity (e.g. integration with Stripe or other payment mechanism)
+    - how to consult/register information on the TF Chain
+- Hosting Services
+    - all services related to connectivity to the internet (routing, denial of service, firewalling, ...)
+    - rackspace & other datacenter services
+    - monitoring of the infrastructure (hardware and software).
+- For Managed Capacity a Cooperative or TF Farmer will have to make an agreement with GIG.Tech to get the required software required to create a Managed Capacity Farming Pool (see below).
+
+## Unmanaged Capacity
+
+Unmanaged IT Capacity can exist everywhere; in people’s home, in mobile telephone masts, in utility cabinets, next to railways or motorways, anywhere where internet lines meet electrical outlets, any IT Hosting or Datacenter Facility. This capacity is deployed to the TF Grid and has no people involved to manage its operations (apart from the physical and network aspects).  Farmers have no access to the TF Nodes purchased. They can only use the capacity produced in the exact same way as any other user, i.e. through the TF Chain, in a secure private and neutral way, equally applicable to all.
+
+Unmanaged capacity provides the following 3 basic services
+
+- Storage Capacity = backend storage services which can be used as backend for more high level storage services like S3
+- Compute Capacity = backend compute capacity which can be used as backend for more high level compute services like Kubernetes.
+- Network Gateway Services: integration with ZeroTier network, HTTP(s) reverse proxy, DNS services, TCP Portforwarding.
+
+These basic services are ordered through the TF Chain only.
+SLA's (service level agreements) cannot be be guaranteed on Unmanaged Capacity and as such not registered in the TF Chain.
+
+## Managed Capacity
+
+Managed capacity is capacity that sits in a datacenter or other controlled environment where people operate and maintain supervision of the capacity connected to the TF Grid and published in the TF Directory. SLA (Service Level Agreements) are provided on this capacity like uptime, guaranteed bandwidth, response times, ...
+
+TF Farmers have access to the TF Nodes and to the GIG Tech Management Software around it.
+
+Features Only Available In A Managed Capacity Farming Pool
+
+- Published & Tracked (monitored) Service Level Agreements
+
+GIG Tech software provides additional capabilities for a Managed Farming Pool:
+
+- Monitoring & uptime management software.
+- OpenvCloud Portal (full blown software stack to allow management of thousands of nodes and VM's).
+- Virtual Machine support.
+- High Performance Storage (block) for virtual disks for VM's.
+- High Performance Networking support for VM's.
+- Seamless integration with enterprise networking solutions for VM's..
+- Integration with private Identity Management Solutions (e.g. LDAP, Active Directory, ...) (\*)
+- Lots of predefined managed application templates (self healing templates for apps)
+- Supports MS Windows (OS) and other Microsoft Applications
+
+*(\*) roadmap*
+
+A TF Farmer or TF Cooperative needs to have an agreement with GIG Tech in place. GIG Tech will supply the required software to allow the TF Farmer or TF Cooperative to connect this Managed Capacity to the TF Grid.
+
+# Legal
+
+## The Company
+
+The Company has been defined on the contract who refers to this document but can be any of the following:
+
+- The company or organization who is selling a service on the ThreeFold Grid.
+- The company who is selling/buying ThreeFold Tokens (TFTs) as capacity on the ThreeFold Grid.
+- The company who is helping a Farmer to become active on the ThreeFold Grid = a TF Cooperative.
+- The company who is selling the hardware and software required for a Farming Pool
+
+## The Product
+
+The Product is the ThreeFold Token or any service related to the ThreeFold Grid which can be bought by The Purchaser.
+The Product has been defined on the contract who refers to this document.
+
+## The Purchaser
+
+Is the person or company or organization who buys The Product from The Company
+
+
+## GIG Tech
+
+The software company who created the software enabling the ThreeFold Grid.
+GIG Tech is selling additional services and software to allow any TF Farmer to create a Managed Capacity Farming Pool.
+
+# Varia
+
+## TF Wallet
+
+A software application which allows anyone to consult how many TFTs they own and to make transfers of TFTs to other parties.
+The TF Wallet works together with the TF Chain.
+
+# ThreeFold Farming
+
+# ThreeFold Resource Pools
+
+![https://docs.google.com/drawings/d/1K1LuYRkD12QwIoZ-AduV-X_RxT1J5nUVt3D5vmerUUk/edit](https://docs.google.com/drawings/d/e/2PACX-1vT-dPplNVaQ1-3oWxrjvVsOjoDrdDZrb2t05BQ0WpFU02PucD_TC4cX5-lcdfxzodDJwwcjPgjYGyyP/pub?w=1440&h=810)
+
+## Resource Pool (RP)
+
+Is available capacity in a ThreeFold Farming Pool.
+There are typically more than 1 Resource Pool in a Farming Pool and Resource Pools can span multiple Farming Pools.
+
+A Resource Pool is linked to a User, a User is paying tokens for using the IT Capacity.
+A Farming Pool is linked to a Farmer, the Farmer receives tokens for providing the IT Capacity.
+
+## Resource Units (RU)
+
+Units of IT capacity as used in a RP, starting from hardware level. More info see [here](https://github.com/threefoldtoken/info/blob/master/concepts/resource_units.md).
+
+
+
+## Resource Bundle (always per TF Node) (Bundle)
+
+- is x number of resource units bundled
+- a Resource Bundle is always per TF Node
+- e.g. resource bundel type A = 1 cpu unit + 2 mem unit + 3 hd unit + 1 ssd unit
+- the resource bundles are defined by the Farmers, its basically a unit of capacity sold. Users cannot buy individual Resource Units, Users buy Resource Bundles by transfering TFT.
+
+## Resource Reservation (Reservation)
+
+- a reservation for X nr of Resource Bundles
+- a reservation is the contract between the User and the Farmer
+- has a starting date / end date
+- has a price linked to it
+- a Resource Pool is made up out of X nr of Resource Bundles.
+
+## TF Robots
+
+- There are 3 types of ThreeFold Robots see []()
+
+#  Example of farmer contracts
+
+
+        - Name of the Purchase        [First and Last name or Full Company name]
+        - Address of the Purchaser    [Address of Purchaser]
+        - Company registration number [Company registration number]
+        - Purchase Amount             [xxxxxxxxx]
+        - Offer number                [Companies offer / Contract number]
+
+This Agreement (“Agreement”) is entered into effective as of April 1, 2018 (the “Effective Date”), by and between:
+The purchaser mentioned above (the “Purchaser”) acting as TF Farmer;
+and
+[Farmer], is limited liability company, [Full Address an company register number];
+
+Concepts of the ThreeFold Grid are described in: 
+https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md
+
+Definitions used in this document are described in:
+https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md
+
+These definitions are incorporated in this Agreement by reference. Terms and expressions that are not defined elsewhere in this Agreement have the meaning set forth therein. The Purchaser confirms to have read these definitions and received a copy thereof.
+
+## 1. Purpose of this Agreement
+The Parties wish to cooperate based on the following principles:
+                * The Company shall provide hardware and services which enable the Purchaser to become a TF Farmer.
+                * the Purchaser shall pay an amount to the Company as set out in the first page above (the “Purchase Amount”) 
+                * The Company will deliver following hardware and services with a duration of 5 years of which the scope consists of 
+                * The hardware as described in Appendix A; and
+                * The services as described in Appendix B, in order to enable the Purchaser to connect the hardware to the TF Grid in view of                   Farming TFTs and  sell IT capacity services through the TF Grid, including a Managed Services to be provided by a third                       party subcontractor (GIG Technology NV).
+
+The Purchaser is willing to sell TFTs to any potential buyer as well as optionally to buy back TFTs . The price will be defined by The Purchaser.  During the first 3 months as from the date when the relevant hardware is first delivered to the Hosting Facility as referred to in section 2.3 below (the “Delivery Date”), the Purchaser agrees not to sell or buy TFTs for a price lower than US $0.1 or higher than US $0.14 to and from third parties (i.e. on the public market).
+
+## 2. TF Farming Pool Purchase Agreement
+### 2.1. Payment of the Purchase Amount
+The Company will accept payment for hardware and services under this Agreement in Euro. Purchaser shall make the required payment to the Company pursuant to the Agreement before April 1st, 2018.
+
+### 2.2. Purchase of the Farming Pool
+The Company hereby sells to the Purchaser, and the Purchaser hereby purchases from the Company, the hardware as defined in Appendix A (the “Farming Pool”).
+
+The Parties acknowledge that following this transaction the Farming Pool shall be owned by the Purchaser and shall remain the Purchaser’s property.
+
+### 2.3.  Installation of the Farming Pool
+Upon its delivery at the Company’s hosting facility as specified in Appendix A (the “Hosting Facility”), the Company shall do the initial install of the Farming Pool at the Hosting Facility and install the following  software (the “Software”) on the Farming Pool:
+                * Zero-OS (the operating system running on top of the TF Nodes) including the storage and compute capabilities;
+                * the monitoring and uptime management software for the Farming Pool;
+                * TF Chain (the blockchain component); and
+                * the TF Wallet and TF Mobile App which allows communication and easy ordering of IT Capacity.
+
+The Company will bring the Farming Pool delivered to Purchaser online and register the Farming Pool with the TF Grid as part of Purchaser’s  Farming capacity.
+
+The Purchaser hereby pays a fee in respect of the installation of the Farming Pool at the Hosting Facility (the “Installation Fee”) as as set out in Appendix A  6.6 hereto.
+
+### 2.4. Hosting services and internet connectivity
+As from its installation, the Company shall host the Farming Pool at the Hosting Facility.
+As part of the hosting, the Company will provide the following services to the Purchaser (the “Hosting Services”):
+                * all required rackspace in view of safely hosting the Farming Pool;
+                * all required power required for the Farming Pool;
+                * all required assistance to make sure that any and all parts of the Farming Pool get repaired in case of hardware issues;
+                * all required assistance to make sure that connectivity of Farming Pool to the internet is active (99.5% uptime is the                         minimal goal);
+                * remote hands when required in the Hosting Facility to maximize uptime of the Farming Pool (by addressing power, cabling,                       network... issues); and
+                * marketing services in view of effectively selling the IT Capacity to customers (including website, portal etc.).
+
+For the avoidance of doubt, the Parties acknowledge that the Company has no access to workloads running inside the Farming Pool. In this respect, the Company only monitors the uptime of the Farming Pool Nodes but cannot track what runs inside.
+
+In addition to the Purchase Amount, the Purchaser shall pay a fee to the Company in respect of the Hosting Services (the “Hosting Fee”) as as set out in Appendix A  hereto.
+
+Each calendar month the Hosting Fee shall be invoiced by the Company to the Purchaser at least 15 business days in advance, and the Purchaser shall pay the Hosting Fee to the Company prior to the first calendar day of each relevant month in accordance with the payment instructions set out in section 2.1. above.
+
+In the absence of timely payment of the Hosting Fee by the Purchaser, this Agreement shall be automatically terminated without further notice and without the need for prior intervention of a court. In such case the Company shall have the right to disconnect the Farming Pool from the TF Grid and to shut down power supply to the Farming Pool.
+
+### 2.5.  Services Provided by the Company
+The Company will provide the following services to the Purchaser (the “Services”) during the term of this Agreement, all as further set out in Appendix B hereto::
+                * Initial Installation of the Farming Pool at the Hosting Facility;
+                * Software defect support and required Farming Pool Software monitoring to detect Software defects.
+                * Hardware warranty relating to the hardware supplied by the Company in the Farming Pool;
+
+In addition thereto, the following services are included as part of the Services provided by the GIG Global Cloud Operations Centre (GCOC):
+                * 24 hours, 7 days a week, 365 days a year monitoring of the Farming Pool Software
+                * Technical support to resolve issues in relation to the Farming Pool Software
+                * Bug Fixing and Software upgrades
+
+All Services shall be delivered subject to the terms and limitations set out in Appendix B hereto.
+
+For the avoidance of doubt, the Parties acknowledge that the Company has no access to workloads running inside the Farming Pool. Furthermore, the Company has no control over, and cannot be held liable in respect of, the  TF Grid, TFTs and/or related concepts or entities, and the availability, enforceability and/or legality thereof.
+
+### 2.6.  Payment of TFTs to the Purchaser
+The TF Farmer receives TFTs in 3 ways.
+        1. As a result of connecting the Farming Pool to the TF Grid (“Farming”): XXXX TFTs  (total amount) are created (“Farmed”) as result              of connecting the Farming Pool to the internet during the entire term of this Agreement. This is all arranged by the TF Chain as              long as the Farming Pool stays connected to the internet.
+        2. the remnant of the € xxxxxx, being $ xxxxxx, tokens will be supplied a rateof $ x.xx per token which adds up to xxxxxxxx tokens
+        3. As a result of TF Users reserving capacity on the Farming Pool (“Cultivation”). 
+
+Provided that (1) payment of the Purchase Amount is received on Company’s account on or before April 1st, 2018, and (2) the Farming Pool remains connected to the TF Grid without interruption for 60 months as from when the Farming Pool is first connected to the TF Grid, a total amount of xxxx TFTs  will be Farmed, i.e. as a result of the monthly connection of the Farming Pool to the TF Grid for 60 subsequent months, these TFTs will be fully allocated through the TF Chain to the Purchaser. 
+
+Standstill token sales is 6 months for all tokens.
+
+Each 30 days the TF Chain will directly send the Farmed TFTs (1/60th of total amount) to the TF Wallet of the Purchaser provided always that the registered uptime for the Managed Farming Pool was achieved over the previous 30 days - this during maximum 60 periods of 30 days.
+
+The TF Chain runs the Zero-Robot software as used to provision workloads on the Farming Pool of the Purchaser. The TF Wallet connected to the Zero-Robot receives the funds from TF Users reserving capacity in the Farming Pool.
+
+The TFTs earned as a result of IT Capacity sales (cultivating) from the TF Farming Pool as described in this Agreement, will be allocated through the blockchain (TF Chain)  as follows:
+            * 60% of such TFTs will be allocated to the Purchaser (acting both as a TF Farmer and as a TF Farming Cooperative);
+            * 10% of such TFTs will be allocated to the TF Foundation for supporting the promotion of  the TF Grid;
+            * 10% of such TFTs will be allocated to the Company as an additional remuneration for all services provided to the Purchaser and
+            * 20% of such TFTs will be allocated to the GiG as license fee.
+
+## 3. Term and Termination
+The Agreement is entered into for a fixed term starting on the Effective Date and ending five (5) years as from the Delivery Date of the Farming Pool. 
+
+The Company cannot terminate this Agreement prior to its expiration date.
+
+The Purchaser can terminate this Agreement at any time prior to its expiration date with a minimum 3 months notice. 
+
+Standstill token sales is 6 months for all tokens.
+
+Upon receipt of a termination notice from the Purchaser, the Farming pool will be unregistered by the Company from the TF Chain, which means no TF User can order new capacity from the Farming Pool, the TF Chain will inform all impacted TF Users to migrate their workloads away to an alternative TF Farming Pool of choice.
+
+When terminated the Purchaser can use the hardware from the Farming Pool as described in this contract at its own discretion. Upon the Purchaser’s request the Company may even re-register the hardware as a new managed or unmanaged farming pool but the price of the TFT will be determined at that time and will be used by the TF Chain as a new start for farming (in other words all historical price increase benefits will be lost).
+
+## 4. Applicable Law 
+This Agreement and any dispute or claim, including non-contractual disputes or claims, arising out of or in connection with it or its subject matter or formation shall be governed by and construed in accordance with the National law.
+ 
+Each party irrevocably agrees that the competent courts of xxxxxxxxxx shall have exclusive jurisdiction to settle any dispute or claim, including non-contractual disputes or claims, arising out of or in connection with this Agreement or its subject matter or formation.
+
+
+## 5. Supplemental Terms and Conditions
+Both parties have read and explicitly accept the following supplemental terms and conditions, 
+which are incorporated in this Agreement by reference: https://docs.grid.tf/threefold/info/src/branch/master/legal/termsconditions.md
+
+
+
+
+                                                            *	*	*
+Signed on ______ Month, YYYY in two copies, each of the Parties acknowledging having received one original.
+
+
+The Farmer							         Signature              
+
+
+The Purchaser				                 Signature	
+
+
+# Supplemental Terms And Conditions
+
+## Information
+
+See the following link for used Definitions & ThreeFold Grid Concepts: [definitions](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md) and [concepts](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md)
+
+
+## Disclaimer
+
+The Company makes no warranty whatsoever, neither in its own name nor in the name of the ThreeFold Foundation, with respect to the TFTs, including any: (i) warranty of merchantability; (ii) warranty of fitness for a particular purpose; (iii) warranty of title; or (iv) warranty against infringement of intellectual property rights of a third party; whether arising by law, course of dealing, course of performance, usage of trade, or otherwise. except as expressly set forth herein, purchaser acknowledges that it has not relied upon any representation or warranty made by The Company, or any other person on the company's behalf. 
+
+## Limitation of Liability
+* **Exclusion of indirect damages.**  To the fullest extent permissible under applicable law, the Company shall not have any liability with respect to any claims arising out of or related to this Agreement for consequential, exemplary, special, indirect and/or punitive damages (such as  –but not limited to – loss of goodwill, loss of actual or anticipated business or contracts, work stoppage, loss as a result of a third party claim, data loss or corruption  of data, computer failure or lost profit), whether based in contract, or otherwise, even if the Company has been advised of the possibility of such damages.  
+* **Cap on damages.**  To the extent permissible under the applicable law the contractual and/or extra-contractual liability of Licensor arising out or related to this Agreement shall be limited to the Initial Investment Amount. This limitation is cumulative and not per incident. It applies to all causes of action and obligations in the aggregate, including without limitations, any claim of breach of contract and/or negligence.
+* **Prescription.**  No action in any form arising out of or in connection with this Agreement may be brought by the Purchaser more than one (1) year after the cause of action has accrued.
+* **No limitations for own intent.**  Nothing in this Agreement shall (or shall be deemed to, or construed to) exclude or restrict any liability either Party may incur as a result of fraud, willful intent or for any death or personal injury resulting from its gross negligence or that of its employees, agents or subcontractors.
+
+## Purchaser representations
+
+- The Purchaser has full legal capacity, power and authority to execute and deliver this Agreement and to perform its obligations hereunder. This Agreement constitutes valid and binding obligation of the Purchaser, enforceable in accordance with its terms, except as limited by bankruptcy, insolvency or other laws of general application relating to or affecting the enforcement of creditors’ rights generally and general principles of equity. 
+- The Purchaser is NOT a target person or entity under any restrictive measures in the framework of the EU Common Foreign and Security Policy.
+The Purchaser is, and has at all times been, in compliance in all material respects with each legal requirement that are applicable to him or her, or the ownership of their assets, relating to money laundering; 
+- The Purchaser has been advised that the ThreeFold Tokens or TFTs are NOT issued by any company or organization and are only registered in the TF BlockChain as an automatic action when a TF Farmer connects capacity to the network, as such they have not been registered under any country’s securities laws. The Purchaser is executing this Agreement for its own account, not as a nominee or agent. The Purchaser has such knowledge and experience in financial and business matters that the Purchaser is capable of evaluating the merits and risks of such purchase of tokens which correspond to IT capacity and is able to bear the economic risk of such investment for an indefinite period of time. The purchaser understands that the purchaser has no right against The Company or any other person except in the event of the Company’s breach of this agreement or intentional fraud. neither The Company nor its representatives shall be liable for consequential, indirect, incidental, special, exemplary, punitive or enhanced damages, lost profits or revenues or diminution in value, arising out of or relating to any breach of this agreement. 
+- The Purchaser understands that the Tokens involve risks, all of which the Purchaser fully and completely assumes. The Purchaser understands and expressly accepts that the Tokens will be created and delivered to the Purchaser at the sole risk of the Purchaser on an “AS IS” basis. The Purchaser understands and expressly accepts that the Purchaser has not relied on any representations or warranties made by the Company outside this Agreement, including, but not limited to, conversations of any kind, whether through oral or electronic communication, or any white paper. Without limiting the generality of the foregoing, the purchaser assumes all risk and liability for the results obtained by the use of any tokens and regardless of any oral or written statements made by the company, by way of technical advice or otherwise, related to the use of the tokens. 
+- The Purchaser understands that Purchaser bears sole responsibility for any taxes as a result of the matters and transactions the subject of this Agreement, and any future acquisition, ownership, use, sale or other disposition of Tokens held by the Purchaser. To the extent permitted by law, the Purchaser agrees to indemnify, defend and hold the Company or any of its affiliates, employees or agents (including developers, auditors, contractors or founders) harmless for any claim, liability, assessment or penalty with respect to any taxes (other than any net income taxes of the Company that result from the sale of Tokens to the Purchaser pursuant to Section 1 of the Agreement) associated with or arising from the Purchaser’s purchase of Tokens hereunder, or the use or ownership of Tokens.
+
+## Electronic Signatures and counterparts
+
+Each Party agrees that the electronic signatures, whether digital or encrypted, of the Parties included in this Agreement or any other agreement entered into between the Parties after the Effective date, are intended to authenticate such agreement and to have the same force and effect as manual signatures.  Delivery of a copy of this Agreement or any other document contemplated hereby bearing an original or electronic signature by facsimile transmission, by electronic mail in “portable document format” (“.pdf”) form, or by any other electronic means intended to preserve the original graphic and pictorial appearance of a document, will have the same effect as physical delivery of the paper document bearing an original or electronic signature.
+
+This Agreement may be authenticated in any number of counterparts, all of which taken together shall constitute one and the same instrument and any of the parties hereto may authenticate this Agreement by signing any such counterpart. This Agreement may be authenticated by manual signature, facsimile or electronic means, all of which shall be equally valid.
+
+
+## Assignment
+
+The Purchaser agrees that the Company may transfer and assign the Agreement in its discretion, provided a notice of such assignment is sent to the Purchaser within fifteen days of such assignment.  The Purchaser may not transfer, sell or assign its rights and obligations under this Agreement.
+
+## Amendments
+
+No amendment modifying, adding to or omitting from, or terminating this Agreement will be binding upon a Party unless made in writing and signed by or in the name of the Parties involved.
+
+## Partial Invalidity
+
+The nullity of one of the provisions of this Agreement shall have no bearing on the validity of the other provision of this Agreement.In such case the Parties to this Agreement shall in good faith negotiate on the provisions of this Agreement so that the same economic balance between the rights and obligations of the Parties to this Agreement are safeguarded to the same extent as if the invalid provision had been valid.
+* [Legal](/)
+    * [Definitions](legal/definitions.md)
+      * [Example contract: Buy TFT's](legal//buy_tfts_from_farmer_example_contract.md)
+      * [Example contract: Farming Pool](legal/farmer_buys_farmingpool_example_contract.md)
+      * [Terms and Conditions](legal/termsconditions.md)
+### Legal
+# Agile Collaboration
+
+![](https://images.unsplash.com/photo-1497005367839-6e852de72767?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2e700514c9f8e995a8c516db8c60978e&auto=format&fit=crop&w=1347&q=80)
+
+
+- [presentation](https://docs.google.com/presentation/d/1puEx8g8zi1Wnq8aYo0AnD7F_PklICJlFvBioN_9I6Qs/edit#slide=id.g35f391192_00)
+
+- [extranet](https://docs.grid.tf/dividi/efika/src/branch/master/readme.md)
+- [agile colaboration methods](https://docs.grid.tf/dividi/efika/src/branch/master/Efika_Agile)
+
+**[Zoom Meeting](https://zoom.us/recording/play/hwY7o6un9MPPuCW-AhySuZFRpTYbiWn9QlRyAIKioKy0uUvyGnrVLcW7S7aTWzD4)**# Do's and Don'ts to you TF Wallet
+
+![](https://images.unsplash.com/photo-1517254797898-04edd251bfb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a7f4ade3ba57339252bbddb50fc81ee&auto=format&fit=crop&w=1000&q=80&h=400))
+
+
+[Presentation](https://docs.google.com/presentation/d/1cyJ7QDfgQx77q3N7nHDRjRcJ4dp_X9-GjkDRfIKslXM/edit)
+
+
+**[Zoom Meeting](https://drive.google.com/drive/u/0/folders/1QhT814z1_e0v8ecM9D-JjO_7IwCjiOjo)**# Online Meetings Agenda
+
+
+![](../images/sea.png)
+
+## Meetings Done
+
+| description | time | information |
+| ---- | ---- | ---- |
+| architecture session TF/GIG Full Technology Stack 3.0 |  16 Apr | [info](https://docs.greenitglobe.com/gig/prod_roadmap_3x/src/branch/master/meetings/architecure1) | 
+| [agile collaboration](https://docs.grid.tf/threefold/info/src/branch/master/online_meetings/meetings/agile_collaboration.md) part 1|  16 April | [info](https://docs.grid.tf/threefold/info/src/branch/master/online_meetings/meetings/agile_collaboration.md) |
+| dos and don'ts for your TF Wallet | 16 Apr | [info](https://docs.grid.tf/threefold/info/src/branch/master/online_meetings/meeting/online_meeting_wallet.md) | 
+
+## Technology Meetings/Training Sessions
+
+- https://docs.greenitglobe.com/gig/prod_roadmap_3x/src/branch/master/training_program.md
+
+## Non Tech
+
+the links on the name are the zoom links needed to join the video conference.
+
+### week 16 April
+
+| description | time | who |
+| ---- | ---- | ---- |
+| ... | tbd | [kristof](https://zoom.us/my/kristof) |
+
+
+* [Farming](tf_farming/Farming.md)
+* [Online meeting store]()
+    * [Introduction](tf_farming/online_meetings/README.md)
+    * [Wallet presentation](tf_farming/online_meetings/online_meeting_wallet.md)
+    * [Agile Collaboration](tf_farming/online_meetings/agile_collaboration.md)
+Release instructions of TFT announcement
+
+FOR IMMEDIATE RELEASE
+
+Easter weekend launch
+We want to take 5 minutes of your time to help us share the news
+
+Please combine the elements below to create your social message:
+
+| IDEAS | |
+| ----- | ---- |
+| Copy | I’m egg-cited about the launch of the @threefold_fdn Token. Help us to build a new and neutral Internet (link below). Happy Easter! |
+| Insert link | https://threefoldtoken.com/information/press-release/ |
+| Insert hashtag(s) | #launch #movement #joinus #easterbunny "
+| Insert visual | See Graphics here: choose your format |
+
+Help us to spread the news as following:
+
+| Community outreach  | | |
+| ----- | ---- | ----- |
+| Telegram  | Public announcement starts in the English channel |  Sacha |
+| Telegram | Ambassador channel | Owen |
+| Telegram | Each of us with individual channels/groups | All |
+ 
+
+| Preferred Social Networks (ALL) | |
+| ----- | ---- |
+| Twitter |TF timeline + individual Twitter accounts |
+| LinkedIn | TF + GIG page + individual LinkedIn accounts |
+| Facebook | TF timeline + individual Facebook accounts |
+| Instagram | TF timeline + individual Instagram accounts |
+
+Success, and your support is very much appreciated. Have a good break… and let’s break the news!
+Your TF team
+
+PS. In case you could help with translations. See below.
+---
+
+This release is intended for English speaking communities (no restrictions of course)
+
+- Dutch version ready for release (Lucien)
+- Arabic version to follow (Adnan)
+- Italian version to follow (Paola)
+- [Spanish version] (https://docs.google.com/document/d/1GQt40fVMKQIT1caqUpNasbf5wZNfDhGXdBmadCCQ-3c/edit?usp=sharing) (Stela)
+- German version to follow (Andreas)
+- French version to follow (Sacha)
+- [Russian version](https://docs.google.com/document/d/1j8nYVfGKqGHIbAF1hreg8TEwuE1Z_k-iEScQu6tChsk/edit) (Nickolay)
+- Others, please suggest -...
+
+please put as text in this directory in this repo.
+
+Examples below
+
+![](example.png)
+
+![](example2.png)
+
+
+
+## ThreeFold Presentation Material:
+
+see all the masters in our [gdrive](https://drive.google.com/drive/folders/0B_dXq0dA11-sdHFtY2c1NE5NbUk?usp=sharing)
+
+finished presentations are in : TODO !!!
+
+## GIG Presentation Material
+
+see all the masters in our [gdrive](https://drive.google.com/drive/folders/1IQLlHYB8YGFNkbtubkFt0mxjXAQ5R1k1?usp=sharing)
+
+finished presentations are in : TODO !!!
+
+## goal is 
+
+- we make slidedecks in no other means then linking slides from the masters into the presentations we use in the field
+- ALL content for TF is in this master folder and at no other place, other preso's only link to these slides
+
+## Remarks
+
+- the slides in the masters are not useful as is, they are just a collection of slides which can be linked too
+- there is no structure nor flow in the master slides
+- there is lots of duplication in the master slides
+
+
+
+# What does a cooperative do
+
+![](../images/domore.png)
+
+## Why
+
+
+
+## Farmers can use cooperatives in multiple ways.
+
+### 1. Investor Only Model For Managed Or Unmanaged Capacity (main usecase)
+
+- Farmer goes to cooperative to understand model, benefits, potential ROI, ...
+    - Cooperative will help to make right decisions
+    - Cooperative is organizing training sessions as well.
+- Farmer signs contract (generic contract which explains how it works).
+    - framework agreement
+    - need to do form of KYC in relation to amount of money which will be spent
+    - could be different per location (tax, legal)
+- Farmer buys Tokens and gets tokens in his digitalme wallet (digitalme wallet does not belong to us).
+    - This is the investment done which can then be used to farm or just keep as tokens.
+    - Legally: tokens are a prepayment (as stated in framework agreement) for future hardware or services
+- Farmer makes selection on online tool (chat or web) and chose
+    - sell only boxes in stock of our assembly partner e.g. 3s3
+    - managed/unmanaged (new/refurb)
+    - amount, size & configuration of the nodes
+    - location of hosting for the hardware
+    - if support is required for the endusers using the capacity (additional fee)
+- Farmer will get detailed proposal/simulation
+    - simulation of tokens (from farming, from cultivation)
+    - amount of tokens required to purchase
+    - monthly cost
+- Farmer need to instruct his DigitalME that its ok the spend the required budget for this project.
+    - maximum in relation to cooperative in relation to time
+- A digital form of the contract will be created and digitally signed by both.
+- At setup the cooperative will
+    - send invoice to buyer
+    - request the required tokens out of the digitalme
+    - send instructions to partner to ship the box(es) to the right colo parties
+    - make sure colo-parties install & connect the nodes
+    - verify the nodes got online
+    - make sure the nodes get registered in the TF Grid
+- Each Month
+    - The farmed/cultivated tokens will come to the cooperative which will forward to the digitalme wallet minus the monthly costs & commissions.
+- Monthly the cooperative will
+    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services. 
+    - If managed capacity the cooperative will deduct 20% of the sold tokens and send to GIG.
+    - The cooperative will make sure colo parties get their tokens for their service
+    - 
+- Every month the farmer gets a report about
+    - uptime
+    - tokes farmed / cultivated
+    - free capacity
+- Farmed & Cultivated tokens are always send to the digitalme wallet
+
+### 2. Tech Farmer wants to buy nodes for unmanaged capacity
+
+Farmer wants to host himself (connectivity/bandwidth)
+
+- Farmer signs generic contract (generic contract which explains how it works).
+- Farmer buys Tokens and gets tokens in his digitalme wallet.
+    - This is the investment done which can then be used to farm or just keep as tokens.
+- Farmer makes selection on online tool (chat or web) and choses
+    - unmanaged (new)
+    - amount, size & configuration of the nodes
+- Farmer will get detailed proposal/simulation
+    - simulation of tokens (from farming, from cultivation)
+    - amount of tokens required to purchase
+- The cooperative will
+    - send invoice to buyer
+    - request the required tokens out of the digitalme
+    - send instructions to partner to ship the box(es) to the right Farmer
+    - verify the nodes got online (little bit of support, to be defined)
+    - make sure the nodes get registered in the TF Grid
+
+- Project done & closed from out of Cooperatives perspective
+
+### 3. Tech Farmer wants to buy nodes for managed capacity
+
+- Only cooperatives who have an agreement with GIG can provide this service.
+- see Investor Only Model till shipment of node.
+- The Farmed & Cultivated tokens go to Cooperative each month.
+- Cooperative will deduct GIG Commission 20% (is all automatic)
+- Cooperative will deduct support fee if any
+
+### 4. 100% Community driven
+
+- all cooperatives do best effort on community tools
+
+### 5. farmer has already the equipment unmanaged
+
+- see 4.
+
+### 6. farmer has already the equipment managed & big deal (???)
+
+- custom deal with cooperative for support/setup/gig license/...
+
+### 7. rent new managed farming nodes
+
+- see #1 but is pure monthly fee
+
+### 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
+
+- see #1 but is pure monthly fee
+
+## Typical margins
+
+- margin on hardware (as defined by cooperative) + costs for logistics for the 3 models.
+- +-5-10% for setup in case 1 (unless if special cases)
+- fee for training & support (to be paid with tokens)
+
+## Remarks
+
+- Sell hardware (in stock normally) which allows a Farmer to farm on TF Grid.
+
+
+## Product Selection
+
+- hardware box
+- colocation facility
+- managed/unmanaged capacity
+
+
+## Some principles
+
+### A farmer needs to have a digitalme service
+
+- this digitalme service will have multiple wallets integrated: BTC, ETH, TFT
+- the famer allows his digitalme to make payments to cooperative or colo provider with certain maximum amounts.
+- he originally bought tokens by farmer are send to his digitalme wallet
+- the farmer can at any point in time transfer tokens in or out of this dm wallet.
+
+* [Cooperatives](/)
+	* [Introduction](cooperatives/what_does_a_cooperative_do.md)
+	* [Bettertoken](cooperatives/what_does_a_cooperative_do.md)
+	* [Mazraa](cooperatives/what_does_a_cooperative_do.md)
+	* [GIG Europe](cooperatives/what_does_a_cooperative_do.md)
+# What does a cooperative do
+
+![](../images/domore.png)
+
+## Farmers can use cooperatives in multiple ways.
+
+### Option 1. Investor Only Model For Managed Or Unmanaged Capacity (main usecase)
+
+- Farmer goes to cooperative to understand model, benefits, potential ROI, ...
+    - Cooperative will help to make right decisions
+    - Cooperative is organizing training sessions as well.
+- Farmer signs contract (generic contract which explains how it works).
+    - framework agreement
+    - need to do form of KYC in relation to amount of money which will be spent
+    - could be different per location (tax, legal)
+- Farmer buys Tokens and gets tokens in his digitalme wallet (digitalme wallet does not belong to us).
+    - This is the investment done which can then be used to farm or just keep as tokens.
+    - Legally: tokens are a prepayment (as stated in framework agreement) for future hardware or services
+- Farmer makes selection on online tool (chat or web) and chose
+    - sell only boxes in stock of our assembly partner e.g. 3s3
+    - managed/unmanaged (new/refurb)
+    - amount, size & configuration of the nodes
+    - location of hosting for the hardware
+    - if support is required for the endusers using the capacity (additional fee)
+- Farmer will get detailed proposal/simulation
+    - simulation of tokens (from farming, from cultivation)
+    - amount of tokens required to purchase
+    - monthly cost
+- Farmer need to instruct his DigitalME that its ok the spend the required budget for this project.
+    - maximum in relation to cooperative in relation to time
+- A digital form of the contract will be created and digitally signed by both.
+- At setup the cooperative will
+    - send invoice to buyer
+    - request the required tokens out of the digitalme
+    - send instructions to partner to ship the box(es) to the right colo parties
+    - make sure colo-parties install & connect the nodes
+    - verify the nodes got online
+    - make sure the nodes get registered in the TF Grid
+- Each Month
+    - The farmed/cultivated tokens will come to the cooperative which will forward to the digitalme wallet minus the monthly costs & commissions.
+- Monthly the cooperative will
+    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services.
+    - If managed capacity the cooperative will deduct 20% of the sold tokens and send to GIG.
+    - The cooperative will make sure colo parties get their tokens for their service
+    -
+- Every month the farmer gets a report about
+    - uptime
+    - tokes farmed / cultivated
+    - free capacity
+- Farmed & Cultivated tokens are always send to the digitalme wallet
+
+### Option 2. Tech Farmer wants to buy nodes for unmanaged capacity
+
+Farmer wants to host himself (connectivity/bandwidth)
+
+- Farmer signs generic contract (generic contract which explains how it works).
+- Farmer buys Tokens and gets tokens in his digitalme wallet.
+    - This is the investment done which can then be used to farm or just keep as tokens.
+- Farmer makes selection on online tool (chat or web) and choses
+    - unmanaged (new)
+    - amount, size & configuration of the nodes
+- Farmer will get detailed proposal/simulation
+    - simulation of tokens (from farming, from cultivation)
+    - amount of tokens required to purchase
+- The cooperative will
+    - send invoice to buyer
+    - request the required tokens out of the digitalme
+    - send instructions to partner to ship the box(es) to the right Farmer
+    - verify the nodes got online (little bit of support, to be defined)
+    - make sure the nodes get registered in the TF Grid
+
+- Project done & closed from out of Cooperatives perspective
+
+### Option 3. Tech Farmer wants to buy nodes for managed capacity
+
+- Only cooperatives who have an agreement with GIG can provide this service.
+- see Investor Only Model till shipment of node.
+- The Farmed & Cultivated tokens go to Cooperative each month.
+- Cooperative will deduct GIG Commission 20% (is all automatic)
+- Cooperative will deduct support fee if any
+
+### Option 4. 100% Community driven
+
+- all cooperatives do best effort on community tools
+
+### Option 5. farmer has already the equipment unmanaged
+
+- see 4.
+
+### Option 6. farmer has already the equipment managed & big deal (???)
+
+- custom deal with cooperative for support/setup/gig license/...
+
+### Option 7. rent new managed farming nodes
+
+- see #1 but is pure monthly fee
+
+### Option 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
+
+- see #1 but is pure monthly fee
+
+## Typical margins
+
+- margin on hardware (as defined by cooperative) + costs for logistics for the 3 models.
+- +-5-10% for setup in case 1 (unless if special cases)
+- fee for training & support (to be paid with tokens)
+
+## Remarks
+
+- Sell hardware (in stock normally) which allows a Farmer to farm on TF Grid.
+
+
+## Product Selection
+
+- hardware box
+- colocation facility
+- managed/unmanaged capacity
+
+
+## Some principles
+
+### A farmer needs to have a digitalme service
+
+- this digitalme service will have multiple wallets integrated: BTC, ETH, TFT
+- the famer allows his digitalme to make payments to cooperative or colo provider with certain maximum amounts.
+- he originally bought tokens by farmer are send to his digitalme wallet
+- the farmer can at any point in time transfer tokens in or out of this dm wallet.
+### First beta file

@@ -1,6 +1,6 @@
 ## Token Generation Rules
 
-![](images/farmer.png)
+![](../images/farmer.png)
 
 A farmer earns tokens in 2 ways:
 
@@ -28,8 +28,8 @@ This document describes how farming tokens are issued in more detail.
     - Uptime needs to be good enough
 - Internet capacity needs to be everywhere (promote distribution)
 - Avoid abuse, people trying to cheat the system, e.g. dirty farming, or people who just add capacity to get tokens with no intent to sell capacity
-    
-    
+
+
 ## Farming pool types
 
 Three types:
@@ -46,7 +46,7 @@ Three types:
     - At least 99.5%, means max downtime of +-4h per month
     - Statistical information per farmer will be made available on TF Chain
 - Hardware requirements
-    - Only new hardware can be used, the TF Chain has a broad registered list of motherboards, cpu's, hard disk and SSDs 
+    - Only new hardware can be used, the TF Chain has a broad registered list of motherboards, cpu's, hard disk and SSDs
     - Any farmer can ask the Foundation to register new components, a large list of components is already pre-registered. Typically any mainstream hardware which can be bought in 2018 is registered.
 - Farming of tokens
     - Amount of Farming tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
@@ -102,7 +102,7 @@ Do you want to create your own cooperative, please contact the ThreeFold Foundat
 
 ## How to become a TF Farmer (without cooperative)
 
-Do you want to become your own TF Farmer, please become part of our early adopter program and we get you initiated in everything you need to know to be most successful as a TF Farmer. We will start mid April with online sessions. Before June 1 any TF Farmer hardware will be connected to our testnet (is our TF Grid made for testing purposes), this way your hardware capacity can be validated. 
+Do you want to become your own TF Farmer, please become part of our early adopter program and we get you initiated in everything you need to know to be most successful as a TF Farmer. We will start mid April with online sessions. Before June 1 any TF Farmer hardware will be connected to our testnet (is our TF Grid made for testing purposes), this way your hardware capacity can be validated.
 
 Your TF Hardware pool will be registered in the official TF Chain starting June 1.
 
@@ -152,22 +152,22 @@ Zero-OS measures [**Resource Units**](https://docs.grid.tf/threefold/info/src/br
 
 The 1.09 and 135 are calculated as follows (for details see following [sheet](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142))
 
-- 1090 = (70% Archive Capacity + 30% NAS Capacity) / 0.75 
+- 1090 = (70% Archive Capacity + 30% NAS Capacity) / 0.75
     -   0.75 is overhead for redundancy and some unused storage capacity
 -   135 = 50% temp ssd capacity + 40% std ssd capacity which is redundant + 10% high performance ssd capacity / 0.6
     -   0.6 is estimate of unused SSD capacity, what will not be used in future
 
-    
+
 These conversion parameters can be redefined together with difficulty level by 60% majority vote of ThreeFold Ambassadors.
 
 These rules are running as smart apps inside our TF Chain.
 
-A sheet exists to help you simulate your capacity and token creation, please contact the TF Foundation for help. 
+A sheet exists to help you simulate your capacity and token creation, please contact the TF Foundation for help.
 Link of this spreadsheet is [here](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142)
 
 
 <a id='imposed-retrospectively'></a>
-    
+
 ## Imposed retrospectively = time of registration counts
 
 At registration of the capacity the following parameters are registered:
@@ -182,12 +182,12 @@ At registration of the capacity the following parameters are registered:
 | date | registration date |
 | min percent utilization | minimum utilization degree before farming tokens are rewarded |
 | period duration | fixed on 30 days |
-| farming periods | nr of periods the farming tokens are rewarded | 
+| farming periods | nr of periods the farming tokens are rewarded |
 | farming pool size | in CU/SU and CRU/MRU/HRU/SRU |
 
 Some of above parameters are fixed & pre-defined during startup period (until end of July 2018), see above.
 
-Once registered the amount of tokens given per month and accumulated if the minimum required utilization has not been achieved yet are fixed by this digital contract registered in the TF Chain. 
+Once registered the amount of tokens given per month and accumulated if the minimum required utilization has not been achieved yet are fixed by this digital contract registered in the TF Chain.
 Even if the TF Ambassadors decide to change some of the parameters this will not have an impact on already registered TF farming pools.
 
 If a TF farming pool get unregistered e.g. because of 3 months breach of uptime then this contract becomes void.

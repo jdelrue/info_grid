@@ -1,6 +1,6 @@
 ## IT Services
 
-![](images/domore.png)
+![](../images/domore.png)
 
 @TODO NEEDS CLARIFICATION
 

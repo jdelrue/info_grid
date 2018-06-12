@@ -6,7 +6,7 @@ There are two ThreeFold Chain binaries:
 
 The ThreeFold Chain binaries are available for Mac OS, Linux and Windows from the [releases](https://github.com/threefoldfoundation/tfchain/releases) directory:
 
-![](images/releases.png)
+![](../images/releases.png)
 
 From the command line download the zip file and extract it to any location of choice:
 ```bash

@@ -1,6 +1,6 @@
 ## Concepts
 
-![](images/beach_collab.png)
+![](../images/beach_collab.png)
 
 * [Token generation rules](token_generation_rules.md)
 * [Cloud units](cloud_units.md)

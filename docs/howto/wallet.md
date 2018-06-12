@@ -223,24 +223,24 @@ See [Install the ThreeFold Chain Explorer](tfchain_explorer.md) for instructions
 
 Specify your receiving address `015c1172cb8f9a970c9bb6bcbd7a51e31b0d54e997db1709f751f107afb51e7601282c1c87b200` in the **Search by hash** field, which will show the **coin output** of your first transaction:
 
-![](images/explorer1.png)
+![](../images/explorer1.png)
 
 
 Clicking the **Parent transaction** link shows the full transaction:
 
-![](images/explorer2.png)
+![](../images/explorer2.png)
 
 
 Clicking the second output, brings you back to your updated (`Has Been Spent` changed to `Yes`) **coin output** of the transaction:  
 
-![](images/explorer3.png)
+![](../images/explorer3.png)
 
 
 Clicking ID of the output:
 
-![](images/explorer4.png)
+![](../images/explorer4.png)
 
 
 Clicking the parent transaction:
 
-![](images/explorer5.png)
+![](../images/explorer5.png)

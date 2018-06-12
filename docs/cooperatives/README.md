@@ -1,6 +1,6 @@
 # What does a cooperative do
 
-![](images/domore.png)
+![](../images/domore.png)
 
 ## Why
 

@@ -1,6 +1,6 @@
 ## ThreeFold Grid Concepts
 
-![](images/grid.png)
+![](../images/grid.png)
 
 ThreeFold Foundation is a nonprofit foundation which promotes a new global network of IT capacity. For more details see their website:  https://ThreeFoldtoken.com/. 
 

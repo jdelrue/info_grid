@@ -72,4 +72,4 @@ As result the Caddy server will be available on port 2015:
 
 http://<localhost>:2015/
 
-![](images/explorer.png)
+![](../images/explorer.png)
