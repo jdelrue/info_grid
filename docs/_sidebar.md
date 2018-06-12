@@ -1,4 +1,3 @@
-* [Cooperation](tf_farming/what_does_a_cooperative_do.md)
 * [Farming](tf_farming/Farming.md)
     * [How to setup your farm](tf_farming/farming_setup.md)
     * [More information on farming](tf_farming/farming_info.md)
@@ -8,6 +7,7 @@
     * [IT services](tf_farming/concepts/it_services.md)
     * [Provisioning](tf_farming/concepts/provisioning.md)
     * [Resource units](tf_farming/concepts/resource_units.md)
+* [Cooperation](tf_farming/what_does_a_cooperative_do.md)
 * [How to work with the TF Chain]()
     * [Introduction](tf_farming/howto/)
     * [How to do atomic swaps](tf_farming/howto/atomic_swaps.md)
