@@ -1,3 +1,3 @@
-* [Farming](/)
-    * [How to setup your farm](tf_farming/farming_setup.md)![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/../images/iyo-organizations.png)
+* ![](../images/new-small.png)[Farming](/)
+    * [How to set up your Farm](tf_farming/farming_setup.md)
     * [More information on farming](tf_farming/farming_info.md)
