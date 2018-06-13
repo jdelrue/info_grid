@@ -1,6 +1,6 @@
 # ThreeFold Grid (TF Grid)
 
-![](../images/grid.jpg)
+![](/images/grid.jpg)
 
 The ThreeFold Grid is a build by collective of independent people that together create a pool of Internet compute and storage capacity that fuels a crypto currency token economy resulting in a very stable currency that is used but sell and buy this capacity and many other items in the near future.
 
