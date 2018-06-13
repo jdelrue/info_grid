@@ -3,4 +3,3 @@
 	* [Mazraa](https://www.mazraa.io/)
 	* [Bancadati](/cooperatives/)
 	* [GIG Europe](https://www.gigeurope.tech/)
-	* [The Future Capacity](/cooperatives/)
