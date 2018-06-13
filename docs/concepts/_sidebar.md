@@ -1,4 +1,4 @@
-* [Concepts](/)
+* [Up](/)
     * [Token generation rules](concepts/token_generation_rules.md)
     * [Cloud units](concepts/cloud_units.md)
     * [IT services](concepts/it_services.md)

@@ -1,4 +1,4 @@
-* [Farming](/)
+* [Up](/)
     * [Atomic swaps - what, how and when?](howto/atomic_swaps.md)
     * [How to create a local TF Chain node](howto/create_node.md)
     * [Where to get TF Chain binaries](howto/get_binaries.md)

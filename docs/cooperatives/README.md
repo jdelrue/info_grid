@@ -1,23 +1,30 @@
-# What does a cooperative do
+# What are cooperatives and why do they exist?
 
-![](../images/domore.png)
+![](../images/cooperatives.png)
 
-## Why
+## Introduction
+
+The ThreeFold foundation has launched an end-to-end solution to launch and build the most stably (crypto)currency platform ever. In order to do this is has build technology that presents private, neutral, affordable and green internet capacity for anyone in the world to use and for many in the world to build.  Anyone can be a small google of amazon in this ecosystem.
+
+Many of us are able to learn and create this ecosysten technology in order to become self sufficient and contribute and earn TFT's, but not all of us.  Frp the ones that see the opportunities and believe in the values and goals of the ThreeFold foundation but have not got the time or interest to learn how and what to do there is a solution:  use a cooperative to take away most of the hassle of getting involved.
+
+People or organisations that want to become farmers can go to cooperatives to get most of the (technical) work done for a moderate feee.  Cooperatives will come into existence in differnet geographies of the world servicing different communities and needs.
+
+At this point in time there are about 6 cooperatives in existence.  Any of these cooperatives can assist you in becoming a ThreeFold Farmer and provides you with their specific locality, services and benefits.
+
+The ThreeFold foundation foresees a number of different types of cooperatives to come into existense.  The levels of engagement per type of coooperative may differ from type to type.  Here are a few different kinds of involvements that are forseen.
+
+## Type Nr. 1: Investor Only Model For Managed, Certified or Unmanaged Capacity
 
 
-
-## Farmers can use cooperatives in multiple ways.
-
-### 1. Investor Only Model For Managed Or Unmanaged Capacity (main usecase)
-
-- Farmer goes to cooperative to understand model, benefits, potential ROI, ...
+- Farmer goes to cooperative to understand model, benefits, potential ROI, etc.
     - Cooperative will help to make right decisions
-    - Cooperative is organizing training sessions as well.
+    - Cooperative is organising training sessions for the Farmer (staff).
 - Farmer signs contract (generic contract which explains how it works).
     - framework agreement
-    - need to do form of KYC in relation to amount of money which will be spent
-    - could be different per location (tax, legal)
-- Farmer buys Tokens and gets tokens in his digitalme wallet (digitalme wallet does not belong to us).
+    - need to do a form of (Kmnow Your Custopmer) KYC in relationship to amount of money which will be spent
+    - could be different per location (geography based tax and general legislation)
+- Farmer buys Tokens and gets tokens in his (digitalme) wallet.
     - This is the investment done which can then be used to farm or just keep as tokens.
     - Legally: tokens are a prepayment (as stated in framework agreement) for future hardware or services
 - Farmer makes selection on online tool (chat or web) and chose
@@ -43,17 +50,17 @@
 - Each Month
     - The farmed/cultivated tokens will come to the cooperative which will forward to the digitalme wallet minus the monthly costs & commissions.
 - Monthly the cooperative will
-    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services. 
+    - If there are not enough tokens farmed or cultivate for the monthly cost then the cooperative will request the required TFT's from the Farmers digitalme for bandwidth, colo & remote hands services.
     - If managed capacity the cooperative will deduct 20% of the sold tokens and send to GIG.
     - The cooperative will make sure colo parties get their tokens for their service
-    - 
+    -
 - Every month the farmer gets a report about
     - uptime
     - tokes farmed / cultivated
     - free capacity
 - Farmed & Cultivated tokens are always send to the digitalme wallet
 
-### 2. Tech Farmer wants to buy nodes for unmanaged capacity
+### Option 2. Tech Farmer wants to buy nodes for unmanaged capacity
 
 Farmer wants to host himself (connectivity/bandwidth)
 
@@ -75,7 +82,7 @@ Farmer wants to host himself (connectivity/bandwidth)
 
 - Project done & closed from out of Cooperatives perspective
 
-### 3. Tech Farmer wants to buy nodes for managed capacity
+### Option 3. Tech Farmer wants to buy nodes for managed capacity
 
 - Only cooperatives who have an agreement with GIG can provide this service.
 - see Investor Only Model till shipment of node.
@@ -83,23 +90,23 @@ Farmer wants to host himself (connectivity/bandwidth)
 - Cooperative will deduct GIG Commission 20% (is all automatic)
 - Cooperative will deduct support fee if any
 
-### 4. 100% Community driven
+### Option 4. 100% Community driven
 
 - all cooperatives do best effort on community tools
 
-### 5. farmer has already the equipment unmanaged
+### Option 5. farmer has already the equipment unmanaged
 
 - see 4.
 
-### 6. farmer has already the equipment managed & big deal (???)
+### Option 6. farmer has already the equipment managed & big deal (???)
 
 - custom deal with cooperative for support/setup/gig license/...
 
-### 7. rent new managed farming nodes
+### Option 7. rent new managed farming nodes
 
 - see #1 but is pure monthly fee
 
-### 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
+### Option 8. rent new unmanaged, refurbished farming nodes (not all coops will do this)
 
 - see #1 but is pure monthly fee
 
@@ -129,4 +136,3 @@ Farmer wants to host himself (connectivity/bandwidth)
 - the famer allows his digitalme to make payments to cooperative or colo provider with certain maximum amounts.
 - he originally bought tokens by farmer are send to his digitalme wallet
 - the farmer can at any point in time transfer tokens in or out of this dm wallet.
-
