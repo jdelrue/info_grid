@@ -20,7 +20,7 @@ There are some major challenges with the current foundation of the internet and 
 ## The solution
 The ThreeFold Foundation has the key to change the internet for good, and you might want to play a big role in this. And so can you! By becoming a farmer you are taking part in that process. You are contributing to a significant increase in Net Neutrality which has come under serious threat in recent years. You are helping to build a more sustainable Internet for generations to come by giving the internet back to the people.
 
-![](../images/TF_solution.png)
+![](../images/TF_S                                                                                                                                                                                                                                                                                                                                  olution.png)
 
 The ThreeFold foundation has created end-to-end technology that creates a very stable (crypto) currency with neutral. private and distributed capacity generating hardware as a financial backing mechanism and capacity creation.
 
