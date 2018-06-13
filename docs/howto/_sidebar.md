@@ -1,7 +1,0 @@
-* [Up](/)
-    * [Atomic swaps - what, how and when?](howto/atomic_swaps.md)
-    * [How to create a local TF Chain node](howto/create_node.md)
-    * [Where to get TF Chain binaries](howto/get_binaries.md)
-    * [HOw to install the TF Chain Explorer](howto/tfchain_explorer.md)
-    * [Getting started with the Wallet](howto/wallet.md)
-    * [How to boot ZERO-OS](howto/zero_boot_hardware.md)     

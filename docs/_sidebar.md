@@ -1,7 +1,9 @@
-* [Farming](/tf_farming/)
-* [Concepts](/concepts/)
+* [Farmers](/tf_farming/)
 * [Cooperatives](/cooperatives/)
+* [Developers](/developers/)
+* [Customers](/customers/)
+
+* [Concepts](/concepts/)
 * [Technology](/tf_technology/)
-* [How to work with the TF Chain](/howto/)
 * [Legal](/legal/)
 * [Online meeting store](/online_meetings/)
