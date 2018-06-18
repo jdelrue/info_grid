@@ -2,7 +2,7 @@
 * [Cooperatives](/cooperatives/)
 * [Developers](/developers/)
 * [Customers](/customers/)
-
+* [Blogs](/blogs/)
 * [Concepts](/concepts/)
 * [Technology](/tf_technology/)
 * [Legal](/legal/)
