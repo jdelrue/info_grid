@@ -1,10 +1,10 @@
-##Technology for a New Internet
+## Technology for a New Internet
 
 Our technology breaks with the traditional IT model. The Edge internet needs a different approach.
 
 Our open-source tech addresses the scalability, security, storage, energy and operating issues - by simplifying architectures and not relying on third party software. This drives down costs and improves efficiencies.
 
-###What is our Technology Toolbox?
+### What is our Technology Toolbox?
 
 Our technology is based on three primary building blocks:  Stateless Computing, Artificial Intelligence and Blockchain technology - this is the core of our “Technology Toolbox”
 
@@ -14,12 +14,11 @@ Our technology is based on three primary building blocks:  Stateless Computing, 
 
 - Blockchain Technology, via Rivine.io,  our secure, scalable “proof of stake” blockchain, along with our identity management platform, ItsYou.online. Our blockchain technology enables user authentication, access controls, secure workloads and heightened security.
 
-
-####Why Stateless Computing?
+#### Why Stateless Computing?
 
 The global Edge internet will be composed of thousands (millions?) of nodes distributed geographically.  This means the Edge internet must be powered by a stateless operating system that can be booted via the Internet (as opposed to living on the node locally). This removes the complexity of upgrades, truck rolls, etc  
 
-We have developed the open-source components, Zero-OS,(https://github.com/Zero-OS) for the deployment of bare metal machines functioning as Internet nodes and application hosts.  Our Zero-OS platform runs containerized applications and software code on secure and distributed IT infrastructure.  Zero-OS can be deployed on off-the-shelf hardware by anyone that is willing to make server and storage capacity available in their markets and within our network
+We have developed the open-source components  [Zero-OS](https://github.com/Zero-OS) for the deployment of bare metal machines functioning as Internet nodes and application hosts.  Our Zero-OS platform runs containerized applications and software code on secure and distributed IT infrastructure.  Zero-OS can be deployed on off-the-shelf hardware by anyone that is willing to make server and storage capacity available in their markets and within our network
 
 The benefits of Stateless Computing are substantial, including:
 - Performance: lightweight OS without overhead for running bare-metal machines
@@ -31,7 +30,7 @@ The benefits of Stateless Computing are substantial, including:
 - Secure: open-source distributed software with transparent code. No security backdoors
 - Green: energy-efficient OS resulting in very low node power consumption
 
-###Artificial Intelligence: Self healing and self driving
+### Artificial Intelligence: Self healing and self driving
 
 GIG has developed Jumpscale and At Your Service (AYS) which allows the creation of blueprints to auto-deploy applications within the compute environment.
 
@@ -44,7 +43,7 @@ The benefits of our Artificial Intelligence protocols include the following:
 - Lifecycle Management: the state of the infrastructure and the lifecycle of running applications are constantly checked and recorded.
 - Autoscaling: the platform automatically scales to meet application and infrastructure performance
 
-###Blockchain Technology: Executing workloads and applications via smart contracts using new consensus algorithms
+### Blockchain Technology: Executing workloads and applications via smart contracts using new consensus algorithms
 
 Our engineers developed new blockchain algorithms based on proof of stake for validation purposes and turned this into our Rivine.io open-source blockchain software
 
@@ -52,7 +51,7 @@ Unlike the “proof of work” blockchains that currently dominate the space, ou
 
 In addition to our blockchain technology, we have also developed itsyou.online, identity and access management platform.  Itsyou.online uses three factor authentication to manage access on our network and facilitate execution
 
-####The benefits of our blockchain technology and identity management platform include:
+#### The benefits of our blockchain technology and identity management platform include:
 
 - Green: our algorithms to reach consensus use a minimal amount of energy and electricity compared to other blockchain software and networks
 - Lowest possible cost of transactions make it an efficient and fast payment system
@@ -63,7 +62,7 @@ In addition to our blockchain technology, we have also developed itsyou.online, 
 
 All of our technology is open-source and can be accessed in the following Github Repos:
 
-Zero-OS:		 	https://github.com/Zero-OS
-Jumpscale: 			https://github.com/jumpscale
-At Your Service (AYS): 	https://github.com/Jumpscale/ays9
-Rivine: 			https://github.com/rivine/rivine
+- Zero-OS:		 	https://github.com/Zero-OS
+- Jumpscale: 			https://github.com/jumpscale
+- At Your Service (AYS): 	https://github.com/Jumpscale/ays9
+- Rivine: 			https://github.com/rivine/rivine

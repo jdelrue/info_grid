@@ -1,4 +1,4 @@
-## 10x Power Savings - is this possible
+## 10x Power Savings are possible!
 
 ### How do we achieve the efficient power usage in our Zero-OS node
 
