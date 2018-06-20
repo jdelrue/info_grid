@@ -8,5 +8,6 @@
   * [Concepts](/concepts/)
   * [Technology](/tf_technology/)
   * [Legal](/legal/)
+  * [Definitions](/definitions/)
   * [Presentations](/presentations/)
   * [Online meeting store](/online_meetings/)
