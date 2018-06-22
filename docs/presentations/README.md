@@ -1,5 +1,4 @@
 ## ThreeFold Presentation Material:
 
-
-- [see our foundation wiki for presentation info](https://threefoldfoundation.github.io/info_foundation/#/presentations/readme)
+See the [ThreeFound Foundation wiki](https://threefoldfoundation.github.io/info_foundation) for all presentations: https://threefoldfoundation.github.io/info_foundation/#/presentations/readme
 

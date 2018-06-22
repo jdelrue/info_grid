@@ -1,18 +1,26 @@
-# What are cooperatives and why do they exist?
+# ThreeFold Cooperatives
 
 ![](../images/cooperatives.png)
 
-## Introduction
+
+* [Bettertoken](https://bettertoken.com/)
+* [Mazraa](https://www.mazraa.io/)
+* [Bancadati](/cooperatives/)
+* [GIG Europe](https://www.gigeurope.tech/)
+
+
+
+## What are cooperatives and why do they exist?
 
 The ThreeFold foundation has launched an end-to-end solution to launch and build the most stably (crypto)currency platform ever. In order to do this is has build technology that presents private, neutral, affordable and green internet capacity for anyone in the world to use and for many in the world to build.  Anyone can be a small google of amazon in this ecosystem.
 
 Many of us are able to learn and create this ecosysten technology in order to become self sufficient and contribute and earn TFT's, but not all of us.  Frp the ones that see the opportunities and believe in the values and goals of the ThreeFold foundation but have not got the time or interest to learn how and what to do there is a solution:  use a cooperative to take away most of the hassle of getting involved.
 
-People or organisations that want to become farmers can go to cooperatives to get most of the (technical) work done for a moderate feee.  Cooperatives will come into existence in differnet geographies of the world servicing different communities and needs.
+People or organisations that want to become farmers can go to cooperatives to get most of the (technical) work done for a moderate feee.  Cooperatives will come into existence in different geographies of the world servicing different communities and needs.
 
 At this point in time there are about 6 cooperatives in existence.  Any of these cooperatives can assist you in becoming a ThreeFold Farmer and provides you with their specific locality, services and benefits.
 
-The ThreeFold foundation foresees a number of different types of cooperatives to come into existense.  The levels of engagement per type of coooperative may differ from type to type.  Here are a few different kinds of involvements that are forseen.
+The ThreeFold foundation foresees a number of different types of cooperatives to come into existence.  The levels of engagement per type of cooperative may differ from type to type.  Here are a few different kinds of involvements that are forseen.
 
 ## Type Nr. 1: Investor Only Model For Managed, Certified or Unmanaged Capacity
 
@@ -22,9 +30,9 @@ The ThreeFold foundation foresees a number of different types of cooperatives to
     - Cooperative is organising training sessions for the Farmer (staff).
 - Farmer signs contract (generic contract which explains how it works).
     - framework agreement
-    - need to do a form of (Kmnow Your Custopmer) KYC in relationship to amount of money which will be spent
+    - need to do a form of (Know Your Customer) KYC in relationship to amount of money which will be spent
     - could be different per location (geography based tax and general legislation)
-- Farmer buys Tokens and gets tokens in his (digitalme) wallet.
+- Farmer buys Tokens and gets tokens in his (digital.me) wallet.
     - This is the investment done which can then be used to farm or just keep as tokens.
     - Legally: tokens are a prepayment (as stated in framework agreement) for future hardware or services
 - Farmer makes selection on online tool (chat or web) and chose
@@ -32,7 +40,7 @@ The ThreeFold foundation foresees a number of different types of cooperatives to
     - managed/unmanaged (new/refurb)
     - amount, size & configuration of the nodes
     - location of hosting for the hardware
-    - if support is required for the endusers using the capacity (additional fee)
+    - if support is required for the end users using the capacity (additional fee)
 - Farmer will get detailed proposal/simulation
     - simulation of tokens (from farming, from cultivation)
     - amount of tokens required to purchase
@@ -58,14 +66,14 @@ The ThreeFold foundation foresees a number of different types of cooperatives to
     - uptime
     - tokes farmed / cultivated
     - free capacity
-- Farmed & Cultivated tokens are always send to the digitalme wallet
+- Farmed & Cultivated tokens are always send to the digital.me wallet
 
 ### Option 2. Tech Farmer wants to buy nodes for unmanaged capacity
 
 Farmer wants to host himself (connectivity/bandwidth)
 
 - Farmer signs generic contract (generic contract which explains how it works).
-- Farmer buys Tokens and gets tokens in his digitalme wallet.
+- Farmer buys Tokens and gets tokens in his digital.me wallet.
     - This is the investment done which can then be used to farm or just keep as tokens.
 - Farmer makes selection on online tool (chat or web) and choses
     - unmanaged (new)
@@ -75,7 +83,7 @@ Farmer wants to host himself (connectivity/bandwidth)
     - amount of tokens required to purchase
 - The cooperative will
     - send invoice to buyer
-    - request the required tokens out of the digitalme
+    - request the required tokens out of the digital.me
     - send instructions to partner to ship the box(es) to the right Farmer
     - verify the nodes got online (little bit of support, to be defined)
     - make sure the nodes get registered in the TF Grid
@@ -130,7 +138,7 @@ Farmer wants to host himself (connectivity/bandwidth)
 
 ## Some principles
 
-### A farmer needs to have a digitalme service
+### A farmer needs to have a digital.me service
 
 - this digitalme service will have multiple wallets integrated: BTC, ETH, TFT
 - the famer allows his digitalme to make payments to cooperative or colo provider with certain maximum amounts.

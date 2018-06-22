@@ -1,7 +1,4 @@
 # Definitions
 
-## Global definitions
+[ThreeFold Definitions](https://raw.githubusercontent.com/threefoldfoundation/home/info_foundation/docs/definitions/readme.md ':include :type=markdown')
 
-[Global definitions](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/readme.md ':include')
-
-## Grid specific definitions

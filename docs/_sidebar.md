@@ -1,4 +1,8 @@
-* How to participate
+* [Home](/)
+
+--- 
+
+* How to participate?
   * [Farmers](/tf_farming/)
   * [Cooperatives](/cooperatives/)
   * [Developers](/developers/)
@@ -10,4 +14,4 @@
   * [Legal](/legal/)
   * [Definitions](/definitions/)
   * [Presentations](/presentations/)
-  * [Online meeting store](/online_meetings/)
+  * [Online Meetings](/online_meetings/)

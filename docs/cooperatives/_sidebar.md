@@ -1,5 +1,6 @@
-* [Up](/)
-	* [Bettertoken](https://bettertoken.com/)
-	* [Mazraa](https://www.mazraa.io/)
-	* [Bancadati](/cooperatives/)
-	* [GIG Europe](https://www.gigeurope.tech/)
+* [Home](/)
+
+--- 
+
+* [Cooperatives](/cooperatives/README.md)
+
