@@ -1,4 +1,4 @@
 # Definitions
 
-[ThreeFold Definitions](https://raw.githubusercontent.com/threefoldfoundation/info_foundation/master/docs/definitions/readme.md ':include :type=markdown')
+Visit the [ThreeFound Foundation Wiki](https://threefoldfoundation.github.io/info_foundation) for all [ThreeFold Definitions](https://threefoldfoundation.github.io/info_foundation/#/definitions/).
 
