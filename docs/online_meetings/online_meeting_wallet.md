@@ -1,4 +1,4 @@
-# Do's and Don'ts to you TF Wallet
+# Dos and Don'ts for your ThreeFold Wallet
 
 ![](https://images.unsplash.com/photo-1517254797898-04edd251bfb3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8a7f4ade3ba57339252bbddb50fc81ee&auto=format&fit=crop&w=1000&q=80&h=400))
 
