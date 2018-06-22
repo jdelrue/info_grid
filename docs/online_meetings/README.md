@@ -1,6 +1,5 @@
 # Online Meetings
 
-
 ![](../images/sea.png)
 
 ## Meetings Done
