@@ -5,7 +5,7 @@
 This page collects a number of links to specific pages of information.
 
 ### [Get the ThreeFold Chain Binaries](/tf_farming/howto/get_binaries.md)
-Here you can find information if you are not willing to compile your owmn applications from the opensource source code.  These binaries havbe been compiled by our engineers and are made available for you to use them.
+Here you can find information if you are not willing to compile your own applications from the open source source code.  These binaries havbe been compiled by our engineers and are made available for you to use them.
 
 ### [Create a ThreeFold Chain Node](/tf_farming/howto/create_node.md)
 This is the place where you will find information on how to start your own TF Chain node for the standard network.  This allows you to examine and discover the ThreeFold Chain.
@@ -24,4 +24,4 @@ To become a farmer you need to have two ingredients:
   - First you need some hardware that has an intel processor, some RAM, SSD and HDD Capacity
   - Secondly you need to boot that hardware with the ZERO-OS operating system
 
-[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md) section will explain how to get a version of the ZERO-OS software configured and truned for your ewxact needs.
+[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md) section will explain how to get a version of the Zero-OS software configured and tuned for your exact needs.
