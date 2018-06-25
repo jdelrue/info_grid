@@ -1,4 +1,7 @@
-* [Up](/)
+* [Home](/)
+
+--- 
+* [Blogs]
   * [Ten time power saving are possible!](/blogs/10x_Power_Savings_is_this_possible.md)
   * [Technical blog on Edge computing.](/blogs/edge_computing_technical_wp.md)
   * [ThreeFolds open source technology](/blogs/our_open_source_technology.md)
