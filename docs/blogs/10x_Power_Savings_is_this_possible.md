@@ -1,1 +1,0 @@
-[10 times power savings, is this possible?](https://raw.githubusercontent.com/threefoldfoundation/info_foundation/blob/master/docs/blog/10x-times-power.md ':include :type=markdown')
