@@ -4,7 +4,7 @@
 
 In order to create a ThreeFold Chain node you need the ThreeFold Chain daemon (`tfchaind`).
 
-See [Getting the ThreeFold Chain Binaries](get_binaries.md) for instructions on how to get the ThreeFold Chain daemon.
+See [Getting the ThreeFold Chain Binaries](/technology/get_binaries.md) for instructions on how to get the ThreeFold Chain daemon.
 
 In order to start the ThreeFold Chain daemon in the background execute:
 ```bash
