@@ -10,7 +10,7 @@
 * How to get more information
   * [Presentations](/presentations/README.md)
   * [Concepts](/concepts/README.md)
-  * [Technology](/tf_technology/README.md)
+  * [Technology](/technology/README.md)
   * [Legal](/legal/README.md)
   * [Definitions](/definitions/README.md)
   * [Online Meetings](/online_meetings/README.md)

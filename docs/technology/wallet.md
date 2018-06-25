@@ -21,7 +21,7 @@ For this we use the ThreeFold Chain client, `tfchainc`.
 
 Creating and using a ThreeFold wallet from the command line is done through the **ThreeFold Chain client**, `tfchainc`. 
 
-See [Getting the ThreeFold Chain Binaries](/tf_technology/get_binaries.md) for instructions on how to get the ThreeFold Chain client.
+See [Getting the ThreeFold Chain Binaries](/technology/get_binaries.md) for instructions on how to get the ThreeFold Chain client.
 
 
 <a id="connect-node"></a>
@@ -29,7 +29,7 @@ See [Getting the ThreeFold Chain Binaries](/tf_technology/get_binaries.md) for i
 
 In order to use the ThreeFold Chain client (`tfchainc`) you need access to an active ThreeFold Chain node.
 
-You can optionally create your own ThreeFold Chain node, as documented in [Creating a ThreeFold Chain Node](/tf_technology/create_node.md).
+You can optionally create your own ThreeFold Chain node, as documented in [Creating a ThreeFold Chain Node](/technology/create_node.md).
 
 Test the connection as follows, specifying the address and port of the node you want to connect to with the `--addr` (`-a`) option:
 ```bash
@@ -219,7 +219,7 @@ Once the transaction is confirmed you will see that the `height` will be `40` or
 
 The ThreeFold Chain Explorer for the test network is available on https://explorer.testnet.threefoldtoken.com and for the standard net on https://explorer.threefoldtoken.com
 
-See [Install the ThreeFold Chain Explorer](/tf_technology/tfchain_explorer.md) for instructions on how to setup your own ThreeFold Chain Explorer.
+See [Install the ThreeFold Chain Explorer](/technology/tfchain_explorer.md) for instructions on how to setup your own ThreeFold Chain Explorer.
 
 Specify your receiving address `015c1172cb8f9a970c9bb6bcbd7a51e31b0d54e997db1709f751f107afb51e7601282c1c87b200` in the **Search by hash** field, which will show the **coin output** of your first transaction:
 
