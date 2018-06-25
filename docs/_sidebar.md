@@ -4,7 +4,7 @@
 
 * How to participate?
   * [Farmers](/tf_farming/README.md)
-  * [Cooperatives](/cooperatives/README.md)
+  * [Cooperatives](/tf_farming/text.md)
   * [Developers](/developers/README.md)
   * [Customers](/customers/README.md)
 * How to get more information
