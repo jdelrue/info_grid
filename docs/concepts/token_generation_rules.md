@@ -20,79 +20,61 @@ This document describes how farming tokens are issued in more detail.
 
 <a id='goals'></a>
 
-## Goals
+## Goal
 
-- TFTs are backed by [internet capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#it-capacity)
+- TFTs are backed by [internet capacity](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/it_capacity.md)
 - Internet capacity needs to be good enough
-    - Reliable hardware (good enough hard disks and SSDs, because data is stored on them)
-    - Uptime needs to be good enough
+- Reliable hardware (good enough hard disks and SSDs, because data is stored on them)
+ 	- Uptime needs to be good enough
 - Internet capacity needs to be everywhere (promote distribution)
 - Avoid abuse, people trying to cheat the system, e.g. dirty farming, or people who just add capacity to get tokens with no intent to sell capacity
 
 
-## Farming pool types
+## Farmer types
 
-Three types:
-- [Unmanaged New](#unmanaged-new)
-- [Unmanaged Refurb](#unmanaged-refurb)
-- [Managed](#managed)
+Two types of farmers:	
+- [Certified Farmers](#certified). Certified Farmers create certified TF Capacity
+- [Uncertified Farmers](#uncertified). Uncertified Farmers create uncertified Capacity
 
-<a id='unmanaged-new'></a>
+<a id=certified></a>
 
-### Unmanaged New
+### Certified Capacity
 
-- [Definition of Unmanaged Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#unmanaged-capacity)
+- [Definition of ThreeFold Capacity](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_capacity.md)
+- Uptime
+    - Farmer defines uptime guarantee depending on her/his production environment (connectivity, housing, power)
+    - Uptime history farmers is listed on the TF Chain
+- Hardware components: Certified hardware
+    - Certified hardware is supplied by ThreeFold certified cooperatives.  ThreeFold certified cooperatives are accredited by the ThreeFold foundation because they have proven to be compliant with the Certified Coop rules <<insert link>>
+- Farming and Cultivation tokens
+    - Amount of Farming tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+    - For certified farmers the difficulty level is set at 8.  The difficulty level is managed by the Guardians of the ThreeFold foundation.
+    - Farming Tokens get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) immediately.  This means the farmer has access to the tokens and can do with them what he wants.
+- Cultivation tokens are available immediately after capacity got sold.
+
+<a id='uncertified'></a>
+
+### Uncertified Capacity
+
+- [Definition of ThreeFold Capacity](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_capacity.md)
 - Uptime requirements
-    - At least 99.5%, means max downtime of +-4h per month
+    - Farmer defines uptime depending on her/his production environment (connectivity, housing, power)
     - Statistical information per farmer will be made available on TF Chain
 - Hardware requirements
-    - Only new hardware can be used, the TF Chain has a broad registered list of motherboards, cpu's, hard disk and SSDs
-    - Any farmer can ask the Foundation to register new components, a large list of components is already pre-registered. Typically any mainstream hardware which can be bought in 2018 is registered.
-- Farming of tokens
-    - Amount of Farming tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
-    - Difficulty level = 8
-    - Farming Tokens above Initial IT Capacity of 200 CU and 300 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 30% (this specific rule is valid from June 1). They get accumulated from connection time though.
-    - Cultivation tokens are available immediately.
-
-<a id='unmanaged-refurb'></a>
-
-### Unmanaged Refurb
-
-- [Definition of Unmanaged Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#unmanaged-capacity)
-- Uptime requirements
-    - Best effort, statistical information per farmer will be made available on TF Chain.
-- Hardware requirements
-    - Any hardware can be used, does not matter how old or new
+    - Any type of hardware can be used, This hardware can be new or refurbished.
 - Farming of tokens
     - Amount of tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
     - Difficulty level = 8
-    - Farming Tokens above Initial IT Capacity of 100 CU and 100 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 40% (this specific rule is valid from June 1). They get accumulated from connection time though.
-
-<a id='managed'></a>
-
-### Managed
-
-- [Definition of Managed Capacity](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#managed-capacity)
-- Managed capacity is mainly relevant for Hosters who want to go commercial and they need support and want to offer the highest possible uptime.
-- Uptime requirements
-    - At least 99.5%, means max downtime of +-4h per month, SLA (uptime) can be chosen by Farmer.
-    - Statistical information per farmer will be made available on TF Chain.
-- Hardware requirements
-    - Only selected new hardware can be used, the TF Chain has specifically for managed pools a registered list of motherboards, cpu's, hard disk and SSDs, this to guarantee best performance and uptime.
-- Farming of tokens
-    - Amount of tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
-    - Difficulty level = 6
-    - Farming Tokens above Initial IT Capacity of 400 CU and 400 SU only get released by [TF Chain](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#tf-chain-tfc) from moment [Farming Pool](https://docs.grid.tf/threefold/info/src/branch/master/legal/definitions.md#threefold-farming-pool-fp) used for more than 30% (this specific rule is valid from June 1). They get accumulated from connection time though.
-    - Cultivation tokens are available immediately.
-
-
+    - Farming Tokens only get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from moment [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) used for more than 30%. They get accumulated from connection time though.
+- Cultivation tokens are available immediately after capacity got sold.
+    
 <a id='existing-coops'></a>
 
 ## Existing Cooperatives active today !
 
 **You can become a TF Farmer today by using existing TF Cooperatives.**
 
-- See [inital cooperative directory](https://docs.grid.tf/threefold/info/src/branch/master/cooperatives.md)
+- See [inital cooperative directory](https://github.com/threefoldfoundation/info_grid/tree/master/docs/cooperatives)
 
 You can be part of these cooperatives, buy your hardware and be your own farmer. Please contact them for specific details. Each cooperative has their own commercial offerings to allow you to become a farmer starting today.
 
@@ -133,7 +115,7 @@ Important: TF token pricing in public market can be different.
 
 ## Capacity Measurements
 
-Zero-OS measures [**Resource Units**](https://docs.grid.tf/threefold/info/src/branch/master/concepts/resource_units.md) and registers this in the TF Chain.
+Zero-OS measures [**Resource Units**](https://github.com/threefoldfoundation/info_grid/blob/master/docs/concepts/resource_units.md) and registers this in the TF Chain.
 
 | Unit type | Description | Code |
 | --- | --- | --- |
@@ -142,7 +124,7 @@ Zero-OS measures [**Resource Units**](https://docs.grid.tf/threefold/info/src/br
 | hd unit       | 1 GB raw storage capacity | HRU |
 | ssd unit      | 1 GB	raw storage capacity | SRU |
 
-[Cloud Unit](https://docs.grid.tf/threefold/info/src/branch/master/concepts/cloud_units.md) capacity is calculated as follows:
+[Cloud Unit](https://github.com/threefoldfoundation/info_grid/blob/master/docs/concepts/cloud_units.md) capacity is calculated as follows:
 
 | Cloud unit type | Calculation | Description |
 | --- | --- | --- |
