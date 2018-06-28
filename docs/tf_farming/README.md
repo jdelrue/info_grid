@@ -1,4 +1,4 @@
-## ThreeFold Farming
+# ThreeFold Farming
 
 - [Introduction](#introduction)
 - [The problem](#theproblem)
