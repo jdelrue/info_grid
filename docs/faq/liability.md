@@ -1,0 +1,3 @@
+# Is the farmer legally liable for information stored on their nodes which is illicit/illegal or in contribution to illegal actions?
+
+The farmers own the hardware and rents out capacity to others. This is a similar model as to what web hosting and managed services have been doing for decades. Per region and country there is specific legislation that a farmer needs to comply with. In general there is legislation which makes the consumer of capacity responsible for the data on the rented capacity, taking away the liability for that from the farmer.

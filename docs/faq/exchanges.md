@@ -1,0 +1,3 @@
+# Is the ThreeFold token publicly traded on exchanges? If so, which exchanges?
+
+The ThreeFold token is traded on a small number of exchanges. These exchanges are small niche exchanges like BTC-Alpha. We do not chase established exchanges as we do not believe that the future of the ThreeFold token lies in trading mechanisms that are centralized. ThreeFold is working on a distributed exchange facility which will live on the ThreeFold Grid. It will allow ThreeFold farmers, investors and users to go in and out of the token economy without passing by a central exchange (and without paying any transaction fees).
