@@ -24,3 +24,9 @@
 - [Will ThreeFold be able to restrict malicious content?](/faq/malicious_content.md)
 - [Is there a conflict between the ThreeFold Grid pricing and pricing set by individual farmers?](/faq/pricing_conflicts.md)
 - [How can I be assured of performance?](/faq/performance.md)
+
+
+## FAQs on other Wikis
+
+- [ThreeFold Foundation Wiki FAQ](https://threefoldfoundation.github.io/info_foundation/#/faq/README)
+- [ThreeFold Tokens Wiki FAQ](https://threefoldfoundation.github.io/info_tokens/#/faq/README)
