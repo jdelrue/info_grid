@@ -1,5 +1,7 @@
 # Frequently Asked Questions
 
+![FAQ](img/faq.jpeg)
+
 ## [Developers](/faq/developers/README.md)
 - [Do you have industry information regarding software developers creating applications on the ThreeFold Grid?](/faq/applications.md)
 
