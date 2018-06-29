@@ -16,8 +16,6 @@
     * [Node Workloads](/faq/node_workloads.md)
     * [Capacity Rules](/faq/capacity_rules.md)
     * [Proof of Stake](/faq/proof_of_stake.md)
-    * [Technical Requirements](/faq/technical_requirements.md)  
-    * [Capacity Dependency](/faq/capacity_dependency.md)
     * [How to Compete](/faq/compete.md)
     * [Promote Application Development](/faq/promote_appdev.md)
     * [Malicious Content](/faq/malicious_content.md)

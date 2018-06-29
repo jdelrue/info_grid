@@ -1,1 +1,0 @@
-[Current Value](https://raw.githubusercontent.com/threefoldfoundation/info_tokens/master/docs/faq/current_value.md ':include :type=markdown')
