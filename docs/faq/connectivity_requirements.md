@@ -18,7 +18,7 @@ Bandwidth requirements can be estimated based on uses cases on the capacity.  In
 The assumptions are the following:
 - each logical core requires 10GB of data per virtual core per month and
 - each TB of storage 40GB of data per TB of storage in the systems.
-- for connectivity we use the following formula to come to actual transport (nr. of GB's transferred on a 1mbps connectivity line): ```(1/8)*(3600*24*30)/1000*0.6```.  The formula converts from bits to bytes (```1/8```) and then calculates the number of bytes (megabytes) tranfered per month coming from a line speed per second (```3600*24*30```).  Last conversion is done to go to GBytes (```/1000```) and take on board network saturisation (you cannot go above ```60%``` because of saturation of physical transport layber).  This gives a usable transport of **194GB** per 1mbps of connectivity.
+- for connectivity we use the following formula to come to actual transport (nr. of GB's transferred on a 1mbps connectivity line): ```(1/8)*(3600*24*30)/1000*0.6```.  The formula converts from bits to bytes ```(1/8)``` and then calculates the number of bytes (megabytes) transfered per month coming from a line speed per second ```(3600*24*30)```.  Last conversion is done to go to GBytes ```(/1000)``` and take on board network saturisation (you cannot go above ```60%``` because of saturation of physical transport layer).  This gives a usable transport of **194GB** per 1mbps of connectivity.
 
 What these number tell us is that each core present in a capacity pool requires 10GB of data transfer (in and out - connectivity is symmetrical) and each TB of storage requires 40GB of transport.  Connectivity wise we can transport 194GB of data by each 1 mbps of connecotvity.
 
