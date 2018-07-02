@@ -1,0 +1,1 @@
+[Getting started with the Zero-OS Node Robot](https://docs.greenitglobe.com/gig/prod_roadmap_3x/raw/branch/master/meetings/getting_started_with_node_robot.md ':include :type=markdown')
