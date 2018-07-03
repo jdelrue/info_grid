@@ -32,9 +32,10 @@ This document describes how farming tokens are issued in more detail.
 
 ## Farmer types
 
-Two types of farmers:	
-- Farmers who create certified ThreeFold Capacity
-- Farmers who create uncertified ThreeFold Capacity
+Three types of farmers:	
+- Cooperative Farmers who create certified ThreeFold Capacity
+- Individual Farmers who create certified ThreeFold Capacity
+- DIY Farmers who create uncertified ThreeFold Capacity
 
 <a id=certified></a>
 
