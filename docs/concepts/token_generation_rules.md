@@ -33,8 +33,8 @@ This document describes how farming tokens are issued in more detail.
 ## Farmer types
 
 Two types of farmers:	
-- [Certified Farmers](#certified). Certified Farmers create certified TF Capacity
-- [Uncertified Farmers](#uncertified). Uncertified Farmers create uncertified Capacity
+- Farmers who create certified ThreeFold Capacity
+- Farmers who create uncertified ThreeFold Capacity
 
 <a id=certified></a>
 
@@ -45,10 +45,10 @@ Two types of farmers:
     - Farmer defines uptime guarantee depending on her/his production environment (connectivity, housing, power)
     - Uptime history farmers is listed on the TF Chain
 - Hardware components: Certified hardware
-    - Certified hardware is supplied by ThreeFold certified cooperatives.  ThreeFold certified cooperatives are accredited by the ThreeFold foundation because they have proven to be compliant with the Certified Coop rules <<insert link>>
+    - Certified hardware is supplied by ThreeFold certified cooperatives. ThreeFold certified cooperatives are accredited by the ThreeFold foundation because they have proven to be compliant with the Certified Coop rules <<insert link>>
 - Farming and Cultivation tokens
-    - Amount of Farming tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
-    - For certified farmers the difficulty level is set at 8.  The difficulty level is managed by the Guardians of the ThreeFold foundation.
+    - Amount of Farming tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
+    - For certified hardware the difficulty level is set at 8. The difficulty level is managed by the Guardians of the ThreeFold foundation.
     - Farming Tokens get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) immediately.  This means the farmer has access to the tokens and can do with them what he wants.
 - Cultivation tokens are available immediately after capacity got sold.
 
@@ -65,7 +65,7 @@ Two types of farmers:
 - Farming of tokens
     - Amount of tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
     - Difficulty level = 8
-    - Farming Tokens only get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from moment [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) used for more than 30%. They get accumulated from connection time though.
+    - Farming Tokens only get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from the moment the [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) used for more than 30%. They get accumulated from connection time though.
 - Cultivation tokens are available immediately after capacity got sold.
     
 <a id='existing-coops'></a>
@@ -99,7 +99,7 @@ These rules are registered in the TF Chain.
 
 Important: TF token pricing in public market can be different.
 
-- Token generation rules see this [link](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+- Token generation rules see this [link](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md#creation-of-tfts)
 - TFT token price used for registration = US $0.1
 - Also see [Capacity measurement](#capacity-measurements) here below
 - During this startup period the sales prices of SU/CU are fixed:
@@ -132,7 +132,7 @@ Zero-OS measures [**Resource Units**](https://github.com/threefoldfoundation/inf
 | 1 SU | #SRU / 135 | nr of SRU (SSD HD capacity) / 135 |
 | 1 CU | min(#CRU,#MRU/4,#SRU/20) * 0.9 | minimum of nr of cores, mem /4 and min requirement of 20 GB SSD per CU, with 10% overhead |
 
-The 1.09 and 135 are calculated as follows (for details see following [sheet](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142))
+The 1.09 and 135 are calculated as follows (for details see following [sheet](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142
 
 - 1090 = (70% Archive Capacity + 30% NAS Capacity) / 0.75
     -   0.75 is overhead for redundancy and some unused storage capacity
@@ -145,7 +145,7 @@ These conversion parameters can be redefined together with difficulty level by 6
 These rules are running as smart apps inside our TF Chain.
 
 A sheet exists to help you simulate your capacity and token creation, please contact the TF Foundation for help.
-Link of this spreadsheet is [here](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142)
+Link of this spreadsheet is [here](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=374757817)
 
 
 <a id='imposed-retrospectively'></a>
@@ -160,7 +160,7 @@ At registration of the capacity the following parameters are registered:
 | token price | token price at the moment of registration |
 | sales price cloud units | sales price of CU & SU for chosen Farming Pool Type at registration |
 | resource conversion units | conversion units from resource to cloud units (1090, 135, ...) |
-| uptime = SLA |  only relevant for managed Resource Pool, min required uptime (for unmanaged new = 99.5%) |
+| uptime = SLA |  only relevant for managed Resource Pool, min required uptime (for other capacity = 99.5%) |
 | date | registration date |
 | min percent utilization | minimum utilization degree before farming tokens are rewarded |
 | period duration | fixed on 30 days |
@@ -172,4 +172,4 @@ Some of above parameters are fixed & pre-defined during startup period (until en
 Once registered the amount of tokens given per month and accumulated if the minimum required utilization has not been achieved yet are fixed by this digital contract registered in the TF Chain.
 Even if the TF Ambassadors decide to change some of the parameters this will not have an impact on already registered TF farming pools.
 
-If a TF farming pool get unregistered e.g. because of 3 months breach of uptime then this contract becomes void.
+If a TF farming pool gets unregistered e.g. because of 3 months breach of uptime then this contract becomes void.
