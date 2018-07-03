@@ -63,7 +63,7 @@ Two types of farmers:
 - Hardware requirements
     - Any type of hardware can be used, This hardware can be new or refurbished.
 - Farming of tokens
-    - Amount of tokens see rules of [Creation of TFTs](https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md#creation-of-tfts)
+    - Amount of tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
     - Difficulty level = 8
     - Farming Tokens only get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from moment [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) used for more than 30%. They get accumulated from connection time though.
 - Cultivation tokens are available immediately after capacity got sold.
