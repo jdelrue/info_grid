@@ -2,12 +2,12 @@
 
 ![](../images/farmer.png)
 
-A farmer earns tokens in 2 ways:
+A Farmer earns tokens in 2 ways:
 
-- Farming tokens: as a result of connecting IT hardware to the internet, ThreeFold tokens are farmed
-- Cultivation tokens: as a result of selling capacity from their farming pools to ThreeFold users
+- Farmed Tokens: as a result of connecting IT hardware to the internet, ThreeFold tokens are generated
+- Cultivated Tokens: as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
 
-This document describes how farming tokens are issued in more detail.
+This document describes how Farming Tokens are issued in more detail.
 
 - [Goals](#goals)
 - [Existing Cooperatives](#existing-coops)
@@ -33,9 +33,9 @@ This document describes how farming tokens are issued in more detail.
 ## Farmer types
 
 Three types of farmers:	
-- Cooperative Farmers who create certified ThreeFold Capacity
-- Individual Farmers who create certified ThreeFold Capacity
-- DIY Farmers who create uncertified ThreeFold Capacity
+- Cooperative Farmers: purchase a range of services from a ThreeFold Cooperative up to and including, ThreeFold Certified Hardware, installation, location, power and connectivity
+- Individual Farmers: create certified ThreeFold Capacity using ThreeFold Certified Hardware but complete their own installation, and providing their own location, power and connectivity
+- DIY Farmers: who create uncertified ThreeFold Capacity using their own choice of hardware
 
 <a id=certified></a>
 
@@ -43,15 +43,15 @@ Three types of farmers:
 
 - [Definition of ThreeFold Capacity](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_capacity.md)
 - Uptime
-    - Farmer defines uptime guarantee depending on her/his production environment (connectivity, housing, power)
-    - Uptime history farmers is listed on the TF Chain
-- Hardware components: Certified hardware
-    - Certified hardware is supplied by ThreeFold certified cooperatives. ThreeFold certified cooperatives are accredited by the ThreeFold foundation because they have proven to be compliant with the Certified Coop rules <<insert link>>
-- Farming and Cultivation tokens
-    - Amount of Farming tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
-    - For certified hardware the difficulty level is set at 8. The difficulty level is managed by the Guardians of the ThreeFold foundation.
-    - Farming Tokens get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) immediately.  This means the farmer has access to the tokens and can do with them what he wants.
-- Cultivation tokens are available immediately after capacity got sold.
+    - Farmer defines an uptime guarantee appropriate for their production environment (connectivity, housing, power)
+    - Uptime history of the Farmer's Farming Pool is listed on the TF Chain
+- Hardware components: TF Certified Hardware
+    - TF Certified Hardware is supplied by ThreeFold Certified Cooperatives. ThreeFold Certified Cooperatives are accredited by the ThreeFold foundation because they have proven they are compliant with the Certified Coop rules <<insert link>>
+- Farmed and Cultivated Tokens
+    - Amount of Farmed Tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
+    - For Certified Hardware the difficulty level is currently set at 8. The difficulty level is managed by the Guardians of the ThreeFold Foundation.
+    - Because Certified Hardware is being used, Farmed Tokens are released by the [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) immediately.  This means the Farmer has access to the tokens and can do with them what they want.
+- Cultivated Tokens are available immediately after capacity has been utilized.
 
 <a id='uncertified'></a>
 
@@ -59,19 +59,19 @@ Three types of farmers:
 
 - [Definition of ThreeFold Capacity](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_capacity.md)
 - Uptime requirements
-    - Farmer defines uptime depending on her/his production environment (connectivity, housing, power)
-    - Statistical information per farmer will be made available on TF Chain
+    - Farmer defines an uptime guarantee appropriate for their production environment (connectivity, housing, power)
+    - Uptime history of the Farmer's Farming Pool is listed on the TF Chain
 - Hardware requirements
-    - Any type of hardware can be used, This hardware can be new or refurbished.
+    - Any type of hardware can be used. This hardware can be new or refurbished.
 - Farming of tokens
-    - Amount of tokens see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
-    - Difficulty level = 8
-    - Farming Tokens only get released by [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from the moment the [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) used for more than 30%. They get accumulated from connection time though.
-- Cultivation tokens are available immediately after capacity got sold.
+    - For amount of tokens generated, see rules of [Creation of TFTs](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/threefold_principles.md)
+    - For Uncertified Hardware the difficulty level is currently set at 8, currently the same as for Certified Hardware. The difficulty level is managed by the Guardians of the ThreeFold Foundation.
+    - Because Uncertified Hardware is being used, Farmed Tokens are released by the [TF Chain](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_chain.md) from the moment the [Farming Pool](https://github.com/threefoldfoundation/info_foundation/blob/master/docs/definitions/threefold_farming_pool.md) of the Farmer has more than 30% utilization. Please note: Farmed Tokens are accumulated from the moment of connection, the 30% rule is to ensure that Farmers list usable capacity.
+- Cultivated Tokens are available immediately after capacity has been utilized.
     
 <a id='existing-coops'></a>
 
-## Existing Cooperatives active today !
+## Existing Cooperatives active today!
 
 **You can become a TF Farmer today by using existing TF Cooperatives.**
 
