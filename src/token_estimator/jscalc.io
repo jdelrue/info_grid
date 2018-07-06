@@ -10,18 +10,15 @@ var cu1 = cru ;
 var cu2 = mru/4 ;
 var cu3 = sru/20 ;
 
+var cu_prize = 14;
+var su_prize = 12;
+
+var difficulty = 8;
+var nr_months = 60;
 
 // 3 conditions to make sure we cannot have 0 cores, 0 memory or zero SSD - if so
 // calculation default to 0
-if (cu1 === 0 ) {
-  return {cu: 0, su: 0, tokens: 0, tokenearnings: 0 } ;
-}
-
-if (cu2 === 0 ) {
-  return {cu: 0, su: 0, tokens: 0, tokenearnings: 0 } ;
-}
-
-if (cu3 === 0 ) {
+if ((cu1 === 0) || (cu2 === 0 ) || (cu3 === 0) ) {
   return {cu: 0, su: 0, tokens: 0, tokenearnings: 0 } ;
 }
 
@@ -51,13 +48,13 @@ if ( cu1 < cu2 ) {
 }
 
 // overhead is 10% to run the zero-os operating system
-cunits = cunits * 0.9 ;
+cunits = cunits * 0.95 ;
 
 // calculate the number of (storage units) SU's
 var sunits = (sru/135 + hru/1093) ;
 
 // calculate the number of tokens based on the presented capacity overview - 5yrs.
-var ttokens = (( cunits * 12 ) + (sunits * 10 ))/(8) * 60 / tokenvalue_start ;
+var ttokens = (( cunits * cu_prize ) + (sunits * su_prize ))/(difficulty) * nr_months / tokenvalue_start ;
 
 // calculate the potential revenue based on the exist token price and taking the assumption
 // that all tokens are sold at the end of the 5yr period.
