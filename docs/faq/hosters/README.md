@@ -19,3 +19,4 @@
 - [Will ThreeFold be able to restrict malicious content?](/faq/malicious_content.md)
 - [Is there a conflict between the ThreeFold Grid pricing and pricing set by individual farmers?](/faq/pricing_conflicts.md)
 - [How can I be assured of performance?](/faq/performance.md)
+- [Can you provide me with a step by step process to get my capacity online](/faq/step-by-step.md)
