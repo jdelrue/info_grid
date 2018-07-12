@@ -1,1 +1,1 @@
-[Getting started with JumpScale](https://docs.greenitglobe.com/gig/prod_roadmap_3x/raw/branch/master/meetings/getting_started_with_js_930.md ':include :type=markdown')
+[Getting started with JumpScale](https://raw.githubusercontent.com/threefoldfoundation/info_tech/master/docs/training/getting_started_with_js_930.md ':include :type=markdown')
