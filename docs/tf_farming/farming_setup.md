@@ -1,4 +1,4 @@
-# Setting up your ThreeFold Farm from Mac OSX
+# How to setup your ThreeFold Farm
 
 Steps:
 - [Create an ItsYou.online organization](#iyo-org)
@@ -96,7 +96,9 @@ https://bootstrap.gig.tech/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=your-farmer-id
 
 ## Format your USB drive
 
-Start by connecting your USB drive to your Mac OS X computer.
+Start by connecting your USB drive to your computer.
+
+In what follows screenshots from Mac OS X are used, but the principles are the same for Windows.
 
 Search for **Disk Utility** in Launchpad and open it:
 
