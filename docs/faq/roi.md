@@ -12,4 +12,6 @@ As ROI is calculated in a fiat currency and therefore all earned tokens need to 
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;ROI=\frac{(Revenue) - (Operational Cost){(Investmenr)}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+
  Note: Operational cost are covered by selling TFTs (Tokens)
