@@ -1,6 +1,6 @@
 * [Home](/)
 
---- 
+---
 
 * [Frequently Asked Questions](/faq/README.md)
     * [Connectivity Required](/faq/connectivity_requirements.md)
@@ -19,5 +19,4 @@
     * [Malicious Content](/faq/malicious_content.md)
     * [Pricing Conflicts](/faq/pricing_conflicts.md)
     * [Performance Assurance](/faq/performance.md)
-
-
+    * [Return of Investment (RoI)](/faq/roi.md)
