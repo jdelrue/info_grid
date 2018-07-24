@@ -1,4 +1,4 @@
-# How do you calculate the ROI in your TFT simulation?
+# How does ThreeFold calculate the ROI in their TFT simulation?
 
 It is very simple, lets; define the components of a Return of Investement:
 
