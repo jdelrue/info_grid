@@ -3,3 +3,8 @@
 --- 
 
 * [Developers](/developers/README.md)
+    * [Getting Started with Zero-OS](/developers/getting_started_with_zos.md)
+    * [Getting Started with JumpScale 9.3.0](/developers/getting_started_with_js_930.md)
+    * [Getting started with the Zero-OS Node Robot](/developers/getting_started_with_node_robot.md)
+    * [Getting started with the Zero-OS Primitives](/developers/getting_started_with_zos_primitives.md)
+    * [Working with the Zero-OS Primitives](/developers/working_with_zos_primitives.md)

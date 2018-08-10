@@ -19,3 +19,4 @@
     * [Malicious Content](/faq/malicious_content.md)
     * [Pricing Conflicts](/faq/pricing_conflicts.md)
     * [Performance Assurance](/faq/performance.md)
+    * [Return of Investment (RoI)](/faq/roi.md)
