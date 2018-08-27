@@ -22,24 +22,29 @@ You personal 3bot will act on your behalf and collects and manages information o
  - Chat functionality. This is there as a facility to have interaction with the 3bot - but also person-2-person.
 
 #### User Authentication and authorisation.
-The user authentication mechanism is based on blockchain technology.  At this point in time the TF Grid runs 2 independent blockchains.  The first one is the financial transaction blockchain, tfchain and the second one is one dedicated to user authentication and authorisation. This blockchain contains other information than transactional information of TFT (or any other cryptocurrency).  This blockchain contains information that allows for a peer-to-peer user authentication and authorisation mechanism where there is no central database.  Even further to this sensitive personal information is not stored in the blockchain (as all blockchains by design have all stored information visible to anyone).  This blockchain <<need to come up with a name for this>> has the following information per entity (person, organisation, etc):
-A identity number (unique)
-A name in the format of <<5 bytes>>:<<5 bytes>>
-The public key of a asymmetric private public key pair.
-A number of  IP addresses
+The user authentication mechanism is based on blockchain technology.  At this point in time the TF Grid runs 2 independent blockchains.  The first one is the financial transaction blockchain, tfchain and the second one is one dedicated to user authentication and authorisation. This blockchain contains other information than transactional information of TFT (or any other cryptocurrency).  This blockchain contains information that allows for a peer-to-peer user authentication and authorisation mechanism where there is no central database.  Sensitive personal information is not stored in this blockchain (as all blockchains by design have all stored information visible to anyone).  This blockchain <<need to come up with a name for this>> has the following information per entity (person, organisation, etc):
+ - A identity number (unique)
+ - A name in the format of 5bytes:5bytes
+ - The public key of a asymmetric private public key pair.
+ - A number of  IP addresses
 
-All other, more private information, is stored in a personal 3bot.  This 3bot will manage information for an individual or organisation in a secure manner.  Information stored will be:
-Unsigned Encrypted by the private key of the asymmetric key pair - only to be able to be decrypted by the public  key.
-Signed by the private key of the asymmetric key pair.  Making information that is stored in the 3bot database accessible and readable by anyone.  This information can be encrypted or unencrypted.
+All other, more private information, is stored in a personal 3bot.  This 3bot will manage information for an individual or organisation in a secure manner.  Information stored will be encrypted by the private key of the asymmetric key pair - only to be able to be decrypted by the public  key. All information in the 3bot will be signed by the private key of the asymmetric key pair.  Making information that is stored in the 3bot database accessible and readable by anyone with a verified source being you (or your identity)  This information can be encrypted or unencrypted.
 
 #### System Administration
-the 3bot will take care of all the required actions to reserve capacity on the TFGrid.  It will build a (personal / private) directory of the available capacity on the grid by using a mechanisch 
+The 3bot will take care of all the required actions to reserve and use capacity on the TFGrid.  It will collect and advertise the capacity for the farmer.  Managing the capacity, interacting and agreeing with consumer robots to what needs to be deployed.
+
 #### Crypto currency wallet
+The crypto currency wallet can contain a number of different currencies.  These currencies can be used by the robot to trade / reserve capacity on the grid but also for other use cases.  THe robot has access to you crypto wallet to take care of any repeating payment that needs done in crypto.
+
 
 #### A Database
+The database part is a general purpose storage facility for data.  The 3bot will store pointers to where the actual text of binary objects is stored in a private and secure manner - the pointers towards where to find the actual object is stored in the 3bot database.
 
 #### Chat Functionality
+The chat functionality is there in the first place to present a usabel interface to interact with the robot.  The initial interface to the robot will be a chat interface providing a way to give the robot instructions.  The 3bot comes with an API for people to build their own interface as required.   
 
 ### A farmer 3bot.
+The farmer 3bot will take care of all tasks required to operate a successful farm.  When capacity is being presented to the TFGrid it will inspect the hardware and report to the blockchain the amount of units represent and present in the capacity pool.  This includes number of compute units (CU), number of Storage Units (SU) and the number of Network Units (NU) required to connect this capacity pool.  The farmer 3Bot will announce this capacity and start multicasting the available and rented capacity.
 
 ### A verification 3bot.
+The verification 3bot is has a specific talkj 
