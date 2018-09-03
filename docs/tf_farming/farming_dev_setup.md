@@ -59,7 +59,7 @@ The result of your registration will be a JSON Web Token (JWT), which is your **
 
 <a id='download'></a>
 
-## Download the EFI (UEFI) bootable image
+## Download the bootable image
 
 On https://bootstrap.gig.tech click the **Assistant** button:
 
