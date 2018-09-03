@@ -63,7 +63,7 @@ The result of your registration will be a JSON Web Token (JWT), which is your **
 
 On https://bootstrap.gig.tech click the **Assistant** button:
 
-![](images/assitant.png)
+![](images/assistant.png)
 
 In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `Development`:
 
@@ -71,17 +71,17 @@ In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS br
 
 Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
-![](images/bootstrap_zerotier.png)
+![](images/zero-tier-network-id.png)
 
 In **step 3**, pass your `farmer_id={$farmer_id}` as a kernel parameter:
 
 ![](images/bootstrap_arguments.png)
 
-In order to boot your ThreeFold node in development node, you can also check the developement and support checkboxes.
+In order to boot your ThreeFold node in development node, you can also check the development and support check-boxes.
 
 ![](images/custom_settings.png)
 
-In **step 4**,select whatbootable image download URL for your ThreeFold node:
+In **step 4**,select what bootable image download URL for your ThreeFold node:
 
 ![](images/choose_your_image_type.png)
 
