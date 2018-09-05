@@ -115,7 +115,7 @@ Click **Erase** which will format your USB disk and report about the result:
 ![](images/disk_utility3.png)
 
 
-The above can also be achieve from the command line:
+The above can also be achieved from the command line:
 ```bash
 diskutil list
 diskutil eraseDisk FAT32 "ZOS" /dev/diskX

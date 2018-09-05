@@ -6,8 +6,8 @@ Steps:
 - [Create an ItsYou.online organization](#iyo-org)
 - [Register your farm](#register)
 - [Download the EFI (UEFI) bootable image](#download)
-- [Format your USB drive](#format)
-- [Copy EFI image to USB flash drive](#copy)
+- [Prepare your USB drive](#format)
+- [Copy the downloaded EFI image to your USB drive](#copy)
 - [Boot your node](#boot)
 
 Also see the [Threefold farmers documentation](https://github.com/zero-os/home/blob/master/docs/farmers/README.md#configure-your-nodes).
@@ -71,26 +71,26 @@ In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS br
 
 Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
-![](images/zero-tier-network-id.png)
+![](images/zerotier_network_id.png)
 
-In **step 3**, pass your `farmer_id={$farmer_id}` as a kernel parameter and check the support check-box.
+In **step 3**, pass your ItsYou.online organization name (optional), your `farmer ID` as a kernel parameter and check the **support** checkbox:
 
 ![](images/custom_settings.png)
 
-In **step 4**,select what bootable image download URL for your ThreeFold node:
+In **step 4** you find the download URLs for the bootable image in various formats, use the **EFI** format:
 
-![](images/choose_your_image_type.png)
+![](images/choose_efi.png)
 
 Or just copy the download URL into your browser:
 
-https://bootstrap.grid.tf/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=your-farmer-id-here
+https://bootstrap.grid.tf/uefi/development/c7c8172af1f387a6/organization="yvesfarm" support farmer_id=your-farmer-id-here
 
 ![](images/download.png)
 
 
 <a id='format'></a>
 
-## Prepare your thumdrive or memory card.
+## Prepare your USB drive
 
 Start by connecting your USB drive to your computer.
 
@@ -111,7 +111,7 @@ Click **Erase** which will format your USB disk and report about the result:
 ![](images/disk_utility3.png)
 
 
-The above can also be achieve from the command line:
+The above can also be achieved from the command line:
 ```bash
 diskutil list
 diskutil eraseDisk FAT32 "ZOS" /dev/diskX
@@ -121,7 +121,7 @@ diskutil eraseDisk FAT32 "ZOS" /dev/diskX
 
 <a id='copy'></a>
 
-### Format your USB drive
+## Copy the downloaded EFI image to your USB drive
 
 Open **Finder** and select your formated USB drive from **Devices**:
 
@@ -164,7 +164,7 @@ And finally, eject your USB drive:
 Or all the above from the command line:
 ```bash
 mkdir -p /Volumes/ZOS/EFI/BOOT/
-wget -O /Volumes/ZOS/EFI/BOOT/BOOTX64.EFI https://bootstrap.grid.tf/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJhenAiOiJ0aHJlZWZvbGQuZmFybWVycyIsImV4cCI6MTUyODI4MzY3MSwiaXNzIjoiaXRzeW91b25saW5lIiwicmVmcmVzaF90b2tlbiI6IlBJcGQ4QmlfOXAyd1drYlB0dHQ4SEZpSEJXSk4iLCJzY29wZSI6WyJ1c2VyOm1lbWJlcm9mOnl2ZXNmYXJtIl0sInVzZXJuYW1lIjoieXZlcyJ9.8siq1Tk_b6ZzM675K4Aq3SYwS5J8Lk_5W5XSIbOrUgikJteTbmNzClOPNV1gTJVOFhfE4c-f1AEX2M4GM-Gs69cqpi1_YgXq_RPJvz6JuCbJdR8xBkJjgOfI7FS8PnUq%20development
+wget -O /Volumes/ZOS/EFI/BOOT/BOOTX64.EFI https://bootstrap.grid.tf/uefi/development/c7c8172af1f387a6/farmer_id=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJhenAiOiJ0aHJlZWZvbGQuZmFybWVycyIsImV4cCI6MTUyODI4MzY3MSwiaXNzIjoiaXRzeW91b25saW5lIiwicmVmcmVzaF90b2tlbiI6IlBJcGQ4QmlfOXAyd1drYlB0dHQ4SEZpSEJXSk4iLCJzY29wZSI6WyJ1c2VyOm1lbWJlcm9mOnl2ZXNmYXJtIl0sInVzZXJuYW1lIjoieXZlcyJ9.8siq1Tk_b6ZzM675K4Aq3SYwS5J8Lk_5W5XSIbOrUgikJteTbmNzClOPNV1gTJVOFhfE4c-f1AEX2M4GM-Gs69cqpi1_YgXq_RPJvz6JuCbJdR8xBkJjgOfI7FS8PnUq%20development
 diskutil umount /Volumes/ZOS
 ```
 
