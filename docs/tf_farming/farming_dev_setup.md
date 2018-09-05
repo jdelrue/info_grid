@@ -83,7 +83,7 @@ In **step 4**,select what bootable image download URL for your ThreeFold node:
 
 Or just copy the download URL into your browser:
 
-https://bootstrap.gig.tech/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=your-farmer-id-here
+https://bootstrap.grid.tf/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=your-farmer-id-here
 
 ![](images/download.png)
 
