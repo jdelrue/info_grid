@@ -73,7 +73,7 @@ Next, in **step 2**, specify the ID of public ZeroTier network that connects all
 
 ![](images/zero-tier-network-id.png)
 
-In **step 3**, pass your `farmer_id={$farmer_id}` as a kernel parameter and check the development and support check-boxes.
+In **step 3**, pass your `farmer_id={$farmer_id}` as a kernel parameter and check the support check-box.
 
 ![](images/custom_settings.png)
 
