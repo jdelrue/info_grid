@@ -61,7 +61,7 @@ The result of your registration will be a JSON Web Token (JWT), which is your **
 
 ## Download the bootable image
 
-On https://bootstrap.gig.tech click the **Assistant** button:
+On https://bootstrap.grid.tf click the **Assistant** button:
 
 ![](images/assistant.png)
 
