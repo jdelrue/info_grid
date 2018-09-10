@@ -15,7 +15,7 @@ Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
 
 ###HPE:
 
-**Apollo 4510**
+Apollo 4510
 
 ProLiant DL 380 Gen10
 
