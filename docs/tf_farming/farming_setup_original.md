@@ -1,13 +1,11 @@
-# How to setup your ThreeFold Farm in Development mode
-
-In order for the ThreeFold nodes to start recording farmed tokens we need to bring the grid live in development mode.  This will be required for a limited time only.  The steps are very much like bring the grid up for production, but have a few additional steps and check boxes that require attention.
+# How to setup your ThreeFold Farm
 
 Steps:
 - [Create an ItsYou.online organization](#iyo-org)
 - [Register your farm](#register)
 - [Download the EFI (UEFI) bootable image](#download)
-- [Prepare your USB drive](#format)
-- [Copy the downloaded EFI image to your USB drive](#copy)
+- [Format your USB drive](#format)
+- [Copy EFI image to USB flash drive](#copy)
 - [Boot your node](#boot)
 
 Also see the [Threefold farmers documentation](https://github.com/zero-os/home/blob/master/docs/farmers/README.md#configure-your-nodes).
@@ -16,7 +14,7 @@ Also see the [Threefold farmers documentation](https://github.com/zero-os/home/b
 
 ## Create an ItsYou.online organization
 
-Your ThreeFold Farm needs to be associated to an ItsYou.online organization.
+Your ThreeFold Farm needs to be associated to an ItsYou.online organization. 
 
 In order to create such an ItsYou.online organization you need an ItsYou.online account. Creating one is simple, head to http://itsyou.online/ and follow the sign-up instructions.
 
@@ -31,7 +29,7 @@ Now click **+ CREATE NEW**:
 And finally specify the name of the new ItsYou.online organization and click **CREATE**:
 ![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/images/iyo-create-new-org2.png)
 
-> For the name of the ItsYou.online organization only lower case characters, numbers or spaces are allowed.
+> For the name of the ItsYou.online organization only lower case characters, numbers or spaces are allowed. 
 
 > The name of ItsYou.online organization needs to be globally unique, and therefor also referenced to as the **Global ID** of the ItsYou.online organization.
 
@@ -59,38 +57,44 @@ The result of your registration will be a JSON Web Token (JWT), which is your **
 
 <a id='download'></a>
 
-## Download the bootable image
+## Download the EFI (UEFI) bootable image
 
-On https://bootstrap.grid.tf click the **Assistant** button:
+On https://bootstrap.gig.tech click the **Assistant** button:
 
-![](images/assistant.png)
+![](images/bootstrap_home.png)
 
-In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `Development`:
+In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `v1.4.1`:
 
-![](images/branch_select.png)
+![](images/bootstrap_branch.png)
 
 Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
-![](images/zerotier_network_id.png)
+![](images/bootstrap_zerotier.png)
 
-In **step 3**, pass your ItsYou.online organization name (optional), your `farmer ID` as a kernel parameter and check the **support** checkbox:
+In **step 3**, pass your `farmer_id={$farmer_id}` as a kernel parameter:
 
-![](images/custom_settings.png)
+![](images/bootstrap_arguments.png)
 
-In **step 4** you find the download URLs for the bootable image in various formats, use the **EFI** format:
+Optionally, in order to boot your ThreeFold node in development node, you can also add the `%20development`: `farmer_id={$farmer_id}%20development`
 
-![](images/choose_efi.png)
+In **step 4**, next to **EFI** you can see the EFI (UEFI) bootable image download URL for your ThreeFold node:
+
+![](images/bootstrap_efi.png)
+
+You might need to scroll to the right in order to see the **EFI Kernel** download button:
+
+![](images/bootstrap_download.png)
 
 Or just copy the download URL into your browser:
 
-https://bootstrap.grid.tf/uefi/development/c7c8172af1f387a6/organization="yvesfarm" support farmer_id=your-farmer-id-here
+https://bootstrap.gig.tech/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=your-farmer-id-here
 
 ![](images/download.png)
 
 
 <a id='format'></a>
 
-## Prepare your USB drive
+## Format your USB drive
 
 Start by connecting your USB drive to your computer.
 
@@ -121,7 +125,7 @@ diskutil eraseDisk FAT32 "ZOS" /dev/diskX
 
 <a id='copy'></a>
 
-## Copy the downloaded EFI image to your USB drive
+### Format your USB drive
 
 Open **Finder** and select your formated USB drive from **Devices**:
 
@@ -164,7 +168,7 @@ And finally, eject your USB drive:
 Or all the above from the command line:
 ```bash
 mkdir -p /Volumes/ZOS/EFI/BOOT/
-wget -O /Volumes/ZOS/EFI/BOOT/BOOTX64.EFI https://bootstrap.grid.tf/uefi/development/c7c8172af1f387a6/farmer_id=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJhenAiOiJ0aHJlZWZvbGQuZmFybWVycyIsImV4cCI6MTUyODI4MzY3MSwiaXNzIjoiaXRzeW91b25saW5lIiwicmVmcmVzaF90b2tlbiI6IlBJcGQ4QmlfOXAyd1drYlB0dHQ4SEZpSEJXSk4iLCJzY29wZSI6WyJ1c2VyOm1lbWJlcm9mOnl2ZXNmYXJtIl0sInVzZXJuYW1lIjoieXZlcyJ9.8siq1Tk_b6ZzM675K4Aq3SYwS5J8Lk_5W5XSIbOrUgikJteTbmNzClOPNV1gTJVOFhfE4c-f1AEX2M4GM-Gs69cqpi1_YgXq_RPJvz6JuCbJdR8xBkJjgOfI7FS8PnUq%20development
+wget -O /Volumes/ZOS/EFI/BOOT/BOOTX64.EFI https://bootstrap.gig.tech/uefi/v1.4.1/c7c8172af1f387a6/farmer_id=eyJhbGciOiJFUzM4NCIsInR5cCI6IkpXVCJ9.eyJhenAiOiJ0aHJlZWZvbGQuZmFybWVycyIsImV4cCI6MTUyODI4MzY3MSwiaXNzIjoiaXRzeW91b25saW5lIiwicmVmcmVzaF90b2tlbiI6IlBJcGQ4QmlfOXAyd1drYlB0dHQ4SEZpSEJXSk4iLCJzY29wZSI6WyJ1c2VyOm1lbWJlcm9mOnl2ZXNmYXJtIl0sInVzZXJuYW1lIjoieXZlcyJ9.8siq1Tk_b6ZzM675K4Aq3SYwS5J8Lk_5W5XSIbOrUgikJteTbmNzClOPNV1gTJVOFhfE4c-f1AEX2M4GM-Gs69cqpi1_YgXq_RPJvz6JuCbJdR8xBkJjgOfI7FS8PnUq%20development
 diskutil umount /Volumes/ZOS
 ```
 
