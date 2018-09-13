@@ -69,7 +69,7 @@ In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS br
 
 ![](images/branch_select.png)
 
-Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
+Next, in **step 2**, specify the ID of the public ZeroTier network that connects all ThreeFold nodes in one shared network, this ID is `c7c8172af1f387a6`:
 
 ![](images/zerotier_network_id.png)
 
