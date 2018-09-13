@@ -1,19 +1,19 @@
-##Certified Hardware
+## Certified Hardware
 
-###Supermicro:
+### Supermicro:
 
 SOHO Node: basic case with AMD Ryzen
 
 Datacenter Node:  2U chassis with INTEL xeon
 
-####Hardware Sources: (for quotes and prices)
+#### Hardware Sources: (for quotes and prices)
 Bettertoken: [www.bettertoken.shop] (www.bettertoken.shop)
 
 Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
 
 ++++++
 
-###HPE:
+### HPE:
 
 **Apollo 4510**
 
@@ -23,7 +23,7 @@ ProLiant ML 10
 
 ProLiant Microserver GEN 10
 
-####Hardware Sources (for quotes and prices)
+#### Hardware Sources (for quotes and prices)
 -HPE: contact [Miroslaw Polski] (miro@hpe.com)
 
 Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
@@ -34,5 +34,5 @@ Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
 
 NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclosure)
 
-####Hardware sources:
+#### Hardware sources:
 [Amazon] (www.amazon.com) (Amazon offers NUCs almost globally)
