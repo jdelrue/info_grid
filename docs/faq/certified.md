@@ -40,5 +40,6 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclosure)
 
-#### Hardware sources:
-[Amazon] (www.amazon.com) (Amazon offers NUCs almost globally)
+#### Purchasing options: (for quotes and prices)
+
+ - [Amazon] (www.amazon.com) (Amazon offers NUCs almost globally)
