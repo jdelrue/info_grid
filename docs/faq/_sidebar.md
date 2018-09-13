@@ -3,6 +3,7 @@
 ---
 
 * [Frequently Asked Questions](/faq/README.md)
+    * [Certified Hardware](/faq/certified.md)
     * [Connectivity Required](/faq/connectivity_requirements.md)
     * [Token Vesting Schemes](/faq/token_vesting_schemes.md)
     * [ThreeFold Grid Applications](/faq/applications.md)
