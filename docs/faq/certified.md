@@ -36,7 +36,7 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 - Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
  
  ----
-###INTEL
+### INTEL
 
 NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclosure)
 
