@@ -5,17 +5,17 @@
 There are a number of good reasons that we want to work with so called "certified" hardware. These are:
 
  - To keep ‘dirty’ - high energy consumption - hardware of the grid. 
- - To avoid hardware from farmers who only want to farm tokens and are not really interested that their capacity gets sold. 
+ - To avoid hardware from farmers who only want to farm tokens and are not really interested selling their capacity. 
  - To make sure the hardware runs Zero OS and all hardware resources (CPU, MEM, HDD, SSD) are displayed properly as capacity on the TF Grid.
- - To enable non IT savvy farmers to become farmers.
- - To avoid lengthy support conversations which hinder the scalability of the grid aka TF Foundation
+ - To enable non IT savy farmers to become farmers.
+ - To avoid lengthy support conversations which hinder the scalability of the grid (also known as) the TF Foundation
 
 ### Certification process.
 
 The certification process is simple and efficient.  Here are the necessary steps:
 
  1. Connect hardware to the TF Grid
- 2. Send the following informaion:
+ 2. Send the following information:
      - Zero OS working with specific hardware
      - Hardware resources as displayed on the directory 
      - BOM (bill of material) which shows the on board ressources (CPU, MEM, HDD, SSD)
