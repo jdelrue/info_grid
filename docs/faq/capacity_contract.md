@@ -1,6 +1,8 @@
 # Is there a simple way to explain the 30% capacity rule for farming income?
 
-## Do developers and others who wish to use capacity need to contract with each farm individually (including individual household nodes), or is there (or will there be) a means to automatically contract with appropriate nodes (at a default price)? This would be especially important for mobile apps needing capacity to follow the user. 
+## Question
+
+Do developers and others who wish to use capacity need to contract with each farm individually (including individual household nodes), or is there (or will there be) a means to automatically contract with appropriate nodes (at a default price)? This would be especially important for mobile apps needing capacity to follow the user. 
 
 ## Answer
 It's 100% automatic.
