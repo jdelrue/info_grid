@@ -3,7 +3,10 @@
 ---
 
 * [Frequently Asked Questions](/faq/README.md)
+    * [How do I contract capacity](/faq/capacity_contract.md)
+    * [How does storage work in the TF grid?](/faq/storage_principles.md)
     * [Certified Hardware](/faq/certified.md)
+    * [What types of farmers exist?](/faq/farmer_sizes.md)
     * [Connectivity Required](/faq/connectivity_requirements.md)
     * [Token Vesting Schemes](/faq/token_vesting_schemes.md)
     * [ThreeFold Grid Applications](/faq/applications.md)
