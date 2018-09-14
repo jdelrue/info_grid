@@ -1,6 +1,8 @@
 # Storage principles
 
-## Do I understand correctly that the grid automatically moves data close to the end user of the data, and distributes the data among available nodes in a manner that makes it highly resistant to data loss? I have also heard a conflicting stance that data redundancy is the responsibility of the application, not ThreeFold.  
+## Question:
+
+Do I understand correctly that the grid automatically moves data close to the end user of the data, and distributes the data among available nodes in a manner that makes it highly resistant to data loss? I have also heard a conflicting stance that data redundancy is the responsibility of the application, not ThreeFold.  
 
 ## Answer
 
@@ -14,3 +16,9 @@ I expect of course that TF Partners will come up with their own business ideas h
 You can use the threefold grid as a content distribution network but then you will need to reserve network/storage/compute capacity on many locations. Also here I expect parties to create their CDN’s (content delivery networks) on top of us and make a business model out of it. But you could ofcourse build your own. 
 
 There is indeed a neat trick where you can use our dispersed storage as an effective way of allowing data closest to you be served first. Then you would do e.g. a 4-40 policy, which means 10 times more locations than strictly required, which means you would only need the 4 closest locations to get to the data.
+
+## Further Questions
+
+I understand that the TF grid achieves “redundancy” (security of data against loss or corruption) through a Sudoku-type reconstruction process when data is distributed over multiple nodes by the Zero-robots.  But then it is also stated that a user of TF capacity must contract with individual farmers for capacity, so to achieve desired data security, one needs to contract with multiple farmers? This question is closely related to questions 4,5 above. 
+
+## To be completed
