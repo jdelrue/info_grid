@@ -13,7 +13,7 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 #### Purchasing options: (for quotes and prices)
 
-- Bettertoken: [www.bettertoken.shop] (www.bettertoken.shop)
+- Bettertoken: [www.bettertoken.shop](www.bettertoken.shop)
 - Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
 
 -----
@@ -27,13 +27,14 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 |   Desktop model (SOHO) | ProLiant Microserver GEN 10 |
 |   Tower model  (SOHO) | ProLiant ML 10 | 
 |    Datacenter Model (DC)  | ProLiant DL 380 Gen10 |
+| Datacenter Storage Model DCS | Apollo 4500 |
 
 
 
 #### Purchasing options: (for quotes and prices)
 
-- Hewlett Packard Enterprise: contact [Miroslaw Polski] (miro@hpe.com)
-- Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
+- Hewlett Packard Enterprise: contact [Miroslaw Polski](miro@hpe.com)
+- Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
  
  ----
 ### INTEL
@@ -42,4 +43,4 @@ NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclos
 
 #### Purchasing options: (for quotes and prices)
 
- - [Amazon] (www.amazon.com) (Amazon offers NUCs almost globally)
+ - [Amazon](www.amazon.com) (Amazon offers NUCs almost globally)
