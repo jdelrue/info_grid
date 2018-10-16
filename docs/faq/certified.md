@@ -4,8 +4,8 @@
 
 There are a number of good reasons that we want to work with so called "certified" hardware. These are:
 
- - To keep ‘dirty’ - high energy consumption - hardware of the grid. 
- - To avoid hardware from farmers who only want to farm tokens and are not really interested selling their capacity. 
+ - To keep ‘dirty’ - high energy consumption - hardware off the grid.
+ - To avoid hardware from farmers who only want to farm tokens and are not really interested selling their capacity.
  - To make sure the hardware runs Zero OS and all hardware resources (CPU, MEM, HDD, SSD) are displayed properly as capacity on the TF Grid.
  - To enable non IT savy farmers to become farmers.
  - To avoid lengthy support conversations which hinder the scalability of the grid (also known as) the TF Foundation
@@ -17,8 +17,8 @@ The certification process is simple and efficient.  Here are the necessary steps
  1. Connect hardware to the TF Grid
  2. Send the following information:
      - Zero OS working with specific hardware
-     - Hardware resources as displayed on the directory 
-     - BOM (bill of material) which shows the on board ressources (CPU, MEM, HDD, SSD)
+     - Hardware resources as displayed on the directory
+     - BOM (bill of material) which shows the on board resources (CPU, MEM, HDD, SSD)
  3. ThreeFold checks and compares above screenshots and info: if above info is valid and BOM matches resources as displayed on the directory the hardware is TF certified
  4 .The specific hardware will be listed as certified on the TF Grid WIKI under the farmer section
  5. Info on how to get the hardware on the TF Grid - like necessary BIOS changes - will be posted in the same WIKI section
@@ -31,7 +31,7 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 | Node type        | Description           |
 | ------------- |:-------------:|
 | Desktop Model (SOHO)    | basic case with AMD Ryzen |
-| Datacenter Node  (DC)  | 2U chassis with INTEL xeon   | 
+| Datacenter Node  (DC)  | 2U chassis with INTEL xeon   |
 
 
 #### Purchasing options: (for quotes and prices)
@@ -48,7 +48,7 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 | Node type        | Description           |
 |:-------------|:-------------:|
 |   Desktop model (SOHO) | ProLiant Microserver GEN 10 |
-|   Tower model  (SOHO) | ProLiant ML 10 | 
+|   Tower model  (SOHO) | ProLiant ML 10 |
 |    Datacenter Model (DC)  | ProLiant DL 380 Gen10 |
 | Datacenter Storage Model DCS | Apollo 4500 |
 
@@ -58,7 +58,7 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 - Hewlett Packard Enterprise: contact [Miroslaw Polski](miro@hpe.com)
 - Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
- 
+
  ----
 ### INTEL
 
