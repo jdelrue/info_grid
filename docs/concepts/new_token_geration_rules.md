@@ -23,8 +23,8 @@
 ###Certified vs. DIY hardware
 
 * **Certified Hardware:**
-All hardware which is certified. With being certified the security of the hardware and the generated TF capacity is way higher.
-((((((((((((((((Weynand)))))))))))))))
+All hardware which is certified. 
+With being certified the security of the hardware and the generated TF capacity is way higher.
 
 * **DIY Hardware:**
 All Hardware which is not certified
