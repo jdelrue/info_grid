@@ -22,56 +22,6 @@
 
 ###Certified vs. DIY hardware
 
-* **Certified Hardware:**
-All hardware which is certified. 
-With being certified the security of the hardware and the generated TF capacity is way higher.
-
-* **DIY Hardware:**
-All Hardware which is not certified
-
-
-###Certified Hardware
-
-####Supermicro:
-
-SOHO Node: basic case with AMD Ryzen
-
-Datacenter Node:  2U chassis with INTEL xeon
-
-#####Hardware Sources: (for quotes and prices)
-Europe: Bettertoken [www.bettertoken.shop](www.bettertoken.shop)
-
-Africa: Edge Cloud Africa - contact [Dave Gale](dave@edgaecloud.africa)
-
-
-####HPE:
-
-Apollo 4510
-
-ProLiant DL 380 Gen10
-
-ProLiant ML 10
-
-ProLiant Microserver GEN 10
-
-#####Hardware Sources (for quotes and prices)
-
-
-* Africa: Edge Cloud Africa - contact [Dave Gale](dave@edgaecloud.africa)
-
-* Middle East: Mazraa - contact [Gloria Anne Cabaron](cabarong@threefoldtoken.com)
-
-* All other countrries: HPE - contact [Miroslaw Polski](miro@hpe.com)
-
-
-
-####INTEL:
-
-NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclosure)
-
-#####Hardware sources:
-[Amazon](www.amazon.com) (Amazon offers NUCs almost globally)
-
 
 
 ###Token generation rules until December 31st 2018:
