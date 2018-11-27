@@ -5,7 +5,7 @@ In order for the ThreeFold nodes to start recording farmed tokens we need to bri
 Steps:
 - [Create an ItsYou.online organization](#iyo-org)
 - [Register your farm](#register)
-- [Download the EFI (UEFI) bootable image](#download)
+- [Download the EFI -UEFI- bootable image](#download)
 - [Prepare your USB drive](#format)
 - [Copy the downloaded EFI image to your USB drive](#copy)
 - [Boot your node](#boot)
