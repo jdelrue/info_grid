@@ -2,7 +2,7 @@
 # Commercial value of a token.
 
 
-commercial value of 1 TFT = commercial_value_of_grid / nr_of_liquid_tokens
+Commercial value of 1 TFT = commercial_value_of_grid (over 5 years) / nr_of_liquid_tokens (available today)
 
 At time of writing this is about USD $0.35
 
