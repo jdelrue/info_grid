@@ -1,5 +1,5 @@
 
-# Commercial value of a token.
+# Commercial value of a ThreeFold Token (TFT).
 
 
 Commercial value of 1 TFT = commercial_value_of_grid (over 5 years) / nr_of_liquid_tokens (available today)
@@ -38,7 +38,7 @@ We need to take min because the most conservative measurement needs to be used.
 
 ## storage unit = SU
 
-Out of experiece we know the required resources which allow us to deliver the specs as defined in the definitions.
+From experiece we know the required resources that allow us to deliver the specs as defined in the definitions.
 Its the combination of SSD & HD capacity. 
 
 The detailed calculations are described below.
@@ -65,7 +65,7 @@ We take a free space factor of 1.5 means 33% of capacity is free on the SSD and 
 
 ## Network Unit
 
-This is the most tricky one because we don't know the relation between network bandwidth requirements and storage or compute workloads. The NU's are a result of the availabl CUs and SUs.
+This is the most tricky one because we don't know the relation between network bandwidth requirements and storage or compute workloads. The NU's are a result of the available CUs and SUs.
 
 We did best effort estimates in this phase, this will improve as we get more data.
 
@@ -85,7 +85,7 @@ We did best effort estimates in this phase, this will improve as we get more dat
 - Each of them provides a certain amount of resource units
 - we can calculate the provided cu/su/nu out of the resource units (formula's above)
 - this results in a nr of cloud units available.
-- we can then multiply the cloud units iwth commercial average prices on the grid
+- we can then multiply the cloud units with commercial average prices on the grid
 - this results in a total commercial value.
 
 The above example shows a USD $89,915,106 value for this example.
