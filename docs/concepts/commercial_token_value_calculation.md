@@ -31,7 +31,7 @@ We use as basis the definitions in [cloud_units].
 
 1 std CU is 4GB of mem and we take 5% buffer 
 but we can never oversubscribe more than 4 times.
-1 std CU has 2 virtual CPUs thx to min CRUx2 we make sure that oversubcription is max of 4.
+1 std CU has 2 virtual CPUs thanks to min CRUx2 we make sure that oversubcription is max of 4.
 
 We need to take min because the most conservative measurement needs to be used.
 
@@ -47,7 +47,7 @@ The detailed calculations are described below.
 = (archivecapacity x 70% + nascapacity x 30%) / redundancy_factor
 = (1000 x 70% + 400 x 30%) / 0.75 = 1093
 
-- 0.75 is the redundancy factor, means we take 25% overhead for redundancy
+- 0.75 is the redundancy factor, which means we take 25% overhead for redundancy
 - we take 70% of archive capacity in the field
 - we take 30% of nas capacity in the field
 
@@ -57,10 +57,10 @@ The detailed calculations are described below.
 = (( 50 x 75% + 5 x 5%) / 0.5 + 80 x 20%) x 1.5
 = 137
 
-For SSD we take 75% is for std purposes, 5% is for database & 20% for temp space.
+For SSD we take 75% for std purposes, 5% is for database & 20% for temp space.
 The temp space is not redundant so there is no redundancy factor.
 It's on SSD so the redundancy factor is 2x, we copy each block 2x.
-We take a free space factor of 1.5 means 33% of capacity is free on the SSD and will not be used by customers.
+We take a free space factor of 1.5 which means 33% of capacity is free on the SSD and will not be used by customers.
 
 ## Network Unit
 
@@ -83,7 +83,7 @@ We did best effort estimates in this phase, this will improve as we get more dat
 - this is an example list of x farmers.
 - each of them provides a certain amount of resource units.
 - we can calculate the provided cu/su/nu out of the resource units (formula's above).
-- this results in a nr of cloud units available.
+- this results in the number of cloud units available.
 - we can then multiply the cloud units with commercial average prices on the grid.
 - this results in a total commercial value.
 
