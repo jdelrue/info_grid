@@ -18,7 +18,7 @@ The following formula's are used to calculate from resource units to [cloud_unit
 - 1 SU = HRU / 1093 + SRU / 137
 - 1 NU = CU x 10 + SU x 2% x 1000
 
-each cloudunit has a commercial value at time of writing (oct 2018) we use
+each cloudunit has a commercial value at time of writing (jan 2019) we use
 
 - USD 15$ for a compute unit
 - USD 12$ for a storage unit
