@@ -130,14 +130,14 @@ Zero-OS measures [**Resource Units**](https://github.com/threefoldfoundation/inf
 | Cloud unit type | Calculation | Description |
 | --- | --- | --- |
 | 1 SU | #HRU / 1090 | nr of HRU (GB HD capacity) / 1093 |
-| 1 SU | #SRU / 135 | nr of SRU (SSD HD capacity) / 135 |
-| 1 CU | min(#CRU,#MRU/4,#SRU/20) * 0.9 | minimum of nr of cores, mem /4 and min requirement of 20 GB SSD per CU, with 10% overhead |
+| 1 SU | #SRU / 135 | nr of SRU (SSD HD capacity) / 92 |
+| 1 CU | min(#CRU*2,#MRU/4*(1-5%)) |minimum of twice the nr of cores, mem /4 with 5% overhead|
 
 The 1.09 and 135 are calculated as follows (for details see following [sheet](https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142
 
 - 1090 = (70% Archive Capacity + 30% NAS Capacity) / 0.75
     -   0.75 is overhead for redundancy and some unused storage capacity
--   135 = 50% temp ssd capacity + 40% std ssd capacity which is redundant + 10% high performance ssd capacity / 0.6
+-   92 = 40% SAN SSD capacity which is redundant + 10% DB SSD capacity which is redundant + 50% STD ssd capacity / 0.6
     -   0.6 is estimate of unused SSD capacity, what will not be used in future
 
 
