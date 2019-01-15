@@ -1,6 +1,6 @@
-##Token generation rules for Certified and DIY hardware
+## Token generation rules for Certified and DIY hardware
 
-###A Farmer earns tokens in 2 ways:
+### A Farmer earns tokens in 2 ways:
 
 
 * **Farming Tokens:** as a result of connecting IT hardware to the internet, ThreeFold tokens are generated
@@ -8,7 +8,7 @@
 * **Cultivation Tokens:** as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
 
 
-###Three types of farmers:
+### Three types of farmers:
 
 
 
@@ -20,37 +20,37 @@
 
 
 
-###Certified vs. DIY hardware
+### Certified vs. DIY hardware
 
 
 
-###Token generation rules until December 31st 2018:
+### Token generation rules until Jnauary 31st 2018:
 -
 There will be no distinction between DIY and certified hardware
 
 
 
-|                    | Farming TFTs | Cultivation TFTs |
+|   Hardware Type    | Farming TFTs   | Cultivation TFTs   |
 | ------------------ | ---------------| ------------------ |
-| Certified Hardware | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
-| DIY Hardware | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
+| Certified | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
+| DIY | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
 
 
 
 
-###Token generation rules after January 1st 2019:
+### Token generation rules after February 1st 2019:
 There will be no distinction between DIY and certified hardware
 
 
-|                    | Farming TFTs | Cultivation TFTs |
+|    Hardware Type   | Farming TFTs   | Cultivation TFTs |
 | ------------------ | ---------------| ------------------ |
-| Certified Hardware | 1/60th of the calculated farming TFTs per month | TFTs from TF capacity sales minus 10% to TF Tech*, minus 10% for TF Foundation |
-| DIY Hardware | after 30% of capacity is sold: 1/60th of the calculated farming TFTs per month |TFTs from TF capacity sales minus 10% for TF Foundation |
+| Certified | 1/60th of the calculated farming TFTs per month | TFTs from TF capacity sales minus 10% to TF Tech*, minus 10% for TF Foundation |
+| DIY| after 30% of capacity is sold: 1/60th of the calculated farming TFTs per month |TFTs from TF capacity sales minus 10% for TF Foundation |
 
  *License fee to TF Tech
 
 
- ###Farming TFTs calculation rules
+ ### Farming TFTs calculation rules
 
 
  For Certified and DIY hardware the difficulty factor is set at 8.
@@ -66,7 +66,7 @@ Reservation = transaction with the right amount to wallet which runs on TF Node,
 Auto 10% to TFTech for all existing capacity until end of year. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-Certified capacity (starting Jan 19)
+Certified capacity (starting February 19)
 TF Nodes = BIOS, secure boot (make sure farmers cannot get inside HW)
 TF Nodes host a wallet & wallet private key provided by us.
 Farmer owns TF Node, wallet gives 10% to us -> License fee
