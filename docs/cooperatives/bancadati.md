@@ -5,4 +5,4 @@ Based in Manno, Switzerland Bancadati brings the ThreeFold Grid the first full-s
 
 find more info about Bancadati here.
 
-[www.bancadati.farm](www.bancadati.farm)
+[www.bancadati.farm](https://bancadati.farm/)

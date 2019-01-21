@@ -12,7 +12,7 @@ This document describes how Farming Tokens are issued in more detail.
 - [Goals](#goals)
 - [Existing Cooperatives](#existing-coops)
 - [Goals](#goals)
-- [How to become a ThreeFold Farmer (without cooperative)](#become-farmer)
+- [How to become a ThreeFold Farmer -without cooperative-](#become-farmer)
 - [Farmer registration rules during June-July 2018](#registration-rules)
 - [Capacity measurements](#capacity-measurements)
 - [Imposed Retrospectively](#imposed-retrospectively)

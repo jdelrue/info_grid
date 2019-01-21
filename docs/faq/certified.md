@@ -20,7 +20,7 @@ The certification process is simple and efficient.  Here are the necessary steps
      - Hardware resources as displayed on the directory
      - BOM (bill of material) which shows the on board resources (CPU, MEM, HDD, SSD)
  3. ThreeFold checks and compares above screenshots and info: if above info is valid and BOM matches resources as displayed on the directory the hardware is TF certified
- 4 .The specific hardware will be listed as certified on the TF Grid WIKI under the farmer section
+ 4. The specific hardware will be listed as certified on the TF Grid WIKI under the farmer section
  5. Info on how to get the hardware on the TF Grid - like necessary BIOS changes - will be posted in the same WIKI section
 
 The early deployment phase of the ThreeFold grid has lead to a (growing but small) number of platforms that have been tested and certified.  Here's an overview:
@@ -36,8 +36,8 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 #### Purchasing options: (for quotes and prices)
 
-- Bettertoken: [www.bettertoken.shop](www.bettertoken.shop)
-- Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
+- Bettertoken: <a href="www.bettertoken.shop" target="_blank">www.bettertoken.shop</a>
+- Edge Cloud Africa: contact <a href="dave@edgaecloud.africa" target="_blank">Dave Gale</a>
 
 -----
 
@@ -56,8 +56,8 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 #### Purchasing options: (for quotes and prices)
 
-- Hewlett Packard Enterprise: contact [Miroslaw Polski](miro@hpe.com)
-- Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
+- Hewlett Packard Enterprise: contact <a href="miro@hpe.com" target="_blank">Miroslaw Polski</a>
+- Edge Cloud Africa: contact <a href="dave@edgaecloud.africa" target="_blank">Dave Gale</a>
 
  ----
 ### INTEL
@@ -66,4 +66,4 @@ NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclos
 
 #### Purchasing options: (for quotes and prices)
 
- - [Amazon](www.amazon.com) (Amazon offers NUCs almost globally)
+ - <a href="www.amazon.com">Amazon</a> (Amazon offers NUCs almost globally)
