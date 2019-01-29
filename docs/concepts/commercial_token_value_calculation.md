@@ -15,7 +15,7 @@ How do we measure the commercial value?
 The following formula's are used to calculate from resource units to [cloud_units].
 
 - 1 CU = min(MRU/4*(1-5%),CRU*2)
-- 1 SU = HRU / 1093 + SRU / 137
+- 1 SU = HRU / 1093 + SRU / 92
 - 1 NU = CU x 10 + SU x 2% x 1000
 
 each cloudunit has a commercial value at time of writing (jan 2019) we use
@@ -53,14 +53,16 @@ The detailed calculations are described below.
 
 ### SSD capacity
 
-= (( SSD_disk x 75% + DB_disk x 5%) / redundancy_factor + temp_disk x 20%) x free_space_facttor
-= (( 50 x 75% + 5 x 5%) / 0.5 + 80 x 20%) x 1.5
-= 137
+= (SAN_disk x 40% x 2 + DB_disk x 10% x 2 + STD_disk x 50%) / redundancy_factor
+= (( 30 x 50% x 2 + 5 x 10% x 2 + 60 x 50% x 2) / 0.6
+= 92
 
-For SSD we take 75% for std purposes, 5% is for database & 20% for temp space.
-The temp space is not redundant so there is no redundancy factor.
-It's on SSD so the redundancy factor is 2x, we copy each block 2x.
-We take a free space factor of 1.5 which means 33% of capacity is free on the SSD and will not be used by customers.
+- For SSD we take 50% for std purposes, 10% is for database & 40% for SAN space.
+- The temp space is not redundant so there is no redundancy.
+- It's on SSD so the redundancy is 2x, we copy each block 2x.
+- 0.60 is the redundancy factor, which means we take 40% overhead for redundancy
+
+
 
 ## Network Unit
 
