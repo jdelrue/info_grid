@@ -56,15 +56,16 @@ There will be differences between uncertified and certified capacity
 * SU = Storage Units deployed
 * ACPT = Average Compute Unit price in Tokens at the time of connection (Avg Compute Unit price divided by Token price at connection)
 * ASPT = Average Storage Unit price in Tokens at the time of connection (Avg Storage Unit price divided by Token price at connection)
-* D = Difficulty level (Unmanaged Capacity) = 6 for YR 2018
+* D = Difficulty level = 8
 
 ****Certified and uncertified capacity difficulty level: 8****
 What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. If 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
 ****Until public Grid Capacity Utilization (Q2 2019)****
-ACPT = USD 15.00
-ASPT = USD 10.00 
-Token price = USD 0.12
+
+* ACPT = USD 15.00
+* ASPT = USD 10.00 
+* Token price = USD 0.12
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
