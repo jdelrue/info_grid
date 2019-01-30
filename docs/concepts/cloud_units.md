@@ -12,7 +12,7 @@ We utilise three categories of units:
 ![https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142](../images/CloudUnits2.png)
 
 
-More details [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRrvdoj71JARdo2Ky7_UBoSOIJCZNr5ACc3x3ychXIhxDaQqpNF0KDXrDGAVd_O2Ocjq4lrtZYdSImT/pubhtml?gid=75337142&single=true).
+More details [here](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md).
 
 
 
