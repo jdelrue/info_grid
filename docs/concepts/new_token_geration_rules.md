@@ -1,59 +1,94 @@
-## Token generation rules for Certified and DIY hardware
+## Token generation rules for ThreeFold farmers
 
 ### A Farmer earns tokens in 2 ways:
 
-
-* **Farming Tokens:** as a result of connecting IT hardware to the internet, ThreeFold tokens are generated
+* **Farming Tokens:** as a result of connecting server hardware to the ThreeFold Grid
 
 * **Cultivation Tokens:** as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
 
 
-### Three types of farmers:
+### Three are three types of farmers:
+
+* **Cooperative Farmers:** purchase a range of services from a ThreeFold cooperative up to and including, ThreeFold certified hardware, installation and -if available- location, power and connectivity
+
+* **Individual Farmers:** use ThreeFold certified hardware but complete their own installation, provide their own location, power and connectivity
+
+* **DIY Farmers:** use their own choice of hardware (incertified hardware)
+
+
+### Two types of capacity:
+
+* **Certified Capacity:** higher security based on no access of the farmer to his own ThreeFold certified hardware. It will therefore achieve a higher price (available in Q2 2019)
+
+* **Uncertified Capacity:** farmer can still access hardware which means lower security and lower price
 
 
 
-* **Cooperative Farmers:** purchase a range of services from a ThreeFold Cooperative up to and including, ThreeFold Certified Hardware, installation, location, power and connectivity
-
-* **Individual Farmers:** create certified ThreeFold Capacity using ThreeFold Certified Hardware but complete their own installation, and providing their own location, power and connectivity
-
-* **DIY Farmers:** who create uncertified ThreeFold Capacity using their own choice of hardware (incertified hardware)
-
-
-
-### Certified vs. DIY hardware
-
-
-
-### Token generation rules until Jnauary 31st 2018:
+### Token generation rules until public Grid Capacity Utilization (Q2 2019):
 -
-There will be no distinction between DIY and certified hardware
+There will be no distinction between certified and uncertified capacity
 
 
-
-|   Hardware Type    | Farming TFTs   | Cultivation TFTs   |
+|   Capacity Type    | Farming TFTs   | Cultivation TFTs   |
 | ------------------ | ---------------| ------------------ |
 | Certified | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
-| DIY | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
+| Uncertified | 1/60th of the calculated farming TFTs per month | TF Grid not live -> no cultivation Tokens, no fees |
 
 
-
-
-### Token generation rules after February 1st 2019:
-There will be no distinction between DIY and certified hardware
+### Token generation rules when Grid Capacity Utilization goes public (Q2 2019):
+There will be differences between uncertified and certified capacity
 
 
 |    Hardware Type   | Farming TFTs   | Cultivation TFTs |
 | ------------------ | ---------------| ------------------ |
 | Certified | 1/60th of the calculated farming TFTs per month | TFTs from TF capacity sales minus 10% to TF Tech*, minus 10% for TF Foundation |
-| DIY| after 30% of capacity is sold: 1/60th of the calculated farming TFTs per month |TFTs from TF capacity sales minus 10% for TF Foundation |
+| Uncertified| after 30% of capacity is sold: 1/60th of the calculated farming TFTs per month |TFTs from TF capacity sales minus 10% for TF Foundation |
 
  *License fee to TF Tech
 
 
- ### Farming TFTs calculation rules
+### Farming TFT calculation
+
+#### Certified and uncertified capacity the difficulty level: 8***
+
+What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. If 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
 
- For Certified and DIY hardware the difficulty factor is set at 8.
+#### Farming TFT calculation formula (monthly)
+
+![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/TFT_Farming_Formula.png)
+
+* T = number of Tokens
+* CU = Compute Units deployed
+* SU = Storage Units deployed
+* ACPT = Average Compute Unit price in Tokens at the time of connection 
+             (Avg Compute Unit price divided by Token price at connection)
+* ASPT = Average Storage Unit price in Tokens at the time of connection
+              (Avg Storage Unit price divided by Token price at connection)
+* D = Difficulty level (Unmanaged Capacity) = 6 for YR 2018
+
+****Until public Grid Capacity Utilization (Q2 2019)****
+ACPT = USD 15.00
+ASPT = USD 10.00
+Token price = USD 0.12
+
+[Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
+
+#### Cultivation TFT calculation formula (monthly)***
+
+![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/TFT_Cultivation_Formula.png)
+
+* CU = Compute Units deployed
+* SU = Storage Units deployed
+* CP = Farmer’s Compute Unit price - expressed in Tokens
+* SP = Farmer’s Storage Unit price - expressed in Tokens
+* U = Utilisation
+* T = Token price at time of capacity reservation
+
+[Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
+
+
+
 
 *************************##########################********************
 
