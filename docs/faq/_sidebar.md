@@ -1,7 +1,4 @@
 * [Home](/)
-
----
-
 * [Frequently Asked Questions](/faq/README.md)
     * [How do I contract capacity](/faq/capacity_contract.md)
     * [How does storage work in the TF grid?](/faq/storage_principles.md)

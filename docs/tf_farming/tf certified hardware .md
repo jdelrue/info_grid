@@ -7,9 +7,9 @@ SOHO Node: basic case with AMD Ryzen
 Datacenter Node:  2U chassis with INTEL xeon
 
 ####Hardware Sources: (for quotes and prices)
-Bettertoken: [www.bettertoken.shop] (www.bettertoken.shop)
+Bettertoken: [www.bettertoken.shop](https://bettertoken.shop/)
 
-Edge Cloud Africa: contact [Dave Gale](dave@edgaecloud.africa)
+Edge Cloud Africa: contact <a href="dave@edgaecloud.africa">Dave Gale</a>
 
 ++++++
 
@@ -24,9 +24,9 @@ ProLiant ML 10
 ProLiant Microserver GEN 10
 
 ####Hardware Sources (for quotes and prices)
--HPE: contact [Miroslaw Polski] (miro@hpe.com)
+-HPE: contact <a href="miro@hpe.com">Miroslaw Polski</a>
 
-Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
+Edge Cloud Africa: contact <a href="dave@edgaecloud.africa">Dave Gale</a>
 
 ++++++
 
@@ -35,4 +35,4 @@ Edge Cloud Africa: contact [Dave Gale] (dave@edgaecloud.africa)
 NUC (all i5 and i7 models, make sure ssd and hdd fit in the chassis=large enclosure)
 
 ####Hardware sources:
-[Amazon] (www.amazon.com) (Amazon offers NUCs almost globally)
+[Amazon](https://www.amazon.com/) (Amazon offers NUCs almost globally)

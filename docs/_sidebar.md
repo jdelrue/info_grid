@@ -1,7 +1,4 @@
 * [Home](/)
-
---- 
-
 * How to participate?
   * [Farmers](/tf_farming/README.md)
   * [Cooperatives](/tf_farming/text.md)

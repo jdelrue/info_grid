@@ -10,7 +10,7 @@ The ThreeFold grid presents raw capacity in the form of primitives. The actual Z
 
 Redundancy is achieved by the storage service by doing the following things:
  - cut the original object (document, photo, movie) into small pieces
- - by using a certain algorithm create additional (redundant) pieces of data. Depending on the algorithm a small or larger number of redundant pieces of data can be created. Think of this process as completing a [sudoku](https://en.wikipedia.org/wiki/Sudoku] puzzle). The unsolved puzzle resembles the original object to store (photo etc.) the algorithms to create additional redundant data is the solving algorithm for the puzzle (numbers 1 - 9 can only appear once in a row, column and 3x3 number square). The further solved the puzzle is the more data redundancy is created.  
+ - by using a certain algorithm create additional (redundant) pieces of data. Depending on the algorithm a small or larger number of redundant pieces of data can be created. Think of this process as completing a [sudoku](https://en.wikipedia.org/wiki/Sudoku) puzzle. The unsolved puzzle resembles the original object to store (photo etc.) the algorithms to create additional redundant data is the solving algorithm for the puzzle (numbers 1 - 9 can only appear once in a row, column and 3x3 number square). The further solved the puzzle is the more data redundancy is created.  
    - unsolved puzzle + 4 additional numbers
    - unsolved puzzle + 8 additional numbers
    - etc.

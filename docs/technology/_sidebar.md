@@ -1,7 +1,4 @@
 * [Home](/)
-
---- 
-
 * [Technology](/technology/README.md)
     * [Atomic swaps - what, how and when?](technology/atomic_swaps.md)
     * [How to create a local TF Chain node](technology/create_node.md)

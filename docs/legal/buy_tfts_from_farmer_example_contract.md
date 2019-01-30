@@ -10,7 +10,7 @@
 This Agreement (“Agreement”) is entered into on this ___day of MMMMM YYYY (the “Effective Date”), by and between:
 The purchaser mentioned above (the “Purchaser”);
 and
-[Farmer]  (the “Company”), address and company register number;
+[Farmer  (the “Company”), address and company register number;
 
 Concepts of the ThreeFold Grid are described in: 
 https://docs.grid.tf/threefold/info/src/branch/master/concepts/threefold_principles.md
