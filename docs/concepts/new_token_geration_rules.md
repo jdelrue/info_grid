@@ -20,7 +20,7 @@
 
 * **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features.  It is a black box to the farmer and anyone that has physical access to the machine.  The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
-* **Uncertified Capacity:** farmer can still access hardware which means lower security and lower price
+* **Uncertified Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
 
 
 
@@ -80,7 +80,7 @@ The token price currently sits are USD 0.12 with limited liquidity. Once liquidi
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
-#### SLA requirerments
+#### SLA requirements
 For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is also usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
