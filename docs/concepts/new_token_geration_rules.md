@@ -78,18 +78,21 @@ For certified and DIY capacity there are Service Level Agreement (SLA) requireme
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
 For capacity farming we need to have a minimal to achieve uptimne of the compute and storage capacity.  This table represent the initial numbers applicable at launch time.
+
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
 For network farming the same appplies.  The network needs to comply with minimal uptime guarantees.  This table represents the initial number applicable at launch time.
+
 |  Network Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 
 Network farmers also need to provide IP space.  Network farmers can make IPv4 and IPv6 ip addresses available.  The requirement to become a network farmers include a minimum number of IPv4 addresses to be made available.  IPv4 addresses are scarse and cost money these days but are still the dominant addressing scheme on the internet.  Over time IPv6 will become more dominant.
+
 |  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 |                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
