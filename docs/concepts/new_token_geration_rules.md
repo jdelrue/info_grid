@@ -46,6 +46,7 @@ There will be differences between uncertified and certified capacity
 
 **Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
 
+**Note:** For both certified and diy farming uptime guarantees apply in the form os SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
 
 ### Farming TFT calculation
 
@@ -75,6 +76,22 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is also usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
+
+
+|  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
+| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
+| SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
+|     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
+
+|  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
+| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
+| Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
+|                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
+
+|  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
+|                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
+|                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
+|                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
 
 <table>
   <tr>
