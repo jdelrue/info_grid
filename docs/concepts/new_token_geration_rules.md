@@ -20,7 +20,7 @@
 
 * **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features.  It is a black box to the farmer and anyone that has physical access to the machine.  The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
-* **Uncertified Capacity:** farmer can still access hardware which means lower security and lower price
+* **Uncertified Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
 
 
 
