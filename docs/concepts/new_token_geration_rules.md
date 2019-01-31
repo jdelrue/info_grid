@@ -77,133 +77,25 @@ For certified and DIY capacity there are Service Level Agreement (SLA) requireme
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
-
+For capacity farming we need to have a minimal to achieve uptimne of the compute and storage capacity.  This table represent the initial numbers applicable at launch time.
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
+For network farming the same appplies.  The network needs to comply with minimal uptime guarantees.  This table represents the initial number applicable at launch time.
 |  Network Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 
-
+Network farmers also need to provide IP space.  Network farmers can make IPv4 and IPv6 ip addresses available.  The requirement to become a network farmers include a minimum number of IPv4 addresses to be made available.  IPv4 addresses are scarse and cost money these days but are still the dominant addressing scheme on the internet.  Over time IPv6 will become more dominant.
 |  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 |                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
 |                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
 |                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
 
-<table>
-  <tr>
-    <td>Capacity Farmer</td>
-    <td></td>
-    <td>Type</td>
-    <td>Europe</td>
-    <td>Africa</td>
-    <td>North America</td>
-    <td>Australia</td>
-    <td>Asia</td>
-    <td>South America</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>SLA</td>
-    <td>DIY</td>
-    <td>98%</td>
-    <td>90%</td>
-    <td>99%</td>
-    <td>99%</td>
-    <td>99%</td>
-    <td>90%</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Certified</td>
-    <td>99.5%</td>
-    <td>95%</td>
-    <td>99.5%</td>
-    <td>99.5%</td>
-    <td>99.5%</td>
-    <td>95%</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Network speed (up and down) </td>
-    <td>DIY</td>
-    <td>5 Mbps/TB
-(assumes 100% storage usage). x 0.33</td>
-    <td>1Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>1Mbps/TB</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Certified</td>
-    <td>5Mbps/TB</td>
-    <td>1Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>5Mbps/TB</td>
-    <td>1Mbps/TB</td>
-  </tr>
-  <tr>
-    <td>Network Farmer</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Available IP’s</td>
-    <td>Network provider</td>
-    <td>/20
-(4096)</td>
-    <td>/22
-(1024)</td>
-    <td>/22
-(4096)</td>
-    <td>/20
-(4096)</td>
-    <td>/20
-(4096)</td>
-    <td>/22
-(1024)</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Network SLA</td>
-    <td>Network provider</td>
-    <td>99.95%</td>
-    <td>99.5%</td>
-    <td>99.95%</td>
-    <td>99.95%</td>
-    <td>99.95%</td>
-    <td>99.5%
-</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td>Network speed</td>
-    <td>Network provider</td>
-    <td>>10Gbps</td>
-    <td>>1Gbps</td>
-    <td>>10Gbps</td>
-    <td>>10Gbps</td>
-    <td>>10Gbps</td>
-    <td>>1Gbps</td>
-  </tr>
-</table>
 
 ### Cultivation TFT calculation
 
