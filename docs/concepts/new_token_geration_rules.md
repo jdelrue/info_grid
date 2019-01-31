@@ -96,7 +96,7 @@ For capacity farming we need to have a minimal to achieve uptimne of the compute
 
 For network farming the same appplies.  The network needs to comply with minimal uptime guarantees.  This table represents the initial number applicable at launch time.
 
-|  Network Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
+|  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
