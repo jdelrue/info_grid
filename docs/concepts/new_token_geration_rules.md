@@ -83,12 +83,14 @@ This table represent the initial numbers applicable to Threefold capacity farmer
 | SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
-|  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
+|  Network Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 
+
 |  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
+| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 |                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
 |                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
 |                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
