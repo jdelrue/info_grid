@@ -30,18 +30,18 @@ There will be no distinction between certified and uncertified capacity
 
 
 |   Capacity Type    | Farming TFTs   |
-| ------------------ | ---------------| 
-| Certified | 1/60th of the calculated farming TFTs per month | 
-| Uncertified | 1/60th of the calculated farming TFTs per month | 
+| ------------------ | ---------------|
+| Certified | 1/60th of the calculated farming TFTs per month |
+| Uncertified | 1/60th of the calculated farming TFTs per month |
 
 
 ### Farmer Token generation rules when Grid Capacity Utilization goes public (Q2 2019):
 There will be differences between uncertified and certified capacity
 
 
-|    Capacity Type   | Farming TFTs   | 
-| ------------------ | ---------------| 
-| Certified | 1/60th of the calculated farming TFTs per month | 
+|    Capacity Type   | Farming TFTs   |
+| ------------------ | ---------------|
+| Certified | 1/60th of the calculated farming TFTs per month |
 | Uncertified| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
 
 **Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
@@ -66,13 +66,15 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 ****Until public Grid Capacity Utilization (Q2 2019)****
 
 * ACPT = USD 15.00
-* ASPT = USD 10.00 
+* ASPT = USD 10.00
 * Token price = USD 0.12
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
 #### SLA requirerments
-For certified and unce
+For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is also usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
+
+This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
 <table>
   <tr>
@@ -146,11 +148,11 @@ For certified and unce
     <td></td>
     <td>Available IP’s</td>
     <td>Network provider</td>
-    <td>/20 
+    <td>/20
 (4096)</td>
-    <td>/22 
+    <td>/22
 (1024)</td>
-    <td>/22 
+    <td>/22
 (4096)</td>
     <td>/20
 (4096)</td>
@@ -218,6 +220,3 @@ There are two types of fees:
 ### Farming TFT release requirements
 
 Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
-
-
-
