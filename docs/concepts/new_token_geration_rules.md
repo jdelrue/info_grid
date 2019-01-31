@@ -71,6 +71,118 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
+#### SLA requirerments
+For certified and unce
+
+<table>
+  <tr>
+    <td>Capacity Farmer</td>
+    <td></td>
+    <td>Type</td>
+    <td>Europe</td>
+    <td>Africa</td>
+    <td>North America</td>
+    <td>Australia</td>
+    <td>Asia</td>
+    <td>South America</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>SLA</td>
+    <td>DIY</td>
+    <td>98%</td>
+    <td>90%</td>
+    <td>99%</td>
+    <td>99%</td>
+    <td>99%</td>
+    <td>90%</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Certified</td>
+    <td>99.5%</td>
+    <td>95%</td>
+    <td>99.5%</td>
+    <td>99.5%</td>
+    <td>99.5%</td>
+    <td>95%</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Network speed (up and down) </td>
+    <td>DIY</td>
+    <td>5 Mbps/TB
+(assumes 100% storage usage). x 0.33</td>
+    <td>1Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>1Mbps/TB</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td>Certified</td>
+    <td>5Mbps/TB</td>
+    <td>1Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>5Mbps/TB</td>
+    <td>1Mbps/TB</td>
+  </tr>
+  <tr>
+    <td>Network Farmer</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Available IP’s</td>
+    <td>Network provider</td>
+    <td>/20 
+(4096)</td>
+    <td>/22 
+(1024)</td>
+    <td>/22 
+(4096)</td>
+    <td>/20
+(4096)</td>
+    <td>/20
+(4096)</td>
+    <td>/22
+(1024)</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Network SLA</td>
+    <td>Network provider</td>
+    <td>99.95%</td>
+    <td>99.5%</td>
+    <td>99.95%</td>
+    <td>99.95%</td>
+    <td>99.95%</td>
+    <td>99.5%
+</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Network speed</td>
+    <td>Network provider</td>
+    <td>>10Gbps</td>
+    <td>>1Gbps</td>
+    <td>>10Gbps</td>
+    <td>>10Gbps</td>
+    <td>>10Gbps</td>
+    <td>>1Gbps</td>
+  </tr>
+</table>
 
 ### Cultivation TFT calculation
 
