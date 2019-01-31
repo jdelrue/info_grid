@@ -18,7 +18,7 @@
 
 ### Two types of capacity:
 
-* **Certified Capacity:** higher security based on no access of the farmer to his own ThreeFold certified hardware. It will therefore achieve a higher price (available in Q2 2019)
+* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features.  It is a black box to the farmer and anyone that has physical access to the machine.  The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
 * **Uncertified Capacity:** farmer can still access hardware which means lower security and lower price
 
