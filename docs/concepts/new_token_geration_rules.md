@@ -52,7 +52,7 @@ There will be differences between uncertified and certified capacity
 
 #### Farming TFT calculation formula (monthly)
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/TFT_Farming_Formula.png)
+![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/tfarming.png)
 
 * T = number of Tokens
 * CU = Compute Units deployed
@@ -112,14 +112,15 @@ Network farmers also need to provide IP space.  Network farmers can make IPv4 an
 
 #### Cultivation TFT calculation formula (monthly)***
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/TFT_Cultivation_Formula.png)
+![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/tcultivation.png)
 
 * CU = Compute Units deployed
 * SU = Storage Units deployed
 * CP = Farmer’s Compute Unit price - expressed in Tokens
 * SP = Farmer’s Storage Unit price - expressed in Tokens
-* U = Utilisation
-* T = Token price at time of capacity reservation
+* U1 = Compute Units Utilisation
+* U2 = Storage Units Utilisation
+* P = Token price at time of capacity reservation
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
