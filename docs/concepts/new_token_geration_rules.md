@@ -1,6 +1,4 @@
-## Token generation rules for ThreeFold farmers
-
-## Capacity Farming
+## Token generation rules for Capacity Farming
 
 ### A Farmer earns tokens in 2 ways:
 
@@ -140,7 +138,7 @@ There are two types of fees:
 
 Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
 
-## Network Farming
+## Token generation rules for Network Farming
 
 Network farmers are organisations or people that make public internet capacity available to capacity farmers that do not have access to (small or) large amounts of IP addresses.  Capacity farmers can exists anywhere with reliable power and some form of connectivity.  They do not have to become full service providers in terms of networking facilities.
 
