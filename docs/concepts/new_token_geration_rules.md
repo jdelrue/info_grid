@@ -1,5 +1,7 @@
 ## Token generation rules for ThreeFold farmers
 
+## Capacity Farming
+
 ### A Farmer earns tokens in 2 ways:
 
 * **Farming Tokens:** as a result of connecting server hardware to the ThreeFold Grid
@@ -7,7 +9,7 @@
 * **Cultivation Tokens:** as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
 
 
-### Three are three types of farmers:
+### Three are three types of capacity farmers:
 
 * **Cooperative Farmers:** purchase a range of services from a ThreeFold cooperative up to and including, ThreeFold certified hardware, installation and -if available- location, power and connectivity
 
@@ -99,18 +101,12 @@ For network farming the same appplies.  The network needs to comply with minimal
 | Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
 
-Network farmers also need to provide IP space.  Network farmers can make IPv4 and IPv6 ip addresses available.  The requirement to become a network farmers include a minimum number of IPv4 addresses to be made available.  IPv4 addresses are scarse and cost money these days but are still the dominant addressing scheme on the internet.  Over time IPv6 will become more dominant.
 
-|  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
-| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
-|                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
-|                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
-|                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
 
 
 ### Cultivation TFT calculation
 
-#### Cultivation TFT calculation formula (monthly)***
+#### Cultivation TFT calculation formula (monthly)
 
 ![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/tcultivation.png)
 
@@ -143,3 +139,17 @@ There are two types of fees:
 ### Farming TFT release requirements
 
 Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
+
+## Network Farming
+
+Network farmers are organisations or people that make public internet capacity available to capacity farmers that do not have access to (small or) large amounts of IP addresses.  Capacity farmers can exists anywhere with reliable power and some form of connectivity.  They do not have to become full service providers in terms of networking facilities.
+
+The capacity grid operates by using a private peer to peer network.  All participating TF farming nodes can communicate to any other node over a (number of) private network(s).  Network farmers provide bespoke, end user specific gatewway in and out of this private network that allows capacity consumers to expose their (web) services on the global (public) internet.  For this they need to have some compute capacity with little storage capabilities on which they host the Threefold Webgateway service creating bespoke and private per customer gateways to the outside world.  This is called network farming.
+
+Network farmers need to provide connectivity and  IP address space.  Network farmers can make IPv4 and IPv6 ip addresses available.  The requirements for a network farmers include a minimum number of IPv4 addresses and dedicated bandwidth to be made available.  
+
+|  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
+| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
+|                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
+|                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
+|                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
