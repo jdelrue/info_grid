@@ -44,6 +44,8 @@ There will be differences between uncertified and certified capacity
 | Certified | 1/60th of the calculated farming TFTs per month | 
 | Uncertified| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
 
+**Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
+
 
 ### Farming TFT calculation
 
