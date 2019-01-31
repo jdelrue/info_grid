@@ -72,7 +72,7 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
-#### SLA requirerments
+#### SLA requirements
 For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is also usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
