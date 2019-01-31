@@ -42,7 +42,7 @@ There will be differences between uncertified and certified capacity
 |    Capacity Type   | Farming TFTs   | 
 | ------------------ | ---------------| 
 | Certified | 1/60th of the calculated farming TFTs per month | 
-| Uncertified| if 30% of capacity is reserved | 1/60th of the calculated farming TFTs for that month |
+| Uncertified| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
 
 
 ### Farming TFT calculation
