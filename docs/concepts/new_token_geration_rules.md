@@ -46,7 +46,7 @@ There will be differences between uncertified and certified capacity
 
 **Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
 
-**Note:** For both certified and diy farming uptime guarantees apply in the form os SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
+**Note:** For both certified and diy farming uptime guarantees apply in the form o SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
 
 ### Farming TFT calculation
 
@@ -66,9 +66,17 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 
 ****Until public Grid Capacity Utilization (Q2 2019)****
 
-* ACPT = USD 15.00
-* ASPT = USD 10.00
-* Token price = USD 0.12
+In order to calculate the number of tokens farmed we use compute and storage market pricing nubers.  For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
+
+The current price levels are set to:
+
+* Price for a compute unit (2 logical cores, 4GB of memory) = USD 15.00
+* Price for a storage unit (1TB of archiving space) = USD 10.00
+
+The token price currently sits are USD 0.12 with limited liquidity. Once liquidity is over an amount of traded tokens per day we will take the average actual token price as the token price for calculation number of farmed token.  With these numbers ACPT and ASPT become:
+
+* ACPT = $15.00 / $0.12 = 125
+* ASPT = $10.00 / $0.12 = 83.3
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
