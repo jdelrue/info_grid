@@ -1,1 +1,5 @@
-[Getting started with Zero-OS](https://raw.githubusercontent.com/threefoldfoundation/info_tech/master/docs/training/getting_started_with_zos.md ':include :type=markdown')
+[Getting started with Zero-OS]
+```!!!include
+repo = "https://github.com/threefoldfoundation/info_tech/tree/master/docs/training"
+name = "getting_started_with_zos.md"
+```

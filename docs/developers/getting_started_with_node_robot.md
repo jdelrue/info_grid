@@ -1,1 +1,5 @@
-[Getting started with the Zero-OS Node Robot](https://raw.githubusercontent.com/threefoldfoundation/info_tech/master/docs/training/getting_started_with_node_robot.md ':include :type=markdown')
+[Getting started with the Zero-OS Node Robot]
+```!!!include
+repo = "https://github.com/threefoldfoundation/info_tech/tree/master/docs/training"
+name = "getting_started_with_node_robot.md"
+```
