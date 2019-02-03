@@ -1,15 +1,15 @@
 * [Farming](tf_farming/README.md)
     * [How to setup your farm](tf_farming/farming_setup.md)
     * [More information on farming](tf_farming/farming_info.md)
-* [Concepts](tf_farming/concepts/README.md)
-    * [Token generation rules](tf_farming/concepts/token_generation_rules.md)
-    * [Cloud units](/concepts/cloud_units.md)
-    * [IT services](/concepts/it_services.md)
-    * [Provisioning](/concepts/provisioning.md)
-    * [Resource units](/concepts/resource_units.md)
+* [Concepts](concepts/README.md)
+    * [Token generation rules](concepts/token_generation_rules.md)
+    * [Cloud units](concepts/cloud_units.md)
+    * [IT services](concepts/it_services.md)
+    * [Provisioning](concepts/provisioning.md)
+    * [Resource units](concepts/resource_units.md)
 * [Cooperation](tf_farming/what_does_a_cooperative_do.md)
-* [How to work with the TF Chain]
-    * [Introduction](tf_farming/howto/)
+* [How to work with the TF Chain] 
+    * [Introduction](tf_farming/introduction.md)
     * [How to do atomic swaps](tf_farming/howto/atomic_swaps.md)
     * [How to create a node](tf_farming/howto/create_node.md)
     * [Where to get TF Chain binaries](tf_farming/howto/get_binaries.md)
@@ -22,7 +22,7 @@
       * [Example contract: Buy TFT's](tf_farming/legal/buy_tfts_from_farmer_example_contract.md)
       * [Example contract: Farming Pool](tf_farming/legal/farmer_buys_farmingpool_example_contract.md)
       * [Terms and Conditions](tf_farming/legal/termsconditions.md)
-* [Online meeting store]
+* [Online meeting store] 
     * [Introduction](tf_farming/online_meetings/README.md)
     * [Wallet presentation](tf_farming/online_meetings/online_meeting_wallet.md)
     * [Agile Collaboration](tf_farming/online_meetings/agile_collaboration.md)

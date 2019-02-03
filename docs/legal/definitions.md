@@ -246,4 +246,4 @@ Units of IT capacity as used in a RP, starting from hardware level. More info se
 
 ## TF Robots
 
-- There are 3 types of ThreeFold Robots see []()
+- There are 3 types of ThreeFold Robots see [link to be added]

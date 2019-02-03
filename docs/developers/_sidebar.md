@@ -1,7 +1,4 @@
 * [Home](/)
-
---- 
-
 * [Developers](/developers/README.md)
     * [Getting Started with Zero-OS](/developers/getting_started_with_zos.md)
     * [Getting Started with JumpScale 9.3.0](/developers/getting_started_with_js_930.md)
