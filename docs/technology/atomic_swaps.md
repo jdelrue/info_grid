@@ -1,1 +1,7 @@
-[Atomic Swaps](https://raw.githubusercontent.com/threefoldfoundation/info_tokens/master/docs/technology/atomic_swaps.md ':include :type=markdown')
+[Atomic Swaps]
+```!!!include
+repo = "https://github.com/threefoldfoundation/info_tokens/tree/development/docs/technology"
+name = "atomic_swaps.md"
+```
+
+
