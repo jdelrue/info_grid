@@ -16,7 +16,7 @@
 * **DIY Farmers:** use their own choice of hardware (incertified hardware)
 
 
-### Two types of capacity:
+### Three types of capacity:
 
 * **Do it yourself (DIY) Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
