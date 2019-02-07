@@ -7,7 +7,7 @@
 * **Cultivation Tokens:** as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
 
 
-### Three are three types of capacity farmers:
+### There are three types of capacity farmers:
 
 * **Cooperative Farmers:** purchase a range of services from a ThreeFold cooperative up to and including, ThreeFold certified hardware, installation and -if available- location, power and connectivity
 
@@ -18,10 +18,11 @@
 
 ### Two types of capacity:
 
-* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features.  It is a black box to the farmer and anyone that has physical access to the machine.  The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
+* **Do it yourself (DIY) Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
 * **Uncertified Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
 
+* **Managed Capacity:** tbd
 
 
 ### Farmer Token generation rules until public Grid Capacity Utilization (Q2 2019):
@@ -61,7 +62,7 @@ There will be differences between uncertified and certified capacity
 * ASPT = Average Storage Unit price in Tokens at the time of connection (Avg Storage Unit price divided by Token price at connection)
 * D = Difficulty level = 8
 
-****Certified and uncertified capacity difficulty level: 8****
+****DIY and uncertified capacity difficulty level: 8****
 What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. If 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
 ****Until public Grid Capacity Utilization (Q2 2019)****
@@ -125,7 +126,7 @@ For network farming the same appplies.  The network needs to comply with minimal
 
 There are two types of fees:
 * 10% for ThreeFold Foundation for promoting the capacity on the grid
-* 10% for TFTech for keeping the TF Grid software components up to date and for providing farmers support
+* 10% for TFTech License that keeps the TF Grid software components up to date and provides farmers support
 
 
 |    Capacity Type   | TF Foundation   | TFTech|
