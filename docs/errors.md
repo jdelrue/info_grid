@@ -1,40 +1,4 @@
 ```
-## ERROR: _sidebar
-
-- in doc: doc:_sidebar:/sandbox/code/github/threefoldfoundation/info_grid/docs/_sidebar.md
-
-**ERROR:** problem with link:[Customers](/customers/README.md)
-ERROR: Cannot find doc with name:customers.readme (nr docs found:0)
-
-
-
-
-```
-```
-## ERROR: _sidebar
-
-- in doc: doc:_sidebar:/sandbox/code/github/threefoldfoundation/info_grid/docs/concepts/_sidebar.md
-
-**ERROR:** problem with link:[IT Services](concepts/it_services.md)
-ERROR: Cannot find doc with name:concepts.it_services (nr docs found:0)
-
-
-
-
-```
-```
-## ERROR: readme
-
-- in doc: doc:readme:/sandbox/code/github/threefoldfoundation/info_grid/docs/concepts/README.md
-
-**ERROR:** problem with link:[IT services](concepts/it_services.md)
-ERROR: Cannot find doc with name:concepts.it_services (nr docs found:0)
-
-
-
-
-```
-```
 ## ERROR: types_of_capacity
 
 - in doc: doc:types_of_capacity:/sandbox/code/github/threefoldfoundation/info_grid/docs/concepts/types_of_capacity.md
@@ -46,101 +10,12 @@ False
 
 ```
 ```
-## ERROR: bancadati
+## ERROR: storage_overhead
 
-- in doc: doc:bancadati:/sandbox/code/github/threefoldfoundation/info_grid/docs/cooperatives/bancadati.md
+- in doc: doc:storage_overhead:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/storage_overhead.md
 
-**ERROR:** problem with link:[www.bancadati.farm](www.bancadati.farm)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: text
-
-- in doc: doc:text:/sandbox/code/github/threefoldfoundation/info_grid/docs/cooperatives/text.md
-
-**ERROR:** problem with link:[Bancadati](/cooperatives/)
-filename is empty
-
-
-
-```
-```
-## ERROR: certified
-
-- in doc: doc:certified:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/certified.md
-
-**ERROR:** problem with link:[www.bettertoken.shop](www.bettertoken.shop)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: certified
-
-- in doc: doc:certified:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/certified.md
-
-**ERROR:** problem with link:[Dave Gale](dave@edgaecloud.africa)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: certified
-
-- in doc: doc:certified:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/certified.md
-
-**ERROR:** problem with link:[Miroslaw Polski](miro@hpe.com)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: certified
-
-- in doc: doc:certified:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/certified.md
-
-**ERROR:** problem with link:[Dave Gale](dave@edgaecloud.africa)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: certified
-
-- in doc: doc:certified:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/certified.md
-
-**ERROR:** problem with link:[Amazon](www.amazon.com)
-found unsupported extension
-
-
-
-```
-```
-## ERROR: compete
-
-- in doc: doc:compete:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/compete.md
-
-**ERROR:** problem with link:[unmanaged](/definitions/threefold_unmanaged_capacity.md)
-ERROR: Cannot find doc with name:definitions.threefold_unmanaged_capacity (nr docs found:0)
-
-
-
-
-```
-```
-## ERROR: readme
-
-- in doc: doc:readme:/sandbox/code/github/threefoldfoundation/info_grid/docs/faq/hosters/README.md
-
-**ERROR:** problem with link:[How will the ThreeFold Grid be implemented in emerging markets?](/faq/emerging_markets.md)
-ERROR: Cannot find doc with name:faq.emerging_markets (nr docs found:0)
+**ERROR:** problem with link:[Storage Units](/definitions/threefold_cloud_units.md)
+ERROR: Cannot find doc with name:definitions.threefold_cloud_units (nr docs found:0)
 
 
 
@@ -151,14 +26,8 @@ ERROR: Cannot find doc with name:faq.emerging_markets (nr docs found:0)
 
 - in doc: doc:definitions:/sandbox/code/github/threefoldfoundation/info_grid/docs/legal/definitions.md
 
-```python
-ERROR IN MACRO*** TODO: *1 ***
-macro:
-include
-ERROR:
-ERROR: COULD NOT INCLUDE:concepts.resource_units"). (not found)
-```
-
+**ERROR:** problem with link:[here](https://github.com/threefoldtoken/info/blob/master/concepts/resource_units.md)
+False
 
 
 
@@ -203,18 +72,6 @@ False
 
 **ERROR:** problem with link:[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md)
 False
-
-
-
-```
-```
-## ERROR: backup_sidebar
-
-- in doc: doc:backup_sidebar:/sandbox/code/github/threefoldfoundation/info_grid/docs/tf_farming/backup_sidebar.md
-
-**ERROR:** problem with link:[IT services](concepts/it_services.md)
-ERROR: Cannot find doc with name:concepts.it_services (nr docs found:0)
-
 
 
 
@@ -388,6 +245,17 @@ ERROR: Cannot find doc with name:tf_farming.online_meetings.agile_collaboration 
 
 ```
 ```
+## ERROR: farming_setup_old
+
+- in doc: doc:farming_setup_old:/sandbox/code/github/threefoldfoundation/info_grid/docs/tf_farming/farming_setup_old.md
+
+**ERROR:** problem with link:[Setup Your Farm](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/README.md ':include :type=markdown')
+False
+
+
+
+```
+```
 ## ERROR: sidebar_backup
 
 - in doc: doc:sidebar_backup:/sandbox/code/github/threefoldfoundation/info_grid/docs/tf_farming/sidebar_backup.md
@@ -406,18 +274,6 @@ ERROR: Cannot find doc with name:tf_farming.concepts.readme (nr docs found:0)
 
 **ERROR:** problem with link:[Token generation rules](tf_farming/concepts/token_generation_rules.md)
 ERROR: Cannot find doc with name:tf_farming.concepts.token_generation_rules (nr docs found:0)
-
-
-
-
-```
-```
-## ERROR: sidebar_backup
-
-- in doc: doc:sidebar_backup:/sandbox/code/github/threefoldfoundation/info_grid/docs/tf_farming/sidebar_backup.md
-
-**ERROR:** problem with link:[IT services](/concepts/it_services.md)
-ERROR: Cannot find doc with name:concepts.it_services (nr docs found:0)
 
 
 
@@ -620,40 +476,6 @@ False
 
 **ERROR:** problem with link:[Token Generation Rules For Farming](Token_Generation_Rules_For_Farming.md)
 ERROR: Cannot find doc with name:token_generation_rules_for_farming (nr docs found:0)
-
-
-
-
-```
-```
-## ERROR: definitions
-
-- in doc: doc:definitions:/sandbox/code/github/threefoldfoundation/info_grid/docs/legal/definitions.md
-
-```python
-ERROR IN MACRO*** TODO: *1 ***
-macro:
-include
-ERROR:
-ERROR: COULD NOT INCLUDE:concepts.resource_units"). (not found)
-```
-
-
-
-
-```
-```
-## ERROR: definitions
-
-- in doc: doc:definitions:/sandbox/code/github/threefoldfoundation/info_grid/docs/legal/definitions.md
-
-```python
-ERROR IN MACRO*** TODO: *1 ***
-macro:
-include
-ERROR:
-ERROR: COULD NOT INCLUDE:concepts.resource_units"). (not found)
-```
 
 
 

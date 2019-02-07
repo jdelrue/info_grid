@@ -9,9 +9,9 @@ We utilise three categories of units:
 - Storage: size of data storage capacity with a certain access speed ([IOPS](https://en.wikipedia.org/wiki/IOPS))
 - Network: amount of data that travels in and out of the acquired storage units or data that travels to/from compute capacity.
 
-![](../images/CloudUnits.png)
+![https://docs.google.com/spreadsheets/d/1TsrG_bvrPl1I4q6FLScLwZDfe5HJ_DWOfY9RjZ8fZI4/edit#gid=75337142](../images/CloudUnits2.png)
 
 
-More details [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vRrvdoj71JARdo2Ky7_UBoSOIJCZNr5ACc3x3ychXIhxDaQqpNF0KDXrDGAVd_O2Ocjq4lrtZYdSImT/pubhtml?gid=75337142&single=true).
+
 
 
