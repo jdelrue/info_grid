@@ -13,14 +13,14 @@
 
 * **Individual Farmers:** use ThreeFold certified hardware but complete their own installation, provide their own location, power and connectivity
 
-* **DIY Farmers:** use their own choice of hardware (incertified hardware)
+* **DIY Farmers:** use their own choice of hardware (uncertified hardware)
 
 
 ### Three types of capacity:
 
-* **Do it yourself (DIY) Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
+* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
-* **Uncertified Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
+* **Do it yourself (DIY) Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
 
 * **Managed Capacity:** tbd
 
