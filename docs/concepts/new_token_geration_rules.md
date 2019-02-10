@@ -23,7 +23,7 @@
 
 * **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
-* **Do it yourself (DIY) Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
+* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
 
 * **Managed Capacity:** tbd
 
@@ -36,7 +36,7 @@ There will be no distinction between certified and uncertified capacity
 |   Capacity Type    | Farming TFTs   |
 | ------------------ | ---------------|
 | Certified | 1/60th of the calculated farming TFTs per month |
-| Uncertified | 1/60th of the calculated farming TFTs per month |
+| DYI | 1/60th of the calculated farming TFTs per month |
 
 
 ### Farmer Token generation rules when Grid Capacity Utilization goes public (Q2 2019):
@@ -46,11 +46,11 @@ There will be differences between uncertified and certified capacity
 |    Capacity Type   | Farming TFTs   |
 | ------------------ | ---------------|
 | Certified | 1/60th of the calculated farming TFTs per month |
-| Uncertified| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
+| DIY| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
 
 **Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
 
-**Note:** For both certified and diy farming uptime guarantees apply in the form o SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
+**Note:** For both certified and DIY farming uptime guarantees apply in the form o SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
 
 ### Farming TFT calculation
 
