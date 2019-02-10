@@ -1,3 +1,6 @@
+
+![](../images/farmer.png)
+
 ## Farming Token generation rules
 
 ### A Farmer earns tokens in 2 ways:
