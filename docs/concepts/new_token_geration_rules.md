@@ -1,4 +1,4 @@
-## Token generation rules for Capacity Farming
+## Farming Token generation rules
 
 ### A Farmer earns tokens in 2 ways:
 
@@ -86,21 +86,19 @@ For certified and DIY capacity there are Service Level Agreement (SLA) requireme
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
-For capacity farming we need to have a minimal to achieve uptimne of the compute and storage capacity.  This table represent the initial numbers applicable at launch time.
+For capacity farming we need to have a minimal to achieve uptime of the compute and storage capacity.  This table represent the initial numbers applicable at launch time.
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
-| SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
+| UTIME SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
-For network farming the same appplies.  The network needs to comply with minimal uptime guarantees.  This table represents the initial number applicable at launch time.
+For network farming the same applies. The network needs to comply with minimal uptime guarantees. This table represents the initial number applicable at launch time.
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
-| Network speed (up and down0 | DIY | 5 Mbps/TB (assumes 100% storage usage). x 0.33 | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
+| NETWORK SPEED SLA | DIY | NA | NA | NA | NA | NA | NA |
 |                             |Certified | 5Mbps/TB | 1Mbps/TB | 5Mbps/TB | 5Mbps/TB | 5Mbps/TB | 1Mbps/TB |
-
-
 
 
 ### Cultivation TFT calculation
@@ -138,6 +136,33 @@ There are two types of fees:
 ### Farming TFT release requirements
 
 Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
+
+
+### Summary Farming Token Generation Rules
+  
+|     | DYI Capacity | Certified Capacity | Certified Capacity | Managed Capacity |
+| ------------------ | ---------------| ------------------ | ------------------ | ------------------ |
+| **Hardware** | All younger than 4 years | All younger than 4 years (1)| Certified | VMs |
+| **Hardware Vendor** | All | All| HPE, Super Micro, INTEL NUC | Hardware Independent |
+| **Boot Process** | Manual | Secure Boot Environment| Secure Boot Environment | Cloud Provisioning|
+| **Secure Boot Device** | NO | YES| NO (Bios lockup)| NO|
+| **Farming Tokens** | YES| YES| YES| YES |
+| **Difficulty Factor** | 8 | 8 | 8 | >8 |
+| **Uptime SLA| Medium** | HIGH | Highest| High |
+| **Capacity Price**| Medium | High| High| Highest|
+| **Farming Token Distribution** | After 30% capacity reservation (2) | Immediately 100%| Immediately 100%| TBD|
+| **Cultivation Token Distribution** |   |  |  |  |
+| **TF Foundation Promotion Fee** | 10% | 10% | 10% | 10% |
+| **TF Tech License Fee** | NA| 10% | 10% | TBD |
+| **Managed Service Fee** | NA | NA | NA | TBD |
+| **TF Tech Contract** | NA | YES | YES | YES |
+
+   
+(1) starts H2 2019
+
+(2) starts end Q1 2019
+
+
 
 ## Token generation rules for Network Farming
 
