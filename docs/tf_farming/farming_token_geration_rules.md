@@ -93,7 +93,7 @@ For capacity farming we need to have a minimal to achieve uptime of the compute 
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
-| UTIME SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
+| UPTIME SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
 For network farming the same applies. The network needs to comply with minimal uptime guarantees. This table represents the initial number applicable at launch time.
@@ -133,7 +133,7 @@ There are two types of fees:
 |    Capacity Type   | TF Foundation   | TFTech|
 | ------------------ | ---------------| ------------------ |
 | Certified | 10% | 10% |
-| Uncertified| 0% | 10% |
+| DIY | 0% | 10% |
 
 
 ### Farming TFT release requirements
@@ -151,14 +151,14 @@ Farming pool uptime as defined at time of registration on the TF Grid has to be 
 | **Secure Boot Device** | NO | YES| NO (Bios lockup)| NO|
 | **Farming Tokens** | YES| YES| YES| YES |
 | **Difficulty Factor** | 8 | 8 | 8 | >8 |
-| **Uptime SLA| Medium** | HIGH | Highest| High |
+| **Uptime SLA**| Medium | High | Highest| High |
 | **Capacity Price**| Medium | High| High| Highest|
 | **Farming Token Distribution** | After 30% capacity reservation (2) | Immediately 100%| Immediately 100%| TBD|
 | **Cultivation Token Distribution** |   |  |  |  |
 | **TF Foundation Promotion Fee** | 10% | 10% | 10% | 10% |
-| **TF Tech License Fee** | NA| 10% | 10% | TBD |
-| **Managed Service Fee** | NA | NA | NA | TBD |
-| **TF Tech Contract** | NA | YES | YES | YES |
+| **TF Tech License Fee** | -| 10% | 10% | TBD |
+| **Managed Service Fee** | - | - | - | TBD |
+| **TF Tech Contract** | - | YES | YES | YES |
 
    
 (1) starts H2 2019
