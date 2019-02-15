@@ -19,7 +19,7 @@
 
 - Number of compute units (CU): Output from Farming Token Estimator
 - Number of storage units (SU): Output from Farming Token Estimator
-- Sale price for a compute unit [$]: USD 15.00 (until Grid usage start in Q2 2019)
+- Sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q2 2019)
 - Sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q2 2019)
 - Average usage over 5 years [%]: we use 60% (realistic medium usage)
 - Price erosion over 5 years [%]: we use 20% (lower than industry as we are already mutiple times lower in pricing)
