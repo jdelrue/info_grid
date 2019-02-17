@@ -3,6 +3,8 @@
 
 [Farming Token Estimator](https://jscalc.io/calc/8jXXLOukrlXcI7H4)
 
+![](images/farming_tool.png)
+
 **Inputs needed:**
 
 - Number of logical cores: See your hardware specs
@@ -14,6 +16,8 @@
 *********************************************************************************************************
 
 [Cultivation Token Estimator](https://jscalc.io/calc/uWbIWOR0dynA46iU)
+
+![](images/cultivation_tool.png)
 
 **Inputs needed:**
 
@@ -31,6 +35,8 @@ You can play around with the last three parameters to simulate differnt scenario
 
 
 [ROI Calculator](https://jscalc.io/calc/7PSBwT4Io6rQ9Bog)
+
+![](images/roi_tool.png)
 
 **Inputs needed:**
 
