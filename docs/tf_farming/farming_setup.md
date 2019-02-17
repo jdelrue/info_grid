@@ -65,7 +65,7 @@ On https://bootstrap.grid.tf click the **Assistant** button:
 
 ![](images/assistant.png)
 
-In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `Development`:
+In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `1.5.0-rc1`:
 
 ![](images/branch_select.png)
 
@@ -73,7 +73,7 @@ Next, in **step 2**, specify the ID of public ZeroTier network that connects all
 
 ![](images/zerotier_network_id.png)
 
-In **step 3**, pass your ItsYou.online organization name (optional), your `farmer ID` as a kernel parameter and check the **support** checkbox:
+In **step 3**, pass your ItsYou.online organization name (optional), your `farmer ID` as a kernel parameter:
 
 ![](images/custom_settings.png)
 
