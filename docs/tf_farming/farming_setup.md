@@ -83,9 +83,9 @@ In **step 4** you find the download URLs for the bootable image in various forma
 
 Or just copy the download URL into your browser:
 
-https://bootstrap.grid.tf/uefi/development/c7c8172af1f387a6/organization="yvesfarm" support farmer_id=your-farmer-id-here
+https:// bootstrap. grid.tf /uefi/development/c7c8172af1f387a6/organization="yvesfarm" support farmer_id=your-farmer-id-here
 
-![](images/download.png)
+![](images/open_download.png)
 
 
 <a id='format'></a>
