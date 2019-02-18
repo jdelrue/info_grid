@@ -2,6 +2,6 @@
 * [Farming](tf_farming/README.md)
     * [Farming presentation](tf_farming/tf_farming_presentation.md)
     * [Three steps to become a farmer](tf_farming/become_farmer_steps.md)
-    * [How to set up your farm](tf_farming/farming_dev_setup.md)
+    * [How to set up your farm](tf_farming/farming_setup.md)
     * [Farming Token Generation](tf_farming/farming_token_geration_rules.md)
     * [Farming Simulation Tools](tf_farming/farming_info.md)
