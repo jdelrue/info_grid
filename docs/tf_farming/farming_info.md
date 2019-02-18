@@ -1,10 +1,6 @@
 # Farming Simulation Tools
 
 
-[Farming Token Estimator](https://jscalc.io/calc/8jXXLOukrlXcI7H4)
-
-![](images/farming_tool.png)
-
 [![Farming Token Estimator](images/farming_tool.png)](https://jscalc.io/calc/8jXXLOukrlXcI7H4)
 
 **Inputs needed:**
@@ -16,10 +12,6 @@
 - Token price when capacity is listed in USD: Currently USD 0.12
 
 *********************************************************************************************************
-
-[Cultivation Token Estimator](https://jscalc.io/calc/uWbIWOR0dynA46iU)
-
-![](images/cultivation_tool.png)
 
 [![Cultivation Token Estimator](images/cultivation_tool.png)](https://jscalc.io/calc/uWbIWOR0dynA46iU)
 
@@ -37,11 +29,6 @@
 You can play around with the last three parameters to simulate differnt scenarios.
 
 *********************************************************************************************************
-
-
-[ROI Calculator](https://jscalc.io/calc/7PSBwT4Io6rQ9Bog)
-
-![](images/roi_tool.png)
 
 [![ROI Estimator](images/roi_tool.png)](https://jscalc.io/calc/7PSBwT4Io6rQ9Bog)
 
