@@ -5,6 +5,8 @@
 
 ![](images/farming_tool.png)
 
+[![Farming Token Estimator](images/farming_tool.png)](https://jscalc.io/calc/8jXXLOukrlXcI7H4)
+
 **Inputs needed:**
 
 - Number of logical cores: See your hardware specs (# of threads, example: 16 cores hyperthreaded = 32 logical cores)
@@ -18,6 +20,9 @@
 [Cultivation Token Estimator](https://jscalc.io/calc/uWbIWOR0dynA46iU)
 
 ![](images/cultivation_tool.png)
+
+[![Cultivation Token Estimator](images/cultivation_tool.png)](https://jscalc.io/calc/uWbIWOR0dynA46iU)
+
 
 **Inputs needed:**
 
@@ -37,6 +42,8 @@ You can play around with the last three parameters to simulate differnt scenario
 [ROI Calculator](https://jscalc.io/calc/7PSBwT4Io6rQ9Bog)
 
 ![](images/roi_tool.png)
+
+[![ROI Estimator](images/roi_tool.png)](https://jscalc.io/calc/7PSBwT4Io6rQ9Bog)
 
 **Inputs needed:**
 
