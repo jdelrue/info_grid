@@ -7,7 +7,7 @@
 
 **Inputs needed:**
 
-- Number of logical cores: See your hardware specs
+- Number of logical cores: See your hardware specs (# of threads, example: 16 cores hyperthreaded = 32 logical cores)
 - Amount of memory in GB: See your hardware specs
 - Amount of solid state disk (SSD) in GB: See your hardware specs
 - Amount of disk storage (HDD) in GB: See your hardware specs
