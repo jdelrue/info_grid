@@ -30,6 +30,29 @@ Everyone who uses this capacity (which will be more cost effective than Certifie
 
 ### Managed Capacity
 
+### Summary Capacity Types
+  
+|     | DYI Capacity | Certified Capacity | Certified Capacity | Managed Capacity |
+| ------------------ | ---------------| ------------------ | ------------------ | ------------------ |
+| **Hardware** | All younger than 4 years | All younger than 4 years (1)| Certified | VMs |
+| **Hardware Vendor** | All | All| HPE, Super Micro, INTEL NUC | Hardware Independent |
+| **Boot Process** | Manual | Secure Boot Environment| Secure Boot Environment | Cloud Provisioning|
+| **Secure Boot Device** | NO | YES| NO (Bios lockup)| NO|
+| **Farming Tokens** | YES| YES| YES| YES |
+| **Difficulty Factor** | 8 | 8 | 8 | >8 |
+| **Uptime SLA**| Medium | High | Highest| High |
+| **Capacity Price**| Medium | High| High| Highest|
+| **Farming Token Distribution** | After 30% capacity reservation (2) | Immediately 100%| Immediately 100%| TBD|
+| **Cultivation Token Distribution** |   |  |  |  |
+| **TF Foundation Promotion Fee** | 10% | 10% | 10% | 10% |
+| **TF Tech License Fee** | -| 10% | 10% | TBD |
+| **Managed Service Fee** | - | - | - | TBD |
+| **TF Tech Contract** | - | YES | YES | YES |
+
+   
+(1) starts H2 2019
+
+(2) starts end Q1 2019
 
 
 * **Certified Hardware:**
