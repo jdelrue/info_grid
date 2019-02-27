@@ -55,8 +55,8 @@ The early deployment phase of the ThreeFold grid has lead to a (growing but smal
 
 #### Purchasing options: (for quotes and prices)
 
-- Hewlett Packard Enterprise: contact <a href="miro@hpe.com" target="_blank">Miroslaw Polski</a>
-- Edge Cloud Africa: contact <a href="dave@edgaecloud.africa" target="_blank">Dave Gale</a>
+- Hewlett Packard Enterprise: contact: ```Miroslaw Polski``` ```miro@hpe.com``` 
+- Edge Cloud Africa: contact: ```Dave Gale```   ```dave@edgaecloud.africa```
 
  ----
 ### INTEL
