@@ -22,4 +22,4 @@ To become a farmer you need to have two ingredients:
   - First you need some hardware that has an Intel processor, some RAM, SSD and HDD capacity
   - Secondly you need to boot that hardware with the Zero-OS operating system
 
-[This](https://github.com/threefoldfoundation/info_grid/blob/master/docs/tf_farming/howto/zero_boot_hardware.md) section will explain how to get a version of the Zero-OS software configured and tuned for your exact needs.
+[This](https://github.com/threefoldfoundation/info_grid/blob/development/docs/technology/zero_boot_hardware.md) section will explain how to get a version of the Zero-OS software configured and tuned for your exact needs.

@@ -34,7 +34,7 @@ For [Managed Capacity](https://docs.grid.tf/threefold/info/src/branch/master/leg
 
 Thanks to the unique ThreeFold software the Farming Pools use a lot less power compared to traditional data centers. Internet capacity is produced and allocated locally - similar to the way electricity and other utilities are purchased today. This allows any digital service/application provider anywhere in the world to host their applications near to the users leading to greater performance and overall efficiency.
 
-For more info see [Token Generation Rules For Farming](Token_Generation_Rules_For_Farming.md)
+For more info see [Token Generation Rules For Farming](https://docs.grid.tf/threefold/info/src/branch/master/concepts/Token_Generation_Rules_For_Farming.md#token-generation-rules-for-farming)
 
 ### Exchange
 

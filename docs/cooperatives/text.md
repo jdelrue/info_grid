@@ -5,7 +5,7 @@
 
 * [Bettertoken](https://bettertoken.com/)
 * [Mazraa](https://www.mazraa.io/)
-* [Bancadati](/cooperatives/README.md)
+* [Bancadati](bancadati.md)
 * [GIG Europe](https://www.gigeurope.tech/)
 
 

@@ -23,7 +23,7 @@
 
 * **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
 
-* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in less a less secure environment.
+* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in a less secure environment.
 
 * **Managed Capacity:** tbd
 
@@ -50,7 +50,7 @@ There will be differences between uncertified and certified capacity
 
 **Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
 
-**Note:** For both certified and DIY farming uptime guarantees apply in the form o SLA's that needs to be met by Farmers.  Uptime guarantees are the result of a number of factors being done wright, power, network, environment and actual health of the hardware.
+**Note:** For both certified and DIY farming uptime guarantees apply in the form of SLA's that need to be met by Farmers.  Uptime guarantees are the result of a number of factors being done right - power, network, environment and actual health of the hardware.
 
 ### Farming TFT calculation
 
@@ -65,19 +65,19 @@ There will be differences between uncertified and certified capacity
 * ASPT = Average Storage Unit price in Tokens at the time of connection (Avg Storage Unit price divided by Token price at connection)
 * D = Difficulty level = 8
 
-****DIY and uncertified capacity difficulty level: 8****
-What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. If 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
+****DIY and certified capacity difficulty level: 8****
+What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. if 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
 ****Until public Grid Capacity Utilization (Q2 2019)****
 
-In order to calculate the number of tokens farmed we use compute and storage market pricing nubers.  For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
+In order to calculate the number of tokens farmed we use compute and storage market pricing nubers. For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
 
 The current price levels are set to:
 
 * Price for a compute unit (2 logical cores, 4GB of memory) = USD 15.00
 * Price for a storage unit (1TB of archiving space) = USD 10.00
 
-The token price currently sits are USD 0.12 with limited liquidity. Once liquidity is over an amount of traded tokens per day we will take the average actual token price as the token price for calculation number of farmed token.  With these numbers ACPT and ASPT become:
+The token price currently sits at USD 0.12 with limited liquidity. Once liquidity is over a certain amount of traded tokens per day we will take the average actual token price as the token price for calculating the number of farmed tokens.  With these numbers ACPT and ASPT become:
 
 * ACPT = $15.00 / $0.12 = 125
 * ASPT = $10.00 / $0.12 = 83.3
@@ -85,18 +85,18 @@ The token price currently sits are USD 0.12 with limited liquidity. Once liquidi
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
 #### SLA requirements
-For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is also usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
+For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
 
 This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
-For capacity farming we need to have a minimal to achieve uptime of the compute and storage capacity.  This table represent the initial numbers applicable at launch time.
+For capacity farming we need to have a minimal uptime of the compute and storage capacity  to achieve.  This table represent the initial numbers applicable at launch time:
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
 | UPTIME SLA | DIY | 98% | 90% | 99% | 99% | 99% | 90% |
 |     | Certified | 99.5% | 95% | 99.5% | 99.5% | 99.5% | 95% |
 
-For network farming the same applies. The network needs to comply with minimal uptime guarantees. This table represents the initial number applicable at launch time.
+The network needs to comply with minimal uptime guarantees. This table represents the initial number applicable at launch time:
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
@@ -140,31 +140,7 @@ There are two types of fees:
 
 Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
 
-
-### Summary Farming Token Generation Rules
-  
-|     | DYI Capacity | Certified Capacity | Certified Capacity | Managed Capacity |
-| ------------------ | ---------------| ------------------ | ------------------ | ------------------ |
-| **Hardware** | All younger than 4 years | All younger than 4 years (1)| Certified | VMs |
-| **Hardware Vendor** | All | All| HPE, Super Micro, INTEL NUC | Hardware Independent |
-| **Boot Process** | Manual | Secure Boot Environment| Secure Boot Environment | Cloud Provisioning|
-| **Secure Boot Device** | NO | YES| NO (Bios lockup)| NO|
-| **Farming Tokens** | YES| YES| YES| YES |
-| **Difficulty Factor** | 8 | 8 | 8 | >8 |
-| **Uptime SLA**| Medium | High | Highest| High |
-| **Capacity Price**| Medium | High| High| Highest|
-| **Farming Token Distribution** | After 30% capacity reservation (2) | Immediately 100%| Immediately 100%| TBD|
-| **Cultivation Token Distribution** |   |  |  |  |
-| **TF Foundation Promotion Fee** | 10% | 10% | 10% | 10% |
-| **TF Tech License Fee** | -| 10% | 10% | TBD |
-| **Managed Service Fee** | - | - | - | TBD |
-| **TF Tech Contract** | - | YES | YES | YES |
-
-   
-(1) starts H2 2019
-
-(2) starts end Q1 2019
-
+Farming tokens are paid after month end. Month is defined as calendar month. For the first month of farming the days online will be paid. Example: farming starts on the 8th of January 23 days (23 = 31 - 8) are paid out in farming tokens.
 
 
 ## Token generation rules for Network Farming
