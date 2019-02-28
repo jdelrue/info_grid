@@ -63,11 +63,11 @@ The result of your registration will be a JSON Web Token (JWT), which is your **
 
 On https://bootstrap.grid.tf click the **Assistant** button:
 
-![](images/assistant.png)
+![](images/assistant2.png)
 
 In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `1.5.0`:
 
-![](images/branch_select1.5.0.jpeg)
+![](images/branch_select1.5.0.jpg)
 
 Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
