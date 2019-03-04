@@ -1,4 +1,4 @@
-* [Home](/docs)
+* [Home](/)
 * [Concepts](README.md)
     * [Cloud Units](cloud_units.md)
     * [IT Services](it_services.md)
