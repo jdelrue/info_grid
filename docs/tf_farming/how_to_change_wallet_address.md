@@ -1,4 +1,4 @@
-# How to change/add you wallet address and farm location
+# How to change/add your farmer wallet address and farm location
 
 **Step 1: [Open the capacity website](https://capacity.threefoldtoken.com)**
 
