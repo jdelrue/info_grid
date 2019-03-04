@@ -23,14 +23,14 @@ Enter your email address and password and click 'Log In' button
 
 
 
-**Step 3: Select your farm
+**Step 3: Select your farm**
 
 Click on the 'pen' icon
 
 ![](images/farm_select_new.png)
 
 
-**Step 4: Update/add your wallet address
+**Step 4: Update/add your wallet address**
 
 Enter your wallet address to make sure TFTs can be transferred for your farming efforts
 
@@ -38,5 +38,6 @@ Enter your wallet address to make sure TFTs can be transferred for your farming 
 
 **Note:** you can in this screen also select/change your farm location.
 
-Once you entered the data make sure to press the update button
+
+Once you entered the data make sure to press the 'update' button
 
