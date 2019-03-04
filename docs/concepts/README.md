@@ -4,7 +4,7 @@
 
 To explain farming a number of concepts have to be explained to understand the total concepts.  There are a number of different componets that all needs to work together in order to get a working setup.
 
-#### [Token generation rules](token_generation_rules.md)
+#### [Token generation rules](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/token_generation_rules.md)
 
 
 #### [Cloud units](cloud_units.md)
