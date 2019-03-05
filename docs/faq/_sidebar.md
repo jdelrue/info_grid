@@ -14,7 +14,6 @@
     * [Storage Overhead](/faq/storage_overhead.md)
     * [Node Workloads](/faq/node_workloads.md)
     * [Capacity Rules](/faq/capacity_rules.md)
-    * [Proof of Stake](/faq/proof_of_stake.md)
     * [How to Compete](/faq/compete.md)
     * [Promote Application Development](/faq/promote_appdev.md)
     * [Malicious Content](/faq/malicious_content.md)
