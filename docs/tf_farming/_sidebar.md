@@ -5,4 +5,4 @@
     * [How to set up your farm](tf_farming/farming_setup.md)
     * [Farming Token Generation](tf_farming/farming_token_geration_rules.md)
     * [Farming Simulation Tools](tf_farming/farming_info.md)
-    * [How to change/add your farmer wallet and farm location](how_to_change_wallet_address.md)
+    * [How to change/add your farmer wallet and farm location](tf_farming/how_to_change_wallet_address.md)
