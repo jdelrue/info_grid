@@ -1,9 +1,8 @@
 * [Home](/)
 * How to participate?
   * [Farmers](/tf_farming/README.md)
-  * [Partners](/customers/README.md)
   * [Developers](/developers/README.md)
-  
+
 * How to get more information
   * [Presentations](/presentations/README.md)
   * [Concepts](/concepts/README.md)
