@@ -67,7 +67,7 @@ On https://bootstrap.grid.tf click the **Assistant** button:
 
 In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `master`:
 
-![](images/branch_select1.5.0.jpg)
+![](images/branch_select_master.png)
 
 Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
