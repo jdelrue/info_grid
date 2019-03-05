@@ -65,7 +65,7 @@ On https://bootstrap.grid.tf click the **Assistant** button:
 
 ![](images/assistant2.png)
 
-In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `1.5.0`:
+In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS branch `master`:
 
 ![](images/branch_select1.5.0.jpg)
 
