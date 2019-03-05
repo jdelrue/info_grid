@@ -225,7 +225,8 @@ A Farming Pool is linked to a Farmer, the Farmer receives tokens for providing t
 
 ## Resource Units (RU)
 
-Units of IT capacity as used in a RP, starting from hardware level. More info see [here](https://github.com/threefoldtoken/info/blob/master/concepts/resource_units.md).
+Units of IT capacity as used in a RP, starting from hardware level. More info see [here]
+!!!include("concepts.resource_units").
 
 
 

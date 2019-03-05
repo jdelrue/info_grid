@@ -12,7 +12,10 @@ As mentioned before the level of redundancy depends on the software defined stor
  - chassis
  - datacenter (location)
 
- The amount of required [Storage Units](/definitions/threefold_cloud_units.md) goes up with the higher level of redundancy build in the software defined storage solution. Resilience to a single disk failure comes in at a lower price than building resilience to a total datacenter failure.
+ The amount of required [Storage Units]```!!!include
+repo = "https://github.com/threefoldfoundation/info_foundation/tree/master/docs/definitions"
+name = "threefold_cloud_units.md"
+``` goes up with the higher level of redundancy build in the software defined storage solution. Resilience to a single disk failure comes in at a lower price than building resilience to a total datacenter failure.
 
 ## Question
 
