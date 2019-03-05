@@ -3,7 +3,7 @@
 - Support Lead: Ramez saeed
 - Support Co-ordinator: Sabrina Sadik
 
-First level support & on call team:
+First level support and on call team:
 - Peter Nashaat [telegram: @PeterNashaat]
 - Bishoy Michael [telegram: @Pishoy]
 - Abdul Rehman [telegram: @arrajput]
