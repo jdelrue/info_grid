@@ -1,6 +1,6 @@
 # How to setup your ThreeFold Farm
 
-In order for the ThreeFold nodes to start recording farmed tokens we need to bring the grid live in development mode.  This will be required for a limited time only.  The steps are very much like bring the grid up for production, but have a few additional steps and check boxes that require attention.
+In order for the ThreeFold nodes to start recording farmed tokens they need to run the Zero OS master branch.
 
 6 simple Steps:
 - [Create an ItsYou.online organization](#iyo-org)
