@@ -13,11 +13,11 @@ Click on 'Farmers'
 Click on 'Login'
 ![](images/farmers_login_button.png)
 
-Enter your Organization ID and click the 'Login via It's You Online' button
+Enter your Organization ID and click the "Login via It's You Online" button
 ![](images/login_org_id.png)
 
 
-Enter your email address and password and click 'Log In' button
+Enter your email address and password and click "Log In" button
 
 ![](images/iyo_credentials_clean.png)
 
@@ -25,7 +25,7 @@ Enter your email address and password and click 'Log In' button
 
 **Step 3: Select your farm**
 
-Click on the 'pen' icon
+Click on the "pen" icon
 
 ![](images/farm_select_new.png)
 
@@ -39,5 +39,5 @@ Enter your wallet address to make sure TFTs can be transferred for your farming 
 **Note:** you can in this screen also select/change your farm location.
 
 
-Once you entered the data make sure to press the 'update' button
+Once you entered the data make sure to press the "update" button
 
