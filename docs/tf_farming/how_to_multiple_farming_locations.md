@@ -44,4 +44,4 @@ Note: Make you select this name in a way that it reflects your desired structure
 
 Congratulations! You have now setup a multi-location farm under one parent ItsYou.Online ID
 
-If you need any further assistance reach out to support@threefold.tech [resource_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/resource_units.md)
+If you need any further assistance reach out to support@threefold.tech 
