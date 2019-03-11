@@ -77,7 +77,7 @@ In **step 3**, pass your ItsYou.online organization name (optional)and your `far
 
 **NOTE: Please select 'Enable support flag' if you want ThreeFold to help you with any issue that might come up**
 
-![](images/custom_settings.png)
+![](images/howtosetupfarmstep3.png)
 
 In **step 4** you find the download URLs for the bootable image in various formats, use the **EFI** format:
 
