@@ -54,7 +54,7 @@ Here you specify:
 - **TFT Wallet Address**: optionally you can also associate a ThreeFold Token wallet address to your farm
 - **Farm Location**: location on the map of your farm
 
-The result of your registration will be a JSON Web Token (JWT), which is your [farmer ID](https://github.com/threefoldfoundation/info_foundation/blob/development/docs/definitions/farmer_id.md). Make sure to copy this token and keep it, because you will need it later in the process of setting up your nodes.
+The result of your registration will be a JSON Web Token (JWT), which is your farmer ID (https://github.com/threefoldfoundation/info_foundation/blob/development/docs/definitions/farmer_id.md). Make sure to copy this token and keep it, because you will need it later in the process of setting up your nodes.
 
 
 <a id='download'></a>
