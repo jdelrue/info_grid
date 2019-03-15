@@ -28,11 +28,11 @@ The network_type is important, if you omit this, you will play with real TFT, so
 
 With your new client, create a TFChain wallet:
 ```python
-w = c.wallets.my_wallet.new("my_wallet") # a new seed will be generated
+w = c.wallets.new("my_wallet")  # a new seed will be generated
 ```
 or recover an existing wallet using its seed:
 ```python
-w = c.wallets.my_wallet.new("my_wallet", seed="blast fortune level avoid luxury obey humble lawsuit hurry crowd life select express shuffle taxi foam soul denial glimpse task struggle youth hawk cram")
+w = c.wallets.new("my_wallet", seed="blast fortune level avoid luxury obey humble lawsuit hurry crowd life select express shuffle taxi foam soul denial glimpse task struggle youth hawk cram")
 ```
 
 #### 2. Get some TFT from our faucet
