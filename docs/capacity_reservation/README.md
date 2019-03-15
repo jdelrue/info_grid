@@ -74,7 +74,7 @@ Example how to reserve a Zero-OS virtual machines:
 ```python
 result = w.capacity.reserve_zos_vm(
     email='user@email.com', # the email on which you will received the connection information
-    threebot_id='my3bot.example.org', # your threebot id, it can be any of the names you gave to your 3bot
+    threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
     location='farm_name', # name of the farm or node id where to deploy the workload
     size=1) # each workload have a different size available
 ```
@@ -83,7 +83,7 @@ Example how to reserve a S3 archive storage:
 ```python
 result = w.capacity.reserve_zos_vm(
     email='user@email.com', # the email on which you will received the connection information
-    threebot_id='my3bot.example.org', # your threebot id, it can be any of the names you gave to your 3bot
+    threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
     location='farm_name', # name of the farm where to deploy the workload
     size=1) # each workload have a different size available
 ```
