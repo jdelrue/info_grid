@@ -100,8 +100,8 @@ As soon as it is ready, usually within a few minutes, you will receive an email 
 
 ### Amount of TFT for each type of reservation:
 |type|size|amount| CPU | Memory | Storage   |
-| -- | --| --    | --  | --     | --     |
-| vm | 1 | 1     | 1   | 2GiB   | 10 GiB |
-| vm | 2 | 4     | 2   | 4GiB   | 40 GiB |
-| s3 | 1 | 10    |     |        | 50 GiB |
-| s3 | 2 | 40    |     |        | 100 GiB|
+| -- | --| --    | --  | --     | --        |
+| vm | 1 | 1     | 1   | 2GiB   | 10 GiB    |
+| vm | 2 | 4     | 2   | 4GiB   | 40 GiB    |
+| s3 | 1 | 50    |     |        | 500 GiB   |
+| s3 | 2 | 100   |     |        | 1000 GiB  |
