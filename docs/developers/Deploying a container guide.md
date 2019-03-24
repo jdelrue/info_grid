@@ -104,7 +104,7 @@ Last login: Sun Mar 24 11:54:53 2019 from 192.168.193.54
 root@corex:~#
 ```
 
-Now you access to the Container.
+Now you have access to the Container.
 
 
 
