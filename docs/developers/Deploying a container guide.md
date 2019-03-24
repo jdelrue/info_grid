@@ -37,10 +37,10 @@ ncl = j.clients.zos.get('node', data = { 'host':'10.102.210.164', 'password_':jw
 
 
 
-4- Now using the node client, mount your sources for your website on the node:
+4- Now using the node client, mount your sources for your website on the node accordingly
 
 ```
-ncl.client.system('mkdir -p /mnt/websites/myfirstweb').get()
+ncl.client.system('mkdir -p /mnt/storagepools/sdb/websites').get()
 ```
 
 5- Now using the container [template](https://github.com/threefoldtech/0-templates/tree/development/templates/container) , make your Container data args:
