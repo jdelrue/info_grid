@@ -22,7 +22,7 @@ Compute power requires per TB is minimal. There are several benchmarks done on t
 ### How can different types of Storage Tier be achived?
 Minio is an open source implementation of the Simple Storage Service (S3) protocol imvented by amazon web services.  The protocol provides "network" access to physical devices in servers.  The protocol uses storage "buckets" which mix and match different storage and caching devices (HDD, SDD and memory).  By creating a mix of these storage end devices you can create a plethora of different storage platform - presenting different performance and reliability service levels.
 
-![S3-princple](/images/s3-principle.png)
+![S3-princple](../images/s3-principle.png)
 
 Examples are:
 - Hot Storage - Fast access for User queries and AI Dataminig
@@ -32,16 +32,33 @@ Examples are:
 ## Storage Aging
   
 ### How would change of 1 Hardrive work?
+The minio software uses a "forward correcting" erasure coding algorithm to store date.  An (digital) object is sharded into fragments and additional fragments are created for redundancy purposes.  The erasure coding process can be configured such that different fragments are stored on different physical disks.  The amount of shards of the same object stored on a single disk can be configured in the erasure coding algorithm parameters.
+
+So when properly configured a single disk failure will never lead to dataloss and replacing a single disk that failed can be done at any time.
 
 ### How would change of a Storage Server work?
+Changing a storage server (e.g. changing a large quantity of physical disks) requires planning. The mechanism will follow the following planning process where farmer capacity will be identified by the capacity ledger as coming to an end of life (5 years of operation) and therefore capacity will (potentially) be taken offline.  It is the farmers prerogative to comtinue to operate the capacity (with advertising that he will do so) or that his capacity will not be available (soon) because the 5 year term is up.  All existing capacity contracts will then be moved over a certain period of time to new and available capacity and at the end of the 5 year period none of the capacity (which is not earmarked to be used for longer then 5 years) will have active workloads on it.
 
 ### Change of large parts of the Storage pool after 5 Years / EOL of Hardware?
-
+See previous answer
 ## Data Restore 
-  How does a Datarestore work (HDD failure)?
-  How long would it take?
-  State of the rest of the Storage at that time?
+
+### How does a Datarestore work (HDD failure)?
+
+Is automatic.  The system will recognised a failed disks and reproduce additional shards (pieces of redundant information) to comply with the redundancy policy specified for the specific datasets.
+
+### How long would it take?
+
+As one disk will not put dsta at risk this can be a background process.  It is not time dependent as there is never a code red data loss risk alert.
+
+### State of the rest of the Storage at that time?
+
+All data objects are stored in a secure state.
 
 ## Encryption in ZeroOS
-  How does Encryption in ZeroOs work?
-  How would encryption ontop of ZeroOs work?
+
+### How does Encryption in ZeroOs work?
+Encryption is based on standard symmetrical and a-symatrical key algorithms.  Where appropriate Zero-OS uses standard symetrical or a-symatrical algorithms.
+
+### How would encryption ontop of ZeroOs work?
+Any appication that wants / needs to encrypt information can do it as it wishes.  For all the interactions between the 3bots and blockchain ledges ThreeFold technology uses encryption where needed - for end user data any data encryption algorithm can be opted in.
