@@ -123,8 +123,10 @@ Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold 
 ### Media:
 <https://h20195.www2.hpe.com/v2/gethtml.aspx?docname=a00008180enw>
 
-## Storage Node - Storage optimized Node, 2U rackmountable (around 60000 USD, depending on the region)
+## Storage Node
 
+Storage optimized Node, 2U rackmountable (around 60000 USD, depending on the region)
+ 
 ### Server Platform:
 HPE Apollo 4510 Gen10
 
