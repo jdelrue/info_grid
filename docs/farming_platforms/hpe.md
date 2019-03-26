@@ -9,8 +9,8 @@
 Storage Node | HPE Apollo 4510 Gen10 | 4U server |  - 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 32GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
 
 
-## Home Kit, SOHO, personal farm for the lowest price (around 1100USD pricepoint for example config, depending on config)
-
+## Home Kit
+SOHO, personal farm for the lowest price (around 1100USD pricepoint for example config, depending on config)
 
 ### Server Platform: 
  
@@ -49,13 +49,13 @@ HPE ProLiant MicroServer Gen10 is available at local electronics stores. Configu
 ### Media:
 <https://h20195.www2.hpe.com/v2/gethtml.aspx?docname=a00008701enw>
 
-## Converged Node I - AMD based Compute and Storage Node, 2u rackmountable (around 13000 USD, depending on region)
- 
+## Converged Node I 
+
+AMD based Compute and Storage Node, 2u rackmountable (around 13000 USD, depending on region)
 
 ### Server Platform:
 HPE ProLiant DL385 Gen10 Mod-X 12LFF
 
- 
 ### Description:
 HPE ProLiant DL385 Gen10 server supports industry standard technology leveraging the AMD EPYC 7000 Series Processor with up to 32 cores, 12 Gb SAS and 4.0 TB of HPE DDR4 SmartMemory. HPE ProLiant DL385 Gen10 claims world record for the MOST energy-efficient AMD-based server. HPE ProLian DL385 Gen10 Mod-X 12LFF is Zero OS certified
 
@@ -68,7 +68,7 @@ Threefold optimized configuration for maximized ROI:
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
 
-#### Ressource Units:
+#### Resource Units:
 
 - CRU: 64 logical cores
 - MRU: 128 GB
@@ -86,7 +86,9 @@ Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold 
 <https://h20195.www2.hpe.com/v2/gethtml.aspx?docname=a00026913enw>
 
 
-## Converged Node II - INTEL based Compute and Storage Node, 2u rackmountable (around 16000 USD, depending on region)
+## Converged Node II
+
+INTEL based Compute and Storage Node, 2u rackmountable (around 16000 USD, depending on region)
 
 ### Server Platform:
 HPE ProLiant DL380 Gen10 12LFF  
