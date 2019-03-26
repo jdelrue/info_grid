@@ -6,7 +6,7 @@
 |  Home  | HPE ProLiant MicroServer Gen10 | Mirco Server | 1x AMD Opteron™ X3418 (1.8-3.2 GHz), 4 physical cores, up to 32GB RAM, 4 x HDDs/SSDs
 |  Converged Node I| HPE ProLiant DL380 Gen10 12LFF | 2U server |  2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 128GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
 |  Converged Node II | HPE ProLiant DL385 Gen10 Mod-X 12LFF | 2U server  | 2x AMD EPYC – 7351 (2.4GHz/16-core) 128GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
-Storage Node | HPE Apollo 4510 Gen10 | 4U server |  - 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 32GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
+Storage Node | HPE Apollo 4510 Gen10 | 4U server | 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 32GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
 
 
 ## Home Kit
