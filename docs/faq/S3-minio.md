@@ -12,21 +12,30 @@ With Minio in stand-alone mode, distributed Minio has a per tenant limit of mini
 
 
 ## Minio Compute power / TB
-Compute power requires per TB is 
 
 ### How much compute power would be needed to run 1TB of Storage?
 
+Compute power requires per TB is minimal. There are several benchmarks done on the public internet and [published](https://blog.minio.io/minio-benchmarks-with-cosbench-81704a8f0178).  We have also done internal benchmarking which is available upon request.
+
 ## Storage Tiering
   
-- How can different types of Storage Tier be achived?
+### How can different types of Storage Tier be achived?
+Minio is an open source implementation of the Simple Storage Service (S3) protocol imvented by amazon web services.  The protocol provides "network" access to physical devices in servers.  The protocol uses storage "buckets" which mix and match different storage and caching devices (HDD, SDD and memory).  By creating a mix of these storage end devices you can create a plethora of different storage platform - presenting different performance and reliability service levels.
+
+![S3-princple](/images/s3-principle.png)
+
+Examples are:
 - Hot Storage - Fast access for User queries and AI Dataminig
 - Warm Storage - Working Data for Daily bussiness
 - Cold Storage - Longtime Archive Storage 
 
 ## Storage Aging
-  How would change of 1 Hardrive work?
-  How would change of a Storage Server work?
-  Change of large parts of the Storage pool after 5 Years / EOL of Hardware?
+  
+### How would change of 1 Hardrive work?
+
+### How would change of a Storage Server work?
+
+### Change of large parts of the Storage pool after 5 Years / EOL of Hardware?
 
 ## Data Restore 
   How does a Datarestore work (HDD failure)?
