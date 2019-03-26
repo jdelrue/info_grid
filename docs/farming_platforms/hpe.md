@@ -43,7 +43,7 @@ HPE ProLiant MicroServer Gen10 is available at local electronics stores. Configu
 ### Media:
 <https://h20195.www2.hpe.com/v2/gethtml.aspx?docname=a00008701enw>
 
-## Converged Node - AMD based Compute and Storage Node, 2u rackmountable (around 14000 USD, depending on region)
+## Converged Node I - AMD based Compute and Storage Node, 2u rackmountable (around 14000 USD, depending on region)
  
 
 ### Server Platform:
@@ -76,7 +76,7 @@ Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold 
 <https://h20195.www2.hpe.com/v2/gethtml.aspx?docname=a00026913enw>
 
 
-## Converged Node - INTEL based Compute and Storage Node, 2u rackmountable (around 16000 USD, depending on region)
+## Converged Node II - INTEL based Compute and Storage Node, 2u rackmountable (around 16000 USD, depending on region)
 
 ### Server Platform:
 HPE ProLiant DL380 Gen10 12LFF  
