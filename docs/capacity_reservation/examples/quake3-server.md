@@ -40,11 +40,27 @@ node.client.ping()
 
 2. Create the Quake3 container
 
+create a volume for your container
+```python
+pool = node.storagepools.get('zos-cache')
+volume = pool.create('quake3')
+```
+
+download the data files:
+```python
+content = j.sal.fs.fileGetBinaryContents('/path/to/quake/pak0.pk3')
+node.upload_content(fs.path+'/pak0.pk3', content)
+
+config = j.sal.fs.fileGetContents('/path/to/my-server.cfg')
+node.upload_content(fs.path+'/my-server.cfg', config)
+```
+
 ```python
 quake3 = node.containers.create(
     name='quake3',
     flist='https://hub.grid.tf/glendc/glendc-quake3-latest.flist',
-    ports={27960:27960},
+    ports={"27960|udp":27960},
+    mounts={fs.path: '/data'},
 )
 quake3_public_url = "%s:27960" % node.host
 print(quake3_public_url)
@@ -66,11 +82,11 @@ seta g_gametype 0                 // 0:FFA, 1:Tourney, 2:FFA, 3:TD, 4:CTF
 seta timelimit 10                 // Time limit in minutes
 seta fraglimit 15                 // Frag limit
 
-seta g_weaponrespawn 2              // weapon respawn in seconds 
+seta g_weaponrespawn 2              // weapon respawn in seconds
 seta g_inactivity 120               // kick players after being inactive for x seconds
 seta g_forcerespawn 0               // player has to press primary button to respawn
 seta g_log server.log               // log name
-seta logfile 3                      // probably some kind of log verbosity?   
+seta logfile 3                      // probably some kind of log verbosity?
 seta rconpassword "secret"          // sets RCON password for remote console
 
 seta rate "12400"                   // not sure
