@@ -26,7 +26,7 @@ a jumpscale installation ready. If you don't head to https://github.com/threefol
 
 In kosmos, create a TFChain client
 ```python
-c = j.clients.tfchain.new('my_client', network_type='TEST')
+c = j.clients.tfchain.new(name='my_client', network_type='TEST')
 ```
 The network_type is important, if you omit this, you will play with real TFT, so be careful
 
