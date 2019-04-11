@@ -40,65 +40,40 @@ node.client.ping()
 
 2. Create the Quake3 container
 
-create a volume for your container
+Create a volume for your container:
 ```python
 pool = node.storagepools.get('zos-cache')
 volume = pool.create('quake3')
 ```
 
-download the data files:
+Before we can continue you'll have to make sure that you have
+copied the `pak0.pk3` file from your legally bought software
+and have it ready on your JSX environment. On top of that you'll
+need a server configuration, which we'll call `my-server.cfg`,
+such that we can automatically configure the server.
+An example server config can be found under [data/quake3-server.cfg](data/quake3-server.cfg).
+
+Download the data files:
 ```python
-content = j.sal.fs.fileGetBinaryContents('/path/to/quake/pak0.pk3')
-node.upload_content(fs.path+'/pak0.pk3', content)
+content = j.sal.fs.readFile('/path/to/quake/pak0.pk3', binary=True)
+node.upload_content(volume.path+'/pak0.pk3', content)
 
 config = j.sal.fs.fileGetContents('/path/to/my-server.cfg')
-node.upload_content(fs.path+'/my-server.cfg', config)
+node.upload_content(volume.path+'/my-server.cfg', config)
 ```
 
+> If you get a timeout, try to increase it using `node.timeout`. This has to be done before you create your _node_ client.
+
+Create the container:
 ```python
 quake3 = node.containers.create(
     name='quake3',
     flist='https://hub.grid.tf/glendc/glendc-quake3-latest.flist',
     ports={"27960|udp":27960},
-    mounts={fs.path: '/data'},
+    mounts={volume.path: '/data'},
 )
 quake3_public_url = "%s:27960" % node.host
 print(quake3_public_url)
-```
-
-Server Config:
-
-```
-// general server info
-seta sv_hostname "ThreeFold Grid DM"   // name that appears in server list
-seta g_motd "FFA DM 24/7"         // message that appears when connecting
-seta sv_maxclients 16               // max number of clients than can connect
-seta sv_pure 1                      // pure server, no altered pak files
-seta g_quadfactor 4                 // quad damage strength (3 is normal)
-seta g_friendlyFire 1               // friendly fire motherfucker
-
-// free for all
-seta g_gametype 0                 // 0:FFA, 1:Tourney, 2:FFA, 3:TD, 4:CTF
-seta timelimit 10                 // Time limit in minutes
-seta fraglimit 15                 // Frag limit
-
-seta g_weaponrespawn 2              // weapon respawn in seconds
-seta g_inactivity 120               // kick players after being inactive for x seconds
-seta g_forcerespawn 0               // player has to press primary button to respawn
-seta g_log server.log               // log name
-seta logfile 3                      // probably some kind of log verbosity?
-seta rconpassword "secret"          // sets RCON password for remote console
-
-seta rate "12400"                   // not sure
-seta snaps "40"                     // what this
-seta cl_maxpackets "40"             // stuff is
-seta cl_packetdup "1"               // all about
-
-// set maps
-set d1 "map q3dm1 ; set nextmap vstr d2"
-set d2 "map q3dm2 ; set nextmap vstr d3"
-set d3 "map q3dm3 ; set nextmap vstr d1"
-vstr d1
 ```
 
 The last line is to create the address information you'll need to connect to the Quake3 Game Server.
@@ -107,3 +82,5 @@ The last line is to create the address information you'll need to connect to the
 >       No UDP Reserve Proxy is available for now.
 
 Your Quake3 instance should now be running.
+
+Happy fragging on your personal Quake 3 Game Server running on the grid :)
