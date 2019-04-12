@@ -12,6 +12,9 @@ Quake III Arena is a multiplayer-focused first-person shooter video game release
 
 ### Convert docker image into flist
 
+> NOTE: You could skip this step if you are fine with using an flist
+> already provided for you at <https://hub.grid.tf/glendc/glendc-quake3-latest.flist>.
+
 For this tutorial we'll use a docker image provided by _jberrenberg_ available at <https://hub.docker.com/r/jberrenberg/quake3>.
 
 To convert these docker image in usable flist, go to https://hub.grid.tf/docker-convert.
@@ -46,6 +49,10 @@ pool = node.storagepools.get('zos-cache')
 volume = pool.create('quake3')
 ```
 
+> As to avoid time out errors later in this step
+> try to increase it using `node.timeout`.
+> This has to be done before you create your _node_ client.
+
 Before we can continue you'll have to make sure that you have
 copied the `pak0.pk3` file from your legally bought software
 and have it ready on your JSX environment. On top of that you'll
@@ -62,14 +69,17 @@ config = j.sal.fs.fileGetContents('/path/to/my-server.cfg')
 node.upload_content(volume.path+'/my-server.cfg', config)
 ```
 
-> If you get a timeout, try to increase it using `node.timeout`. This has to be done before you create your _node_ client.
-
 Create the container:
 ```python
 quake3 = node.containers.create(
+    # the name of the container
     name='quake3',
+    # the URL that points to the flist you want to use
     flist='https://hub.grid.tf/glendc/glendc-quake3-latest.flist',
+    # the UDP port that is to be exposed
     ports={"27960|udp":27960},
+    # volume we wish to mount, so that the container has
+    # access to our custom server-config and pak0.pk3 file
     mounts={volume.path: '/data'},
 )
 quake3_public_url = "%s:27960" % node.host
