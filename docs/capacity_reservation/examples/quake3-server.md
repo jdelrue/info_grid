@@ -7,8 +7,7 @@ Quake III Arena is a multiplayer-focused first-person shooter video game release
 ## Summary
 
 - Convert docker image into flist
-- Create the containers on 0-OS
-- Create a reverse proxy to expose PeerTube to the public
+- Create the container on 0-OS
 
 ### Convert docker image into flist
 
@@ -27,9 +26,9 @@ The result of the conversion should show something like:
 
 ![flist converted](images/quake3-flist-created.png)
 
-### Create containers on 0-OS
+### Create container on 0-OS
 
-Now that we have all the flist we need, let's start creating containers
+Now that we have the flist we need, let's create the container
 
 > To learn how to reserve a 0-OS instance, please read:
 > [../README.md#how-to-reserve-some-capacity-on-the-threefold-grid](../README.md#how-to-reserve-some-capacity-on-the-threefold-grid)
