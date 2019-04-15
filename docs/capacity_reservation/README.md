@@ -17,16 +17,17 @@ This document assumes you are familiar with Jumpscale and you already have
 a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](https://github.com/threefoldtech/jumpscaleX/blob/development/docs/Installation/install.md)
 
 ### Summary
-1. [Create a TF Chain Wallet](#Create-a-TFchain-wallet)
-2. [Get some TFT from our Faucet](Get-some-TFT-from-our-faucet)
-3. [Register a ThreeBot](Register-a-ThreeBot)
-4. [Do a reservation](Do-a-reservation)
+1. [Create a TF Chain Wallet](#1-create-a-tfchain-wallet)
+2. [Get some TFT from our Faucet](#2-get-some-tft-from-our-faucet)
+3. [Register a ThreeBot](#3-register-a-threebot)
+4. [Do a reservation](#4-do-a-reservation)
 
-#### 1. Create a TFChain wallet
+### 1. Create a TFChain wallet
 
 In kosmos, create a TFChain client.
 
-**The `network_type` is important, it specify you want to use the TestNet. You will play with real TFT otherwise, so be careful**
+**The `network_type` is important, it specify you want to use the TestNet.**
+**You will play with real TFT otherwise, so be careful**
 
 ```python
 c = j.clients.tfchain.new(name='my_client', network_type='TEST')
@@ -41,15 +42,15 @@ JSX> w.seed
 'trust faculty frame ...'
 ```
 
-If you already have one, you can recover an it using its seed:
+If you already have one, you can recover it using its seed:
 ```python
 JSX> w = c.wallets.new("my_wallet", seed="blast fortune level ...")
 ```
 
-#### 2. Get some TFT from our Faucet
+### 2. Get some TFT from our Faucet
 
 Get the address of your wallet
-```
+```python
 JSX> w.address
 '0128b01507b17175f99fb4ca0fadf9115a3e85aae89b8dcdca9b610469281de9e849cf16c9afcdroot'
 ```
@@ -70,9 +71,9 @@ wallet balance on height 251955 at 2019/04/12 09:40:50
 300 TFT available and 0 TFT locked
 ```
 
-#### 3. Register a ThreeBot
+### 3. Register a ThreeBot
 
-Creating a new 3Bot record can be done as follows:
+Creating a new 3bot record can be done as follows:
 - `months`: for how long time do you want your 3bot, you pay for that amount of time (default is 1, can be from 1 to 24)
 - `names`: list of names which will be used later to identify your 3bot
 - `addresses`: list of addresses
@@ -95,9 +96,9 @@ JSX> result.submitted
 
 For mode detail about the 3Bot registration, [go to the full documentation](https://github.com/threefoldtech/jumpscaleX/blob/development/Jumpscale/clients/blockchain/tfchain/README.md#create-and-manage-3bot-records)
 
-> You'll need to wait some time before your 3bot being available.
+**You'll need to wait some time before your 3bot being available.**
 
-#### 4. Do a reservation
+### 4. Do a reservation
 
 Example how to reserve a Zero-OS virtual machines:
 
@@ -121,7 +122,7 @@ JSX> result = w.capacity.reserve_zos_vm(
 )
 ```
 
-Example how to reserve a 0-DB namespace:
+Example how to reserve a 0-db namespace:
 
 ```python
 JSX> result = w.capacity.reserve_zdb_namespace(
@@ -137,22 +138,21 @@ JSX> result = w.capacity.reserve_zdb_namespace(
 
 Example how to reserve a reverse proxy:
 
-After you have deployed some services on the grid in your virtual 0-OS, you will want to expose it to the public internet.
+After you have deployed some services on the grid in your virtual 0-os, you will want to expose it to the public internet.
 To do this, you can reserve a reverse proxy that will forward the traffic coming to your chosen domain to the internal backend running
 in the grid.
 
 ```python
 JSX> result = w.capacity.reserve_reverse_proxy(
-    email='user@email.com', # the email on which you will received the connection information
-    threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
-    domain="service.mydomain.com", # the domain to serve by the proxy
-    backend_urls=["http://10.244.25.13:8080"]) # the list of backend URL of your service
+    email='user@email.com',        # the email on which you will received the connection information
+    threebot_id='my3bot.example',  # your threebot id, it can be any of the names you gave to your 3bot
+    domain="service.mydomain.com", # the domain to serve by the proxy, this domain needs to point public ip
+    backend_urls=["http://10.244.25.13:8080"] # the list of backend URL of your service
 )
 ```
 
-
 The result of the reserve methods is a tuple containing the transaction and the submission status as a boolean.
-You can check it on our [explorer](https://explorer.testnet.threefoldtoken.com/) by entering the transaction ID in the `Search by hash` field of the explorer form or using the tfchain client:
+You can check it on our [explorer](https://explorer.testnet.threefoldtoken.com/) by entering the transaction id in the `Search by hash` field of the explorer form or using the tfchain client:
 
 ```python
 transaction = c.transaction_get(result.transaction.id)
