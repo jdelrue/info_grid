@@ -17,10 +17,12 @@ This document assumes you are familiar with Jumpscale and you already have
 a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](https://github.com/threefoldtech/jumpscaleX/blob/development/docs/Installation/install.md)
 
 ### Summary
+
 1. [Create a TF Chain Wallet](#1-create-a-tfchain-wallet)
 2. [Get some TFT from our Faucet](#2-get-some-tft-from-our-faucet)
 3. [Register a ThreeBot](#3-register-a-threebot)
 4. [Do a reservation](#4-do-a-reservation)
+5. [Example of how to deploy container on 0-OS](#5Example-of-how-to-deploy-container-on-0-OS)
 
 ### 1. Create a TFChain wallet
 
@@ -36,6 +38,7 @@ c = j.clients.tfchain.new(name='my_client', network_type='TEST')
 With your new client, create a TFChain wallet, if you don't already have one.
 As soon as your wallet is created, please save your seed somewhere. This is the only way to get your
 wallet back for recovery.
+
 ```python
 JSX> w = c.wallets.new("my_wallet")
 JSX> w.seed
@@ -43,6 +46,7 @@ JSX> w.seed
 ```
 
 If you already have one, you can recover it using its seed:
+
 ```python
 JSX> w = c.wallets.new("my_wallet", seed="blast fortune level ...")
 ```
@@ -50,6 +54,7 @@ JSX> w = c.wallets.new("my_wallet", seed="blast fortune level ...")
 ### 2. Get some TFT from our Faucet
 
 Get the address of your wallet
+
 ```python
 JSX> w.address
 '0128b01507b17175f99fb4ca0fadf9115a3e85aae89b8dcdca9b610469281de9e849cf16c9afcdroot'
@@ -58,7 +63,7 @@ JSX> w.address
 Head to https://faucet.testnet.threefoldtoken.com/ and fill the from with your wallet address.
 Then check the balance on your wallet, after a couple of minutes you should see the `300 TFT` from the faucet.
 
-```
+```python
 JSX> w.balance
 wallet balance on height 251953 at 2019/04/12 09:39:36
 0 TFT available and 0 TFT locked
@@ -74,6 +79,7 @@ wallet balance on height 251955 at 2019/04/12 09:40:50
 ### 3. Register a ThreeBot
 
 Creating a new 3bot record can be done as follows:
+
 - `months`: for how long time do you want your 3bot, you pay for that amount of time (default is 1, can be from 1 to 24)
 - `names`: list of names which will be used later to identify your 3bot
 - `addresses`: list of addresses
@@ -160,8 +166,8 @@ transaction = c.transaction_get(result.transaction.id)
 
 As soon as it is ready, usually within a few minutes, you will receive an email with the connection information.
 
+### Amount of TFT for each type of reservation
 
-### Amount of TFT for each type of reservation:
 During the testnet phase, price will be calculated like:
 
 - 1 TFT = 0.12 USD
@@ -176,3 +182,7 @@ During the testnet phase, price will be calculated like:
 | S3           | 2    | 83.3 TFT  | -   |   -    | 1000 GiB  |
 | Namespace    | chooser by user | Size in TB * 83.3 TFT
 | Reverse proxy| -    | 10 TFT   | -   | -      | -       |
+
+### 5. Example of how to deploy container on 0-OS
+
+[Click here](examples) to see all the examples how to deploy some container on your virtual 0-OS
