@@ -24,11 +24,18 @@ node.containers.create(name="geth-node", flist="https://hub.grid.tf/tf-official-
 container = node.containers.get(name="geth-node")
 
 # Start the Ethereum process
-container.client.system("/sanbox/bin/geth --network=test")
+container.client.system("/sandbox/bin/geth --network=test")
 
 # Check if its running
 container.client.job.list()
+```
 
+```python
+JSX> container.client.job.list()
+[{'cpu': 5, 'rss': 0, 'vms': 0, 'swap': 0, 'starttime': 1555487108617, 'cmd': {'id': '6142e0b5-d4ac-4107-abac-e2435f100ea0', 'command': 'geth', 'arguments': {'id': None}, 'queue': '', 'stream': False, 'tags': None}, 'pid': 0}]
+```
+
+```
 # Stream logs (process_id can be found in previous step output)
 sub = container.client.subscribe(${process_id})
 sub.stream()
