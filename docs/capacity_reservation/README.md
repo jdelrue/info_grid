@@ -22,7 +22,7 @@ a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](http
 2. [Get some TFT from our Faucet](#2-get-some-tft-from-our-faucet)
 3. [Register a ThreeBot](#3-register-a-threebot)
 4. [Do a reservation](#4-do-a-reservation)
-5. [Example of how to deploy container on 0-OS](#5Example-of-how-to-deploy-container-on-0-OS)
+5. [Example of how to deploy container on 0-OS](#5-example-of-how-to-deploy-container-on-0-os)
 
 ### 1. Create a TFChain wallet
 
