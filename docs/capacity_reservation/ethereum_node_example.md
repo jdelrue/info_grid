@@ -37,6 +37,6 @@ JSX> container.client.job.list()
 
 ```
 # Stream logs (process_id can be found in previous step output)
-sub = container.client.subscribe(${process_id})
+sub = container.client.subscribe(6142e0b5-d4ac-4107-abac-e2435f100ea0)
 sub.stream()
 ```
