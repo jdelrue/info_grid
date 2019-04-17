@@ -13,15 +13,12 @@ Source: https://hub.grid.tf/thabet/mkodockx-docker-pastebin-latest.flist
 Storage: zdb://hub.grid.tf:9900
 ```
 
-
 ## Using JSX to provision the 0-OS
 After that you can always provision the workload using JSX
 https://github.com/threefoldfoundation/info_grid/blob/ff622402a93a8d6035e38a5cf17bd379f35e824d/docs/capacity_reservation/README.md
 
-
-```
+```python
 In [60]: result = wallet.threebot.record_new(months=1, names=['codepaste'], addresses=['codepaste.org'])
-
 In [61]: result.transaction
 Out[61]: transaction v144 f131831607854d9e5a251c2a2727957825e59c1e61e15a240fac49542e99a51b
 
@@ -40,8 +37,6 @@ Out[65]: True
 In [66]: result.transaction
 Out[66]: transaction v1 725bfb1f6bd3b4175818b7e794c3c1e7925ff225cc48ca947c362e73b852a971
 
-
-
 ```
 
 
@@ -57,16 +52,14 @@ VNC address:
 
 ## Spawning a container with our application flist
 
-```
+```ipython
 
-In [43]: node.containers.create(name="mypaste", flist="https://hub.grid.tf/thabet/andreimarcu-linx-server-latest.fl
-    ...: ist", ports={'80': 8080})
+In [43]: node.containers.create(name="mypaste", flist="https://hub.grid.tf/thabet/andreimarcu-linx-server-latest.flist", ports={'80': 8080})
 Out[43]: Container <mypaste>
-
 
 ```
 
 ## Accessing your application
-go ahead to 10.244.231.4 and you should see something similiar to
+open your web browser and navigate to `http://10.244.231.4` and you should see something similar to
 
 ![Pastebin](./images/pastebin.jpg)
