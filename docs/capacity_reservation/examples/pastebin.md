@@ -20,7 +20,7 @@ https://github.com/threefoldfoundation/info_grid/blob/ff622402a93a8d6035e38a5cf1
 
 
 ```
-In [60]: result = w.threebot.record_new(months=1, names=['codepaste'], addresses=['codepaste.org'])
+In [60]: result = wallet.threebot.record_new(months=1, names=['codepaste'], addresses=['codepaste.org'])
 
 In [61]: result.transaction
 Out[61]: transaction v144 f131831607854d9e5a251c2a2727957825e59c1e61e15a240fac49542e99a51b
@@ -28,7 +28,7 @@ Out[61]: transaction v144 f131831607854d9e5a251c2a2727957825e59c1e61e15a240fac49
 In [62]: result.submitted
 Out[62]: True
 
-In [63]: result = w.capacity.reserve_zos_vm(email='thabeta@codescalers.com', threebot_id='codepaste', location='kristof-farm', size=1)
+In [63]: result = wallet.capacity.reserve_zos_vm(email='thabeta@codescalers.com', threebot_id='codepaste', location='kristof-farm', size=1)
 Wed 17 07:29:20 GedisClient.py   - 133 - j.clients.gedis:gedisclient        : redisclient: notary.grid.tf:5000 
 
 In [64]: result
