@@ -170,9 +170,9 @@ During the testnet phase, price will be calculated like:
 
 | Type      | Size | Amount    | CPU | Memory | Storage   |
 | --------- | ---- | --------- | --- | ------ | --------- |
-| VM        | 1    | 41.65 TFT | 1   | 2GiB   | 10 GiB    |
-| VM        | 2    | 83.3 TFT  | 2   | 4GiB   | 40 GiB    |
-| S3        | 1    | 41.65 TFT | -   |   -    | 500 GiB   |
-| S3        | 2    | 83.3 TFT  | -   |   -    | 1000 GiB  |
-| Namespace | chooser by user | Size in TB * 83.3 TFT
-| Reverse proxy | - | 10 TFT   | -   | -      | -         |
+| v0-OS        | 1    | 41.65 TFT | 1   | 2GiB   | 10 GiB    |
+| v0-OS        | 2    | 83.3 TFT  | 2   | 4GiB   | 40 GiB    |
+| S3           | 1    | 41.65 TFT | -   |   -    | 500 GiB   |
+| S3           | 2    | 83.3 TFT  | -   |   -    | 1000 GiB  |
+| Namespace    | chooser by user | Size in TB * 83.3 TFT
+| Reverse proxy| -    | 10 TFT   | -   | -      | -       |
