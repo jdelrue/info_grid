@@ -145,8 +145,14 @@ JSX> result = w.capacity.reserve_zdb_namespace(
 Example how to reserve a reverse proxy:
 
 After you have deployed some services on the grid in your virtual 0-os, you will want to expose it to the public internet.
-To do this, you can reserve a reverse proxy that will forward the traffic coming to your chosen domain to the internal backend running
-in the grid.
+To do this, you can reserve a reverse proxy that will forward the traffic coming to your chosen domain to the internal backend running in the grid.
+
+Before creating the reservation, you need to update your DNS configuration and point your domain to the IP of our web gateway: `185.69.166.31`.
+
+Example of DNS configuration. Here I created an A record for the subdomain `tube.zaibon.be` and pointed it to the IP of the web gateway:
+
+
+![dns config](dns_config.png)
 
 ```python
 JSX> result = w.capacity.reserve_reverse_proxy(
