@@ -52,8 +52,10 @@ VNC address:
 
 ## Spawning a container with our application flist
 
-```ipython
 
+
+```ipython
+In [42]: node = j.clients.zos.get("zos", host="${your_zos_ip_here}")
 In [43]: node.containers.create(name="mypaste", flist="https://hub.grid.tf/thabet/andreimarcu-linx-server-latest.flist", ports={'80': 8080})
 Out[43]: Container <mypaste>
 
