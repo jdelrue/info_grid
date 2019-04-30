@@ -7,3 +7,4 @@
     * [How to set up your farm](tf_farming/farming_setup.md)
     * [How to change/add your farmer wallet and farm location](tf_farming/how_to_change_wallet_address.md)
     * [How to set up your farm with multiple farming locations](tf_farming/how_to_multiple_farming_locations.md)
+    * [HPE Farming Hardware](farming_platforms/hpe.md)
