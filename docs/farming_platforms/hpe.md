@@ -40,7 +40,7 @@ Note: Total of 4 disc slots. Recommended to use 1 SSD and up to 3 HDDs
 
 ### ROI calculation Example:
 
-**8.8** 0ver 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**8.8** over 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
 
 ### Where to buy:
 
@@ -77,7 +77,7 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**11.4** 0ver 5 years @ purchasing price USD 13.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**11.4** over 5 years @ purchasing price USD 13.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
 
 ### Where to buy:
 Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold farming hardware DL385 Gen10 Mod-X 12LFF' in the email subject
@@ -114,7 +114,7 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**11.6** 0ver 5 years @ purchasing price USD 16.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**11.6** over 5 years @ purchasing price USD 16.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
 
 
 ### Where to buy:
@@ -151,13 +151,13 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**11.9** 0ver 5 years @ purchasing price USD 61000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**11.9** over 5 years @ purchasing price USD 61000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
 
 
 ### Where to buy:
 Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold farming hardware Apollo DL4510' in the email subject
 
 ### Media:
-<https://h10014.www1.hpe.com/login/redirect/%2Fhome>
+<https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00029698en_us&docLocale=en_US>
 
 
