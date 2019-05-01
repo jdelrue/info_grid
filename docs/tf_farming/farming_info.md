@@ -1,7 +1,7 @@
 # Farming Simulation Tools
 
 <div style="overflow:hidden;">
-   <iframe src="https://jscalc.io/calc/8jXXLOukrlXcI7H4" scrolling="yes" style="width: 136%; height: 582px; margin-left:-318px;"></iframe>
+   <iframe src="https://jscalc.io/calc/8jXXLOukrlXcI7H4" scrolling="yes" style="width: 136%; height: 582px; margin-left:0px;"></iframe>
 </div>
 
 
