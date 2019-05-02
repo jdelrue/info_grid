@@ -4,5 +4,5 @@
     * [Getting started with the Zero-OS Node Robot](developers/getting_started_with_node_robot.md)
     * [Getting started with the Zero-OS Primitives](developers/getting_started_with_zos_primitives.md)
     * [Working with the Zero-OS Primitives](developers/working_with_zos_primitives.md)
-    * [Reserving capacity](capacity_reservation/README.md)
-    * [Example capacity reservations](capacity_reservation/examples)
+    * [Reserving capacity (TESTNET)](capacity_reservation/README.md)
+    * [Example capacity reservations (TESTNET)](capacity_reservation/examples)
