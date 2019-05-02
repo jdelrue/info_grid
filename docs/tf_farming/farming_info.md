@@ -16,7 +16,7 @@
 *********************************************************************************************************
 
 <div style="overflow:hidden; margin-top:15px;">
-   <iframe src="https://jscalc.io/calc/uWbIWOR0dynA46iU" scrolling="yes" style="width: 136%; height: 774px; margin-left:-318px;"></iframe>
+   <iframe src="https://jscalc.io/calc/uWbIWOR0dynA46iU" scrolling="yes" style="width: 136%; height: 774px; margin-left:0px;"></iframe>
 </div>
 
 **Inputs needed:**
@@ -33,7 +33,7 @@ You can play around with the last three parameters to simulate differnt scenario
 *********************************************************************************************************
 
 <div style="overflow:hidden; margin-top:15px;">
-   <iframe src="https://jscalc.io/calc/7PSBwT4Io6rQ9Bog" scrolling="yes" style="width: 136%; height: 582px; margin-left:-318px;"></iframe>
+   <iframe src="https://jscalc.io/calc/7PSBwT4Io6rQ9Bog" scrolling="yes" style="width: 136%; height: 582px; margin-left:0px;"></iframe>
 </div>
 
 
