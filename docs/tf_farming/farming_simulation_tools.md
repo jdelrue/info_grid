@@ -1,5 +1,7 @@
 # Farming Simulation Tools
 
+Note: These tools help to estimate as good as possible the amount of TFTs, but are not producing binding results.  
+
 <div style="overflow:hidden;">
    <iframe src="https://jscalc.io/calc/8jXXLOukrlXcI7H4" scrolling="yes" style="width: 100%; height: 582px; margin-left:0px;"></iframe>
 </div>
@@ -11,6 +13,8 @@
 - Amount of solid state disk (SSD) in GB: See your hardware specs
 - Amount of disk storage (HDD) in GB: See your hardware specs
 - Token price when capacity is listed in USD: Currently USD 0.12
+- Set sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q3 2019)
+- Set sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q3 2019)
 
 
 *********************************************************************************************************
@@ -22,8 +26,8 @@
 **Inputs needed:**
 - Number of compute units (CU): Output from Farming Token Estimator
 - Number of storage units (SU): Output from Farming Token Estimator
-- Sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q2 2019)
-- Sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q2 2019)
+- Sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q3 2019)
+- Sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q3 2019)
 - Average usage over 5 years [%]: we use 60% (realistic medium usage)
 - Price erosion over 5 years [%]: we use 20% (lower than industry as we are already mutiple times lower in pricing)
 - Average Token price (5 years) [$]: we use in our calaculations USD 1.0

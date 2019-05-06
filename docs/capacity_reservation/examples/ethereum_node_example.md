@@ -24,7 +24,7 @@ node.containers.create(name="geth-node", flist="https://hub.grid.tf/tf-official-
 container = node.containers.get(name="geth-node")
 
 # Start the Ethereum process
-container.client.system("/sandbox/bin/geth --network=test")
+container.client.system("/sandbox/bin/geth --networkid=4")
 
 # Check if its running
 container.client.job.list()
