@@ -21,7 +21,7 @@
 
 ### Three types of capacity:
 
-* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q2 2019)
+* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q3 2019)
 
 * **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in a less secure environment.
 
@@ -68,7 +68,7 @@ There will be differences between uncertified and certified capacity
 ****DIY and certified capacity difficulty level: 8****
 What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. if 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
-****Until public Grid Capacity Utilization (Q2 2019)****
+****Until public Grid Capacity Utilization (Q3 2019)****
 
 In order to calculate the number of tokens farmed we use compute and storage market pricing nubers. For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
 
@@ -120,7 +120,7 @@ The network needs to comply with minimal uptime guarantees. This table represent
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
-****Will be applicable when public Grid Capacity Utilization goes live (Q2 2019)****
+****Will be applicable when public Grid Capacity Utilization goes live (Q3 2019)****
 
 
 ### Fees on Cultivation TFTs
