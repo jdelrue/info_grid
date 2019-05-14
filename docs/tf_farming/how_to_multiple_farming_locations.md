@@ -4,43 +4,43 @@ This best practice guide is for farmers who have or will have multiple farming l
 
 ## Step 1: Sign in to your ItsYou.Online account
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl01.png)
+![](images/mfl01.png)
 
 ## Step 2: Click on 'Organizations'
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl02.png)
+![](images/mfl02.png)
 
 ## Step 3: Click on your parent organization
 
 Note: Make you select this name in a way that it reflects your desired structure
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl03.png)
+![](images/mfl03.png)
 
 ## Step 4: Click on 'Structure'
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl04.png)
+![](images/mfl04.png)
 
 ## Step 5: Click on 'Create Substructure'
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl05.png)
+![](images/mfl05.png)
 
 ## Step 6: Enter the suborganization name
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl06.png)
+![](images/mfl06.png)
 
 ## Step 7: Click on 'Register Farm'
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl07.png)
+![](images/mfl07.png)
 
 ## Step 8: Enter your 'Organization ID', 'Farm Name', 'TFT Wallet Address' and  and click 'Submit' to generate 'farmer_id='
 
 **Note: Use parentfarm '.' child farm name for 'Organization ID'**
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/images/mfl08.png)
+![](images/mfl08.png)
 
 ## Step 9: Create your image and boot farm nodes with location specific farmer_id
 
-[Go to 'How to set up a farm' guide](https://github.com/threefoldfoundation/info_grid/blob/development/docs/tf_farming/farming_setup.md)
+[Go to 'How to set up a farm' guide](tf_farming/farming_setup.md)
 
 Congratulations! You have now setup a multi-location farm under one parent ItsYou.Online ID
 
