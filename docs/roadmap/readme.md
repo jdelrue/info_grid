@@ -47,5 +47,47 @@ easy to to deploy example workloads like
 - Filemanager
 - Syncthing = file sync tool
 
+## TFGrid 1.1.0 (Sept 2019)
 
+### NEW: Decentralized Apps
+
+- OpenPages (software which empowers this tool, alternative to Facebook)
+- OpenBrowser (browser running in grid)
+- OpenMeeting (alternative to zoom/skype/hangout but decentralized)
+- OpenPublish (wiki & web publishing system)
+- OpenFiles (filemanager, alternative to e.g. dropbox)
+- OpenDocs (office alternative running in cloud) based on OnlyOffice
+- OpenBiz (ERP system with CRM, …) based on Odoo
+
+Everyone will be able to provision their own private version of above described apps on top of the grid. All integrated with our 3bot mobile app.
+
+### NEW: Blockchain As A Service
+
+- Run HyperLedger (ethereum compatible), Rivine (our own) on top of our TFGrid (more blockchains to follow)
+- Human empowered blockchain: together with friends launch a blockchain, no-one can access or manipulate the blockchain, consensus required between the group to start or invalidate the blockchain.
+- Benefits: easy = deploy a blockchain<5 min, cost effective, much more secure (no-one can interact with the code), real decentralized
+
+### NEW: BCDB = BlockChain DataBase
+
+- A true distributed, decentralized database (ledger)
+- Store any information (e.g. contracts, …)
+- Has all the features from a blockchain but not the downsides.
+- Much more green & storage efficient (50x benefit compared to classic blockchain techno)
+- Strongly Types schema support (complex types)
+- Index & Search capabilities.
+- Compatible with any chosen development language (Redis compatible API)
+- Rich python client (userfriendly).
+
+### NEW: 3bot
+
+- host your own 3bot on the TF-Grid
+- multi currency wallet (Gold, TFT, …)
+- your own data/identity (API driven)
+- integrates with 3bot mobile app
+
+### NEW: “autonomous IT” preview
+
+- run IT workloads with no people involved during operation has properties of a blockchain: consensus required for install, upgrade, remove.
+- ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
+- This is a preview release, only usable for real experts.
 
