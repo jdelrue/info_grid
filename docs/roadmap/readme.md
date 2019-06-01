@@ -2,7 +2,7 @@
 
 ## TF Grid 1.0.0 (active since start April 2019)
 
-Grid only usable by application developers.
+Grid only usable by application developers and non Production mode.
 
 ### Services
 
@@ -28,6 +28,8 @@ Above capabilities allow you to run most workloads which today would typically r
 
 ## TF Grid 1.0.1 (June 2019)
 
+Still non production workloads and TFT's from testnet.
+
 ### Maintenance Release
 
 - New JSX (jumpscale kosmos shell) release: easier to install/use
@@ -49,25 +51,35 @@ easy to to deploy example workloads like
 
 ## TFGrid 1.1.0 (Sept 2019)
 
+First production release but we maintain the Beta label.
+
 ### NEW: Decentralized Apps
 
-- OpenPages (software which empowers this tool, alternative to Facebook)
-- OpenBrowser (browser running in grid)
-- OpenMeeting (alternative to zoom/skype/hangout but decentralized)
+Our community asked us to focus on enduser facing apps for the first production release.
+
+- OpenPages (alternative to Facebook): everyone can now create their own '''Facebook'''
+- OpenBrowser (browser running in grid): privacy & freedom for all
+- OpenMeeting (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
 - OpenPublish (wiki & web publishing system)
 - OpenFiles (filemanager, alternative to e.g. dropbox)
 - OpenDocs (office alternative running in cloud) based on OnlyOffice
 - OpenBiz (ERP system with CRM, …) based on Odoo
 
-Everyone will be able to provision their own private version of above described apps on top of the grid. All integrated with our 3bot mobile app.
+Everyone will be able to provision their own private version of above described apps on top of the grid. 
+All integrated with our 3bot mobile app.
+
 
 ### NEW: Blockchain As A Service
+
+Help resolve the blockchain dilema problem.
 
 - Run HyperLedger (ethereum compatible), Rivine (our own) on top of our TFGrid (more blockchains to follow)
 - Human empowered blockchain: together with friends launch a blockchain, no-one can access or manipulate the blockchain, consensus required between the group to start or invalidate the blockchain.
 - Benefits: easy = deploy a blockchain<5 min, cost effective, much more secure (no-one can interact with the code), real decentralized
 
 ### NEW: BCDB = BlockChain DataBase
+
+A True scalable blockchain Database. 
 
 - A true distributed, decentralized database (ledger)
 - Store any information (e.g. contracts, …)
@@ -78,14 +90,14 @@ Everyone will be able to provision their own private version of above described 
 - Compatible with any chosen development language (Redis compatible API)
 - Rich python client (userfriendly).
 
-### NEW: 3bot
+### NEW: 3bot = Your Digital Self
 
 - host your own 3bot on the TF-Grid
 - multi currency wallet (Gold, TFT, …)
 - your own data/identity (API driven)
 - integrates with 3bot mobile app
 
-### NEW: “autonomous IT” preview
+### NEW: “autonomous IT” preview (non production)
 
 - run IT workloads with no people involved during operation has properties of a blockchain: consensus required for install, upgrade, remove.
 - ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
