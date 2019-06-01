@@ -2,7 +2,7 @@
 
 ## TF Grid 1.0.0 (active since start April 2019)
 
-Grid only usable by application developers and non Production mode.
+Grid only usable by application developers
 
 ### Services
 
@@ -24,7 +24,8 @@ Above capabilities allow you to run most workloads which today would typically r
 
 - not user friendly, only meant for developers
 - no user interface, only python scripting
-- this is a pre-release version and the nodes are rebooted regularly and its data is erased
+- this is a pre-release version and the nodes are rebooted regularly and its data is erased (DO NOT RUN PRODUCTION !)
+- uses TFT from testnet (so free money)
 
 ## TF Grid 1.0.1 (June 2019)
 
