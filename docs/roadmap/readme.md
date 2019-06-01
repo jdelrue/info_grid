@@ -1,5 +1,20 @@
 # Roadmap TF Grid
 
+## Introduction
+
+When we started this journey we originally intented to focus on the system administrator and application developer and provide alternative to Amazon/GoogleCloud/DigitalOcean. We focussed on compute & storage capacity (S3, Containers).
+
+More and more it became important to deliver a True Decentralized alternative internet. A growing crowd of internet users want change, they want to own their data and be able to be on the internet without becoming a product. Our original vision did not cater enough for this requirement. Summer 2018 we decided to start developing a set of enduser application services which can run on top of the TF Grid. We are on track to launch in beta a first set of these services +-1 year after going in that direction. In September 2019 we will launch our first set of end user apps giving real freedom to everyone on the internet.
+
+This was a huge undertaking and most of this happened in the background without much publicity.
+The services who will come out in September will be a real revolution for the internet, for the first time it will be possible for everyone to be online and use an exciting set of products while maintaining full freedom, neutrality and privacy.
+
+As part of this decentralization requirement we also want to allow any blockchain to run on top of our TFGrid. Our TFGrid has a unique capability which we call **"Autonomous IT"** Think about it like self a driving car but then for Information Technology (IT). This makes it possible for any blockchain to run with more security and scale.
+
+In Summer 2019 we will be able to demonstrate the "Autonomous IT" for the first time.
+
+Below you can find our roadmap towards that goal.
+
 ## TF Grid 1.0.0 (active since start April 2019)
 
 Grid only usable by application developers
