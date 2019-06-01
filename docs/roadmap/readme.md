@@ -80,6 +80,7 @@ Our community asked us to focus on enduser facing apps for the first production 
 - OpenFiles (filemanager, alternative to e.g. dropbox)
 - OpenDocs (office alternative running in cloud) based on OnlyOffice
 - OpenBiz (ERP system with CRM, …) based on Odoo
+- OpenGit (Alternative to Github)
 
 Everyone will be able to provision their own private version of above described apps on top of the grid. 
 All integrated with our 3bot mobile app.
