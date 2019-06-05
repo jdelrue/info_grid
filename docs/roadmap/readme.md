@@ -76,15 +76,14 @@ Our community asked us to focus on enduser facing apps for the first production 
 - OpenPages (alternative to Facebook): everyone can now create their own '''Facebook'''
 - OpenBrowser (browser running in grid): privacy & freedom for all
 - OpenMeeting (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
-- OpenPublish (wiki & web publishing system)
 - OpenFiles (filemanager, alternative to e.g. dropbox)
 - OpenDocs (office alternative running in cloud) based on OnlyOffice
 - OpenBiz (ERP system with CRM, …) based on Odoo
+- OpenPublish (wiki & web publishing system)
 - OpenGit (Alternative to Github)
 
 Everyone will be able to provision their own private version of above described apps on top of the grid. 
 All integrated with our 3bot mobile app.
-
 
 ### NEW: Blockchain As A Service
 
@@ -119,4 +118,16 @@ A True scalable blockchain Database.
 - run IT workloads with no people involved during operation has properties of a blockchain: consensus required for install, upgrade, remove.
 - ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
 - This is a preview release, only usable for real experts.
+
+### upgrade to our compute & storage workloads
+
+- even more decentralized S3 server, where each users 3bot manages the S3 server
+- generic usable container service (docker conversion to container is supported ofcourse)
+- web forwarding gateway (publish your services on the internet)
+
+This service allows to run any application you want on the decentralized grid.
+As long as an application runs on the linux operating system it can run on our grid.
+
+
+
 
