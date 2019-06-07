@@ -6,4 +6,3 @@ Recommended training sessions:
 - [Reserving capacity (TESTNET)](/developers/capacity_reservation/README.md)
 - [Example capacity reservations (TESTNET)](/developers/capacity_reservation/examples)
 
-See the [ThreeFold Tech Wiki](https://threefoldfoundation.github.io/info_tech/#/) for more technical resources.
