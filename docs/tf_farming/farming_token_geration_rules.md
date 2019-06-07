@@ -21,14 +21,14 @@
 
 ### Three types of capacity:
 
-* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over DIY capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher capacity sales price (available in Q3 2019)
+* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher certified capacity sales price (available in Q4 2019)
 
-* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in a less secure environment.
+* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in a less secure environment and a lower capacity price.
 
 * **Managed Capacity:** tbd
 
 
-### Farmer Token generation rules until public Grid Capacity Utilization (Q3 2019):
+### Farming Token generation rules until public Grid Capacity Utilization (Q4 2019):
 
 There will be no distinction between certified and uncertified capacity
 
@@ -39,7 +39,7 @@ There will be no distinction between certified and uncertified capacity
 | DYI | 1/60th of the calculated farming TFTs per month |
 
 
-### Farmer Token generation rules when Grid Capacity Utilization goes live (Q3 2019):
+### Farmer Token generation rules when Grid Capacity Utilization goes live (Q4 2019):
 There will be differences between uncertified and certified capacity
 
 
@@ -68,7 +68,7 @@ There will be differences between uncertified and certified capacity
 ****DIY and certified capacity difficulty level: 8****
 What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. if 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
-****Until public Grid Capacity Utilization (Q3 2019)****
+****Until public Grid Capacity Utilization (Q4 2019)****
 
 In order to calculate the number of tokens farmed we use compute and storage market pricing nubers. For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
 
@@ -120,7 +120,7 @@ The network needs to comply with minimal uptime guarantees. This table represent
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
-****Will be applicable when public Grid Capacity Utilization goes live (Q3 2019)****
+****Will be applicable when public Grid Capacity Utilization goes live (Q4 2019)****
 
 
 ### Fees on Cultivation TFTs
@@ -138,21 +138,10 @@ There are two types of fees:
 
 ### Farming TFT release requirements
 
-Farming pool uptime as defined at time of registration on the TF Grid has to be met monthly in order to get the monthly farming tokens as defined under **Farming TFT calculation** section (see above)
+Farming pool uptime as defined at time of registration on the TF Grid has to be met per period in order to get the farming tokens as defined under **Farming TFT calculation** section (see above)
 
-Farming tokens are paid after month end. Month is defined as calendar month. For the first month of farming the days online will be paid. Example: farming starts on the 8th of January 23 days (23 = 31 - 8) are paid out in farming tokens.
+Farming tokens are paid after the end of each period which represents a month that has the same number of days during the 60 month aka 5 year farming duration. This generic period is 30.44167 days which is 730.6 hours.
+
+For the first period of farming the days online will be paid. Example: farming starts on the 8th day of period 1 of 60 periods (22.44167 = 30.44167 - 8) are paid out in farming tokens. For the 60th period 8 days are paid to complete the token payment for 60 periods which represents 5 years.
 
 
-## Token generation rules for Network Farming
-
-Network farmers are organisations or people that make public internet capacity available to capacity farmers that do not have access to (small or) large amounts of IP addresses.  Capacity farmers can exists anywhere with reliable power and some form of connectivity.  They do not have to become full service providers in terms of networking facilities.
-
-The capacity grid operates by using a private peer to peer network.  All participating TF farming nodes can communicate to any other node over a (number of) private network(s).  Network farmers provide bespoke, end user specific gatewway in and out of this private network that allows capacity consumers to expose their (web) services on the global (public) internet.  For this they need to have some compute capacity with little storage capabilities on which they host the Threefold Webgateway service creating bespoke and private per customer gateways to the outside world.  This is called network farming.
-
-Network farmers need to provide connectivity and  IP address space.  Network farmers can make IPv4 and IPv6 ip addresses available.  The requirements for a network farmers include a minimum number of IPv4 addresses and dedicated bandwidth to be made available.  
-
-|  Network  Farmer | Item | Europe | Africa | North America | Australia | Asia | South America |
-| ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
-|                  |Available IP’s|  /20 (4096) | /22 (1024) | /22 (4096) | /20 (4096) | /20 (4096) | /22 (1024) |
-|                  |Network SLA   | 99.95% | 99.5% | 99.95% | 99.95% | 99.95% | 99.5% |
-|                  |Network speed | >10Gbps |  >1Gbps | >10Gbps | >10Gbps | >10Gbps | >1Gbps |
