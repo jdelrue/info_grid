@@ -72,15 +72,16 @@ First production release but we maintain the Beta label.
 ### NEW: Decentralized Apps
 
 Our community asked us to focus on enduser facing apps for the first production release.
+The names are not final, it could be they will change for launch.
 
-- OpenPages (alternative to Facebook): everyone can now create their own '''Facebook'''
-- OpenBrowser (browser running in grid): privacy & freedom for all
-- OpenMeeting (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
-- OpenFiles (filemanager, alternative to e.g. dropbox)
-- OpenDocs (office alternative running in cloud) based on OnlyOffice
-- OpenBiz (ERP system with CRM, …) based on Odoo
-- OpenPublish (wiki & web publishing system)
-- OpenGit (Alternative to Github)
+- FreeFlow Pages (alternative to Facebook): everyone can now create their own '''Facebook'''
+- FreeFlow Browser (browser running in grid): privacy & freedom for all
+- FreeFlow Meeting (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
+- FreeFlow Files (filemanager, alternative to e.g. dropbox)
+- FreeFlow Docs (office alternative running in cloud) based on OnlyOffice
+- FreeFlow Biz (ERP system with CRM, …) based on Odoo
+- FreeFlow Publish (wiki & web publishing system)
+- FreeFlow Git (Alternative to Github)
 
 Everyone will be able to provision their own private version of above described apps on top of the grid. 
 All integrated with our 3bot mobile app.
