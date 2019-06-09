@@ -120,7 +120,7 @@ JSX> result = w.capacity.reserve_zos_vm(
 Example how to reserve a S3 archive storage:
 
 ```python
-JSX> result = w.capacity.reserve_zos_vm(
+JSX> result = w.capacity.reserve_s3(
     email='user@email.com',       # the email on which you will received the connection information
     threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
     location='farm_name',         # name of the farm where to deploy the workload
