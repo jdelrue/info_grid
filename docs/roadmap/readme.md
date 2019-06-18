@@ -65,7 +65,7 @@ easy to to deploy example workloads like
 - Filemanager
 - Syncthing = file sync tool
 
-## TFGrid 1.1.0
+## TFGrid 1.1.0 (June 2019)
 
 - ability to inform a 3bot about the life state of primitive which came life
 - no more reboots of machine put in production( extend reservations)
@@ -75,7 +75,13 @@ easy to to deploy example workloads like
   - the ZDB/s & virtual ZOS'es come life automatically
 
 
-## TFGrid 1.2.0 (Sept 2019)
+## TFGrid 1.2.0 (July 2019)
+
+- Use workloads as defined on BCDB
+- TFChain no longer used for information storage
+ 
+
+## TFGrid 1.3.0 (Sept 2019)
 
 First production release but we maintain the Beta label.
 
