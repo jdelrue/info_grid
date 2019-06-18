@@ -60,7 +60,7 @@ easy to to deploy example workloads like
 - A Minecraft server
 - A Pastebin installation
 - A PeerTube installation
-- A multiplayer quake server
+- A multiplayer quake server (depends on licensing see http://ezquake.github.io/downloads.html)
 - Odoo (ERP & Web Publishing system)
 - Filemanager
 - Syncthing = file sync tool
