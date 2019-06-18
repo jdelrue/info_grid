@@ -65,7 +65,17 @@ easy to to deploy example workloads like
 - Filemanager
 - Syncthing = file sync tool
 
-## TFGrid 1.1.0 (Sept 2019)
+## TFGrid 1.1.0
+
+- ability to inform a 3bot about the life state of primitive which came life
+- no more reboots of machine put in production( extend reservations)
+- security on deployment of vzos
+- new webgateway
+- upgrade by means of reboot of ZOS
+  - the ZDB/s & virtual ZOS'es come life automatically
+
+
+## TFGrid 1.2.0 (Sept 2019)
 
 First production release but we maintain the Beta label.
 
