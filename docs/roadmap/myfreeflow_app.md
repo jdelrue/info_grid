@@ -74,6 +74,7 @@ Some new ideas
 
 - based on https://vuejsexamples.com/vue-based-front-end-for-file-manager/
 - need to mimic rest api on 3bot backend
+- gevent server using WSGI and WORKZEUG 
 
 # research
 
