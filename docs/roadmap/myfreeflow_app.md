@@ -35,7 +35,7 @@ Facebook is launching their currency and this will make crypto more mainstream
 other differences
 
 - no commercial interest
-- will try to protet people against dopamine addiction syndrome
+- will try to protect people against dopamine addiction syndrome
 
 ## Implementation Details
 
