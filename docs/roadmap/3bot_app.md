@@ -1,4 +1,4 @@
-# 3bot app (name?)
+# 3bot.app
 
 is the combination of 
 
