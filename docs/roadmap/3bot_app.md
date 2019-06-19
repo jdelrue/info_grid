@@ -10,7 +10,10 @@ is the combination of
 
 ## Why
 
-Facebook is launching their currency and this will make crypto more mainstream 
+- Timing is now: Facebook is launching their currency and this will make crypto more mainstream. Its a very good moment to launch a better alternative.
+- we need better UI compared to the current FreeFlow Pages
+- people don't need 10 apps, they need 1 app which is opensource/free by itself and which is the gateway to their own data
+- we need something tangible to show/promote to the larger community, need an action e.g. install the 3bot on your phone...
 
 ## Comparison with Facebook
 | Facebook                                        	| myfreeflow.app                                                                                                                              	|
