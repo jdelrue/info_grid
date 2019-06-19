@@ -40,6 +40,13 @@ other differences
 - no commercial interest
 - will try to protect people against dopamine addiction syndrome
 
+## How
+
+- will be launched sept (if possible)
+- using the bigger community e.g. https://www2.freeflownation.org/
+- community will have to pay TFT to use this 3bot
+- will allow us to go faster
+
 ## Implementation Details
 
 - All in vue.js using graphql?
