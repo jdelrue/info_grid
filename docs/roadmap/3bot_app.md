@@ -16,7 +16,7 @@ is the combination of
 - we need something tangible to show/promote to the larger community, need an action e.g. install the 3bot on your phone...
 
 ## Comparison with Facebook
-| Facebook                                        	| myfreeflow.app                                                                                                                              	|
+| Facebook                                        	| 3bot.app                                                                                                                              	|
 |-------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------	|
 | centralized                                     	| 100% decentralized, everyone owns their data                                                                                                	|
 | digital currency = stable coin, backed by banks 	| digital currency = stable coin backed by physical gold                                                                                      	|
