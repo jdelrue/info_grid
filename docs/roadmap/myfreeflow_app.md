@@ -13,7 +13,6 @@ is the combination of
 Facebook is launching their currency and this will make crypto more mainstream 
 
 ## Comparison with Facebook
-
 | Facebook                                        	| myfreeflow.app                                                                                                                              	|
 |-------------------------------------------------	|---------------------------------------------------------------------------------------------------------------------------------------------	|
 | centralized                                     	| 100% decentralized, everyone owns their data                                                                                                	|
@@ -29,7 +28,7 @@ Facebook is launching their currency and this will make crypto more mainstream
 | facebook chat                                   	| 1 messaging app (no more chat vs email vs sms)                                                                                              	|
 | free = you're the product                       	| user needs to pay for IT resources used (but is small)                                                                                      	|
 | unsafe (can be hijacked)                        	| integrated safe browser in private environment (browser in browser)                                                                         	|
-|                                                 	| extendable platform, to allow any one to develop more apps in all neutrality                                                                	|
+| closed & controlled platform                    	| extendable platform, to allow any one to develop more apps in all neutrality                                                                	|
 
 (*) roadmap
 
