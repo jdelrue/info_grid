@@ -64,27 +64,29 @@ easy to to deploy example workloads like
 - Odoo (ERP & Web Publishing system)
 - Filemanager: see https://github.com/threefoldtech/tutorials/blob/master/tutorials/filestash/Filestash.py
 
-## TFGrid 1.0.2 (June/July 2019)
+## TFGrid 1.1.0 (June/July 2019)
 
 - ability to inform a 3bot about the life state of primitive which came life
-- no more reboots of machine put in production( extend reservations)
+- no more reboots of machine put in production (extend reservations)
+- 3bot bootstrap
 - security on deployment of vzos
 - new webgateway
 - upgrade by means of reboot of ZOS
   - the ZDB/s & virtual ZOS'es come life automatically
 
 
-## TFGrid 1.0.3 (July 2019)
+## TFGrid 1.2.0 (July 2019)
 
-- Use workloads as defined on BCDB
 - TFChain no longer used for information storage
- 
+    - use BCBB
 
-## TFGrid 1.1.0 (Sept 2019)
+## TFGrid 2.0.0 (Sept 2019)
 
 Beta release which is using our self driving IT capabilities.
 
 ### NEW: Decentralized Apps
+
+SEE 3BOT app doc
 
 Our community asked us to focus on enduser facing apps for the first production release.
 The names are not final, it could be they will change for launch.
@@ -137,7 +139,7 @@ A True scalable blockchain Database.
 - ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
 - This is a preview release, only usable for real experts.
 
-## TFGrid 1.1.1 (timing to be defined)
+## TFGrid 2.1.0 (timing to be defined)
 
 ### upgrade to our compute & storage workloads
 
