@@ -62,10 +62,9 @@ easy to to deploy example workloads like
 - A PeerTube installation
 - A multiplayer quake server (depends on licensing see http://ezquake.github.io/downloads.html)
 - Odoo (ERP & Web Publishing system)
-- Filemanager
-- Syncthing = file sync tool
+- Filemanager: see https://github.com/threefoldtech/tutorials/blob/master/tutorials/filestash/Filestash.py
 
-## TFGrid 1.1.0 (June 2019)
+## TFGrid 1.0.2 (June/July 2019)
 
 - ability to inform a 3bot about the life state of primitive which came life
 - no more reboots of machine put in production( extend reservations)
@@ -75,15 +74,15 @@ easy to to deploy example workloads like
   - the ZDB/s & virtual ZOS'es come life automatically
 
 
-## TFGrid 1.2.0 (July 2019)
+## TFGrid 1.0.3 (July 2019)
 
 - Use workloads as defined on BCDB
 - TFChain no longer used for information storage
  
 
-## TFGrid 1.3.0 (Sept 2019)
+## TFGrid 1.1.0 (Sept 2019)
 
-First production release but we maintain the Beta label.
+Beta release which is using our self driving IT capabilities.
 
 ### NEW: Decentralized Apps
 
@@ -92,12 +91,14 @@ The names are not final, it could be they will change for launch.
 
 - FreeFlow Pages (alternative to Facebook): everyone can now create their own '''Facebook'''
 - FreeFlow Browser (browser running in grid): privacy & freedom for all
-- FreeFlow Meeting (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
+- FreeFlow Connect (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
 - FreeFlow Files (filemanager, alternative to e.g. dropbox)
-- FreeFlow Docs (office alternative running in cloud) based on OnlyOffice
+- FreeFlow Blog / News / Wiki
+
+for business users
+
 - FreeFlow Biz (ERP system with CRM, …) based on Odoo
 - FreeFlow Publish (wiki & web publishing system)
-- FreeFlow Git (Alternative to Github)
 
 Everyone will be able to provision their own private version of above described apps on top of the grid. 
 All integrated with our 3bot mobile app.
@@ -136,6 +137,8 @@ A True scalable blockchain Database.
 - ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
 - This is a preview release, only usable for real experts.
 
+## TFGrid 1.1.1 (timing to be defined)
+
 ### upgrade to our compute & storage workloads
 
 - even more decentralized S3 server, where each users 3bot manages the S3 server
@@ -144,6 +147,11 @@ A True scalable blockchain Database.
 
 This service allows to run any application you want on the decentralized grid.
 As long as an application runs on the linux operating system it can run on our grid.
+
+### More decentralized apps
+
+- FreeFlow Docs (office alternative running in cloud) based on OnlyOffice
+- FreeFlow Git (Alternative to Github)
 
 
 
