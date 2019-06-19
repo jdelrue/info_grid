@@ -12,16 +12,6 @@ is the combination of
 
 Facebook is launching their currency and this will make crypto more mainstream 
 
-## Implementation Details
-
-- All in vue.js using graphql?
-- Super consistent look & feel.
-- Backend in 3bot actors with BCDB at back.
-- Files also in 3bot interface webdav and rest (compatible with FreeFlowFiles used API)? 
-- Files stored in ZDB/ZSTOR but managed by 3bot, caching on filesystem on 3bot.
-
-
-
 ## Comparison with Facebook
 
 | Facebook                                        	| myfreeflow.app                                                                                                                              	|
@@ -47,6 +37,15 @@ other differences
 
 - no commercial interest
 - will try to protet people against dopamine addiction syndrome
+
+## Implementation Details
+
+- All in vue.js using graphql?
+- Super consistent look & feel.
+- Backend in 3bot actors with BCDB at back.
+- Files also in 3bot interface webdav and rest (compatible with FreeFlowFiles used API)? 
+- Files stored in ZDB/ZSTOR but managed by 3bot, caching on filesystem on 3bot.
+
 
 ## Functionality
 
