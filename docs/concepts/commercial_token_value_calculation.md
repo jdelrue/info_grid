@@ -89,7 +89,7 @@ We did best effort estimates in this phase, this will improve as we get more dat
 
 The above example shows a USD $89,915,106 value.
 
-## Link to token valuation
+## Token valuation
 
 If there would be 186,000,000 tokens then the commercial value per token would be
 
