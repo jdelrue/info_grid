@@ -1,4 +1,4 @@
 * [Home](/)
 * [Developers](developers/README.md)
-    * [Reserving capacity (TESTNET)](docs/capacity_reservation/)
-    * [Example capacity reservations (TESTNET)](docs/capacity_reservation/examples/)
+    * [Reserving capacity (TESTNET)](info_grid/docs/capacity_reservation/README.md)
+    * [Example capacity reservations (TESTNET)](info_grid/docs/capacity_reservation/examples/)
