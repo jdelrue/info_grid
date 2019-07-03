@@ -1,6 +1,6 @@
 * [Home](/)
 * How to participate?
-  * [Farmers](/docs/tf_farming/README.md)
+  * [Farmers](/tf_farming/README.md)
   * [Developers](/developers/README.md)
 
 * How to get more information
