@@ -113,8 +113,8 @@ JSX> result = w.capacity.reserve_zos_vm(
     email='user@email.com',       # the email on which you will received the connection information
     threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
     location='farm_name',         # name of the farm or node id where to deploy the workload
-    size=1                        # each workload have a different size available
-)
+    size=1,                       # each workload have a different size available
+    duration=1)                   # number of months the reservation should be valid for
 ```
 
 Example how to reserve a S3 archive storage:
@@ -124,7 +124,8 @@ JSX> result = w.capacity.reserve_s3(
     email='user@email.com',       # the email on which you will received the connection information
     threebot_id='my3bot.example', # your threebot id, it can be any of the names you gave to your 3bot
     location='farm_name',         # name of the farm where to deploy the workload
-    size=1                        # each workload have a different size available
+    size=1,                       # each workload have a different size available
+    duration=1                    # number of months the reservation should be valid for
 )
 ```
 
@@ -138,7 +139,8 @@ JSX> result = w.capacity.reserve_zdb_namespace(
     size=5,                       # size of the namespace in GB
     disk_type='ssd',              # type of disk, can be 'ssd' or 'hdd'
     mode='seq',                   # the 0-db mode. It can be 'seq' or 'user', to know more about 0-db mode: https://github.com/threefoldtech/0-db#running-modes
-    password=None                 # optional password. If set your namespace will be require authentication
+    password=None,                 # optional password. If set your namespace will be require authentication
+    duration=1                    # number of months the reservation should be valid for
 )
 ```
 
@@ -172,9 +174,29 @@ transaction = c.transaction_get(result.transaction.id)
 
 As soon as it is ready, usually within a few minutes, you will receive an email with the connection information.
 
+The id of the transaction can also be used to extend the validity of a reservation.
+
+```python
+result = w.capacity.reservation_extend(
+    transaction_id="1bdff90882cc437cb8b781c5eb296edbfdb79777564d70ec8f2120c37d8a7737", # the id of the transaction that was created as a result of the initial reservation (result.transaction.id in the section above)
+    email='user@email.com', # the email on which you will received extension confirmation
+    duration=1) # number of months you want to extend the reservation by.
+```
+
+The expiration of the reservation should never exceed that of the 3bot that was used to create the reservation.
+
+If you want to list all transactions that were created whenever a reservation was done (not an extension), you can use method `reservations_transactions_list`.
+
+```python
+w.capacity.reservations_transactions_list()
+- 1bdff90882cc437cb8b781c5eb296edbfdb79777564d70ec8f2120c37d8a7737
+- 5b61c9eaa2d28778620d7f60630fceb2884a3948b2cf06d59a033a02cd747439
+- ffce9a46a689eddfb69496a414e7df7a10f0c55bcf78e97122a85cdfd6da56e2
+```
+
 ### Amount of TFT for each type of reservation
 
-During the testnet phase, price will be calculated like:
+During the testnet phase, price per month will be calculated like:
 
 - 1 TFT = 0.12 USD
 - 1TB of Storage = 10 USD = 83.3 TFT
