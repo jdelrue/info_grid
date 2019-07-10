@@ -14,7 +14,7 @@ For this reason **do not** put critical data on the grid during the tesnet phase
 ## How to reserve some Capacity on the ThreeFold Grid
 
 This document assumes you are familiar with Jumpscale and you already have
-a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](https://github.com/threefoldtech/jumpscaleX/blob/development/docs/Installation/install.md)
+a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](https://github.com/threefoldtech/jumpscaleX/blob/master/docs/Installation/get_started.md)
 
 ### Summary
 
