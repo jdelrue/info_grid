@@ -118,6 +118,9 @@ JSX> result = w.capacity.reserve_zos_vm(
     duration=1)                   # number of months the reservation should be valid for
 ```
 
+You can optionally supply an `organization` while doing the Zero-OS reservation. If supplied, then you can only access the created VM using a valid JWT of a user who is a member of this organization.
+
+
 Example how to reserve a S3 archive storage:
 
 ```python
