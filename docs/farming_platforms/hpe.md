@@ -9,6 +9,7 @@
 Storage Node | HPE Apollo 4510 Gen10 | 4U server | 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 32GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
 
 
+
 ## Home Kit
 SOHO, personal farm for the lowest price (around 1100USD pricepoint for example config, depending on config)
 
