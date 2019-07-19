@@ -4,6 +4,7 @@
   * [Developers](/developers/README.md)
 
 * How to get more information
+  * [Roadmap](/roadmap/readme.md)
   * [Presentations](/presentations/README.md)
   * [Concepts](/concepts/README.md)
   * [Technology](/technology/README.md)
