@@ -1,24 +1,47 @@
-# Roadmap TF Grid
+# Roadmap TF Tech
 
 ## Introduction
 
 Our current 1.x series is in the field and empowers 18.000 CPU cores and more than 80.000.000 GB of storage. Today any container or S3 workload can run by means of the current solution.
 
-Our aim is autonomous IT.
+Our aim is 100% autonomous IT and this can be used for quite some usecases.
 
+![](images/highlevel_roadmap_usecases.png)
+
+## 3 components make it all happen
+
+![](images/3components.png)
 
 ## the 3 layers or our 2.x generation
 
 ### Capacity Layer
 
+The 3 components are being used in this layer, this is the layer of providing capacity (storage, networking, compute) to the applications. On this layer the applications are not self managed, they are provisioned by means of scripts or api usage.
+
+Interface is the shell from jumpscale which we call kosmos. Kosmos has a rich api and scripting capability to allow the creation of complex workloads which can be deployed on top of the zero-OS nodes.
+
+Any container workload can be brought life on our system. We are close to release our v2.0 at this point.
+The 1.x release can be used by anyone today. The bulk of the work so far has been on this layer.
+
+
 ### Autonomous Layer
 
+This is a new layer which has as aim to let an application run full autonomous.
+The main ingredient here is the 3bot. The 3bot can be programmed to perform complex tasks in an easy way.
+
+The 3bot knows how to deploy and maintain the status of large scale applications.
+
+Interface here is the 3bot API and the 3bot SDK = Jumpscale X which allows IT people to add more knowledge to the 3bot.
 
 ### App Layer
 
+We have developed a layer which allows any web application to interact with the 3bot.
+This allows an app developer to get to results much more quickly. We don't publicly promote this layer yet.
+We use it for our own usecases but the purpose is eventually to let others use this layer as well.
 
 
-## TF Grid 1.0.0 (active since start April 2019)
+
+## 1.x.0 stack (active since start April 2019)
 
 Grid only usable by application developers
 
@@ -45,7 +68,7 @@ Above capabilities allow you to run most workloads which today would typically r
 - this is a pre-release version and the nodes are rebooted regularly and its data is erased (DO NOT RUN PRODUCTION !)
 - uses TFT from testnet (so free money)
 
-## TF Grid 1.0.1 (June 2019)
+## TF Grid 1.0.1 (Aug 2019)
 
 Still non production workloads and TFT's from testnet.
 
@@ -67,27 +90,11 @@ easy to to deploy example workloads like
 - Odoo (ERP & Web Publishing system)
 - Filemanager: see https://github.com/threefoldtech/tutorials/blob/master/tutorials/filestash/Filestash.py
 
-## TFGrid 1.1.0 (June/July 2019)
-
-- ability to inform a 3bot about the life state of primitive which came life
-- no more reboots of machine put in production (extend reservations)
-- 3bot bootstrap
-- security on deployment of vzos
-- new webgateway
-- upgrade by means of reboot of ZOS
-  - the ZDB/s & virtual ZOS'es come life automatically
-
-
-## TFGrid 1.2.0 (July 2019)
-
-- TFChain no longer used for information storage
-    - use BCBB
-
 ## TFGrid 2.0.0 (Sept 2019)
 
 Beta release which is using our self driving IT capabilities.
 
-### NEW: Decentralized Apps
+### NEW: Decentralized Apps (POC working on top of TFGrid 2.0)
 
 SEE 3BOT app doc
 
@@ -100,7 +107,7 @@ The names are not final, it could be they will change for launch.
 - FreeFlow Files (filemanager, alternative to e.g. dropbox)
 - FreeFlow Blog / News / Wiki
 
-for business users
+for business users (optional)
 
 - FreeFlow Biz (ERP system with CRM, …) based on Odoo
 - FreeFlow Publish (wiki & web publishing system)
