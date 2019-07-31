@@ -28,11 +28,11 @@ Take the zerotier network ID and go to:  http://bootstrap.grid.tf
 
 Choose the master branch of the Zero-OS and input the zerotier network ID
 
-![](/images/testnetv0.1/step1-2.png)
+![](../images/testnetv0.1/step1-2.png)
 
 Enable the development flag:  This disables a lot of the security features on the Zero-OS and allows you to connect to the Zero-OS without being authenticated.
 
-![](/images/testnetv0.1/step3.png)
+![](../images/testnetv0.1/step3.png)
 
 Choose which bootloader method you want to use and download the correct image/script that belongs to that method 
 
