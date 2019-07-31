@@ -2,6 +2,7 @@
 * How to participate?
   * [Farmers](/tf_farming/README.md)
   * [Developers](/developers/README.md)
+  * [Testnet](/testnet/README.md)
 
 * How to get more information
   * [Roadmap](/roadmap/readme.md)
