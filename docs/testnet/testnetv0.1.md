@@ -12,11 +12,11 @@ Getting an overlay network is essential - all coonectivity requirements are curr
 - Log into account
 - Create a specific - test setup network: https://my.zerotier.com/network
 
-![](../../../images/testnetv0.1/zerotier-creata-network.png)
+![](/images/testnetv0.1/zerotier-creata-network.png)
 
 Download the zerotier network client one or more controlling PC’s.  Choose the right version for the OS: https://www.zerotier.com/download/
 
-![](../../../images/testnetv0.1/download_client.png)
+![](/images/testnetv0.1/download_client.png)
 
 Further instructions how to create, install and get the private overlay network installed can be found on on the zerotier web site.
 
@@ -28,21 +28,21 @@ Take the zerotier network ID and go to:  http://bootstrap.grid.tf
 
 Choose the master branch of the Zero-OS and input the zerotier network ID
 
-![](../../../images/testnetv0.1/step1-2.png)
+![](/images/testnetv0.1/step1-2.png)
 
 Enable the development flag:  This disables a lot of the security features on the Zero-OS and allows you to connect to the Zero-OS without being authenticated.
 
-![](../../../images/testnetv0.1/step3.png)
+![](/images/testnetv0.1/step3.png)
 
 Choose which bootloader method you want to use and download the correct image/script that belongs to that method 
 
-![](../../../images/testnetv0.1/select-bootloader.png)
+![](/images/testnetv0.1/select-bootloader.png)
 
 Depending on the use case (virtual / physical) make a physical boot device of use the selected method for the Virtualisation technology.
 In this case - configure Virtualbox to boot the iso image 
 After a while of will be booted completely (depending on your network speed)
 
-![](../../../images/testnetv0.1/zero-os-booting.png)
+![](/images/testnetv0.1/zero-os-booting.png)
 
 And you can see the zerotier address of your private (zerotier) network, and the assumed private IP addresses. In your zerotier management portal there is a section with private overlay members.  Your booted Zero-OS should show up as a new member and you need to authorize it to become part of the secured overlay network.
 
@@ -59,7 +59,7 @@ The Zero-OS container manager has been designed and created to hide a lot of con
 
 The specific instructions to build the zos client on your operating systems are [here](https://github.com/threefoldtech/zos/blob/development/doc/building.md).  You have succesfully installed the zos client you should be able to run it (depending on where you have put the binary) as follows:
 
-![](../../../images/testnetv0.1/zos_commandline.png)
+![](/images/testnetv0.1/zos_commandline.png)
 
 ### Step 5: Launch and stop containers.
 
@@ -139,11 +139,11 @@ zos container list
 
 To launch a new container you can get the required flist (file list, software can be found [here](https://github.com/threefoldtech/0-flist)) from the central hub on which these flists are collected and made avaiable to TESTNET users.  The principle of an flist is that the binaries needed to run the containerised applications are stored in a central hub (which can be many - the TESTNET one is one we installed bu you can create your own based on the software presented [here](https://github.com/threefoldtech/0-hub).
 
-![](../../../images/testnetv0.1/hub-splash.png)
+![](/images/testnetv0.1/hub-splash.png)
 
 Let's take an example flist to showcase the simple structure of commands to launch a container: mongoDB
 
-![](../../../images/testnetv0.1/mongo-flist.png)
+![](/images/testnetv0.1/mongo-flist.png)
 
 In order to launch the container we need to URL that point to the flist and parse it to the process manager on the Zero-OS.  The URL pointer to the flist is:
 ```
