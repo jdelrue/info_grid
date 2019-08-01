@@ -4,12 +4,11 @@
   * [Developers](/developers/README.md)
   * [Testnet](/testnet/README.md)
 
-* How to get more information
+* Where to get more information
   * [Roadmap](/roadmap/readme.md)
   * [Presentations](/presentations/README.md)
   * [Concepts](/concepts/README.md)
-  * [Technology](/technology/README.md)
-  * [Legal](/legal/README.md)
   * [Definitions](/definitions/README.md)
-  * [Online Meetings](/online_meetings/README.md)
-* [FAQ](/faq/README.md)
+  * [FAQ](/faq/README.md)
+* Support
+  * [Enter a support ticket](/support/README.md)
