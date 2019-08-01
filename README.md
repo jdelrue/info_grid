@@ -8,6 +8,7 @@ First level support and on call team:
 - Bishoy Michael [telegram: @Pishoy]
 - Abdul Rehman [telegram: @arrajput]
 - Ahmed Siddique [telegram: @ahmedsidd]
+- Samir Hosney [telegram: @samir_hosny]
         
 Second Level support team:
 - Jan Delandt [telegram: @delandtj]
@@ -20,8 +21,8 @@ On-Call sheet: https://docs.google.com/spreadsheets/d/10U6Lfz1ezlv8Np4Qp07YAgGyF
 - Support Process: [click here](https://docs.google.com/drawings/d/18yDx2YceeUKAfdzD0Koo2FvdX1fRJc78xK338tpCNPc/edit)
 
 ### Ticket Logging:
+- TF ticketing system: https://support.grid.tf/
 - Email: support@threefold.tech
-- Github: https://github.com/threefoldfoundation/info_grid
 
 ### Grid monitoring 
 - this will be Automated in the new grid directory, more info to follow 
