@@ -1,10 +1,9 @@
 
 # Commercial value of a ThreeFold Token (TFT)
 
+To have a metric showing the backing of the TFT we have created an index:
 
 Commercial value of 1 TFT = commercial_value_of_grid (over 5 years) / nr_of_liquid_tokens (available today)
-
-At time of writing this is about USD $0.35
 
 How do we measure the commercial value?
 
@@ -76,7 +75,7 @@ We did best effort estimates in this phase, this will improve as we get more dat
 - We estimate that averaged out each storage unit will require 2% of its capacity transfered per month.
 
 
-## Example calculation
+## Commercial Capacity Jan 2019
 
 ![](images/token_value_calc.png)
 
@@ -87,13 +86,14 @@ We did best effort estimates in this phase, this will improve as we get more dat
 - we can then multiply the cloud units with commercial average prices on the grid
 - this results in a total commercial value
 
-The above example shows a USD $89,915,106 value.
+The above example shows a USD $89,915,106 value  (jan 2019)
 
-## Token valuation
+## Token valuation Example
 
-If there would be 186,000,000 tokens then the commercial value per token would be
-
-- $89,915,106 / 186,000,000 = USD $0.48 per TFT
+- if there would be a commercial value of 100m (+- summer 2019) and 500m tokens then the value would be $0.25
+    - $100,000,000 / 500,000,000 = USD $0.2 per TFT
+    
+Disclaimer: this is only an example, starting september 2019 this will be calculated automatically.
 
 
 
