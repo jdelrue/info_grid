@@ -90,7 +90,7 @@ The above example shows a USD $89,915,106 value  (jan 2019)
 
 ## Token valuation Example
 
-- if there would be a commercial value of 100m (+- summer 2019) and 500m tokens then the value would be $0.25
+- if there would be a commercial value of 100m (+- summer 2019) and 500m tokens then the value would be $0.2
     - $100,000,000 / 500,000,000 = USD $0.2 per TFT
     
 Disclaimer: this is only an example, starting september 2019 this will be calculated automatically.
