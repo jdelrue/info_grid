@@ -1,23 +1,24 @@
-# Farm sizing questions
+## What types of Farming exits?
 
-## Question
-Are micro-farmers with single node installations at some disadvantage competing for usage of their capacity with nearby larger farms?
+The Foundation recognises different type of farmers based on the type of TF Nodes that they operate. Eventually there will be 3 types of capacity which will lead to three type of farmers.
 
-## Answer
+### Farming types
 
-Eventually, there will be 3 certification levels of capacity.
+#### Do It Yourself Farming (DIY)
+The farmers operate any type of hardware that runs the Zero-OS.  It can be new or refurbushed hardware, it can be in large or small quantities.  The DIY farmer has complete freedom what they bring to the grid.
 
-- DIY (Do It Yourself): individual farmers
-- Managed: managed service providers who have access to the nodes (typically bigger players)
-- Certified: Professional or Individual farmers
+#### Certified Farming
+These farmers has chosen to bring certified hardware to the grid.  Certified hardware is hardware that has been certified by the ThreeFold foundation as hardware that is completely locked down and secure.  Currently there is only one type of certified hardware and that is hardware build by HP Enterprise.  This hardware has been certified to be configured in the factory (Express services) to specific farmer details and then locked down such that there can be no further changed made by anyone to the boot methodology and hardware specification.
 
-The micro farmer will be part of a chosen category and only published there (directory has distinction). Depending on the category there is a min price, so people cannot dump prices.
+#### Managed Farming
+Managed farming does not exists yet.  This category might come into existence going forward.
 
-There are 3 types of capacity
 
-- Compute (which includes mem & cpu & ssd capacity)
-- Storage (HD or SSD capacity)
-- Network (where to connect to the internet)
+### Farmed capacity
+All these types of farmers will make the same utility available to the TF Grid.  This utility comes in three types:
+- Compute Units (Logical cores and memory)
+- Storage Units (HD and / or SSD capacity)
+- Network Units (where to connect to the internet)
 
 The TF Foundation will suggest prices for each certification levels in line with location e.g. home behind fiber, a commercial datacenter with multiple internet connections, telco POP, school/university/...with large bandwidth pipe, … The goal is to come up with the right ratio between price & achieved level of service. This will of course not happen over 1 day we will have to learn.
 
