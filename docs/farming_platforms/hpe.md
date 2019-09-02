@@ -64,7 +64,7 @@ HPE ProLiant DL385 Gen10 server supports industry standard technology leveraging
 Threefold optimized configuration for maximized ROI: 
 
 - 2x AMD EPYC – 7351 (2.4GHz/16-core) 
-- 128GB RAM 
+- 256GB RAM 
 - 8x 12TB SATA HDDs 
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
@@ -72,7 +72,7 @@ Threefold optimized configuration for maximized ROI:
 #### Resource Units:
 
 - CRU: 64 logical cores
-- MRU: 128 GB
+- MRU: 256 GB
 - SSD: 7680 GB
 - HRU: 96000 GB
 
@@ -101,7 +101,7 @@ Standardize on the industry's most trusted compute platform with this world’s 
 Threefold optimized configuration for maximized ROI: 
 
 - 2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 
-- 128GB RAM 
+- 256GB RAM 
 - 8x 12TB SATA HDDs 
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
@@ -109,7 +109,7 @@ Threefold optimized configuration for maximized ROI:
 #### Ressource Units:
 
 - CRU: 64 logical cores
-- MRU: 128 GB
+- MRU: 256 GB
 - SSD: 7680 GB
 - HRU: 144000 GB
 
