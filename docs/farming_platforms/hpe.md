@@ -4,9 +4,9 @@
 |  Product | Platform | Description | Preferred/optimized configuration |
 | ---------------- | ------ | ------ | ------------- |
 |  Home Kit | HPE ProLiant MicroServer Gen10 | Mirco Server | 1x AMD Opteron™ X3418 (1.8-3.2 GHz), 4 physical cores, up to 32GB RAM, 4 x HDDs/SSDs
-|  Converged Node I| HPE ProLiant DL380 Gen10 12LFF | 2U server |  2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 128GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
-|  Converged Node II | HPE ProLiant DL385 Gen10 Mod-X 12LFF | 2U server  | 2x AMD EPYC – 7351 (2.4GHz/16-core) 128GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
-Storage Node | HPE Apollo 4510 Gen10 | 4U server | 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 32GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
+|  Converged Node I| HPE ProLiant DL380 Gen10 12LFF | 2U server |  2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 256GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
+|  Converged Node II | HPE ProLiant DL385 Gen10 Mod-X 12LFF | 2U server  | 2x AMD EPYC – 7351 (2.4GHz/16-core) 256GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
+Storage Node | HPE Apollo 4510 Gen10 | 4U server | 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 128GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
 
 
 
@@ -41,7 +41,7 @@ Note: Total of 4 disc slots. Recommended to use 1 SSD and up to 3 HDDs
 
 ### ROI calculation Example:
 
-**8.8** over 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**9.2** over 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 ### Where to buy:
 
@@ -52,7 +52,7 @@ HPE ProLiant MicroServer Gen10 is available at local electronics stores. Configu
 
 ## Converged Node I 
 
-AMD based Compute and Storage Node, 2u rackmountable (around 13000 USD, depending on region)
+AMD based Compute and Storage Node, 2u rackmountable (around 18000 USD, depending on region)
 
 ### Server Platform:
 HPE ProLiant DL385 Gen10 Mod-X 12LFF
@@ -64,7 +64,7 @@ HPE ProLiant DL385 Gen10 server supports industry standard technology leveraging
 Threefold optimized configuration for maximized ROI: 
 
 - 2x AMD EPYC – 7351 (2.4GHz/16-core) 
-- 128GB RAM 
+- 256GB RAM 
 - 8x 12TB SATA HDDs 
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
@@ -72,13 +72,13 @@ Threefold optimized configuration for maximized ROI:
 #### Resource Units:
 
 - CRU: 64 logical cores
-- MRU: 128 GB
+- MRU: 256 GB
 - SSD: 7680 GB
 - HRU: 96000 GB
 
 ### ROI calculation Example:
 
-**11.4** over 5 years @ purchasing price USD 13.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**13.8** over 5 years @ purchasing price USD 18.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 ### Where to buy:
 Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold farming hardware DL385 Gen10 Mod-X 12LFF' in the email subject
@@ -89,7 +89,7 @@ Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold 
 
 ## Converged Node II
 
-INTEL based Compute and Storage Node, 2u rackmountable (around 16000 USD, depending on region)
+INTEL based Compute and Storage Node, 2u rackmountable (around 20000 USD, depending on region)
 
 ### Server Platform:
 HPE ProLiant DL380 Gen10 12LFF  
@@ -101,7 +101,7 @@ Standardize on the industry's most trusted compute platform with this world’s 
 Threefold optimized configuration for maximized ROI: 
 
 - 2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 
-- 128GB RAM 
+- 256GB RAM 
 - 8x 12TB SATA HDDs 
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
@@ -109,13 +109,13 @@ Threefold optimized configuration for maximized ROI:
 #### Ressource Units:
 
 - CRU: 64 logical cores
-- MRU: 128 GB
+- MRU: 256 GB
 - SSD: 7680 GB
 - HRU: 144000 GB
 
 ### ROI calculation Example:
 
-**11.6** over 5 years @ purchasing price USD 16.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**12.6** over 5 years @ purchasing price USD 20.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 
 ### Where to buy:
@@ -138,7 +138,7 @@ Scalable and dense storage system node for Zero OS. Fitting in standard 1075mm r
 Threefold optimized configuration for maximized ROI: 
 
 - 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) 
-- 32GB RAM 
+- 128GB RAM 
 - 56x 12TB SATA HDDs 
 - 4x 1.92TB SATA SSDs
 - Dual port 10GE network adapter
@@ -146,13 +146,13 @@ Threefold optimized configuration for maximized ROI:
 #### Ressource Units:
 
 - CRU: 16 logical cores
-- MRU: 32 GB
+- MRU: 128 GB
 - SSD: 7680 GB
 - HRU: 672000 GB
 
 ### ROI calculation Example:
 
-**11.9** over 5 years @ purchasing price USD 61000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of framing USD 1.0
+**13.9** over 5 years @ purchasing price USD 60000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 
 ### Where to buy:
@@ -162,3 +162,5 @@ Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold 
 <https://support.hpe.com/hpsc/doc/public/display?docId=emr_na-a00029698en_us&docLocale=en_US>
 
 
+## NOTE: 
+The prices used in this document are not in any case TF Farmer prices HPE will quote globally. Please ask <tibor.szpisjak@hpe.com> or your local HPE partner for local pricing based on above hardware configurations.
