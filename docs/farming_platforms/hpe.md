@@ -7,6 +7,7 @@
 |  Converged Node I| HPE ProLiant DL380 Gen10 12LFF | 2U server |  2x Intel Xeon-Gold 6130 (2.1GHz/16-core) 256GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
 |  Converged Node II | HPE ProLiant DL385 Gen10 Mod-X 12LFF | 2U server  | 2x AMD EPYC – 7351 (2.4GHz/16-core) 256GB RAM 8x 12TB SATA HDDs 4x 1.92TB SATA SSDs. Dual port 10GE network adapter|
 Storage Node | HPE Apollo 4510 Gen10 | 4U server | 2x Intel Xeon-Silver 4108 (1.8GHz/8-core) - 128GB RAM - 56x 12TB SATA HDDs - 4x 1.92TB SATA SSDs - Dual port 10GE network adapter|
+|  | |  |  |
 
 
 
@@ -41,7 +42,7 @@ Note: Total of 4 disc slots. Recommended to use 1 SSD and up to 3 HDDs
 
 ### ROI calculation Example:
 
-**9.2** over 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
+**6.4** over 5 years @ purchasing price USD 1117, hosted at home, token price at farm start USD 0.12, CU Price USD 15, SU Price USD 10, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 ### Where to buy:
 
@@ -58,7 +59,7 @@ AMD based Compute and Storage Node, 2u rackmountable (around 18000 USD, dependin
 HPE ProLiant DL385 Gen10 Mod-X 12LFF
 
 ### Description:
-HPE ProLiant DL385 Gen10 server supports industry standard technology leveraging the AMD EPYC 7000 Series Processor with up to 32 cores, 12 Gb SAS and 4.0 TB of HPE DDR4 SmartMemory. HPE ProLiant DL385 Gen10 claims world record for the MOST energy-efficient AMD-based server. HPE ProLian DL385 Gen10 Mod-X 12LFF is Zero OS certified
+HPE ProLiant DL385 Gen10 server supports industry standard technology leveraging the AMD EPYC 7000 Series Processor with up to 32 cores, 12 Gb SAS and 4.0 TB of HPE DDR4 SmartMemory. HPE ProLiant DL385 Gen10 claims world record for the MOST energy-efficient AMD-based server. HPE ProLiant DL385 Gen10 Mod-X 12LFF is Zero OS certified
 
 ### Preferred/optimized configuration:
 Threefold optimized configuration for maximized ROI: 
@@ -78,7 +79,7 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**13.8** over 5 years @ purchasing price USD 18.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
+**10.1** over 5 years @ purchasing price USD 18.000, hosted in datacenter, token price at farm start USD 0.12, CU Price USD 15, SU Price USD 10, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 ### Where to buy:
 Please contact <tibor.szpisjak@hpe.com> for pricing. Put 'request for ThreeFold farming hardware DL385 Gen10 Mod-X 12LFF' in the email subject
@@ -115,7 +116,7 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**12.6** over 5 years @ purchasing price USD 20.000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
+**9.3** over 5 years @ purchasing price USD 20.000, hosted in datacenter, token price at farm start USD 0.12, CU Price USD 15, SU Price USD 10, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 
 ### Where to buy:
@@ -152,7 +153,7 @@ Threefold optimized configuration for maximized ROI:
 
 ### ROI calculation Example:
 
-**13.9** over 5 years @ purchasing price USD 60000, hosted in datacenter, token price at farm start USD 0.12, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
+**9.7** over 5 years @ purchasing price USD 60000, hosted in datacenter, token price at farm start USD 0.12, CU Price USD 15, SU Price USD 10, 60% average capacity utilization, 20% perice erosion, token price after 5 years of farming USD 1.0
 
 
 ### Where to buy:
