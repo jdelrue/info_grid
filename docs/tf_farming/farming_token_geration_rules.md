@@ -56,7 +56,8 @@ There will be differences between uncertified and certified capacity
 
 #### Farming TFT calculation formula (monthly)
 
-![](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/images/tfarming.png)
+![](../concepts/images/tcultivation.png)
+
 
 * T = number of Tokens
 * CU = Compute Units deployed
