@@ -69,7 +69,7 @@ There will be differences between uncertified and certified capacity
 ****DIY and certified capacity difficulty level: 8****
 What does this mean: TFTs are undervalued by a factor of 8 (called difficulty level) during creation, i.e. if 100% of capacity is sold at connection time, then 8 times more TFTs would be required than have been issued. This mechanism allows the token to grow in value while remaining backed by the revenue potential of the TF Grid.
 
-****Until public Grid Capacity Utilization (Q4 2019)****
+****Until public Grid Capacity Utilization (Q1 2020)****
 
 In order to calculate the number of tokens farmed we use compute and storage market pricing nubers. For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
 
@@ -121,14 +121,14 @@ The network needs to comply with minimal uptime guarantees. This table represent
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
-****Will be applicable when public Grid Capacity Utilization goes live (Q4 2019)****
+****Will be applicable when public Grid Capacity Utilization goes live (Q1 2020)****
 
 
 ### Fees on Cultivation TFTs
 
 There are two types of fees:
-* 10% for ThreeFold Foundation for promoting the capacity on the grid
-* 10% for TFTech License that keeps the TF Grid software components up to date and provides farmers support
+* 10% to ThreeFold Foundation for promoting the capacity on the grid
+* 10% to TFTech License that keeps the TF Grid software components up to date and provides farmers support
 
 
 |    Capacity Type   | TF Foundation   | TFTech|
