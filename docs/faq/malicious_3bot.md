@@ -1,4 +1,4 @@
-##  How can it be prevented that 3bots are given malicious code to conduct unwanted activity or deploy malicious software on threefold network?
+##  How can it be prevented that 3bots are given malicious code and deploy criminal activities on threefold network?
 
 Very interesting question.  As show in the figure 3bots receive their knowledge (abilities) from IT experts.  These IT experts will be for a very large part developers or system integrators that have good intentions and want to build or launch a new services.  But, there will be people that will abuse the 3bot technology to launch malicious and or fraudulous appplications.  What can be done about that?  
 
@@ -20,4 +20,4 @@ For 3bot this works in the same way. 3bots are being given capabilities and know
 
 So the reputation is stored and available for all to inspect.
 
-The technical answer to this question is that the technology has a built in consensus mechanism (item 4 in the image) where end users, consumers of services, can launch a service if it consensus is reached amongst a group of endusers (which can be people or legal entities represented on this grid by respective 3bots).  Respected people people or legal entities will offer verifications services which IT experts can build into their services.  This is a build consensus mechanism. 
+The technical answer to this question is that the technology has a built in consensus mechanism (item 4 in the image) where end users, consumers of services, can launch a service if it consensus is reached amongst a group of endusers (which can be people or legal entities represented on this grid by respective 3bots).  Respected people people or legal entities will offer verifications services which IT experts can build into their services.  This is a build in consensus mechanism. 
