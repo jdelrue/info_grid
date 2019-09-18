@@ -28,6 +28,7 @@
     	* [8. What is the storage overhead](/faq/storage_overhead.md)
     	* [9. What are typical node workloads](/faq/node_workloads.md)
     	* [10. How does performance assurance](/faq/performance.md)
+        * [11. How do we protect users from malicious 3bot code?](/faq/malicious_3bot.md)
     * **Legal matter**
     	* [1. Farmer Liability and Insurance](/faq/liability.md)
     	* [2. What about malicious content](/faq/malicious_content.md)
