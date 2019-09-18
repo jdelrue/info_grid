@@ -2,11 +2,11 @@
 
 Very interesting question.  As show in the figure 3bots receive their knowledge (abilities) from IT experts.  These IT experts will be for a very large part developers or system integrators that have good intentions and want to build or launch a new services.  But, there will be people that will abuse the 3bot technology to launch malicious and or fraudulous appplications.  What can be done about that?  
 
-The system in itself allows for anyone to build and create services on top of the TF Grid  and by the decentralised nature the ThreeFold foundation or TF Tech will not govern, This would be 100% against the decentralised nature of this project.
+The system in itself allows for anyone to build and create services on top of the TF Grid  and by the decentralised nature the ThreeFold foundation or TF Tech will not govern, this would be 100% against the decentralised nature of this project.
 
 ![](..//images/it_expert.png)
 
-The answer is not found in the technology, Although the technology has features which help with this, let's first dive into the non-technical answer to the question. Tthe answers to this question is simnple and follows the rules of every day life. In real life we all conduct check and balances for everything we do and everybody we engage with.  Some examples:
+The answer is not found in central governance, the answer is decentralised governance.  The technology has is designed to have a human based consensus mechanism and boasts strong technical features for this. Let's first dive into the non-technical part of the answer to the question. Decentralised governance follows the rules of every day life. In real life we all conduct check and balances for everything we do and everybody we engage with.  Some examples:
 - Does the shopfront look legit?  
 - Is the car sales man some on I can trust, let's ask my friend that bought a car from him half a year ago. 
 - Is there some talk on the internet about this e-commerce site, do they really ship order or take the monney and run
