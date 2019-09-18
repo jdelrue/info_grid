@@ -1,4 +1,4 @@
-##  How can it be prevented that 3bots are given malicious code and deploy criminal activities on threefold network?
+##  How can it be prevented that 3bots are given malicious code and deploy criminal activities on ThreeFold Grid?
 
 Very interesting question.  As show in the figure 3bots receive their knowledge (abilities) from IT experts.  These IT experts will be for a very large part developers or system integrators that have good intentions and want to build or launch a new services.  But, there will be people that will abuse the 3bot technology to launch malicious and or fraudulous appplications.  What can be done about that?  
 
