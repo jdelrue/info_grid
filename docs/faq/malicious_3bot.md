@@ -6,7 +6,7 @@ The system in itself allows for anyone to build and create services on top of th
 
 ![](..//images/it_expert.png)
 
-The answer is not found in central governance, the answer is decentralized governance.  The technology has is designed to have a human-based consensus mechanism and boasts strong technical features for this. Let's first dive into the non-technical part of the answer to the question. Decentralized governance follows the rules of everyday life. In real life, we all conduct check and balances for everything we do and everybody we engage with.  Some examples:
+The answer is not found in central governance, the answer is decentralized governance.  The technology is designed to have a human-based consensus mechanism and boasts strong technical features for this. Let's first dive into the non-technical part of the answer to the question. Decentralized governance follows the rules of everyday life. In real life, we all conduct check and balances for everything we do and everybody we engage with.  Some examples:
 - Does the shopfront look legit?
 - Is the car salesman some on I can trust, let's ask my friend that bought a car from him half a year ago.
 - Is there some talk on the internet about this e-commerce site, do they really ship an order or take the money and run
