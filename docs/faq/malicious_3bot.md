@@ -1,6 +1,6 @@
 ##  How can it be prevented that 3bots are given malicious code and deploy criminal activities on ThreeFold Grid?
 
-Very interesting question.  As shown in the figure 3bots receives its knowledge (abilities) from IT experts.  These IT experts will be for a very large part developers or system integrators that have good intentions and want to build or launch new services.  But, there will be people that will abuse the 3bot technology to launch malicious and or fraudulent applications.  What can be done about that?
+Very interesting question.  As shown in the figure a 3bot receives its knowledge (abilities) from IT experts.  These IT experts will be for a very large part developers or system integrators that have good intentions and want to build or launch new services.  But, there will be people that will abuse the 3bot technology to launch malicious and or fraudulent applications.  What can be done about that?
 
 The system in itself allows for anyone to build and create services on top of the TF Grid and by the decentralized nature the ThreeFold foundation or TF Tech will not govern, this would be 100% against the decentralized nature of this project.
 
