@@ -20,4 +20,4 @@ For 3bot this works in the same way. 3bots are being given capabilities and know
 
 So the reputation is stored and available for all to inspect.
 
-The technical answer to this question is that the technology has a built in consensus mechanism (item 4 in the image) where end users, consumers of services, can launch a service if it consensus is reached amongst a group of endusers (which can be people or legal entities represented on this grid by respective 3bots).  Respected people people or legal entities will offer verifications services which IT experts can build into their services.  This is a build in consensus mechanism. 
+The technical part of the answer to this question is that the technology has a built in consensus mechanism (item 4 in the image) where end users, consumers of services, can launch a service if consensus is reached amongst a group of endusers (which can be people or legal entities represented on this grid by respective 3bots).  Respected people or legal entities will offer verifications services which IT experts can build into their services.  This is a build-in decentralised consensus mechanism. 
