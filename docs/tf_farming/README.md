@@ -7,11 +7,11 @@
 
 <a id='introduction'></a>
 ## Introduction
-We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically. The ThreeFold application of blockchain technology to compute and storage capacity is one of the most exciting initiatives we have seen to date.
+We probably don’t need to tell you that the invention of Blockchain technology changed the world dramatically. The ThreeFold application of Blockchain technology to compute and storage capacity is one of the most exciting initiatives we have seen to date.
 
 <a id='theproblem'></a>
 ## The problem
-There are some major challenges with the current foundation of the internet and how it has moved from being a medium to independently share information amongst internet users to a multi billion dollar industry governed by a few (American) companies.
+There are some major challenges with the current foundation of the internet and how it has moved from being a medium to independently share information amongst internet users to a multi-billion dollar industry governed by a few (American) companies.
 
 ![](../images/problem.png)
 
@@ -21,11 +21,11 @@ The ThreeFold Foundation has the key to change the internet for good, and you mi
 
 ![](../images/TF_Solution.png)
 
-The ThreeFold foundation has created end-to-end technology that creates a very stable (crypto) currency with neutral, private and distributed capacity generating hardware as a financial backing mechanism.
+The ThreeFold Foundation has created end-to-end technology that creates a very stable (crypto) currency with neutral, private and distributed capacity generating hardware as a financial backing mechanism.
 
 <a id='theecosystem'></a>
 ## The ecosystem
-The ThreeFold ecosystem is a token economy where tokens (crypto currency) are being generated (and therefore financially backed) by internet capacity generating equipment, owned by anyone and housed anywhere, building and creating internet capacity owned and operated by all of us, creating wealth and business opportunities for anyone in the world while building a rock solid foundation for a currency that is less volatile than any other (crypto) currency.
+The ThreeFold Ecosystem is a token economy where tokens (crypto currency) are being generated (and therefore financially backed) by internet capacity generating equipment, owned by anyone and housed anywhere, building and creating internet capacity owned and operated by all of us, creating wealth and business opportunities for anyone in the world while building a rock-solid foundation for a currency that is less volatile than any other (crypto) currency.
 
 ![](../images/TF_ecosystem.png)
 
