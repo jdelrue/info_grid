@@ -2,14 +2,14 @@
 
 ## Introduction
 
-When we started this journey we originally intented to focus on the system administrator and application developer and provide alternative to Amazon/GoogleCloud/DigitalOcean. We focussed on compute & storage capacity (S3, Containers).
+When we started this journey we originally intended to focus on the system administrator and application developer and provide an alternative to Amazon/GoogleCloud/DigitalOcean. We focussed on computing & storage capacity (S3, Containers).
 
-More and more it became important to deliver a True Decentralized alternative internet. A growing crowd of internet users want change, they want to own their data and be able to be on the internet without becoming a product. Our original vision did not cater enough for this requirement. Summer 2018 we decided to start developing a set of enduser application services which can run on top of the TF Grid. We are on track to launch in beta a first set of these services +-1 year after going in that direction. In September 2019 we will launch our first set of end user apps giving real freedom to everyone on the internet.
+More and more it became important to deliver a True Decentralized alternative internet. A growing crowd of internet users want to see a change, they want to own their data and be able to be on the internet without becoming a product. Our original vision did not cater enough for this requirement. Summer 2018 we decided to start developing a set of end-user application services that can run on top of the TF Grid. We are on track to launch in beta the first set of these services +-1 year after going in that direction. In September 2019 we will launch our first set of end-user apps giving real freedom to everyone on the internet.
 
 This was a huge undertaking and most of this happened in the background without much publicity.
-The services who will come out in September will be a real revolution for the internet, for the first time it will be possible for everyone to be online and use an exciting set of products while maintaining full freedom, neutrality and privacy.
+The services that will come out in September will be a real revolution for the internet, as for the first time, it will be possible for everyone to be online and use an exciting set of products while maintaining full freedom, neutrality, and privacy.
 
-As part of this decentralization requirement we also want to allow any blockchain to run on top of our TFGrid. Our TFGrid has a unique capability which we call **"Autonomous IT"** Think about it like self a driving car but then for Information Technology (IT). This makes it possible for any blockchain to run with more security and scale.
+As part of this decentralization requirement, we also want to allow any blockchain to run on top of our TFGrid. Our TFGrid has a unique capability which we call **"Autonomous IT"** Think about it like self a driving car but then for Information Technology (IT). This makes it possible for any blockchain to run with more security and scale.
 
 In Summer 2019 we will be able to demonstrate the "Autonomous IT" for the first time.
 
@@ -17,7 +17,7 @@ Below you can find our roadmap towards that goal.
 
 ## TF Grid 1.0.0 (active since start April 2019)
 
-Grid only usable by application developers
+The Grid is only usable by application developers
 
 ### Services
 
@@ -26,25 +26,25 @@ Grid only usable by application developers
 - ZDB backend storage service
 - Web gateway: how to make your service public
 
-Above capabilities allow you to run most workloads which today would typically run on digitalocean or Amazon. Any app which runs on linux can run on the TF Grid.
+The above capabilities allow you to run most workloads which today would typically run on DigitalOcean or Amazon. Any app which runs on Linux can run on the TF Grid.
 
 ### Benefits
 
-- no more docker images, flists allow faster deployment, 10x less storage and bandwidth required 
-- more security, because only signed files can run in the container
-- more efficient storage leads in lower cost (10x less power used)
-- can build any service on top
+- No more docker images, flists allow faster deployment, 10x less storage and bandwidth required 
+- More security, because only signed files can run in the container
+- More efficient storage enables lower costs (10x less power used)
+- Can build any service on top
 
 ### Notes and Known Issues
 
-- not user friendly, only meant for developers
-- no user interface, only python scripting
-- this is a pre-release version and the nodes are rebooted regularly and its data is erased (DO NOT RUN PRODUCTION !)
-- uses TFT from testnet (so free money)
+- Not user-friendly, only meant for developers
+- No user interface, only python scripting
+- This is a pre-release version and the nodes are rebooted regularly and its data is erased (DO NOT RUN PRODUCTION !)
+- Uses TFT from testnet (so free money)
 
 ## TF Grid 1.0.1 (June 2019)
 
-Still non production workloads and TFT's from testnet.
+Still non-production workloads and TFT's from testnet.
 
 ### Maintenance Release
 
@@ -53,7 +53,7 @@ Still non production workloads and TFT's from testnet.
 
 ### Example Workloads
 
-easy to to deploy example workloads like
+Easy to deploy example workloads like
 
 - Ethereum node example
 - An Icecast node example
@@ -66,12 +66,12 @@ easy to to deploy example workloads like
 
 ## TFGrid 1.1.0 (June/July 2019)
 
-- ability to inform a 3bot about the life state of primitive which came life
-- no more reboots of machine put in production (extend reservations)
+- Ability to inform a 3bot about the life state of primitive which came life
+- No more reboots of machine put in production (extend reservations)
 - 3bot bootstrap
-- security on deployment of vzos
-- new webgateway
-- upgrade by means of reboot of ZOS
+- Security on the deployment of vzos
+- New web gateway
+- Upgrade by rebooting of ZOS
   - the ZDB/s & virtual ZOS'es come life automatically
 
 
@@ -82,19 +82,19 @@ easy to to deploy example workloads like
 
 ## TFGrid 2.0.0 (Sept 2019)
 
-Beta release which is using our self driving IT capabilities.
+A Beta release which is using our self-driving IT capabilities.
 
 ### NEW: Decentralized Apps
 
-SEE 3BOT app doc
+See 3BOT app doc
 
-Our community asked us to focus on enduser facing apps for the first production release.
+Our community asked us to focus on end-user facing apps for the first production release.
 The names are not final, it could be they will change for launch.
 
 - FreeFlow Pages (alternative to Facebook): everyone can now create their own '''Facebook'''
-- FreeFlow Browser (browser running in grid): privacy & freedom for all
+- FreeFlow Browser (browser running on the grid): privacy & freedom for all
 - FreeFlow Connect (alternative to zoom/skype/hangout but decentralized): allow anyone to communicate, everywhere
-- FreeFlow Files (filemanager, alternative to e.g. dropbox)
+- FreeFlow Files (filemanager, an alternative to e.g. dropbox)
 - FreeFlow Blog / News / Wiki
 
 for business users
@@ -102,16 +102,16 @@ for business users
 - FreeFlow Biz (ERP system with CRM, …) based on Odoo
 - FreeFlow Publish (wiki & web publishing system)
 
-Everyone will be able to provision their own private version of above described apps on top of the grid. 
+Everyone will be able to provide their private version of above-described apps on top of the grid. 
 All integrated with our 3bot mobile app.
 
 ### NEW: Blockchain As A Service
 
-Help resolve the blockchain dilema problem.
+Help resolve the blockchain dilemma problem.
 
-- Run HyperLedger (ethereum compatible), Rivine (our own) on top of our TFGrid (more blockchains to follow)
+- Run HyperLedger (Ethereum compatible), Rivine (our own) on top of our TFGrid (more blockchains to follow)
 - Human empowered blockchain: together with friends launch a blockchain, no-one can access or manipulate the blockchain, consensus required between the group to start or invalidate the blockchain.
-- Benefits: easy = deploy a blockchain<5 min, cost effective, much more secure (no-one can interact with the code), real decentralized
+- Benefits: easy = deploy a blockchain<5 min, cost-effective, much more secure (no-one can interact with the code), real decentralized
 
 ### NEW: BCDB = BlockChain DataBase
 
@@ -119,7 +119,7 @@ A True scalable blockchain Database.
 
 - A true distributed, decentralized database (ledger)
 - Store any information (e.g. contracts, …)
-- Has all the features from a blockchain but not the downsides.
+- It has all the features from a blockchain but not the downsides.
 - Much more green & storage efficient (50x benefit compared to classic blockchain techno)
 - Strongly Types schema support (complex types)
 - Index & Search capabilities.
@@ -128,31 +128,31 @@ A True scalable blockchain Database.
 
 ### NEW: 3bot = Your Digital Self
 
-- host your own 3bot on the TF-Grid
-- multi currency wallet (Gold, TFT, …)
-- your own data/identity (API driven)
-- integrates with 3bot mobile app
+- Host your 3bot on the TF-Grid
+- Multi-currency wallet (Gold, TFT, …)
+- Your own data/identity (API driven)
+- Integrates with 3bot mobile app
 
-### NEW: “autonomous IT” preview (non production)
+### NEW: “autonomous IT” preview (no production)
 
-- run IT workloads with no people involved during operation has properties of a blockchain: consensus required for install, upgrade, remove.
-- ultra secure, give hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
+- Runs IT workloads with no people involved during operation, and has properties of a blockchain: consensus required for install, upgrade, remove.
+- Ultra secure, gives hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
 - This is a preview release, only usable for real experts.
 
 ## TFGrid 2.1.0 (timing to be defined)
 
 ### upgrade to our compute & storage workloads
 
-- even more decentralized S3 server, where each users 3bot manages the S3 server
-- generic usable container service (docker conversion to container is supported ofcourse)
-- web forwarding gateway (publish your services on the internet)
+- Even more decentralized S3 server, where each users 3bot manages the S3 server
+- Generic usable container service (docker conversion to container is supported)
+- Web forwarding gateway (publish your services on the internet)
 
-This service allows to run any application you want on the decentralized grid.
-As long as an application runs on the linux operating system it can run on our grid.
+This service allows the running of any application you want on the decentralized grid.
+As long as an application runs on the Linux operating system it can run on our grid.
 
 ### More decentralized apps
 
-- FreeFlow Docs (office alternative running in cloud) based on OnlyOffice
+- FreeFlow Docs (office alternative running in the cloud) based on OnlyOffice
 - FreeFlow Git (Alternative to Github)
 
 
