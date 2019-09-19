@@ -2,31 +2,31 @@
 
 ### Step 1: Get yourself a private overlay network
 
-Zerotier is a technologie that provides overlay networking capabilities. In the current version of the TF Grid we use Zerotier networking technology to connect nodes on a grid and provide the necessary connectivity.  The next version of Zero-OS will use ipv6 natively to provide node connectivity.
+Zerotier is a technology that provides overlay networking capabilities. In the current version of the TF Grid, we use Zerotier networking technology to connect nodes on a grid and provide the necessary connectivity.  The next version of Zero-OS will use ipv6 natively to provide node connectivity.
 
 ### Step 2: Setup a private zerotier network.
 
-Getting an overlay network is essential - all coonectivity requirements are currently delivered by zerotier technologie 
+Getting an overlaid network is essential - all connectivity requirements are currently delivered by zero tier technology 
 - Go to: https://my.zerotier.com/login
 - Create an account
-- Log into account
+- Log in to account
 - Create a specific - test setup network: https://my.zerotier.com/network
 
 ![](../images/testnetv0.1/zerotier-creata-network.png)
 
-Download the zerotier network client one or more controlling PC’s.  Choose the right version for the OS: https://www.zerotier.com/download/
+Download the zero tier network client one or more controlling PC’s.  Choose the right version for the OS: https://www.zerotier.com/download/
 
 ![](../images/testnetv0.1/download_client.png)
 
-Further instructions how to create, install and get the private overlay network installed can be found on on the zerotier web site.
+Further instructions on how to create, install and get the private overlay network installed can be found on the zero tier web site.
 
-Now we should be able to ping all devices connected to the zerotier networks regardless of where these devices are located.  It is an overlay network working behind NAT and FW’ed connections.
+Now we should be able to ping all devices connected to the zero tier networks regardless of where these devices are located.  It is an overlay network working behind NAT and FW’ed connections.
 
 ### Step 3: Get the Zero-OS bootloader
 
-Take the zerotier network ID and go to:  http://bootstrap.grid.tf
+Take the zero tier network ID and go to http://bootstrap.grid.tf
 
-Choose the master branch of the Zero-OS and input the zerotier network ID
+Choose the master branch of the Zero-OS and input the zero tier network ID
 
 ![](../images/testnetv0.1/step1-2.png)
 
@@ -38,39 +38,39 @@ Choose which bootloader method you want to use and download the correct image/sc
 
 ![](../images/testnetv0.1/select-bootloader.png)
 
-Depending on the use case (virtual / physical) make a physical boot device of use the selected method for the Virtualisation technology.
+Depending on the use case (virtual/physical) make a physical boot of the device using the selected method for the Virtualisation technology.
 In this case - configure Virtualbox to boot the iso image 
 After a while of will be booted completely (depending on your network speed)
 
 ![](../images/testnetv0.1/zero-os-booting.png)
 
-And you can see the zerotier address of your private (zerotier) network, and the assumed private IP addresses. In your zerotier management portal there is a section with private overlay members.  Your booted Zero-OS should show up as a new member and you need to authorize it to become part of the secured overlay network.
+And you can see the zero tier address of your private (zero tier) network, and the assumed private IP addresses. In your zero tier management portal there is a section with private overlay members.  Your booted Zero-OS should show up as a new member and you need to authorize it to become part of the secured overlay network.
 
-At this point in time you should have succeeded to get the following items done.  These need to be finished otherwise you will not be able to connect to your private, off-grid, unsecured Zero-OS machine.
+At this point, you should have been able to get the following items done.  These need to be finished otherwise you will not be able to connect to your private, off-grid, unsecured Zero-OS machine.
 
-1. Create a zerotier account and overlay network
-2. Download, install and configure the zerotier client for your laptop to connect with
-3. Configure and Download the Zero-OS bootloader in the preferred format for you specific setup:  USB, ISO, PXE script.
-4. Accept the booted Zero-OS node in your private overlay network.  This network should now have two nodes as a minumum:  You laptop and your Zero-OS machine.
+1. Create a zero tier account and an overlay network
+2. Download, install and configure the zero tier client for your laptop to connect with
+3. Configure and Download the Zero-OS bootloader in the preferred format for your specific setup:  USB, ISO, PXE script.
+4. Accept the booted Zero-OS node in your private overlay network.  This network should now have two nodes as a minimum:  Your laptop and your Zero-OS machine.
 
 ###  Step 4: Download and install the Zero-OS container manager
 
-The Zero-OS container manager has been designed and created to hide a lot of conplexity for simple testing of the effectiveness of the operating system and containers running on it.  It provides a simple interface for experimenting with a private setup.  The software is opensource and can be found here: https://github.com/threefoldtech/zos
+The Zero-OS container manager has been designed and created to hide a lot of complexity for simple testing of the effectiveness of the operating system and containers running on it.  It provides a simple interface for experimenting with a private setup.  The software is opensource and can be found here: https://github.com/threefoldtech/zos
 
-The specific instructions to build the zos client on your operating systems are [here](https://github.com/threefoldtech/zos/blob/development/doc/building.md).  You have succesfully installed the zos client you should be able to run it (depending on where you have put the binary) as follows:
+The specific instructions to build the zos client on your operating systems are [here](https://github.com/threefoldtech/zos/blob/development/doc/building.md).  You have successsfully installed the zos client you should be able to run it (depending on where you have put the binary) as follows:
 
 ![](../images/testnetv0.1/zos_commandline.png)
 
 ### Step 5: Launch and stop containers.
 
-Here we assume that the ip address of the booted Zero-OS machine is `10.244.199.142`.  We add the machine to the zos confguration file:
+Here we assume that the IP address of the booted Zero-OS machine is `10.244.199.142`.  We add the machine to the zos configuration file:
 
 ```
 zos configure --name="github-demo" --address=10.244.199.142
 zos setdefault github-demo
 ```
 
-After doing this the zos client is set to use the "github-demo" machine as a default target and this can be tested by doing the following test-ping: `
+After doing this the zos client is set to use the "GitHub-demo" machine as a default target and this can be tested by doing the following test-ping: `
 
 ```
 zos ping
