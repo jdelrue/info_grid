@@ -9,34 +9,34 @@ How do we measure the commercial value?
 
 - each node is being registered in the TF Directory
 - the total resources available are measured by Zero-OS 
-- the resources are measured by means of [resource_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/resource_units.md).
+- the resources are measured through [resource_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/resource_units.md).
 
-The following formula's are used to calculate from resource units to [cloud_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md).
+The following formulas are used to convert resource units to [cloud_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md).
 
 - 1 CU = min(MRU/4*(1-5%),CRU*2)
 - 1 SU = HRU / 1093 + SRU / 92
 - 1 NU = CU x 10 + SU x 2% x 1000
 
-each cloud unit has a commercial value at time of writing (March 2019) we use
+Each cloud unit has a commercial value at the time of writing (March 2019). We use
 
 - USD 15$ for a compute unit
 - USD 10$ for a storage unit
 
 # Reasoning
 
-We use as basis the definitions in [cloud_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md).
+We use as a basis the definitions in [cloud_units](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md).
 
 ## Compute unit = CU
 
 1 std CU is 4GB of mem and we take 5% buffer 
 but we can never oversubscribe more than 4 times.
-1 std CU has 2 virtual CPUs thanks to min CRUx2 we make sure that oversubcription is max of 4.
+1 std CU has 2 virtual CPUs thanks to min CRUx2 we make sure that oversubscription is capped at 4.
 
-We need to take min because the most conservative measurement needs to be used.
+We need to take minimum because the most conservative measurement needs to be used.
 
 ## Storage unit = SU
 
-From experience we know the required resources that allow us to deliver the specs as defined in the definitions.
+From experience, we know the required resources that allow us to deliver the specs as defined in the definitions.
 It's the combination of SSD & HD capacity. 
 
 The detailed calculations are described below.
@@ -65,35 +65,35 @@ The detailed calculations are described below.
 
 This is the most tricky one because we don't know the relation between network bandwidth requirements and storage or compute workloads. The NU's are a result of the available CUs and SUs.
 
-We did best effort estimates in this phase, this will improve as we get more data.
+We did the best estimates in this phase, this will improve as we get more data.
 
 - compute_units x 20 + storage_units x 2% x 1000
 
 ## Estimation
 
-- We estimate that averaged out each compute unit will require 20 GB of transfered data per month (which is conservative).
-- We estimate that averaged out each storage unit will require 2% of its capacity transfered per month.
+- We estimate that averaged out each computing unit will require 20 GB of transferred data per month (which is conservative).
+- We estimate that averaged out each storage unit will require 2% of its capacity transferred per month.
 
 
 ## Commercial Capacity Jan 2019
 
 ![](images/token_value_calc.png)
 
-- this is an example list of x farmers
-- each of them provides a certain amount of resource units
-- we can calculate the provided cu/su/nu out of the resource units (formula's above)
-- this results in the number of cloud units available
-- we can then multiply the cloud units with commercial average prices on the grid
-- this results in a total commercial value
+- This is an example list of x farmers
+- Each of them provide a certain amount of resource units
+- We can calculate the provided cu/su/nu out of the resource units (formulas above)
+- This results in the number of cloud units available
+- We can then multiply the cloud units with commercial average prices on the grid
+- This results in a total commercial value
 
-The above example shows a USD $89,915,106 value  (jan 2019)
+The above example shows a USD 89,915,106 value  (Jan 2019)
 
 ## Token valuation Example
 
 - if there would be a commercial value of 100m (+- summer 2019) and 500m tokens then the value would be $0.2
     - $100,000,000 / 500,000,000 = USD $0.2 per TFT
     
-Disclaimer: this is only an example, starting september 2019 this will be calculated automatically.
+Disclaimer: This is only an example, starting september 2019 this will be calculated automatically.
 
 
 
