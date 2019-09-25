@@ -13,6 +13,7 @@
         * [6. Is there a default pricing for ThreeFold Grid capacity?](/faq/default_pricing.md)
     	* [7. What about Return of Investment (RoI)](/faq/roi.md)
         * [8. What technical requirements for hardware?](/faq/technical_requirements.md)
+      * [8. What happens when hardware components are added to a existing 3Node?](/faq/hw_added_to_3node.md)
     * **Demand and supply related**
     	* [1. How do I search for capacity?](/faq/threefold_directory.md)
     	* [2. How do I contract capacity?](/faq/capacity_contract.md)
