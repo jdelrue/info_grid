@@ -1,6 +1,5 @@
 * [Home](/)
 * [Farming](tf_farming/README.md)
-    * [Farming presentation](tf_farming/tf_farming_presentation.md)
     * [Three steps to become a farmer](tf_farming/become_farmer_steps.md)
     * [Farming Simulation Tools](tf_farming/farming_simulation_tools.md)
     * [How to set up your farm](tf_farming/farming_setup.md)
