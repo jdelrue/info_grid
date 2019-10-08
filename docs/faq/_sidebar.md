@@ -14,6 +14,8 @@
     	* [7. What about Return of Investment (RoI)](/faq/roi.md)
         * [8. What technical requirements for hardware?](/faq/technical_requirements.md)
       * [8. What happens when hardware components are added to a existing 3Node?](/faq/hw_added_to_3node.md)
+      [How to change/add your farmer wallet and farm location](faq/how_to_change_wallet_address.md)
+    * [How to set up your farm with multiple farming locations](faq/how_to_multiple_farming_locations.md)
     * **Demand and supply related**
     	* [1. How do I search for capacity?](/faq/threefold_directory.md)
     	* [2. How do I contract capacity?](/faq/capacity_contract.md)
