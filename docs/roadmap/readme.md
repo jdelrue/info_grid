@@ -139,7 +139,7 @@ A True scalable blockchain Database.
 - Ultra secure, gives hackers no chance because people are not involved in deploying or keeping the service up & running. There is nothing to hack.
 - This is a preview release, only usable for real experts.
 
-## TFGrid 2.1.0 (timing to be defined)
+## TFGrid 2.1.0 (Q1 2020)
 
 ### upgrade to our compute & storage workloads
 
