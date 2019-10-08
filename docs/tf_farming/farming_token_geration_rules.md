@@ -28,7 +28,7 @@
 * **Managed Capacity:** TBD
 
 
-### Farming Token generation rules until public Grid Capacity Utilization (Q4 2019):
+### Farming Token generation rules until public Grid Capacity Utilization (Q1 2020):
 
 There will be no distinction between certified and uncertified capacity
 
@@ -39,7 +39,7 @@ There will be no distinction between certified and uncertified capacity
 | DYI | 1/60th of the calculated farming TFTs per month |
 
 
-### Farmer Token generation rules when Grid Capacity Utilization goes live (Q4 2019):
+### Farmer Token generation rules when Grid Capacity Utilization goes live (Q1 2020):
 There will be differences between uncertified and certified capacity
 
 
