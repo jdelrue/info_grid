@@ -7,28 +7,28 @@
 
 * **Farming Tokens:** as a result of connecting server hardware to the ThreeFold Grid
 
-* **Cultivation Tokens:** as a result of their Farming Pool capacity being utilised by ThreeFold Grid Capacity users
+* **Cultivation Tokens:** as a result of their Farming Pool capacity being utilized by ThreeFold Grid Capacity users
 
 
 ### There are three types of capacity farmers:
 
-* **Cooperative Farmers:** purchase a range of services from a ThreeFold cooperative up to and including, ThreeFold certified hardware, installation and -if available- location, power and connectivity
+* **Cooperative Farmers:** purchase a range of services from a ThreeFold cooperative up to and including, ThreeFold certified hardware, installation and -if available- location, power, and connectivity
 
-* **Individual Farmers:** use ThreeFold certified hardware but complete their own installation, provide their own location, power and connectivity
+* **Individual Farmers:** use ThreeFold certified hardware but complete their installation, provide their location, power and connectivity
 
 * **DIY Farmers:** use their own choice of hardware (uncertified hardware)
 
 
 ### Three types of capacity:
 
-* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over certified capacity is turning it on or off. It will therefore achieve a very level of security for consumers and will yield a higher certified capacity sales price (available in Q4 2019)
+* **Certified Capacity:** Underlying hardware is locked such that nobody (including the owner, farmer) can access and configure low-level BIOS and other features. It is a black box to the farmer and anyone that has physical access to the machine. The only control a farmer has over certified capacity is turning it on or off. It will, therefore, achieve a very level of security for consumers and will yield a higher certified capacity sales price (available in Q4 2019)
 
-* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low level access to BIOS and other configuration applications. This results in a less secure environment and a lower capacity price.
+* **DIY Capacity:** The used hardware comes from unknown sources and is not restricted in terms of low-level access to BIOS and other configuration applications. This results in a less secure environment and a lower capacity price.
 
-* **Managed Capacity:** tbd
+* **Managed Capacity:** TBD
 
 
-### Farming Token generation rules until public Grid Capacity Utilization (Q4 2019):
+### Farming Token generation rules until public Grid Capacity Utilization (Q1 2020):
 
 There will be no distinction between certified and uncertified capacity
 
@@ -39,7 +39,7 @@ There will be no distinction between certified and uncertified capacity
 | DYI | 1/60th of the calculated farming TFTs per month |
 
 
-### Farmer Token generation rules when Grid Capacity Utilization goes live (Q4 2019):
+### Farmer Token generation rules when Grid Capacity Utilization goes live (Q1 2020):
 There will be differences between uncertified and certified capacity
 
 
@@ -48,9 +48,9 @@ There will be differences between uncertified and certified capacity
 | Certified | 1/60th of the calculated farming TFTs per month |
 | DIY| if (30% of capacity is reserved) then 1/60th of the calculated farming TFTs for that month |
 
-**Note:** Once a node hits 30% capacity reservation within 6 month of the start of farming the past month and the one in which the 30% reservation have been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 month.
+**Note:** Once a node hits 30% capacity reservation within 6 months of the start of farming the past month and the one in which the 30% reservation has been met will be honored with 1/60 of the TFTs for each month. From then onwards the node needs to have a minimum of 30% capacity reservation to receive monthly tokens up until a total of 60 months.
 
-**Note:** For both certified and DIY farming uptime guarantees apply in the form of SLA's that need to be met by Farmers.  Uptime guarantees are the result of a number of factors being done right - power, network, environment and actual health of the hardware.
+**Note:** For both certified and DIY farming uptime guarantees apply in the form of SLA's that need to be met by Farmers.  Uptime guarantees are the result of several factors being done right - power, network, environment and actual health of the hardware.
 
 ### Farming TFT calculation
 
@@ -71,7 +71,7 @@ What does this mean: TFTs are undervalued by a factor of 8 (called difficulty le
 
 ****Until public Grid Capacity Utilization (Q1 2020)****
 
-In order to calculate the number of tokens farmed we use compute and storage market pricing nubers. For so called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
+To calculate the number of tokens farmed we use compute, and storage market pricing nubers. For so-called compute and storage units we take the average price in the market taking into account the highest and lowest price available.  These numbers will be periodically updated, at least once every year.
 
 The current price levels are set to:
 
@@ -88,9 +88,9 @@ The token price currently sits at USD 0.12 with limited liquidity. Once liquidit
 #### SLA requirements
 For certified and DIY capacity there are Service Level Agreement (SLA) requirements.  These requirements are there to make sure that the presented capacity is usable and presents sufficient reliability for grid consumers to trust their compute and storage workloads to operate.
 
-This table represent the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
+This table represents the initial numbers applicable to Threefold capacity farmers and ThreeFold network farmers.  These numbers may change going forward.
 
-For capacity farming we need to have a minimal uptime of the compute and storage capacity  to achieve.  This table represent the initial numbers applicable at launch time:
+For capacity farming, we need to have a minimum uptime of the compute and storage capacity  to achieve.  This table represents the initial numbers applicable at launch time:
 
 |  Capacity Farmer | Type | Europe | Africa | North America | Australia | Asia | South America |
 | ---------------- | ---- | ------ | ------ | ------------- | --------- | ---- | ------------- |
@@ -117,7 +117,7 @@ The network needs to comply with minimal uptime guarantees. This table represent
 * SP = Farmer’s Storage Unit price - expressed in Tokens
 * U1 = Compute Units Utilisation
 * U2 = Storage Units Utilisation
-* P = Token price at time of capacity reservation
+* P = Token price at the time of capacity reservation
 
 [Compute and Storage Unit definition](https://github.com/threefoldfoundation/info_grid/blob/development/docs/concepts/cloud_units.md)
 
@@ -139,10 +139,10 @@ There are two types of fees:
 
 ### Farming TFT release requirements
 
-Farming pool uptime as defined at time of registration on the TF Grid has to be met per period in order to get the farming tokens as defined under **Farming TFT calculation** section (see above)
+Farming pool uptime as defined at the time of registration on the TF Grid has to be met per period to get the farming tokens as defined under **Farming TFT calculation** section (see above)
 
-Farming tokens are paid after the end of each period which represents a month that has the same number of days during the 60 month aka 5 year farming duration. This generic period is 30.44167 days which is 730.6 hours.
+Farming tokens are paid after the end of each period which represents a month that has the same number of days during the 60 months aka 5-year farming duration. This generic period is 30.44167 days which is 730.6 hours.
 
-For the first period of farming the days online will be paid. Example: farming starts on the 8th day of period 1 of 60 periods (22.44167 = 30.44167 - 8) are paid out in farming tokens. For the 60th period 8 days are paid to complete the token payment for 60 periods which represents 5 years.
+For the first period of farming the days online will be paid. Example: farming starts on the 8th day of period 1 of 60 periods (22.44167 = 30.44167 - 8) and is paid out in farming tokens. For the 60th period, 8 days are paid to complete the token payment for 60 periods which represents 5 years.
 
 

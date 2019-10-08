@@ -1,15 +1,15 @@
 # Reserve Capacity on the Threefold Grid
 
-During the first beta phase of the public launch of the ThreeFold Grid, beta tester will be able to reserve 2 kind of workload on the grid.
+During the first beta phase of the public launch of the ThreeFold Grid, the beta tester will be able to reserve 2 kinds of workload on the grid.
 
 - Zero-OS virtual machines
 - S3 archive storage instances
 
 **At the time of writing, everything happens on the TestNet network, don't send real TFT from the main network !!**
 
-During the testnet phase, reservations are valid for one week.
+During the test net phase, reservations are valid for one week.
 After one week your workload will not be available anymore and you will have to do a new reservation.
-For this reason **do not** put critical data on the grid during the tesnet phase, it's there to show and test, no for production.
+For this reason, **do not** put critical data on the grid during the test net phase, it's there to show and test, no for production.
 
 ## How to reserve some Capacity on the ThreeFold Grid
 
@@ -29,7 +29,7 @@ a Jumpscale X installation ready. If you don't, head to [Jumpscale X Setup](http
 
 In kosmos, create a TFChain client.
 
-**The `network_type` is important, it specify you want to use the TestNet.**
+**The `network_type` is important, it specifies if you want to use the TestNet.**
 **You will play with real TFT otherwise, so be careful**
 
 ```python
@@ -61,7 +61,7 @@ JSX> w.address
 '0128b01507b17175f99fb4ca0fadf9115a3e85aae89b8dcdca9b610469281de9e849cf16c9afcdroot'
 ```
 
-Head to https://faucet.testnet.threefoldtoken.com/ and fill the from with your wallet address.
+Head to https://faucet.testnet.threefoldtoken.com/ and fill the form with your wallet address.
 Then check the balance on your wallet, after a couple of minutes you should see the `300 TFT` from the faucet.
 
 ```python
@@ -101,13 +101,13 @@ JSX> result.transaction
 JSX> result.submitted
 ```
 
-For mode detail about the 3Bot registration, [go to the full documentation](https://github.com/threefoldtech/jumpscaleX/blob/development/Jumpscale/clients/blockchain/tfchain/README.md#create-and-manage-3bot-records)
+For more details about the 3Bot registration, [go to the full documentation](https://github.com/threefoldtech/jumpscaleX/blob/development/Jumpscale/clients/blockchain/tfchain/README.md#create-and-manage-3bot-records)
 
-**You'll need to wait some time before your 3bot being available.**
+**You'll need to wait sometime before your 3bot being available.**
 
 ### 4. Do a reservation
 
-Example how to reserve a Zero-OS virtual machines:
+Example how to reserve a Zero-OS virtual machine:
 
 ```python
 JSX> result = w.capacity.reserve_zos_vm(
@@ -170,7 +170,7 @@ JSX> result = w.capacity.reserve_reverse_proxy(
 ```
 
 The result of the reserve methods is a tuple containing the transaction and the submission status as a boolean.
-You can check it on our [explorer](https://explorer.testnet.threefoldtoken.com/) by entering the transaction id in the `Search by hash` field of the explorer form or using the tfchain client:
+You can check it on our [explorer](https://explorer.testnet.threefoldtoken.com/) by entering the transaction id in the `Search by hash` field of the explorer form or using the TF Chain client:
 
 ```python
 transaction = c.transaction_get(result.transaction.id)

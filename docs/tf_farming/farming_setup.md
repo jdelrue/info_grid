@@ -1,8 +1,8 @@
-# How to setup your ThreeFold Farm
+# How to set up your ThreeFold Farm
 
-In order for the ThreeFold nodes to start recording farmed tokens they need to run the Zero OS master branch.
+For the ThreeFold nodes to start recording farmed tokens, they need to run the Zero OS master branch.
 
-6 simple Steps:
+6 simple steps:
 - [Create an ItsYou.online organization](#iyo-org)
 - [Register your farm](#register)
 - [Download the EFI (UEFI) bootable image](#download)
@@ -10,15 +10,15 @@ In order for the ThreeFold nodes to start recording farmed tokens they need to r
 - [Copy the downloaded EFI image to your USB drive](#copy)
 - [Boot your node](#boot)
 
-Also see the [Threefold farmers documentation](https://github.com/zero-os/home/blob/master/docs/farmers/README.md#configure-your-nodes).
+Also, see the [Threefold farmers' documentation](https://github.com/zero-os/home/blob/master/docs/farmers/README.md#configure-your-nodes).
 
 <a id='iyo-org'></a>
 
 ## Create an ItsYou.online organization
 
-Your ThreeFold Farm needs to be associated to an ItsYou.online organization.
+Your ThreeFold Farm needs to be associated with an ItsYou.online organization.
 
-In order to create such an ItsYou.online organization you need an ItsYou.online account. Creating one is simple, head to http://itsyou.online/ and follow the sign-up instructions.
+To create such an ItsYou.online organization you need an ItsYou.online account. Creating one is simple, head to http://itsyou.online/ and follow the sign-up instructions.
 
 Once logged in to your ItsYou.online account, also creating an ItsYou.online organization is simple.
 
@@ -28,7 +28,7 @@ Click **Organization** from the **Profile** menu in the top right corner:
 Now click **+ CREATE NEW**:
 ![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/images/iyo-create-new-org.png)
 
-And finally specify the name of the new ItsYou.online organization and click **CREATE**:
+And finally, specify the name of the new ItsYou.online organization and click **CREATE**:
 ![](https://raw.githubusercontent.com/zero-os/home/master/docs/farmers/images/iyo-create-new-org2.png)
 
 > For the name of the ItsYou.online organization only lower case characters, numbers or spaces are allowed.
@@ -69,7 +69,7 @@ In **step 1** of the Zero-OS **Boot Generator Assistant** page select Zero-OS br
 
 ![](images/branch_select_master.png)
 
-Next, in **step 2**, specify the ID of public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
+Next, in **step 2**, specify the ID of the public ZeroTier network that connects all ThreeFold nodes in one shared network, the is ID `c7c8172af1f387a6`:
 
 ![](images/zerotier_network_id.png)
 
@@ -119,7 +119,7 @@ diskutil list
 diskutil eraseDisk FAT32 "ZOS" /dev/diskX
 ```
 
-> Caution, in the above replace `/dev/diskX` with the device file of your USB disk, which you can find by checking the `diskutil list` first, make sure to not shoot yourself in the feet here.
+> Caution, in the above, replace `/dev/diskX` with the device file of your USB disk, which you can find by checking the `disk utility list` first, make sure to not shoot yourself in the feet here.
 
 <a id='copy'></a>
 
@@ -135,7 +135,7 @@ Create a root folder **EFI**:
 
 ![](images/finder3.png)
 
-In the new root folder create a sub directory **BOOT**:
+In the new root folder create a subdirectory **BOOT**:
 
 ![](images/finder4.png)
 

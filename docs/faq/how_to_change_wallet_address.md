@@ -36,13 +36,13 @@ Enter your wallet address to make sure TFTs can be transferred for your farming 
 
 ![](images/wallet_update_complete.png)
 
-**Note:** you can in this screen also select/change your farm location.
+**Note:** you can also select/change your farm location on this screen.
 
 
 Once you entered the data make sure to press the "update" button
 
 Congratulations!
 
-If you need any further assistance reach out to support@threefold.tech 
+If you need any further assistance, reach out to support@threefold.tech 
 
 
