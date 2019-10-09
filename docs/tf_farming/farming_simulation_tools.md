@@ -1,6 +1,6 @@
 # Farming Simulation Tools
 
-Note: These tools help to estimate as good as possible the amount of TFTs, but are not producing binding results.  
+## Note: These tools help to estimate as good as possible the amount of TFTs, but are not producing binding results.  
 
 <div style="overflow:hidden;">
    <iframe src="https://jscalc.io/calc/8jXXLOukrlXcI7H4" scrolling="yes" style="width: 100%; height: 582px; margin-left:0px;"></iframe>
@@ -13,8 +13,8 @@ Note: These tools help to estimate as good as possible the amount of TFTs, but a
 - Amount of solid-state disk (SSD) in GB: See your hardware specs
 - Amount of disk storage (HDD) in GB: See your hardware specs
 - Token price when capacity is listed in USD: Currently USD 0.12
-- The set sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q3 2019)
-- The set sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q3 2019)
+- The set sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q1 2020)
+- The set sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q1 2020)
 
 
 *********************************************************************************************************
@@ -26,8 +26,8 @@ Note: These tools help to estimate as good as possible the amount of TFTs, but a
 **Inputs needed:**
 - Number of computing units (CU): Output from Farming Token Estimator
 - Number of storage units (SU): Output from Farming Token Estimator
-- The sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q3 2019)
-- The sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q3 2019)
+- The sales price for a compute unit [$]: USD 15.00 (until Grid usage start in Q1 2020)
+- The sales price for a storage unit [$]: USD 10.00 (until Grid usage start in Q1 2020)
 - Average usage over 5 years [%]: we use 60% (realistic medium usage)
 - Price erosion over 5 years [%]: we use 20% (lower than the industry as we are already multiple times lower in pricing)
 - Average Token price (5 years) [$]: we use in our calculations USD 1.0
