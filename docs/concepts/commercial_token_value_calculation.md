@@ -1,11 +1,11 @@
 
-# Commercial value of a ThreeFold Token (TFT)
+# Capacity to ThreeFold Token Index
 
-To have a metric showing the backing of the TFT we have created an index:
+To have a metric showing the underlying capacity supporting the TFT economy, we have developed a Capacity to Token index:
 
-Commercial value of 1 TFT = commercial_value_of_grid (over 5 years) / nr_of_liquid_tokens (available today)
+The capacity index value = commercial_value_of_grid (over 5 years) / nr_of_liquid_tokens (available today)
 
-How do we measure the commercial value?
+How do we measure the commercial index value?
 
 - each node is being registered in the TF Directory
 - the total resources available are measured by Zero-OS 
