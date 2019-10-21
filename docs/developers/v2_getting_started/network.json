@@ -1,0 +1,33 @@
+{
+    "id": "",
+    "user_id": "Fuy6CatZGmmtWby13MESN2dYZUJi1ThjPR493w9TyWz1",
+    "type": "network",
+    "data": {
+        "name": "zaibon_dev_network",
+        "net_id": "zaibon_dev_network",
+        "ip_range": "172.22.0.0/16",
+        "net_resources": [
+            {
+                "node_id": "5rabu25PAnxv5SHgMSwsuqSWQgjhwrr82HJUPQ7LPSHd",
+                "subnet": "172.22.1.0/24",
+                "wg_private_key": "c5bc5beaeb8052fe2eb095513b2f92cc4e38287ad43a6338b4975f7e9c7b9104b114ebbf85d27594d080743a4acd018477ee5c519aca58399edb336ebb0bf6f9e1d68a0c7c6229e88635f190d95ca81eec52111ccef4de0bdbc4253c",
+                "wg_public_key": "0UjFRM5xtqU7L3Mc45qc6jJCHN182up2bWqQI8hsIhQ=",
+                "wg_listen_port": 6380,
+                "peers": [
+                    {
+                        "subnet": "172.22.2.0/24",
+                        "wg_public_key": "VHrmA1licqbB5y2UV2j/dMcqg3ymG0bAOu/uIVyJfz4=",
+                        "allowed_ips": [
+                            "100.64.22.2/32",
+                            "172.22.2.0/24"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "created": "2019-10-07T12:55:36.475563875+02:00",
+    "duration": 3600000000000,
+    "signature": "8ZyG5aIZrpSpYvdoBkAXfpYu3ZSMRbG3JT0qvqAziixmA64H1Immms+PRYhKAsfWQAlerZ9vMJFXvD1vgSPfCQ==",
+    "to_delete": false
+}

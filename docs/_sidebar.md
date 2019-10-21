@@ -12,3 +12,6 @@
   * [FAQ](/faq/README.md)
 * Support
   * [Enter a support ticket](/support/README.md)
+
+* Definition
+  * [ThreeFold Definitions](/defintions/README.md)

@@ -2,5 +2,5 @@
 * [Concepts](concepts/README.md)
     * [Cloud Units](concepts/cloud_units.md)
     * [Resource Units](concepts/resource_units.md)
-    * [Token Generation Rules](concepts/resource_units.md)
+    * [Token Generation Rules](concepts/farming_token_geration_rules.md)
     * [Commercial Token Value Calculation](concepts/commercial_token_value_calculation.md)
